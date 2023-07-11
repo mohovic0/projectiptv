@@ -1,0 +1,14 @@
+.imageback{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../public/imagebackhome.png');
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.section3{
+    background-color: rgba(212, 212, 212,0.2);
+}
+
