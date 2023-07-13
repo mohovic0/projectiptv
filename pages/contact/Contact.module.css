@@ -1,0 +1,7 @@
+.btnSub{
+    font-size: 20px;
+    background-color:  #e6d600;
+}
+.btnSub:hover{
+    background-color: #e3af4d;
+}
