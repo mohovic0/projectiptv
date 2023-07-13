@@ -13,10 +13,10 @@ function Contact() {
   const [phoneNumber, setPhoneNumber] = useState('');
   const [email, setEmail] = useState('');
   const [pack, setPack] = useState('');
-  const [message, setmessage] = useState('');
+  const [message, setMessage] = useState('');
   
 
-
+  
   const handlChangePhone = (value)=>{
     setPhoneNumber(value);
   }
@@ -35,8 +35,8 @@ function Contact() {
                       <form >
                           <div className="mb-3">
                             <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                            <div id="emailHelp" className="form-text">We ll never share your email with anyone else.</div>
+                            <input  value={email} onChange={(e)=>setEmail(e.target.value)} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                            <div id="emailHelp" className="form-text">We ll never share your email with anyone else. {email}</div>
                           </div>
                           <PhoneInput
                             country={'us'}
@@ -46,21 +46,28 @@ function Contact() {
                               require : true
                             }}
                           />
+                          {phoneNumber}
                           
                           <div className='mt-3'>
                             <label htmlFor="inputState" className="form-label">State</label>
-                              <select id="inputState" className="form-select" defaultValue={'DEFAULT'}>
+                              <select id="inputState" className="form-select" defaultValue={'DEFAULT'}
+                              onChange={(e)=>(setPack(e.target.value))}>
                                 <option value="DEFAULT" disabled>Choose your sub</option>
-                                <option value="0">Test</option>
-                                <option value="1">3 Month</option>
-                                <option value="2">6 Month</option>
-                                <option value="3">12 Month</option>
+                                <option value="Test">Test</option>
+                                <option value="3 Month">3 Month</option>
+                                <option value="6 Month">6 Month</option>
+                                <option value="12 Month">12 Month</option>
                                 
                               </select>
+                              {pack}
                           </div>
                           <div className="mb-3">
                             <label htmlFor="exampleFormControlTextarea1" className="form-label">Comment</label>
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"
+                            maxLength="150"
+                            value={message}
+                            onChange={(e)=> setMessage(e.target.value)}></textarea>
+                            {message}
                           </div>
                           <button type="submit" className={`btn ${styles.btnSub} `}>Submit</button>
                       </form>
