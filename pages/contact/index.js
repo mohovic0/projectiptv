@@ -4,7 +4,8 @@ import messages from '@/public/message.json'
 import styles from './Contact.module.css'
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleCheck, faL } from '@fortawesome/free-solid-svg-icons'
 
 
 function Contact() {
@@ -14,8 +15,42 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [pack, setPack] = useState('');
   const [message, setMessage] = useState('');
+  const [send , setSend] = useState(false)
   
 
+  const handlSubmitFrom = async (e)=>{
+    e.preventDefault();
+
+    const res = await fetch('http://localhost:3000/api/hello',{
+            method : 'POST',
+            headers : {'Content-Type' : "application/json"},
+            body : JSON.stringify(
+              { Email : email,
+                Phone_number : phoneNumber,
+                Pack : pack,
+                Message : message
+              }
+              )
+        });
+        
+    const response = await res.json();
+
+    if(response.response.rep === 'succes' )
+    {
+      setSend(true);
+      setEmail('');
+      setMessage('');
+      setPack('');
+      setPhoneNumber('');
+    }
+    console.log(response.response.rep);
+    console.log(response.response.Emai);
+    console.log(response.response.phone);
+    console.log(response.response.pakk);
+    console.log(response.response.mess);
+
+
+  }
   
   const handlChangePhone = (value)=>{
     setPhoneNumber(value);
@@ -26,13 +61,16 @@ function Contact() {
   }
   
   return (
-    <>
+    <>    {send && <div className="alert alert-success container col-4 d-flex justify-content-center align-item-center" role="alert">
+              <FontAwesomeIcon className={styles.iconSend} icon={faCircleCheck} />
+              <div> Message a été envoyer</div>
+          </div> }
 
           <div className="container">
             <div className="row align-items-center">
                 <div className="col-12 col-lg-6">
                       <h1>Contact Us</h1>
-                      <form >
+                      <form onSubmit={handlSubmitFrom}>
                           <div className="mb-3">
                             <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
                             <input  value={email} onChange={(e)=>setEmail(e.target.value)} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
