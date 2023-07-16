@@ -43,11 +43,11 @@ function Contact() {
     //   setPack('');
     //   setPhoneNumber('');
     // }
-    // console.log(response.response.rep);
-    // console.log(response.response.Emai);
-    // console.log(response.response.phone);
-    // console.log(response.response.pakk);
-    // console.log(response.response.mess);
+    //console.log(response.response.rep);
+    console.log(response.response.Emai);
+    console.log(response.response.phone);
+    console.log(response.response.pakk);
+    console.log(response.response.mess);
 
 
   }

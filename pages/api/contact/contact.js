@@ -1,46 +1,58 @@
-import { mailOptions,transporter } from "@/config/nodemailer";
 
 
-
-export default async function handler(req, res) {
+export default function handler(req, res) {
   
-
+    let nodemailer = require('nodemailer');
     let ok;
-    const body = req.body;
-    if(req.method === 'POST')
-    {
+    console.log(process.env.NODEMAILER_EMAIL);
+    console.log(process.env.NODEMAILER_PW);
+    const data = req.body;
+    const message = {
+      from: process.env.NODEMAILER_EMAIL,
+      to: 'marmamohamed@gmail.com',
+      subject: data.Pack,
+      text: data.Message,
+      html: `<p>${data.Message}</p>`,
+    };
 
-        try {
 
-          await transporter.sendMail({
-            ...mailOptions,
-            subject : body.Message,
-            text : "this is a test string",
-            html : "<h1>text title </h1> <p>somme body text </p>"
-          })
-          //res.status(200).json({ success : true})
-          
-        } catch (error) {
-          console.log(error);
-          res.status(400).json({message : error.message})
-        }
-        
-        if(body.Phone_number != '' && body.Email != '')
-        {
-            ok = "succes"
-        }else {
-          ok = "error"
-        }
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: process.env.NODEMAILER_EMAIL,
+        pass: process.env.NODEMAILER_PW,
+      },
+    });
+
+    
+    if (req.method === 'POST') {
+      transporter.sendMail(message, function(err, info) {
   
-        console.log(body.Email);
-        console.log(body.Phone_number);
-        console.log(body.Pack);
-        console.log(body.Message);
-  
+        if (err) {
+          res.status(404).json({
+              error: `Connection refused at ${err.address}`
+          });
+        } else {
+          res.status(250).json({
+              success: `Message delivered to ${info.accepted}`
+          });
+        }
+      });
+
+
+        console.log(data.Email);
+        console.log(data.Phone_number);
+        console.log(data.Pack);
+        console.log(data.Message);
     }
     
+  
+        
+  
+    
+    
     
   
-    //res.status(200).json({response : { rep : ok , Emai : body.Email , phone : body.Phone_number , pakk : body.Pack  , mess : body.Message  }})
+    res.status(200).json({response : { rep : ok , Emai : data.Email , phone : data.Phone_number , pakk : data.Pack  , mess : data.Message  }})
   }
   
