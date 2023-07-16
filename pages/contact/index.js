@@ -21,7 +21,7 @@ function Contact() {
   const handlSubmitFrom = async (e)=>{
     e.preventDefault();
 
-    const res = await fetch('http://localhost:3000/api/hello',{
+    const res = await fetch(`${process.env.NEXT_PUBLIC_DOMAIN}/api/contact/contact`,{
             method : 'POST',
             headers : {'Content-Type' : "application/json"},
             body : JSON.stringify(
@@ -35,29 +35,25 @@ function Contact() {
         
     const response = await res.json();
 
-    if(response.response.rep === 'succes' )
-    {
-      setSend(true);
-      setEmail('');
-      setMessage('');
-      setPack('');
-      setPhoneNumber('');
-    }
-    console.log(response.response.rep);
-    console.log(response.response.Emai);
-    console.log(response.response.phone);
-    console.log(response.response.pakk);
-    console.log(response.response.mess);
+    // if(response.response.rep === 'succes' )
+    // {
+    //   setSend(true);
+    //   setEmail('');
+    //   setMessage('');
+    //   setPack('');
+    //   setPhoneNumber('');
+    // }
+    // console.log(response.response.rep);
+    // console.log(response.response.Emai);
+    // console.log(response.response.phone);
+    // console.log(response.response.pakk);
+    // console.log(response.response.mess);
 
 
   }
   
   const handlChangePhone = (value)=>{
     setPhoneNumber(value);
-  }
-
-  const validatePhoneNumbre = (phoneNumber)=>{
-    
   }
   
   return (
