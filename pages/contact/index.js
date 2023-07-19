@@ -6,6 +6,8 @@ import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import whatsa from '@/public/whatsappp'
+import Link from 'next/link'
 
 
 function Contact() {
@@ -15,7 +17,7 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [pack, setPack] = useState('');
   const [message, setMessage] = useState('');
-  const [send , setSend] = useState(true)
+  const [send , setSend] = useState(false);
   
 
   const handlSubmitFrom = async (e)=>{
@@ -71,9 +73,9 @@ function Contact() {
               &nbsp; <div>Your details has been successfully submitted. thanks!</div>
           </div> }
 
-          <div className="container">
+          <div className="container mt-4">
             <div className="row align-items-center">
-                <div className="col-12 col-lg-6">
+                <div className={`col-12 col-lg-6 p-4 ${styles.formStyling}`}>
                       <h1>Contact Us</h1>
                       <form onSubmit={handlSubmitFrom}>
                           <div className="mb-3">
@@ -115,8 +117,13 @@ function Contact() {
                           <button type="submit" className={`btn ${styles.btnSub} `}>Submit</button>
                       </form>
                 </div>
-                <div className="col-12 col-lg-6">
-                          <Lottie className={`mx-auto`} loop={true} animationData={messages} />
+                <div className="col-12 col-lg-6 align-items-center">
+                          <h3 className="fs-2 fw-bold mt-3 text-center"> Chat live 24/7 </h3>
+                          <h5 className="fs-5 mt-3 text-center">Chat live 24/7. We are there for your support</h5>
+                          <Link href={""}>
+                            <Lottie className={`mx-auto ${styles.icone}`} loop={true} animationData={whatsa} />
+                          </Link>
+                          
                 </div>
             </div>
           </div> 

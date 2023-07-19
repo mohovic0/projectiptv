@@ -1,0 +1,11 @@
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    /*background-color: rgba(230, 214, 0, 1);*/
+    background-color: black;
+    color: white;
+    text-align: center;
+}

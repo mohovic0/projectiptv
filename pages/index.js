@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Barre from '@/components/barre'
 import BackImageHome from '@/components/backImageHome'
 import Card from '@/components/card'
+import Sportmovie from '@/components/sportmovie'
 
 
 
@@ -46,7 +47,7 @@ export default function Home() {
       </section>
 
       <section>
-        <h1>section 4</h1>
+        <Sportmovie/>
       </section>
 
 
