@@ -10,9 +10,12 @@ export default function handler(req, res) {
     const message = {
       from: process.env.NODEMAILER_EMAIL,
       to: 'marmamohamed@gmail.com',
-      subject: data.Pack,
+      subject: data.Email,
       text: data.Message,
-      html: `<p>${data.Message}</p>`,
+      html: `<div>EMAIL : ${data.Email}</div>
+      <div>TELE : ${data.Phone_number}</div>
+      <div>PACK : ${data.Pack}</div>
+      <div>MESSAGE : ${data.Message}</div>`,
     };
 
 
