@@ -35,10 +35,13 @@ export default function handler(req, res) {
           res.status(404).json({
               error: `Connection refused at ${err.address}`
           });
+          ok = "error";
         } else {
           res.status(250).json({
               success: `Message delivered to ${info.accepted}`
           });
+          ok = "success";
+          
         }
       });
 
@@ -47,6 +50,7 @@ export default function handler(req, res) {
         console.log(data.Phone_number);
         console.log(data.Pack);
         console.log(data.Message);
+        console.log(ok);
     }
     
   
@@ -56,6 +60,6 @@ export default function handler(req, res) {
     
     
   
-    res.status(200).json({response : { rep : ok , Emai : data.Email , phone : data.Phone_number , pakk : data.Pack  , mess : data.Message  }})
+    //res.status(200).json({response : { rep : ok , Emai : data.Email , phone : data.Phone_number , pakk : data.Pack  , mess : data.Message  }})
   }
   

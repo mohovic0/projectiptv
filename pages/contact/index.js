@@ -5,7 +5,7 @@ import styles from './Contact.module.css'
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleCheck, faL } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 
 function Contact() {
@@ -15,7 +15,7 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [pack, setPack] = useState('');
   const [message, setMessage] = useState('');
-  const [send , setSend] = useState(false)
+  const [send , setSend] = useState(true)
   
 
   const handlSubmitFrom = async (e)=>{
@@ -43,11 +43,20 @@ function Contact() {
     //   setPack('');
     //   setPhoneNumber('');
     // }
-    //console.log(response.response.rep);
-    console.log(response.response.Emai);
-    console.log(response.response.phone);
-    console.log(response.response.pakk);
-    console.log(response.response.mess);
+    
+    //console.log(response.response.Emai);
+    //console.log(response.response.phone);
+    //console.log(response.response.pakk);
+    //console.log(response.response.mess);
+    if(response.error){console.log("erreur de connexion !!");}
+    if(response.success){
+      setSend(true);
+      setEmail('');
+      setMessage('');
+      setPack('');
+      setPhoneNumber('');
+    }
+    
 
 
   }
@@ -57,9 +66,9 @@ function Contact() {
   }
   
   return (
-    <>    {send && <div className="alert alert-success container col-4 d-flex justify-content-center align-item-center" role="alert">
-              <FontAwesomeIcon className={styles.iconSend} icon={faCircleCheck} />
-              <div> Message a été envoyer</div>
+    <>    {send && <div className={`container-fluid alert alert-success  col-12 d-flex justify-content-center align-item-center ${styles.messageSend}`} role="alert">
+              <FontAwesomeIcon className={styles.iconSend} icon={faCheck} />
+              &nbsp; <div>Your details has been successfully submitted. thanks!</div>
           </div> }
 
           <div className="container">
@@ -68,8 +77,8 @@ function Contact() {
                       <h1>Contact Us</h1>
                       <form onSubmit={handlSubmitFrom}>
                           <div className="mb-3">
-                            <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-                            <input  value={email} onChange={(e)=>setEmail(e.target.value)} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                            <label htmlFor="exampleInputEmail1" className="form-label">Email address (*)</label>
+                            <input required  value={email} onChange={(e)=>setEmail(e.target.value)} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                             <div id="emailHelp" className="form-text">We ll never share your email with anyone else. {email}</div>
                           </div>
                           <PhoneInput

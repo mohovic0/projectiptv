@@ -6,8 +6,16 @@
     background-color: #e3af4d;
 }
 
+.messageSend{
+    border-radius: 0;
+    margin: 0;
+    background-color: rgba(230, 214, 0, 0.2);
+    border-color: rgba(230, 214, 0, 0.1);
+    color: #08e600;
+    font-weight: 500;
+}
 
 .iconSend{
-    width: 18px;
-    color: #e6d600;
+    width: 20px;
+    color: #08e600;
 }

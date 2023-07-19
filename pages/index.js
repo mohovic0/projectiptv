@@ -37,7 +37,7 @@ export default function Home() {
         <h1 className='text-center mt-5 mb-5'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
         <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
-            <div className={` mb-5 ${styles.divcard}`} mb-3 ><Card  mois = '3' price='35'/></div>
+            <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='35'/></div>
             <div className={` mb-5 ${styles.divcard}`}><Card mois = '3' price='35'/></div>
             <div className={` mb-5 ${styles.divcard}`}><Card mois = '3' price='35'/></div>
                       
