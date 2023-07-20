@@ -5,6 +5,9 @@ import Barre from '@/components/barre'
 import BackImageHome from '@/components/backImageHome'
 import Card from '@/components/card'
 import Sportmovie from '@/components/sportmovie'
+import Lottie from "lottie-react"
+import whatsa from '@/public/whatsappp'
+import Link from 'next/link'
 
 
 
@@ -48,6 +51,26 @@ export default function Home() {
 
       <section>
         <Sportmovie/>
+      </section>
+
+      <section>
+      <div className='row'>
+                <div className="col-12 col-lg-6 align-items-center">
+                          <h3 className="fs-1 fw-bold mt-3 text-center"> Chat live 24/7 </h3>
+                          <h5 className="fs-5 mt-3 text-center">Chat live 24/7. We are there for your support</h5>
+                          <Link href={""}>
+                            <Lottie className={`mx-auto ${styles.icone}`} loop={true} animationData={whatsa} />
+                          </Link>
+                          
+                </div>
+                <div className='col-12 col-lg-6'>
+                    
+                    <h1 className="fs-1 fw-bold mt-3 text-center"> Ready to get started? </h1>
+                    <div className='col-md-4 col-lg-4 col-sm-12 text-md-end text-lg-end text-sm-center text-center'>
+                        <button type="button" className={`btn btn-warning mt-3 me-0 p-2 ${styles.btn1}`}><Link className={`${styles.btnlink}`} href="/contact">IPTV SUBSCRIPTION</Link></button>
+                    </div>
+                </div>
+        </div>
       </section>
 
 
