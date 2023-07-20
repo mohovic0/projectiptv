@@ -1,0 +1,26 @@
+.formStyling{
+    background-color: rgba(128,128,128,0.15);
+    border-radius: 10px;
+}
+
+.btnSub{
+    font-size: 20px;
+    background-color:  #e6d600;
+}
+.btnSub:hover{
+    background-color: #4df548;
+}
+
+.iconSend{
+    width: 15px;
+    color: #08e600;
+}
+.messageSend{
+    color: #08e600;
+    font-weight: 500;
+}
+.spiner{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #08e600;
+}

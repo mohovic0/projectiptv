@@ -8,6 +8,8 @@ import Sportmovie from '@/components/sportmovie'
 import Lottie from "lottie-react"
 import whatsa from '@/public/whatsappp'
 import Link from 'next/link'
+import Forme from '@/components/forme'
+import Chatwhatsap from '@/components/chatwhatsap'
 
 
 
@@ -38,14 +40,14 @@ export default function Home() {
 
       <section className={`mt-5   ${styles.section3}`}>
 
-        <h1 className='text-center mt-5 mb-5'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
-        <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
+          <h1 className='fs-2 fw-bold text-center mt-5 mb-5'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
+          <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
-            <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='35'/></div>
-            <div className={` mb-5 ${styles.divcard}`}><Card mois = '3' price='35'/></div>
-            <div className={` mb-5 ${styles.divcard}`}><Card mois = '3' price='35'/></div>
-                      
-        </div>
+              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='35'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card mois = '3' price='35'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card mois = '3' price='35'/></div>
+                        
+          </div>
         
       </section>
 
@@ -53,24 +55,19 @@ export default function Home() {
         <Sportmovie/>
       </section>
 
-      <section>
-      <div className='row'>
+      <section className='container'>
+        <div className='row align-items-center'>
                 <div className="col-12 col-lg-6 align-items-center">
-                          <h3 className="fs-1 fw-bold mt-3 text-center"> Chat live 24/7 </h3>
-                          <h5 className="fs-5 mt-3 text-center">Chat live 24/7. We are there for your support</h5>
-                          <Link href={""}>
-                            <Lottie className={`mx-auto ${styles.icone}`} loop={true} animationData={whatsa} />
-                          </Link>
+                      <Chatwhatsap/>
                           
                 </div>
-                <div className='col-12 col-lg-6'>
+                <div className='col-12 col-lg-6 align-items-center'>
                     
-                    <h1 className="fs-1 fw-bold mt-3 text-center"> Ready to get started? </h1>
-                    <div className='col-md-4 col-lg-4 col-sm-12 text-md-end text-lg-end text-sm-center text-center'>
-                        <button type="button" className={`btn btn-warning mt-3 me-0 p-2 ${styles.btn1}`}><Link className={`${styles.btnlink}`} href="/contact">IPTV SUBSCRIPTION</Link></button>
-                    </div>
+                    <h1 className="fs-1 fw-bold mt-3 text-center mb-4"> Ready to get started? </h1>
+                    <Forme/>
+                    
                 </div>
-        </div>
+          </div>
       </section>
 
 
