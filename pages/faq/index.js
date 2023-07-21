@@ -3,8 +3,11 @@ import styles from "./Faq.module.css";
 
 function Faq() {
   return (
-    <>
-      <div className="container accordion accordion-flush" id="accordionFlushExample">
+    <div className="container">
+
+      <h1 className="fs-1 fw-bolder fst-italic mt-5 text-center">FAQ</h1>
+      <div className="accordion accordion-flush" id="accordionFlushExample">
+
         <div className={`accordion-item ${styles.accordionBtn}`}>
           <h2 className="accordion-header">
             <button
@@ -49,6 +52,8 @@ function Faq() {
             </div>
           </div>
         </div>
+
+
         <div className={`accordion-item ${styles.accordionBtn}`}>
           <h2 className="accordion-header">
             <button
@@ -59,7 +64,7 @@ function Faq() {
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
             >
-              <strong>HOW DOES IT WORK?</strong>
+              <strong>WHEN WILL I RECEIVE MY TEST/SUBSCRIPTION CREDENTIALS?</strong>
             </button>
           </h2>
           <div
@@ -68,13 +73,13 @@ function Faq() {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              second item s accordion body. Lets imagine this being filled with
-              some actual content.
+            You will get your file as soon as possible. We will do our best not to let you wait long.
+            Your test / subscription will be in your Email as fast as possible.
             </div>
           </div>
         </div>
+
+
         <div className={`accordion-item ${styles.accordionBtn}`}>
           <h2 className="accordion-header">
             <button
@@ -85,7 +90,7 @@ function Faq() {
               aria-expanded="false"
               aria-controls="flush-collapseThree"
             >
-              <strong>HOW DOES IT WORK?</strong>
+              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
             </button>
           </h2>
           <div
@@ -94,17 +99,204 @@ function Faq() {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              third items accordion body. Nothing more exciting happening here
-              in terms of content, but just filling up the space to make it
-              look, at least at first glance, a bit more representative of how
-              this would look in a real-world application.
+                IPTV works all over the world, no matter where you live or where you are.
+                Since you have a stable Internet connection of 8 MB / s, you will be able
+                 to watch thousands of TV channels.
             </div>
           </div>
         </div>
+
+        <div className={`accordion-item ${styles.accordionBtn}`}>
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour"
+            >
+              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFour"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+                IPTV works all over the world, no matter where you live or where you are.
+                Since you have a stable Internet connection of 8 MB / s, you will be able
+                 to watch thousands of TV channels.
+            </div>
+          </div>
+        </div>
+
+
+        <div className={`accordion-item ${styles.accordionBtn}`}>
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseFive"
+            >
+              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFive"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+                IPTV works all over the world, no matter where you live or where you are.
+                Since you have a stable Internet connection of 8 MB / s, you will be able
+                 to watch thousands of TV channels.
+            </div>
+          </div>
+        </div>
+
+
+        <div className={`accordion-item ${styles.accordionBtn}`}>
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix"
+              aria-expanded="false"
+              aria-controls="flush-collapseSix"
+            >
+              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+            </button>
+          </h2>
+          <div
+            id="flush-collapseSix"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+                IPTV works all over the world, no matter where you live or where you are.
+                Since you have a stable Internet connection of 8 MB / s, you will be able
+                 to watch thousands of TV channels.
+            </div>
+          </div>
+        </div>
+
+
+        <div className={`accordion-item ${styles.accordionBtn}`}>
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSeven"
+              aria-expanded="false"
+              aria-controls="flush-collapseSeven"
+            >
+              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+            </button>
+          </h2>
+          <div
+            id="flush-collapseSeven"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+                IPTV works all over the world, no matter where you live or where you are.
+                Since you have a stable Internet connection of 8 MB / s, you will be able
+                 to watch thousands of TV channels.
+            </div>
+          </div>
+        </div>
+
+
+        <div className={`accordion-item ${styles.accordionBtn}`}>
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseEight"
+              aria-expanded="false"
+              aria-controls="flush-collapseEight"
+            >
+              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+            </button>
+          </h2>
+          <div
+            id="flush-collapseEight"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+                IPTV works all over the world, no matter where you live or where you are.
+                Since you have a stable Internet connection of 8 MB / s, you will be able
+                 to watch thousands of TV channels.
+            </div>
+          </div>
+        </div>
+
+
+        <div className={`accordion-item ${styles.accordionBtn}`}>
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseNine"
+              aria-expanded="false"
+              aria-controls="flush-collapseNine"
+            >
+              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+            </button>
+          </h2>
+          <div
+            id="flush-collapseNine"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+                IPTV works all over the world, no matter where you live or where you are.
+                Since you have a stable Internet connection of 8 MB / s, you will be able
+                 to watch thousands of TV channels.
+            </div>
+          </div>
+        </div>
+
+
+
+        <div className={`accordion-item ${styles.accordionBtn}`}>
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTen"
+              aria-expanded="false"
+              aria-controls="flush-collapseTen"
+            >
+              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTen"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+                IPTV works all over the world, no matter where you live or where you are.
+                Since you have a stable Internet connection of 8 MB / s, you will be able
+                 to watch thousands of TV channels.
+            </div>
+          </div>
+        </div>
+
       </div>
-    </>
+    </div>
   );
 }
 
