@@ -111,8 +111,8 @@ function Forme() {
 
                           <button type="submit" className={`btn w-100 btn-lg ${styles.btnSub} `}>{spin && <span>Submit</span>}
                           
-                              {!spin && <div class={`spinner-border  ${styles.spiner}`} role="status">
-                                <span class="visually-hidden"></span>
+                              {!spin && <div className={`spinner-border  ${styles.spiner}`} role="status">
+                                <span className="visually-hidden"></span>
                               </div> }
                           </button>
                               
