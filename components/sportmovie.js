@@ -25,7 +25,7 @@ function Sportmovie() {
         <div className='row'>
                     <Lottie className={`mx-auto  ${styles.icone}`} loop={true} animationData={leader} />
                     <h3 className="fs-2 fw-bold mt-3 text-center"> THE MARKET LEADER FOR IPTV SERVICE FOR OVER 7 YEARS</h3>
-                    <h5 className="fs-5 mt-3 text-center">We’ve helped thousands of clients to get the best TV experience with our IPTV service, you can watch live TV & VOD at home or on-the-go — wherever you are, anytime, on your favorite devices.</h5>
+                    <h5 className="fs-5 py-3 text-center">We’ve helped thousands of clients to get the best TV experience with our IPTV service, you can watch live TV & VOD at home or on-the-go — wherever you are, anytime, on your favorite devices.</h5>
 
         </div>
       

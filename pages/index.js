@@ -1,19 +1,11 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from './Home.module.css'
 import Barre from '@/components/barre'
 import BackImageHome from '@/components/backImageHome'
 import Card from '@/components/card'
 import Sportmovie from '@/components/sportmovie'
-import Lottie from "lottie-react"
-import whatsa from '@/public/whatsappp'
-import Link from 'next/link'
 import Forme from '@/components/forme'
 import Chatwhatsap from '@/components/chatwhatsap'
-
-
-
-
 
 
 
@@ -34,13 +26,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section className={`${styles.section2}`}>
         <Barre/>
       </section>
 
-      <section className={`mt-5   ${styles.section3}`}>
+      <section className={`${styles.section3}`}>
 
-          <h1 className='fs-2 fw-bold text-center mt-5 mb-5'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
+          <h1 className='fs-2 fw-bold text-center pt-5 mb-5'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
               <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='35'/></div>
@@ -51,7 +43,7 @@ export default function Home() {
         
       </section>
 
-      <section>
+      <section className={`${styles.section4}`}>
         <Sportmovie/>
       </section>
 

@@ -2,12 +2,15 @@ import React from 'react'
 import styles from '@/components/Card.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
+import {faCrown} from '@fortawesome/free-solid-svg-icons'
+
 import Link from 'next/link'
 
 function card(props) {
   return (
     <>
         <div className={styles.container}>
+            <div className='text-center'><FontAwesomeIcon className={`${styles.iconeCrow}`} icon={faCrown} /></div>
             <div className={styles.title}>
                 <h2>{props.mois} Month Premium Subscription</h2>
                 100% Service Guaranteed
