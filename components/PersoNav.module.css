@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    padding: 20px 80px;
+    /*padding: 20px 80px;*/
+    padding: 20px 20px 20px 20px;
     box-shadow: 0 5px 15px rgba(0, 0 , 0, 0.06);
     position: sticky;
     top : 0;
@@ -90,5 +91,6 @@
     #icon_mobile  {
         display: block;
         width: 28px;
+    
     }
 }

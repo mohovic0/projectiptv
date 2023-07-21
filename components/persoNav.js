@@ -17,6 +17,7 @@ const PersoNav = () =>  {
   return (
     <>
         <nav className={styles.nav}>
+            
             <Link href='/'>
                 <Image
                     priority
