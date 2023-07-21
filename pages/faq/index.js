@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Faq.module.css";
+import Forme from "@/components/forme";
 
 function Faq() {
   return (
@@ -116,7 +117,7 @@ function Faq() {
               aria-expanded="false"
               aria-controls="flush-collapseFour"
             >
-              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+              <strong>HOW MUCH INTERNET SPEED REQUIRES TO WATCH IPTV CHANNELS?</strong>
             </button>
           </h2>
           <div
@@ -125,9 +126,8 @@ function Faq() {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-                IPTV works all over the world, no matter where you live or where you are.
-                Since you have a stable Internet connection of 8 MB / s, you will be able
-                 to watch thousands of TV channels.
+            To watch our IPTV channels, you must have a stable 6 MB / s internet for SD channels, 8 MB / s for HD channels and stable 10 MB / s for FHD channels. To test your internet faster, you do not have to test it through Wi-Fi, but directly through the LAN cable, placing it on your Android Box, or on your computer. Note: Your Internet should stay stable,
+             if your Internet browser drops down, then you may also have problems with TV channels.
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ function Faq() {
               aria-expanded="false"
               aria-controls="flush-collapseFive"
             >
-              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+              <strong>AFTER SUBSCRIPTION, WHAT SHOULD I DO NEXT?</strong>
             </button>
           </h2>
           <div
@@ -152,9 +152,9 @@ function Faq() {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-                IPTV works all over the world, no matter where you live or where you are.
-                Since you have a stable Internet connection of 8 MB / s, you will be able
-                 to watch thousands of TV channels.
+            Immediately after you place an order, you will automatically receive an email
+            containing all the necessary instructions, and after a short time you will also receive 
+            your subscription data. However sometimes we get overloaded with server support, customers and orders.
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@ function Faq() {
               aria-expanded="false"
               aria-controls="flush-collapseSix"
             >
-              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+              <strong>CAN I PAY THROUGH MY LOCAL CURRENCY?</strong>
             </button>
           </h2>
           <div
@@ -179,9 +179,7 @@ function Faq() {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-                IPTV works all over the world, no matter where you live or where you are.
-                Since you have a stable Internet connection of 8 MB / s, you will be able
-                 to watch thousands of TV channels.
+                Please Note that our prices are quoted in the European Euro (EUR €) and United State Dollar ( USD $).
             </div>
           </div>
         </div>
@@ -197,7 +195,7 @@ function Faq() {
               aria-expanded="false"
               aria-controls="flush-collapseSeven"
             >
-              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+              <strong>HOW DO YOU DELIVER MY SUBSCRIPTION?</strong>
             </button>
           </h2>
           <div
@@ -206,9 +204,7 @@ function Faq() {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-                IPTV works all over the world, no matter where you live or where you are.
-                Since you have a stable Internet connection of 8 MB / s, you will be able
-                 to watch thousands of TV channels.
+              We will send you your subscription via Email, as well as any Guidelines for any device you have.
             </div>
           </div>
         </div>
@@ -224,7 +220,7 @@ function Faq() {
               aria-expanded="false"
               aria-controls="flush-collapseEight"
             >
-              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+              <strong>WHAT PAYMENT METHODS DO YOU ACCEPT?</strong>
             </button>
           </h2>
           <div
@@ -233,9 +229,12 @@ function Faq() {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-                IPTV works all over the world, no matter where you live or where you are.
-                Since you have a stable Internet connection of 8 MB / s, you will be able
-                 to watch thousands of TV channels.
+              We support 4 payment methods at the moment, with a high security.
+              The payment methods we support are:
+
+              Visa
+              MasterCard
+              American Express
             </div>
           </div>
         </div>
@@ -251,7 +250,7 @@ function Faq() {
               aria-expanded="false"
               aria-controls="flush-collapseNine"
             >
-              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+              <strong>IS MY PAYMENT SAFE?</strong>
             </button>
           </h2>
           <div
@@ -260,9 +259,7 @@ function Faq() {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-                IPTV works all over the world, no matter where you live or where you are.
-                Since you have a stable Internet connection of 8 MB / s, you will be able
-                 to watch thousands of TV channels.
+                You can Pay securely via Credit Card without exposing your details to any one. When paying online, your details are protected by SSL Encryption.
             </div>
           </div>
         </div>
@@ -279,7 +276,7 @@ function Faq() {
               aria-expanded="false"
               aria-controls="flush-collapseTen"
             >
-              <strong>DOES THIS SERVICE (IPTV) WORK IN MY COUNTRY?</strong>
+              <strong>WHY ARE MY CHANNELS NOT WORKING?</strong>
             </button>
           </h2>
           <div
@@ -288,14 +285,27 @@ function Faq() {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-                IPTV works all over the world, no matter where you live or where you are.
-                Since you have a stable Internet connection of 8 MB / s, you will be able
-                 to watch thousands of TV channels.
+            We do the best for all channels to work smoothly and all right.
+            If only some channels do not work, then report it to us by contacting us, or wait a few hours, maybe we’re working to fix it.
+            If no channel is running, then you need to take some necessary steps before contacting us:
+            
+            <ul className="mt-2">
+              <li className="mt-2"> Reboot your devices and wait for 30 secs before turning them back on.</li>
+              <li className="mt-2">Make sure you are connecting using an Ethernet cable to devices and not via Wi-Fi.</li>
+              <li className="mt-2">Try using a VPN service if all the above are not working.</li>
+              <li className="mt-2">Stop and give it a couple of minutes. We reboot and swap channels when needed. The channels may be coming back from our work.</li>
+            </ul>
+          
             </div>
           </div>
         </div>
 
       </div>
+
+      <h1 className="fs-1 fw-bolder fst-italic mt-5 mb-5 text-center">For More Details</h1>
+
+      <Forme/>
+
     </div>
   );
 }
