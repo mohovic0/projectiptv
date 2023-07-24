@@ -28,7 +28,7 @@ export default function handler(req, res) {
       service: 'gmail',
       auth: {
         user: 'narutoauzomaki20@gmail.com',
-        pass: 'gwpdbqdvdnurmpht,'
+        pass: 'gwpdbqdvdnurmpht',
       },
     });
 
