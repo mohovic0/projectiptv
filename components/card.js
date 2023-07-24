@@ -6,22 +6,22 @@ import {faCrown} from '@fortawesome/free-solid-svg-icons'
 
 import Link from 'next/link'
 
-function Card(props) {
-    const [pack, setPack] = useState('');
+function Card({mois, price, childToParent}) {
 
-    console.log(pack);
+    const data = {mois} ;
+   
 
   return (
     <>
         <div className={styles.container}>
             <div className='text-center'><FontAwesomeIcon className={`${styles.iconeCrow}`} icon={faCrown} /></div>
             <div className={styles.title}>
-                <h2>{props.mois} Month Premium Subscription</h2>
+                <h2>{mois} Month Premium Subscription</h2>
                 100% Service Guaranteed
             </div>
             
             <div className={styles.price}>
-                <h1>{props.price} &euro;</h1>
+                <h1>{price} &euro;</h1>
             </div>
 
             <div className={styles.live}>
@@ -85,8 +85,7 @@ function Card(props) {
 
             <div className={`mt-4 ${styles.butn}`}>
                 <button type="button" className={`btn ${styles.btn}`}
-                onClick={()=>{ setPack(props.mois); console.log(pack);} }
-                ><Link className={`${styles.btnlink}`} href="/contact">GET STARTED</Link>
+                ><Link className={`${styles.btnlink}`} href={`/contact/pack${mois}`}>GET STARTED</Link>
                 </button>
             </div>
             

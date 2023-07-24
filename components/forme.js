@@ -6,10 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faL } from '@fortawesome/free-solid-svg-icons'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 
-function Forme() {
+function Forme({pack}) {
+    
+    
     const [phoneNumber, setPhoneNumber] = useState('');
     const [email, setEmail] = useState('');
-    const [pack, setPack] = useState('');
     const [message, setMessage] = useState('');
     const [send , setSend] = useState(false);
     const [spin , setSpin] = useState(true);
@@ -20,6 +21,7 @@ function Forme() {
     const [vodLangue , setVodLangue] = useState('');
     const [payment , setPayment] = useState('');
   
+    //console.log(pack);
 
   const handlSubmitFrom = async (e)=>{
     setSpin(false);
@@ -79,14 +81,15 @@ function Forme() {
   return (
     <>
         <div className="container">
+            
             <div className="row align-items-center">
                 <div className={`p-4 ${styles.formStyling}`}>
                       <h1 className='fs-2 fw-bold'>Contact Us</h1>
                       <form onSubmit={handlSubmitFrom}>
-                          <div class="mb-3">
-                            <label for="formGroupExampleInput" class="form-label">Full Name *</label>
-                            <input required value={fullName} onChange={(e)=>setFullName(e.target.value)} type="text" class="form-control" id="formGroupExampleInput" placeholder=""/>
-                            {fullName}
+                          <div className="mb-3">
+                            <label htmlFor="formGroupExampleInput" className="form-label">Full Name *</label>
+                            <input required value={fullName} onChange={(e)=>setFullName(e.target.value)} type="text" className="form-control" id="formGroupExampleInput" placeholder=""/>
+                            
                           </div>
                           <div className="mb-3">
                             <label htmlFor="exampleInputEmail1" className="form-label">Email address *</label>
@@ -95,7 +98,7 @@ function Forme() {
                           </div>
 
                           <div className="mb-3">
-                              <label for="formGroupExampleInput" class="form-label">Phone Number </label>
+                              <label htmlFor="formGroupExampleInput" className="form-label">Phone Number </label>
                               <PhoneInput
                                 country={'us'}
                                 value={phoneNumber}
@@ -104,7 +107,7 @@ function Forme() {
                                   require : true
                                 }}
                               />
-                              {phoneNumber}
+                              
                           </div>
                           
                           <div className='mt-3'>
@@ -125,27 +128,14 @@ function Forme() {
                                 <option value="FORMULATE BOX">FORMULATE BOX</option> 
                                 <option value="OTHER DEVICE (m3u Link)">OTHER DEVICE (m3u Link)</option> 
                               </select>
-                              {device}
-                          </div>
-                          
-                          <div className='mt-3'>
-                            <label htmlFor="inputState" className="form-label">PACK *</label>
-                              <select required id="inputState" className="form-select" defaultValue={'DEFAULT'}
-                              onChange={(e)=>(setPack(e.target.value))}>
-                                <option value="">Choose your sub</option>
-                                <option value="Test">Test</option>
-                                <option value="3 Month">3 Month</option>
-                                <option value="6 Month">6 Month</option>
-                                <option value="12 Month">12 Month</option>  
-                              </select>
-                              {pack}
+                              
                           </div>
 
-                          <div class="mt-3">
-                            <label for="formGroupExampleInput" class="form-label">Device MAC/ID</label>
-                            <input type="text" value={deviceMac} onChange={(e)=>setDeviceMac(e.target.value)} class="form-control" id="formGroupExampleInput" placeholder=""/>
+                          <div className="mt-3">
+                            <label htmlFor="formGroupExampleInput" className="form-label">Device MAC/ID</label>
+                            <input type="text" value={deviceMac} onChange={(e)=>setDeviceMac(e.target.value)} className="form-control" id="formGroupExampleInput" placeholder=""/>
                             <div className="form-text">REQUIRED FOR FORMULATE BOX, MAG BOX,SMART STB, TVIP BOX</div>
-                            {deviceMac}
+                            
                           </div>
 
                           <div className='mt-3'>
@@ -174,7 +164,7 @@ function Forme() {
                                 <option value="TURKISH">TURKISH</option>
                                 <option value="ALBANIA">ALBANIA</option>
                               </select>
-                              {vodLangue}
+                              
                           </div>
 
                           <div className='mt-3'>
@@ -185,7 +175,7 @@ function Forme() {
                                 <option value="Paypal">Paypal</option>
                                 <option value="IBAN">IBAN</option>  
                               </select>
-                              {payment}
+                              
                           </div>
 
                           <div className="mt-3">
@@ -194,7 +184,7 @@ function Forme() {
                             maxLength="150"
                             value={message}
                             onChange={(e)=> setMessage(e.target.value)}></textarea>
-                            {message}
+                            
                           </div>
 
                           <button type="submit" className={`btn w-100 btn-lg mt-3 ${styles.btnSub} `}>{spin && <span className='fs-5 fw-blod'>Submit</span>}

@@ -11,9 +11,10 @@ const PersoNav = () =>  {
 
     const router = useRouter()
     const routerCurrent = router.pathname;
-    console.log(routerCurrent)
+    
 
     const [clicked, setClicked] = useState(false);
+    
   return (
     <>
         <nav className={styles.nav}>
@@ -38,7 +39,7 @@ const PersoNav = () =>  {
                         <Link href="/about" className={ routerCurrent === "/about"  ? styles.active  : '' }>About</Link>
                     </li>
                     <li>
-                        <Link href="/contact" className={ routerCurrent === "/contact"  ? styles.active  : '' }>Contact</Link>
+                        <Link href="/contact" className={ routerCurrent === "/contact" || routerCurrent === "/contact/pack3" || routerCurrent === "/contact/pack6" || routerCurrent === "/contact/pack12" ? styles.active  : '' }>Contact</Link>
                     </li>
 
                 </ul>

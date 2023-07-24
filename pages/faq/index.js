@@ -249,12 +249,8 @@ function Faq() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                  We support 4 payment methods at the moment, with a high security.
-                  The payment methods we support are:
-
-                  Visa
-                  MasterCard
-                  American Express
+                  We support 2 payment methods at the moment, with a high security.
+                  The payment methods we support are: <strong>PAYPAL - IBAN </strong>
                 </div>
               </div>
             </div>

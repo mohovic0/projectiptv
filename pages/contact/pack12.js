@@ -7,12 +7,11 @@ import Sportmovie from '@/components/sportmovie'
 import Chatwhatsap from '@/components/chatwhatsap'
 import Forme from '@/components/forme'
 
-
-function Contact() {
-
+function Pack12() {
+    
   const router = useRouter()
   const routerCurrent = router.pathname;
-  console.log(routerCurrent)
+  //console.log(routerCurrent)
       
   return (
     <>  
@@ -57,6 +56,7 @@ function Contact() {
       </section>
     </>
   )
+    
 }
 
-export default Contact
+export default Pack12

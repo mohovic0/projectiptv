@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Head from 'next/head'
 import styles from './Home.module.css'
 import Barre from '@/components/barre'
@@ -6,10 +7,14 @@ import Card from '@/components/card'
 import Sportmovie from '@/components/sportmovie'
 import Forme from '@/components/forme'
 import Chatwhatsap from '@/components/chatwhatsap'
+import Carousel  from '@/components/carousel'
 
 
 
 export default function Home() {
+
+  
+
   return (
     <>
       <Head>
@@ -30,11 +35,16 @@ export default function Home() {
         <meta property="og:image" content="https://"/>
       </Head>
 
-     
+      
       <section>
         <div className={`row align-items-center ${styles.imageback}`}>
           <BackImageHome/>
         </div>
+      </section>
+
+      <section className={`${styles.section5}`}>
+          <h1 className='text-center p-4 fw-blod'>Dérniers films & séries</h1>
+          <Carousel />
       </section>
 
       <section className={`${styles.section2}`}>
@@ -46,9 +56,9 @@ export default function Home() {
           <h1 className='fs-2 fw-bold text-center pt-5 mb-5'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
-              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='35'/></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card mois = '6' price='35'/></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card mois = '12' price='35'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='10' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '6' price='20' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '12' price='30' /></div>
                         
           </div>
         
@@ -67,7 +77,7 @@ export default function Home() {
                 <div className='col-12 col-lg-6 align-items-center'>
                     
                     <h1 className="fs-1 fw-bold mt-3 text-center mb-4"> Ready to get started? </h1>
-                    <Forme/>
+                    <Forme />
                     
                 </div>
           </div>
