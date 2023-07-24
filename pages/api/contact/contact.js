@@ -12,7 +12,7 @@ export default function handler(req, res) {
       to: 'narutoauzomaki20@gmail.com',
       subject: data.Email,
       text: data.Message,
-      html: `<div>Nom :</h2> ${data.Full_name}<h2></div>
+      html: `<div><h2>Nom : ${data.Full_name}</h2></div>
       <div><h2>EMAIL : ${data.Email}</h2></div>
       <div><h2>TELE : ${data.Phone_number}</h2></div>
       <div><h2>DEVICE_APP : ${data.Device_app}</h2></div>

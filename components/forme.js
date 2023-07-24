@@ -27,7 +27,7 @@ function Forme({pack}) {
     setSpin(false);
     e.preventDefault();
 
-    const res = await fetch(`${process.env.NEXT_PUBLIC_DOMAIN}/api/contact/contact`,{
+    const res = await fetch(`https://iptvinfinity.vercel.app/api/contact/contact`,{
             method : 'POST',
             headers : {'Content-Type' : "application/json"},
             body : JSON.stringify(
