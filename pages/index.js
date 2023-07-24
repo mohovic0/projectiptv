@@ -47,8 +47,8 @@ export default function Home() {
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
               <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='35'/></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card mois = '3' price='35'/></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card mois = '3' price='35'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card mois = '6' price='35'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card mois = '12' price='35'/></div>
                         
           </div>
         

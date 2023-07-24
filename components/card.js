@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,  useState } from 'react'
 import styles from '@/components/Card.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
@@ -6,7 +6,11 @@ import {faCrown} from '@fortawesome/free-solid-svg-icons'
 
 import Link from 'next/link'
 
-function card(props) {
+function Card(props) {
+    const [pack, setPack] = useState('');
+
+    console.log(pack);
+
   return (
     <>
         <div className={styles.container}>
@@ -80,7 +84,10 @@ function card(props) {
             </div>
 
             <div className={`mt-4 ${styles.butn}`}>
-                <button type="button" className={`btn ${styles.btn}`}><Link className={`${styles.btnlink}`} href="/contact">GET STARTED</Link></button>
+                <button type="button" className={`btn ${styles.btn}`}
+                onClick={()=>{ setPack(props.mois); console.log(pack);} }
+                ><Link className={`${styles.btnlink}`} href="/contact">GET STARTED</Link>
+                </button>
             </div>
             
         </div>
@@ -88,4 +95,4 @@ function card(props) {
   )
 }
 
-export default card
+export default Card

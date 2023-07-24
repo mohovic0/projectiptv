@@ -3,19 +3,24 @@
 export default function handler(req, res) {
   
     let nodemailer = require('nodemailer');
-    let ok;
-    console.log(process.env.NODEMAILER_EMAIL);
-    console.log(process.env.NODEMAILER_PW);
+    //let ok;
+    //console.log(process.env.NODEMAILER_EMAIL);
+    //console.log(process.env.NODEMAILER_PW);
     const data = req.body;
     const message = {
       from: process.env.NODEMAILER_EMAIL,
-      to: 'marmamohamed@gmail.com',
+      to: 'narutoauzomaki20@gmail.com',
       subject: data.Email,
       text: data.Message,
-      html: `<div>EMAIL : ${data.Email}</div>
-      <div>TELE : ${data.Phone_number}</div>
-      <div>PACK : ${data.Pack}</div>
-      <div>MESSAGE : ${data.Message}</div>`,
+      html: `<div>Nom :</h2> ${data.Full_name}<h2></div>
+      <div><h2>EMAIL : ${data.Email}</h2></div>
+      <div><h2>TELE : ${data.Phone_number}</h2></div>
+      <div><h2>DEVICE_APP : ${data.Device_app}</h2></div>
+      <div><h2>PACK : ${data.Pack}</h2></div>
+      <div><h2>DEVICE_MAC : ${data.Device_mac}</h2></div>
+      <div><h2>VOD_LANGUAGE : ${data.Vod_langue}</h2></div>
+      <div><h2>PAYMENT_METHOD : ${data.Payment}</h2></div>
+      <div><h2>MESSAGE : ${data.Message}</h2></div>`,
     };
 
 
@@ -35,13 +40,14 @@ export default function handler(req, res) {
           res.status(404).json({
               error: `Connection refused at ${err.address}`
           });
-          ok = "error";
+         
+          //ok = "error";
         } else {
           res.status(250).json({
               success: `Message delivered to ${info.accepted}`
           });
-          ok = "success";
-          
+          //ok = "success";
+         
         }
       });
 
@@ -50,7 +56,8 @@ export default function handler(req, res) {
         console.log(data.Phone_number);
         console.log(data.Pack);
         console.log(data.Message);
-        console.log(ok);
+        
+        //console.log(ok);
     }
     
   
