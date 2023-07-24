@@ -68,7 +68,7 @@ function Carousel() {
 
   return (
     <>
-    <div className={`mb-5 text-center ${styles.firstCaro}`}>
+    <div className={`mb-5 text-center pb-5 ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items} 
@@ -78,7 +78,7 @@ function Carousel() {
       />
     </div>
 
-    <div className='mt-5 text-center'>
+    <div className='mt-5 text-center '>
       <AliceCarousel 
       mouseTracking
       items={items1} 
