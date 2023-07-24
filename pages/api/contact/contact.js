@@ -8,8 +8,8 @@ export default function handler(req, res) {
     //console.log(process.env.NODEMAILER_PW);
     const data = req.body;
     const message = {
-      from: 'narutoauzomaki20@gmail.com',
-      to: 'narutoauzomaki20@gmail.com',
+      from: process.env.NODEMAILER_EMAIL,
+      to: process.env.NODEMAILER_EMAIL,
       subject: data.Email,
       text: data.Message,
       html: `<div><h2>Nom : ${data.Full_name}</h2></div>
@@ -27,8 +27,8 @@ export default function handler(req, res) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'narutoauzomaki20@gmail.com',
-        pass: 'gwpdbqdvdnurmpht',
+        user: process.env.NODEMAILER_EMAIL,
+        pass: process.env.NODEMAILER_PW,
       },
     });
 
