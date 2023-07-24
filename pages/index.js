@@ -43,7 +43,9 @@ export default function Home() {
       </section>
 
       <section className={`${styles.section5}`}>
-          <h1 className='text-center p-4 fw-blod'>Dérniers films & séries</h1>
+          <div className='bg-black'>
+            <h1 className='text-center fw-blod text-white mb-0 p-3'>NEW MOVIES & Series </h1>
+          </div>
           <Carousel />
       </section>
 
@@ -53,7 +55,7 @@ export default function Home() {
 
       <section className={`${styles.section3}`}>
 
-          <h1 className='fs-2 fw-bold text-center pt-5 mb-5'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
+          <h1 className='fs-2 fw-bold text-center pt-5 mt-5 mb-5 text-white'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
               <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='10' /></div>

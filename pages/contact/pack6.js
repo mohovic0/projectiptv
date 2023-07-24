@@ -34,11 +34,11 @@ function Pack6() {
   
         <section>
             <div className="container mt-4">
-                <div className="row align-items-center">
+                <div className="row ">
                       <div className={`col-12 col-lg-6`}>
                           <Forme pack ={routerCurrent} />
                       </div>
-                      <div className="col-12 col-lg-6 align-items-center">
+                      <div className="col-12 col-lg-6 mt5">
                           <Chatwhatsap/>       
                       </div>
                 </div>

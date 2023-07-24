@@ -37,7 +37,7 @@ function Carousel() {
     }
     const responsive1 = {
         0 : {items: 1 },
-        300 : {items: 4 },
+        300 : {items: 2 },
         1024 : {items: 6 },
     }
 
@@ -68,7 +68,7 @@ function Carousel() {
 
   return (
     <>
-    <div className='mb-5 text-center'>
+    <div className={`mb-5 text-center ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items} 
