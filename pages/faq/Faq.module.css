@@ -1,3 +1,6 @@
+.containerFaq{
+    background-color: aliceblue;
+}
 .accordionBtn button{
     background: rgba(255,237,0,0.2);
     border-color: rgb(255,237,0);;

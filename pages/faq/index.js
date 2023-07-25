@@ -24,9 +24,9 @@ function Faq() {
             <meta property="og:site_name" content="IPTV-Infinity"/>
             <meta property="og:image" content="https://"/>
         </Head>
-        <div className="container">
+        <div className={`container-fluid ${styles.containerFaq}`}>
 
-          <h1 className="fs-1 fw-bolder fst-italic mt-5 text-center">FAQ</h1>
+          <h1 className="fs-1 fw-bolder pt-5 text-center mb-5">FAQ</h1>
           <div className="accordion accordion-flush" id="accordionFlushExample">
 
             <div className={`accordion-item ${styles.accordionBtn}`}>
@@ -318,7 +318,7 @@ function Faq() {
 
           </div>
 
-          <h1 className="fs-1 fw-bolder fst-italic mt-5 mb-5 text-center">For More Details</h1>
+          <h1 className="fs-1 fw-bolder fst-italic pt-5 mb-5 text-center">For More Details</h1>
 
           <div className="row">
               <div className="col-12 col-lg-6"><Forme /></div>
