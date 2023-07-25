@@ -32,7 +32,7 @@ function Carousel() {
 
     const responsive = {
         0 : {items: 1 },
-        300 : {items: 2 },
+        300 : {items: 1 },
         1024 : {items: 4 },
     }
     const responsive1 = {
@@ -68,7 +68,7 @@ function Carousel() {
 
   return (
     <>
-    <div className={`mb-5 text-center pb-5 ${styles.firstCaro}`}>
+    <div className={` text-center pb-1 pt-5 ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items} 
@@ -76,9 +76,10 @@ function Carousel() {
       disableDotsControls='true'
       responsive={responsive}
       />
+      <h1 className='text-center fw-blod text-white pt-3'>NEW MOVIES & SERIES </h1>
     </div>
 
-    <div className='mt-5 text-center '>
+    <div className={`text-center pb-3 pt-3 ${styles.secondCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items1} 

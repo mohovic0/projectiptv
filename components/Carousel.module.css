@@ -15,7 +15,10 @@
     padding: 5px;
 }
 .firstCaro{
-    background-color: black;
+    background-color: #000009;
     width: 100%;
     margin-top: 0;
+}
+.secondCaro{
+    background-color: rgb(255, 255, 255);
 }

@@ -36,26 +36,23 @@ export default function Home() {
       </Head>
 
       
-      <section>
+      <section className={`${styles.section1}`}>
         <div className={`row align-items-center ${styles.imageback}`}>
           <BackImageHome/>
         </div>
       </section>
 
-      <section className={`${styles.section5}`}>
-          <div className='bg-black'>
-            <h1 className='text-center fw-blod text-white mb-0 p-3'>NEW MOVIES & Series </h1>
-          </div>
+      <section className={`${styles.section2}`}>
           <Carousel />
       </section>
 
-      <section className={`${styles.section2}`}>
+      <section className={`${styles.section3}`}>
         <Barre/>
       </section>
 
-      <section className={`${styles.section3}`}>
+      <section className={`${styles.section4}`}>
 
-          <h1 className='fs-2 fw-bold text-center pt-5 mt-5 mb-5 text-white'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
+          <h1 className='fs-2 fw-bold text-center pt-5 mt-5 mb-5 text-black'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
               <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='10' /></div>
@@ -66,17 +63,17 @@ export default function Home() {
         
       </section>
 
-      <section className={`${styles.section4}`}>
+      <section className={`${styles.section5}`}>
         <Sportmovie/>
       </section>
 
-      <section className='container'>
-        <div className='row align-items-center'>
-                <div className="col-12 col-lg-6 align-items-center">
+      <section className={`container ${styles.section6}`}>
+        <div className='row '>
+                <div className="col-12 col-lg-6 ">
                       <Chatwhatsap/>
                           
                 </div>
-                <div className='col-12 col-lg-6 align-items-center'>
+                <div className='col-12 col-lg-6 '>
                     
                     <h1 className="fs-1 fw-bold mt-3 text-center mb-4"> Ready to get started? </h1>
                     <Forme />
