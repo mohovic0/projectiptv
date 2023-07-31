@@ -1,14 +1,14 @@
-import { useState } from 'react'
+import img from '@/public/imagebackk.png'
 import Head from 'next/head'
 import styles from './Home.module.css'
 import Barre from '@/components/barre'
-import BackImageHome from '@/components/backImageHome'
 import Card from '@/components/card'
 import Sportmovie from '@/components/sportmovie'
 import Forme from '@/components/forme'
 import Chatwhatsap from '@/components/chatwhatsap'
 import Carousel  from '@/components/carousel'
-
+import Link from 'next/link'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -35,15 +35,79 @@ export default function Home() {
         <meta property="og:image" content="https://"/>
       </Head>
 
-      
-      <section className={`${styles.section1}`}>
-        <div className={`row align-items-center ${styles.imageback}`}>
-          <BackImageHome/>
-        </div>
+
+      <section className={`pt-5 ${styles.section1}`}>
+                <Image
+                    className={styles.imageback}
+                    src={img}
+                    alt="image background"
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="center"
+                />
+
+                <div className={`d-block pt-5 text-center mb-5 ${styles.contenu}`}>
+                            <div className={`pt-5 ${styles.title1}`}>
+                            FASTEST <span style={{ color: "#e6d600" }}>IPTV</span> SERVICE
+                            </div>
+
+                            <div className={`pt-4 lh-sm px-2  ${styles.title2}`}>
+                                <strong>
+                                    The Best <span style={{ color: "#e6d600" }}>IPTV</span> <br />{" "}
+                                    Subscription For Endless <br /> Entertainment
+                                </strong>
+                            </div>
+
+                            <div className={`pt-4 px-2 ${styles.title1}`}>
+                                  Watch Thousands Of TV Shows, Movies, And Sports Anytime, Anywhere.
+                                  Level Up Your TV.
+                            </div>
+
+                            <div className="pt-5">
+                                  <button type="button" className={`ms-0  ${styles.btn1}`} href="/contact">
+                                      <Link className={`${styles.btnlink}`} href="/contact">
+                                      Get Started
+                                      </Link>
+                                  </button>
+                                  <button type="button" className={`ms-4  ${styles.btn1}`} href="/contact">
+                                      <Link className={`${styles.btnlink}`} href="/contact">
+                                      Free Trial
+                                      </Link>
+                                  </button>
+                            </div>
+                </div>
       </section>
+      
+      {/* <section className={`pt-5 ${styles.section1}`}>
+      
+          <div className={`d-block pt-5 text-center mb-5`}>
+
+                    <div className={`pt-5 ${styles.title1}`}>
+                        FASTEST <span style={{color : "#e6d600"}}>IPTV</span> SERVICE
+                    </div>  
+
+                    <div className={`pt-4 lh-sm px-2  ${styles.title2}`}>
+                        <strong>The Best <span style={{color : "#e6d600"}}>IPTV</span> <br/> Subscription For Endless <br/> Entertainment
+                        </strong>
+                    </div>
+
+                    <div className={`pt-4 px-2 ${styles.title1}`}>
+                            Watch Thousands Of TV Shows, Movies, And Sports Anytime, Anywhere. Level Up Your TV.
+                    </div>
+
+                    
+                    <div className='pt-5'>
+                          <button type="button" className={`ms-0  ${styles.btn1}`}><Link className={`${styles.btnlink}`} href="/contact">Get Started</Link></button>
+                          <button type="button" className={`ms-4  ${styles.btn1}`}><Link className={`${styles.btnlink}`} href="/contact">Free Trial</Link></button>
+                    </div>
+                  
+
+          </div>
+          
+      </section> */}
 
       <section className={`${styles.section2}`}>
-          <Carousel />
+        <Carousel />
       </section>
 
       <section className={`${styles.section3}`}>

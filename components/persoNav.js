@@ -30,16 +30,16 @@ const PersoNav = () =>  {
             <div>
                 <ul id={styles.nav_list} className={clicked ?  styles.active : '#nav_list'}>
                     <li>
-                        <Link href="/" className={ routerCurrent === "/"  ? styles.active  : '' }  >Home</Link>
+                        <Link href="/" className={ routerCurrent === "/"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Home</Link>
                     </li>
                     <li>
-                        <Link  href="/faq" className={ routerCurrent === "/faq"  ? styles.active  : '' } >FAQ</Link>
+                        <Link  href="/faq" className={ routerCurrent === "/faq"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >FAQ</Link>
                     </li>
                     <li>
-                        <Link href="/about" className={ routerCurrent === "/about"  ? styles.active  : '' }>About</Link>
+                        <Link href="/about" className={ routerCurrent === "/about"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >About</Link>
                     </li>
                     <li>
-                        <Link href="/contact" className={ routerCurrent === "/contact" || routerCurrent === "/contact/pack3" || routerCurrent === "/contact/pack6" || routerCurrent === "/contact/pack12" ? styles.active  : '' }>Contact</Link>
+                        <Link href="/contact" className={ routerCurrent === "/contact" || routerCurrent === "/contact/pack3" || routerCurrent === "/contact/pack6" || routerCurrent === "/contact/pack12" ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Contact</Link>
                     </li>
 
                 </ul>

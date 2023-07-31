@@ -32,8 +32,11 @@ function About() {
       </Head>
 
 
-      <div className='container mt-5'>
-        <div className='row'>
+      <div className={`${styles.menbackgound}`}></div> 
+
+      <section className='container pt-5'>
+        
+        <div className='row pt-5'>
 
           <div className='col-12 col-lg-6'>
                   <Lottie className={`mx-auto `} loop={true} animationData={aboutLottie} />
@@ -70,7 +73,7 @@ function About() {
           </div>
 
         </div>
-      </div>
+      </section>
       
     </>
   )

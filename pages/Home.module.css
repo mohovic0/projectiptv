@@ -1,20 +1,80 @@
+.section1{
+    height: 100vh;
+    background-color: black;
+}
+
 .imageback{
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+    margin: 0;
+    position: relative;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../public/imagebackhome.png');
-    min-height: 100vh;
+}
+.contenu{
+    position: relative;
+    z-index: 1;
+}
+.title1{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: calc(14px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+.title2{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: calc(37px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-family:'Roboto',sans-serif    
+}
+/* .typic{
+    color: #e6d600;
+} */
+.btn1{
+    font-size: calc(12px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
+    background-color: #e6d600;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.2s;
+    padding : 7px 24px 7px 24px ;
+    margin-left: 30px;
+}
+@media screen and (max-width : 600px) {
+    .btn1{
+        margin-left: 5px;
+        padding: 8px 12px 8px 12px;
+    }
+}
+
+
+.btnlink{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 650;  
+}
+.btn1:hover{
+    transform: translateY(0) scale(0.92);
+    background-color: #ffef16;
+    border: none;
+}
+
+/* 
+.section1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../public/testoptim.png');
+    background-color: black;
+    background-position: center;
+    height: 100vh;
     width: 100%;
     margin: 0;
     position: relative;
-    color: white;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-}
-.section1{
     
-}
-.section2{
+} */
+/*.section2{
     
-}
+} */
 .section3{
        background-color: aliceblue;
 }
@@ -22,14 +82,29 @@
         background-color: aliceblue;
     
 }
-.section5{
+/* .section5{
     
     
 }
 .section6{
     
     
-}
+} */
+
+
+/* @media screen and (max-width : 600px) {
+    .imageback{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../public/testoptim600.png');
+        background-color: black;
+        background-position: center;
+        min-height: 100vh;
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+} */
 
 
 

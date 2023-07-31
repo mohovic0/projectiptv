@@ -6,6 +6,9 @@ import Head from 'next/head'
 import Sportmovie from '@/components/sportmovie'
 import Chatwhatsap from '@/components/chatwhatsap'
 import Forme from '@/components/forme'
+import styles from '@/pages/contact/Contact.module.css'
+i
+
 
 function Pack3() {
     const router = useRouter()
@@ -32,9 +35,10 @@ function Pack3() {
           <meta property="og:image" content="https://"/>
         </Head>
   
+        <div className={`${styles.menbackgound}`}></div> 
         <section>
-            <div className="container mt-4">
-                <div className="row">
+            <div className="container pt-5">
+                <div className="row pt-5">
                       <div className={`col-12 col-lg-6`}>
                           <Forme pack ={routerCurrent} />
                       </div>

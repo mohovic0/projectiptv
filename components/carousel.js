@@ -15,7 +15,7 @@ import c1 from '@/public/imagesCarousel/c1.png'
 import c2 from '@/public/imagesCarousel/c2.png'
 import c3 from '@/public/imagesCarousel/c3.png'
 import c4 from '@/public/imagesCarousel/c4.png'
-import c5 from '@/public/imagesCarousel/c5.png'
+
 import c6 from '@/public/imagesCarousel/c6.png'
 import c7 from '@/public/imagesCarousel/c7.png'
 import c8 from '@/public/imagesCarousel/c8.png'
@@ -26,66 +26,76 @@ import c10 from '@/public/imagesCarousel/c10.png'
 
 import Image from 'next/image';
 
-function Carousel() {
+const Carousel = () => {
+
+  
 
     const handleDragStart = (e) => e.preventDefault();
 
-    const responsive = {
-        0 : {items: 1 },
-        300 : {items: 1 },
-        1024 : {items: 4 },
-    }
-    const responsive1 = {
-        0 : {items: 1 },
-        300 : {items: 2 },
-        1024 : {items: 6 },
-    }
+    // const responsive = {
+    //     0 : {items: 1 },
+    //     568 : {items: 2 },
+    //     1024 : {items: 4 },
+    // }
+    // const responsive1 = {
+    //     0 : {items: 1 },
+    //     568 : {items: 2 },
+    //     1024 : {items: 6 },
+    // }
 
-    const items = [
-    <div key={0}> <Image className={`${styles.divCarouel}`} key={0} onDragStart={handleDragStart}  priority src={ig1} alt="logo" /> </div> ,
-    <div key={1}><Image className={`${styles.divCarouel}`}  key={1} onDragStart={handleDragStart}  priority src={ig2} alt="logo" /> </div> ,
-    <div key={2}><Image className={`${styles.divCarouel}`}  key={2} onDragStart={handleDragStart}  priority src={ig3} alt="logo" /> </div> ,
-    <div key={3}><Image className={`${styles.divCarouel}`}  key={3} onDragStart={handleDragStart}  priority src={ig4} alt="logo" /> </div> ,
-    <div key={4}><Image className={`${styles.divCarouel}`}  key={4} onDragStart={handleDragStart}  priority src={ig5} alt="logo" /> </div> ,
-    <div key={5}><Image className={`${styles.divCarouel}`}  key={5} onDragStart={handleDragStart}  priority src={ig6} alt="logo" /> </div> ,
-    <div key={6}><Image className={`${styles.divCarouel}`}  key={6} onDragStart={handleDragStart}  priority src={ig7} alt="logo" /> </div> ,
-    <div key={7}><Image className={`${styles.divCarouel}`}  key={7} onDragStart={handleDragStart}  priority src={ig8} alt="logo" /> </div> ,
-    <div key={8}><Image className={`${styles.divCarouel}`}  key={8} onDragStart={handleDragStart}  priority src={ig9} alt="logo" /> </div> ,
+    const items =[
+      <Image key={1} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig1} alt='ig1'/>,
+      <Image key={2} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig2} alt='ig2'/>,
+      <Image key={3} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig3} alt='ig3'/>,
+      <Image key={4} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig4} alt='ig4'/>,
+      <Image key={5} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig5} alt='ig5'/>,
+      <Image key={6} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig6} alt='ig6'/>,
+      <Image key={7} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig7} alt='ig7'/>,
+      <Image key={8} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig8} alt='ig8'/>,
+      <Image key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig9} alt='ig9'/>,
     ];
 
-    const items1 = [
-        <div key={0}> <Image className={`${styles.divCarouelC}`} key={0} onDragStart={handleDragStart}  priority src={c1} alt="logo" /> </div> ,
-        <div key={1}><Image className={`${styles.divCarouelC}`}  key={1} onDragStart={handleDragStart}  priority src={c2} alt="logo" /> </div> ,
-        <div key={2}><Image className={`${styles.divCarouelC}`}  key={2} onDragStart={handleDragStart}  priority src={c3} alt="logo" /> </div> ,
-        <div key={3}><Image className={`${styles.divCarouelC}`}  key={3} onDragStart={handleDragStart}  priority src={c4} alt="logo" /> </div> ,
-        <div key={4}><Image className={`${styles.divCarouelC}`}  key={4} onDragStart={handleDragStart}  priority src={c5} alt="logo" /> </div> ,
-        <div key={5}><Image className={`${styles.divCarouelC}`}  key={5} onDragStart={handleDragStart}  priority src={c6} alt="logo" /> </div> ,
-        <div key={6}><Image className={`${styles.divCarouelC}`}  key={6} onDragStart={handleDragStart}  priority src={c7} alt="logo" /> </div> ,
-        <div key={7}><Image className={`${styles.divCarouelC}`}  key={7} onDragStart={handleDragStart}  priority src={c8} alt="logo" /> </div> ,
-        <div key={8}><Image className={`${styles.divCarouelC}`}  key={8} onDragStart={handleDragStart}  priority src={c9} alt="logo" /> </div> ,
-        <div key={9}><Image className={`${styles.divCarouelC}`}  key={9} onDragStart={handleDragStart}  priority src={c10} alt="logo" /> </div> ,    
+    
+
+    const items1 =[
+      <Image key={1} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c1} alt='c1'/>,
+      <Image key={2} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c2} alt='c2'/>,
+      <Image key={3} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c3} alt='c3'/>,
+      <Image key={4} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c4} alt='c4'/>,
+      
+      <Image key={6} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c6} alt='c6'/>,
+      <Image key={7} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c7} alt='c7'/>,
+      <Image key={8} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c8} alt='c8'/>,
+      <Image key={9} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c9} alt='c9'/>,
+      <Image key={9} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c10} alt='c10'/>,
     ];
 
   return (
     <>
-    <div className={` text-center pb-1 pt-5 ${styles.firstCaro}`}>
+    <div className={`text-center pb-1 pt-2 ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items} 
       disableButtonsControls='false'
       disableDotsControls='true'
-      responsive={responsive}
+      infinite
+      autoPlay
+      autoWidth
+      autoPlayInterval={800}
       />
       <h1 className='text-center fw-blod text-white pt-3'>NEW MOVIES & SERIES </h1>
     </div>
 
-    <div className={`text-center pb-3 pt-3 ${styles.secondCaro}`}>
+    <div className={`text-center pt-4 pb-3 ${styles.secondCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items1} 
       disableButtonsControls='false'
       disableDotsControls='true'
-      responsive={responsive1}
+      infinite
+      autoPlay
+      autoWidth
+      autoPlayInterval={800}
       />
     </div>
     

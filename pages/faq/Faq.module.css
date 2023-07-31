@@ -1,5 +1,17 @@
-.containerFaq{
-    background-color: aliceblue;
+.menbackgound{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position:absolute;
+}
+
+
+.section1{
+    background-color: rgb(255, 255, 255);
+}
+.section2{
+    background-color: rgba(255, 255, 255, 0.15);
+    
 }
 .accordionBtn button{
     background: rgba(255,237,0,0.2);
