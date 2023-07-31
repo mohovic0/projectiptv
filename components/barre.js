@@ -12,7 +12,7 @@ function Barre() {
   return (
     <>
       <div className="container-fluid text-center">
-                <div className="row justify-content-center pt-5">
+                <div className="row justify-content-center pt-5 pb-5">
                       <div className="col-sm-12 col-md-4 col-lg-4 pt-5">
                         <div className="justify-content-center align-items-center text-center">
                               <Link href={''}  > <Lottie className={`mx-auto  ${styles.icone}`} loop={true} animationData={whatsa} /></Link>

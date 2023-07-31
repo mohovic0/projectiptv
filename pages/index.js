@@ -9,11 +9,16 @@ import Chatwhatsap from '@/components/chatwhatsap'
 import Carousel  from '@/components/carousel'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRef } from 'react'
 
 
 export default function Home() {
 
-  
+  const ref = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <>
@@ -64,10 +69,10 @@ export default function Home() {
                             </div>
 
                             <div className="pt-5">
-                                  <button type="button" className={`ms-0  ${styles.btn1}`} href="/contact">
-                                      <Link className={`${styles.btnlink}`} href="/contact">
+                                  <button onClick={handleClick} type="button" className={`ms-0  ${styles.btn1}`} >
+                                      <span className={`${styles.btnlink}`} >
                                       Get Started
-                                      </Link>
+                                      </span>
                                   </button>
                                   <button type="button" className={`ms-4  ${styles.btn1}`} href="/contact">
                                       <Link className={`${styles.btnlink}`} href="/contact">
@@ -114,9 +119,9 @@ export default function Home() {
         <Barre/>
       </section>
 
-      <section className={`${styles.section4}`}>
+      <section ref={ref} className={`${styles.section4}`}>
 
-          <h1 className='fs-2 fw-bold text-center pt-5 mt-5 mb-5 text-black'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
+          <h1 className='fs-2 fw-bold text-center pt-5 mt-0 mb-5 text-black'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
               <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='10' /></div>
