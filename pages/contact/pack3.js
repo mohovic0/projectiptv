@@ -7,7 +7,6 @@ import Sportmovie from '@/components/sportmovie'
 import Chatwhatsap from '@/components/chatwhatsap'
 import Forme from '@/components/forme'
 import styles from '@/pages/contact/Contact.module.css'
-i
 
 
 function Pack3() {
