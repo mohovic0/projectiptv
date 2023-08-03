@@ -43,7 +43,7 @@ function Pack12() {
               " />
         <meta property="og:url" content="https://www.iptvinfinity.tech"/>
         <meta property="og:site_name" content="IPTV-Infinity"/>
-        <meta property="og:image" content="https://github.com/auzomaki/imagesogiptvinfinity/blob/main/ogimage.PNG"/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogimage.PNG"/>
       </Head>
 
 
