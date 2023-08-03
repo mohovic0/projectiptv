@@ -173,6 +173,8 @@ function Forme({pack}) {
                               onChange={(e)=>(setPayment(e.target.value))}>
                                 <option value="">Payment Method</option>
                                 <option value="Paypal">Paypal</option>
+                                <option value="Bitcoin">Bitcoin</option>
+                                <option value="PAYEER">PAYEER</option>
                                 <option value="IBAN">IBAN</option>  
                               </select>
                               
