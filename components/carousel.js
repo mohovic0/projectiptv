@@ -95,7 +95,7 @@ const Carousel = () => {
       infinite
       autoPlay
       autoWidth
-      autoPlayInterval={800}
+      autoPlayInterval={400}
       />
     </div>
     

@@ -109,9 +109,9 @@ export default function Home() {
           <h1 className='fs-2 fw-bold text-center pt-5 mt-0 mb-5 text-black'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
-              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='10' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '6' price='20' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '12' price='30' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='20' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '6' price='30' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '12' price='50' /></div>
                         
           </div>
         
