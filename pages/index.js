@@ -10,6 +10,7 @@ import Carousel  from '@/components/carousel'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRef } from 'react'
+import imgsub from '@/public/iptvarticle.jpg'
 
 
 export default function Home() {
@@ -135,7 +136,13 @@ export default function Home() {
           </div>
       </section>
 
-      <section className='container' style={{display : "none"}}>
+      <section className='container pt-5' style={{display : "none"}} >
+            <Image
+                    className='container'
+                    src={imgsub}
+                    alt="image subscraption"
+                    
+            />
             <h1 className='text-center'>Unleashing the Ultimate Entertainment Experience: Exploring <strong>IPTV subscription</strong> Services</h1>
             <h2>Introduction</h2>
             <p>In the dynamic landscape of modern entertainment, Internet Protocol Television (IPTV) subscription services have emerged as a groundbreaking solution, redefining the way we consume television content. With an impressive range of channels, on-demand programs, and interactive features, <strong>IPTV subscriptions</strong> have swiftly become a cornerstone of contemporary leisure. This article delves into the captivating realm of <strong>IPTV subscription</strong> services, shedding light on their benefits, features, and the profound impact they ve had on transforming our TV-watching habits.</p>
