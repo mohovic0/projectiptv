@@ -9,19 +9,15 @@ function Faq() {
   return (
     <>
       <Head>
-        <title>ipTv Infinity - Best IPTV Subscription Service Provider</title>
-        <meta name="description" content="ipTv Infinity is the best on the planet, 
-              we always strive hard for perfection and your satisfaction. We give you
-               the stability and reliability of the service. Get the next GEN+ IPTV." />
+        <title>FAQ - Infinity IPTV -#1 Best IPTV Subscription Service Provider</title>
+        <meta name="description" content="Infinity IPTV redefined with our top IPTV subscription. Non-stop sports, extensive channels, all under the Best IPTV UK service. Satisfaction guaranteed. Experience the difference today." />
         <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content="Next.js" />
         <meta property="og:locale" content="en_US"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="ipTv Infinity - Best IPTV Subscription Service Provider"/>
-        <meta property="og:description" content="ipTv Infinity is the best on the planet, 
-              we always strive hard for perfection and your satisfaction. We give you
-               the stability and reliability of the service. Get the next GEN+ IPTV."/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Infinity IPTV - Best IPTV Subscription Service Provider"/>
+        <meta property="og:description" content="Infinity IPTV redefined with our top IPTV subscription. Non-stop sports, extensive channels, all under the Best IPTV UK service. Satisfaction guaranteed. Experience the difference today."/>
         <meta name="keywords" content="iptv subscription, iptv subscription legal, best iptv subscription, iptv subscription reddit, 
               ipTv Infinity subscription, iptv smarters pro subscription, iptv smarters subscription, iptv subscription ebay,
               ip tv subscription, iptv subscribe, iptv sub, iptv smarters subscription reddit, iptvsubscription tv, iptv subscription service,
