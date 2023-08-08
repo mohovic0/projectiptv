@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ipTv Infinity - Best IPTV Subscription Service Provider</title>
+        <title>IPTV Infinity -#1 Best IPTV Subscription Service Provider</title>
         <meta name="description" content="ipTv Infinity is the best on the planet, 
               we always strive hard for perfection and your satisfaction. We give you
                the stability and reliability of the service. Get the next GEN+ IPTV." />
@@ -136,7 +136,7 @@ export default function Home() {
           </div>
       </section>
 
-      <section className='container pt-5' style={{display : "none"}} >
+      <section className='container pt-5' >
             <Image
                     className='container'
                     src={imgsub}
