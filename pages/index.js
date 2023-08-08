@@ -64,21 +64,21 @@ export default function Home() {
                 />
 
                 <div className={`d-block pt-5 text-center mb-5 ${styles.contenu}`}>
-                            <div className={`pt-5 ${styles.title1}`}>
+                            <h2 className={`pt-5 ${styles.title1}`}>
                             FASTEST <span style={{ color: "#e6d600" }}>IPTV</span> SERVICE
-                            </div>
+                            </h2>
 
-                            <div className={`pt-4 lh-sm px-2  ${styles.title2}`}>
+                            <h1 className={`pt-4 lh-sm px-2  ${styles.title2}`}>
                                 <strong>
                                     The Best <span style={{ color: "#e6d600" }}>IPTV</span> <br />{" "}
                                     Subscription For Endless <br /> Entertainment
                                 </strong>
-                            </div>
+                            </h1>
 
-                            <div className={`pt-4 px-2 ${styles.title1}`}>
+                            <h2 className={`pt-4 px-2 ${styles.title1}`}>
                                   Watch Thousands Of TV Shows, Movies, And Sports Anytime, Anywhere.
                                   Level Up Your TV.
-                            </div>
+                            </h2>
 
                             <div className="pt-5">
                                   <button onClick={handleClick} type="button" className={`ms-0  ${styles.btn1}`} >
