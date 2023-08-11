@@ -24,10 +24,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Infinity IPTV -#1 Best IPTV Subscription Service Provider</title>
+        <title>Best IPTV Subscription Service Provider - Infinity IPTV - </title>
         <meta name="description" content="Infinity IPTV is the best on the planet, 
               we always strive hard for perfection and your satisfaction. We give you
-               the stability and reliability of the service. Get the next GEN+ IPTV." />
+               the stability and reliability of the service." />
         <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content="Next.js" />
