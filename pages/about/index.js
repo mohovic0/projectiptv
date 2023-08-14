@@ -73,11 +73,7 @@ function About() {
                         Subscription Now <FontAwesomeIcon className={styles.fonticone} icon={faArrowRightLong} />
                         </Link>
                     </button>
-                  </div>
-                  
-                  
-                 
-                  
+                  </div>    
                   
           </div>
 
