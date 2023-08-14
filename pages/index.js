@@ -113,7 +113,7 @@ export default function Home() {
           </div>
           <div className='col-12 col-lg-6'>
                   <h2 className='fw-blod fs-2 mb-5'>We Provide Best IPTV Server In The World Wide</h2>
-                  Today, we are revolutionizing the way you access the television. With +13000 channels and unique apps, you’ll be watching IPTV in a radically new, intelligent, and intuitive way.
+                  <h6>Today, we are revolutionizing the way you access the television. With +13000 channels and unique apps, you’ll be watching IPTV in a radically new, intelligent, and intuitive way.</h6>
                   
                   <div className='row mt-5'>
                     <ul className='col list-group list-group-flush'>
