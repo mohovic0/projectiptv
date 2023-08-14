@@ -3,6 +3,7 @@ import '@/styles/globals.css'
 import { useEffect } from 'react';
 import Layout from '@/components/layout';
 
+
 export default function App({ Component, pageProps }) {
   useEffect(()=>{
     require('bootstrap/dist/js/bootstrap.bundle.min.js')
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
     return Component.getLayout(<Component {...pageProps} />)
    }
     return (
+     
       <Layout>
           <Component {...pageProps} />
       </Layout>

@@ -11,6 +11,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useRef } from 'react'
 import styled from '@/pages/faq/Faq.module.css'
+import Script from 'next/script'
 
 
 export default function Home() {
@@ -23,6 +24,22 @@ export default function Home() {
 
   return (
     <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+
+      <Script id='google-analysis' strategy="lazyOnload">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
+        
       <Head>
         <title>The Best IPTV Subscription Service Provider, IPTV smarters pro</title>
         <meta name="description" content="Infinity IPTV is the best on the planet, 
@@ -50,8 +67,7 @@ export default function Home() {
         <meta property="og:url" content="https://www.iptvinfinity.tech"/>
         <meta property="og:site_name" content="IPTV-Infinity"/>
         <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogimage.PNG"/>
-      </Head>
-
+    </Head>
 
       <section className={`pt-5 ${styles.section1}`}>
                 <Image
