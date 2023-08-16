@@ -67,6 +67,7 @@ export default function Home() {
                     objectFit="cover"
                     objectPosition="center"
                     quality={100}
+                    priority
                     
                 />
 
