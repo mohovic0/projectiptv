@@ -31,7 +31,7 @@ export default function Home() {
     <>  
       <Head>
         <title>The Best IPTV Subscription Service Provider-UK-Canada-France-...</title>
-        <meta name="description" content="Infinity IPTV is the best on the planet, 
+        <meta name="description" content="UK-Canada-France...-Infinity IPTV is the best on the planet, 
               we always strive hard for perfection and your satisfaction. We give you
                the stability and reliability of the service." />
         <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
