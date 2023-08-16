@@ -8,7 +8,7 @@ import Forme from '@/components/forme'
 import Chatwhatsap from '@/components/chatwhatsap'
 import Carousel  from '@/components/carousel'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { useRef } from 'react'
 
 
@@ -60,12 +60,14 @@ export default function Home() {
 
       <section className={`pt-5 ${styles.section1}`}>
                 <Image
-                    className={styles.imageback}
+                    
                     src={img}
-                    alt="image background"
-                    layout="fill"
+                    alt="The Best IPTV Subscription in UK-Canada-France"
+                    layout='fill'
                     objectFit="cover"
                     objectPosition="center"
+                    quality={100}
+                    
                 />
 
                 <div className={`d-block pt-5 text-center mb-5 ${styles.contenu}`}>
