@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './Carousel.module.css'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import ig1 from '@/public/imagesCarousel/ig1.webp'
-import ig2 from '@/public/imagesCarousel/ig2.webp'
-import ig3 from '@/public/imagesCarousel/ig3.webp'
-import ig4 from '@/public/imagesCarousel/ig4.webp'
+import ig1 from '@/public/imagesCarousel/ig1.png'
+import ig2 from '@/public/imagesCarousel/ig2.png'
+import ig3 from '@/public/imagesCarousel/ig3.png'
+import ig4 from '@/public/imagesCarousel/ig4.png'
 import ig5 from '@/public/imagesCarousel/ig5.jpeg'
 import ig6 from '@/public/imagesCarousel/ig6.jpeg'
 import ig7 from '@/public/imagesCarousel/ig7.jpeg'
@@ -44,30 +44,30 @@ const Carousel = () => {
     // }
 
     const items =[
-      <Image key={1} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig1} alt='ig1'/>,
-      <Image key={2} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig2} alt='ig2'/>,
-      <Image key={3} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig3} alt='ig3'/>,
-      <Image key={4} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig4} alt='ig4'/>,
-      <Image key={5} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig5} alt='ig5'/>,
-      <Image key={6} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig6} alt='ig6'/>,
-      <Image key={7} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig7} alt='ig7'/>,
-      <Image key={8} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig8} alt='ig8'/>,
-      <Image key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig9} alt='ig9'/>,
+      <Image priority key={1} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig1} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={2} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig2} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={3} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig3} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={4} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig4} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={5} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig5} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={6} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig6} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={7} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig7} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={8} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig8} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig9} alt='iptv subscription UK-Canada-France'/>,
     ];
 
     
 
     const items1 =[
-      <Image key={1} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c1} alt='c1'/>,
-      <Image key={2} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c2} alt='c2'/>,
-      <Image key={3} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c3} alt='c3'/>,
-      <Image key={4} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c4} alt='c4'/>,
+      <Image priority key={1} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c1} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={2} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c2} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={3} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c3} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={4} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c4} alt='iptv subscription UK-Canada-France'/>,
       
-      <Image key={6} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c6} alt='c6'/>,
-      <Image key={7} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c7} alt='c7'/>,
-      <Image key={8} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c8} alt='c8'/>,
-      <Image key={9} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c9} alt='c9'/>,
-      <Image key={9} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c10} alt='c10'/>,
+      <Image priority key={6} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c6} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={7} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c7} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={8} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c8} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c9} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c10} alt='iptv subscription UK-Canada-France'/>,
     ];
 
   return (

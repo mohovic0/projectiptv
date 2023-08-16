@@ -8,7 +8,7 @@ import Forme from '@/components/forme'
 import Chatwhatsap from '@/components/chatwhatsap'
 import Carousel  from '@/components/carousel'
 import Link from 'next/link'
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 import { useRef } from 'react'
 
 
