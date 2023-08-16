@@ -51,7 +51,7 @@ export default function Home() {
               iptv subscription dubai, iptv subscription canada reddit, iptv smarters subscription aliexpress, iptv subscription saudi arabia,
               iptv subscription for apple tv 4k, iptv box and subscription, iptv box monthly, iptv box price, iptv subscription uk reddit,
               iptv subscription uk ebay, reddit best iptv subscription, smart iptv subscription ebay,smart iptv subscription reddit,
-              mag 322 w1 iptv box subscription, best arabic iptv 2023 subscription services, 
+              mag 322 w1 iptv box subscription, best arabic iptv 2023 subscription services,UK, Canada, France
               " />
         <meta property="og:url" content="https://www.iptvinfinity.tech"/>
         <meta property="og:site_name" content="IPTV-Infinity"/>
