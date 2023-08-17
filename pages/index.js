@@ -107,6 +107,10 @@ export default function Home() {
         <Carousel />
       </section>
 
+      <section className={`${styles.section3}`}>
+        <Barre/>
+      </section>
+
       <section className={`container-fluid pt-5 ${styles.section7}`}>
         
         <div className='row pt-5'>
@@ -144,10 +148,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={`${styles.section3}`}>
-        <Barre/>
-      </section>
-
       <section ref={ref} className={`${styles.section4}`}>
 
           <h1 className='fs-2 fw-bold text-center pt-5 mt-0 mb-5 text-black'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
@@ -179,11 +179,6 @@ export default function Home() {
                 </div>
           </div>
       </section>
-
-
-      
-
-      
 
          
     </>
