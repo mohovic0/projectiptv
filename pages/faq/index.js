@@ -264,7 +264,9 @@ function Faq() {
                   >
                     <div className="accordion-body">
                       We support 2 payment methods at the moment, with a high security.
-                      The payment methods we support are: <strong>PAYPAL - IBAN </strong>
+                      The payment methods we support are: <strong>PAYPAL - Binance Pay (BUSD) -Cryptocurrencies( Bitcoin (BTC) - Ethereum (ETH) - USD Tether (USDT) - 
+                      Tron (TRX) - Polygon (POLYGON) - Solana (SOL) - Litecoin (LTC) )
+                      </strong>
                     </div>
                   </div>
                 </div>

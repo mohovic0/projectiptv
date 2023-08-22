@@ -85,7 +85,7 @@ function Card({mois, price, childToParent , id}) {
 
             <div className={`mt-2 ${styles.butn}`}>
                 <button type="button" className={`btn ${styles.btn}`}
-                ><Link className={`${styles.btnlink}`} href={`https://iptvinfinity.mysellix.io/product/${id}`}>GET STARTED</Link>
+                ><Link className={`${styles.btnlink}`} href={`https://infinitytechi.mysellix.io/fr/product/${id}`}>GET STARTED</Link>
                 </button>
             </div>
             
