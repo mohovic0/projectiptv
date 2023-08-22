@@ -6,7 +6,7 @@ import {faCrown} from '@fortawesome/free-solid-svg-icons'
 
 import Link from 'next/link'
 
-function Card({mois, price, childToParent}) {
+function Card({mois, price, childToParent , id}) {
 
     const data = {mois} ;
    
@@ -85,7 +85,7 @@ function Card({mois, price, childToParent}) {
 
             <div className={`mt-2 ${styles.butn}`}>
                 <button type="button" className={`btn ${styles.btn}`}
-                ><Link className={`${styles.btnlink}`} href={`/contact/pack${mois}`}>GET STARTED</Link>
+                ><Link className={`${styles.btnlink}`} href={`https://iptvinfinity.mysellix.io/product/${id}`}>GET STARTED</Link>
                 </button>
             </div>
             
