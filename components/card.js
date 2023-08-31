@@ -21,7 +21,7 @@ function Card({mois, price, childToParent , id}) {
             </div>
             
             <div className={styles.price}>
-                <h2>{price} £</h2>
+                <h2>{price} €</h2>
             </div>
 
             <div className={styles.live}>

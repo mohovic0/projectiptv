@@ -30,21 +30,7 @@ export default function Home() {
   return (
     <>  
       <Head>
-                    <script>
-                          {`!function(f,b,e,v,n,t,s)
-                          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                          n.queue=[];t=b.createElement(e);t.async=!0;
-                          t.src=v;s=b.getElementsByTagName(e)[0];
-                          s.parentNode.insertBefore(t,s)}(window, document,'script',
-                          'https://connect.facebook.net/en_US/fbevents.js');
-                          fbq('init', '706706641293465');
-                          fbq('track', 'PageView');  `}
-                      </script>
-                      <noscript><img height="1" width="1" style="display:none"
-                      src="https://www.facebook.com/tr?id=706706641293465&ev=PageView&noscript=1"
-                      /></noscript>
+        
         <title>The Best IPTV Subscription Service Provider-UK-Canada-France ...</title>
         <meta name="description" content="UK-Canada-France...-Infinity IPTV is the best on the planet, 
               we always strive hard for perfection and your satisfaction. We give you
@@ -111,7 +97,7 @@ export default function Home() {
                                       </span>
                                   </button>
                                   <button type="button" className={`ms-4  ${styles.btn1}`} href="/contact">
-                                      <Link className={`${styles.btnlink}`} href="https://wa.me/212675800270">
+                                      <Link className={`${styles.btnlink}`} href="https://wa.me/33774600876">
                                       Free Trial
                                       </Link>
                                   </button>
@@ -170,8 +156,8 @@ export default function Home() {
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
               <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='19.99' id='64e3e7d83a767' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '6' price='30.99' id='64e40104f2f95' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '12' price='45.99' id='64e4013f2de52'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '6' price='24.99' id='64e40104f2f95' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '12' price='39.99' id='64e4013f2de52'/></div>
                         
           </div>
         
