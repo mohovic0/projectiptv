@@ -115,7 +115,7 @@ export default function Home() {
                             <div className="pt-5">
                                   <button onClick={handleClick} type="button" className={`ms-0  ${styles.btn1}`} >
                                       <span className={`${styles.btnlink}`} >
-                                      Get Pricing
+                                      Get Started
                                       </span>
                                   </button>
                                   <button type="button" className={`ms-4  ${styles.btn1}`} href="/contact">
