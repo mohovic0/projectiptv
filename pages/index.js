@@ -8,7 +8,7 @@ import Forme from '@/components/forme'
 import Chatwhatsap from '@/components/chatwhatsap'
 import Carousel  from '@/components/carousel'
 import Link from 'next/link'
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 import { useRef } from 'react'
 
 
@@ -47,8 +47,8 @@ export default function Home() {
         fbq('track', 'PageView');
         `}
       </script>
-      <noscript><Image alt={"fb"} height={1} width={1} style={{display: "none"}}
-        src={`https://www.facebook.com/tr?id=777901347679516&ev=PageView&noscript=1`}
+      <noscript><img alt="fb" height={1} width={1} style={{display: "none"}}
+        src="https://www.facebook.com/tr?id=777901347679516&ev=PageView&noscript=1"
       /></noscript>
 
 
@@ -115,7 +115,7 @@ export default function Home() {
                             <div className="pt-5">
                                   <button onClick={handleClick} type="button" className={`ms-0  ${styles.btn1}`} >
                                       <span className={`${styles.btnlink}`} >
-                                      Get Started
+                                      Pricing
                                       </span>
                                   </button>
                                   <button type="button" className={`ms-4  ${styles.btn1}`} href="/contact">
@@ -160,10 +160,10 @@ export default function Home() {
                   </div>
                   
                   <div className='mb-5'>
-                    <button type="button" className={`btn btn-warning mt-3 ms-0 p-2 ${styled.btn1}`}>
-                      <Link className={`${styled.btnlink}`} href="/contact">
+                    <button onClick={handleClick} type="button" className={`btn btn-warning mt-3 ms-0 p-2 ${styled.btn1}`}>
+                      <span className={`${styled.btnlink}`} >
                         Subscription Now <FontAwesomeIcon className={styled.fonticone} icon={faArrowRightLong} />
-                        </Link>
+                        </span>
                     </button>
                   </div>    
                   
