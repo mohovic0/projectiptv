@@ -6,11 +6,25 @@ import ig1 from '@/public/imagesCarousel/ig1.png'
 import ig2 from '@/public/imagesCarousel/ig2.png'
 import ig3 from '@/public/imagesCarousel/ig3.png'
 import ig4 from '@/public/imagesCarousel/ig4.png'
-import ig5 from '@/public/imagesCarousel/ig5.jpeg'
-import ig6 from '@/public/imagesCarousel/ig6.jpeg'
-import ig7 from '@/public/imagesCarousel/ig7.jpeg'
-import ig8 from '@/public/imagesCarousel/ig8.jpg'
+import ig5 from '@/public/imagesCarousel/ig5.png'
+import ig6 from '@/public/imagesCarousel/ig6.png'
+import ig7 from '@/public/imagesCarousel/ig7.png'
+import ig8 from '@/public/imagesCarousel/ig8.png'
 import ig9 from '@/public/imagesCarousel/ig9.jpeg'
+import ig10 from '@/public/imagesCarousel/ig10.webp'
+import ig11 from '@/public/imagesCarousel/ig11.webp'
+import ig12 from '@/public/imagesCarousel/ig12.webp'
+import ig13 from '@/public/imagesCarousel/ig13.webp'
+import ig14 from '@/public/imagesCarousel/ig14.webp'
+import ig15 from '@/public/imagesCarousel/ig15.webp'
+import ig16 from '@/public/imagesCarousel/ig16.webp'
+import ig17 from '@/public/imagesCarousel/ig17.webp'
+import ig18 from '@/public/imagesCarousel/ig18.webp'
+import ig19 from '@/public/imagesCarousel/ig19.webp'
+
+
+
+
 import c1 from '@/public/imagesCarousel/c1.png'
 import c2 from '@/public/imagesCarousel/c2.png'
 import c3 from '@/public/imagesCarousel/c3.png'
@@ -53,6 +67,17 @@ const Carousel = () => {
       <Image priority key={7} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig7} alt='iptv subscription UK-Canada-France'/>,
       <Image priority key={8} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig8} alt='iptv subscription UK-Canada-France'/>,
       <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig9} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig10} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig11} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig12} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig13} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig14} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig15} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig16} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig17} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig18} alt='iptv subscription UK-Canada-France'/>,
+      <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={ig19} alt='iptv subscription UK-Canada-France'/>,
+
     ];
 
     
