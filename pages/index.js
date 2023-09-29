@@ -80,7 +80,7 @@ export default function Home() {
               " />
         <meta property="og:url" content="https://www.iptvinfinity.tech"/>
         <meta property="og:site_name" content="IPTV-Infinity"/>
-        <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/fff.png"/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/oguk.png"/>
         
     </Head>
 
