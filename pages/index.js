@@ -49,7 +49,7 @@ export default function Home() {
         
         `}
       </script>
-      <noscript><Image height="1" width="1" style="display:none"
+      <noscript><Image alt="og" height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=697603702011244&ev=PageView&noscript=1"
       /></noscript>
 
@@ -81,7 +81,7 @@ export default function Home() {
               " />
         <meta property="og:url" content="https://www.iptvinfinity.tech"/>
         <meta property="og:site_name" content="IPTV-Infinity"/>
-        <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogoffre.jpg"/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/fff.png"/>
         
     </Head>
 
