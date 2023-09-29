@@ -32,7 +32,6 @@ export default function Home() {
     <>  
       <Head>
 
-              
       
       <script>
         {`
@@ -44,13 +43,13 @@ export default function Home() {
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '697603702011244');
+        fbq('init', '1693007447870448');
         fbq('track', 'PageView');
         
         `}
       </script>
       <noscript><Image alt="og" height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=697603702011244&ev=PageView&noscript=1"
+      src="https://www.facebook.com/tr?id=1693007447870448&ev=PageView&noscript=1"
       /></noscript>
 
 
