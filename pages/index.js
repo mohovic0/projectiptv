@@ -116,14 +116,14 @@ export default function Home() {
                             <div className="pt-5">
                                   <button onClick={handleClick} type="button" className={`ms-0  ${styles.btn1}`} >
                                       <span className={`${styles.btnlink}`} >
-                                      Get Started
+                                      PRICES & PLANS
                                       </span>
                                   </button>
-                                  <button type="button" className={`ms-4  ${styles.btn1}`} href="/contact">
+                                  {/* <button type="button" className={`ms-4  ${styles.btn1}`} href="/contact">
                                       <Link className={`${styles.btnlink}`} href="https://wa.me/33774600876">
                                       Free Trial
                                       </Link>
-                                  </button>
+                                  </button> */}
                             </div>
                 </div>
       </section>

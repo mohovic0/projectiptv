@@ -108,7 +108,7 @@ const Carousel = () => {
       infinite
       autoPlay
       autoWidth
-      autoPlayInterval={1300}
+      autoPlayInterval={1500}
       />
       <h1 className='text-center fw-blod text-white pt-3'>New Movies & Series </h1>
     </div>
@@ -122,7 +122,7 @@ const Carousel = () => {
       infinite
       autoPlay
       autoWidth
-      autoPlayInterval={800}
+      autoPlayInterval={1000}
       />
     </div>
     

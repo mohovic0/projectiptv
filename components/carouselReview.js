@@ -63,7 +63,7 @@ const CarouselReview = () => {
       infinite
       autoPlay
       autoWidth
-      autoPlayInterval={800}
+      autoPlayInterval={1500}
       />
      
     </div>
