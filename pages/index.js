@@ -7,6 +7,7 @@ import Sportmovie from '@/components/sportmovie'
 import Forme from '@/components/forme'
 import Chatwhatsap from '@/components/chatwhatsap'
 import Carousel  from '@/components/carousel'
+import CarouselReview from '@/components/carouselReview'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRef } from 'react'
@@ -203,6 +204,11 @@ export default function Home() {
                 </div>
           </div>
       </section>
+
+      <section className={`mt-4 ${styles.section8}`}>
+        <CarouselReview />
+      </section>
+
 
          
     </>
