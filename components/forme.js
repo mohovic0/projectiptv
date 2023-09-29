@@ -84,7 +84,7 @@ function Forme({pack}) {
             
             <div className="row align-items-center">
                 <div className={`p-4 ${styles.formStyling}`}>
-                      <h1 className='fs-2 fw-bold'>Contact Us</h1>
+                      <h1 className='fs-2 fw-bold'>Billing details</h1>
                       <form onSubmit={handlSubmitFrom}>
                           <div className="mb-3">
                             <label htmlFor="formGroupExampleInput" className="form-label">Full Name *</label>
@@ -174,7 +174,7 @@ function Forme({pack}) {
                                 <option value="">Payment Method</option>
                                 <option value="Paypal">Paypal</option>
                                 <option value="Bitcoin">Bitcoin</option>
-                                <option value="IBAN">IBAN</option>  
+                                <option value="Transfer bank">Transfer bank</option>  
                               </select>
                               
                           </div>
