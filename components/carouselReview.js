@@ -54,7 +54,7 @@ const CarouselReview = () => {
   return (
     <>
      <h1 className='text-center fw-blod text-white pt-3'>Reviews & Support</h1>
-    <div className={`text-center pb-1 pt-2 ${styles.firstCaro}`}>
+    <div className={`text-center pb-3 pt-2 ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items} 

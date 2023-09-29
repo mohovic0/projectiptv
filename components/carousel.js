@@ -108,12 +108,12 @@ const Carousel = () => {
       infinite
       autoPlay
       autoWidth
-      autoPlayInterval={800}
+      autoPlayInterval={1300}
       />
-      <h1 className='text-center fw-blod text-white pt-3'>NEW MOVIES & SERIES </h1>
+      <h1 className='text-center fw-blod text-white pt-3'>New Movies & Series </h1>
     </div>
 
-    <div className={`text-center pt-4 pb-3 ${styles.secondCaro}`}>
+    <div className={`text-center pt-4  ${styles.secondCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items1} 
@@ -122,7 +122,7 @@ const Carousel = () => {
       infinite
       autoPlay
       autoWidth
-      autoPlayInterval={400}
+      autoPlayInterval={800}
       />
     </div>
     

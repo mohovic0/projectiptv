@@ -131,10 +131,15 @@ export default function Home() {
       <section className={`${styles.section2}`}>
         <Carousel />
       </section>
+      <section className={`pt-4 ${styles.section8}`}>
+        <CarouselReview />
+      </section>
 
       <section className={`${styles.section3}`}>
         <Barre/>
       </section>
+
+     
 
       <section className={`container-fluid pt-5 ${styles.section7}`}>
         
@@ -205,9 +210,7 @@ export default function Home() {
           </div>
       </section>
 
-      <section className={`mt-4 ${styles.section8}`}>
-        <CarouselReview />
-      </section>
+      
 
 
          
