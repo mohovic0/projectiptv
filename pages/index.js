@@ -49,7 +49,7 @@ export default function Home() {
         
         `}
       </script>
-      <noscript><img height="1" width="1" style="display:none"
+      <noscript><Image height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=697603702011244&ev=PageView&noscript=1"
       /></noscript>
 
