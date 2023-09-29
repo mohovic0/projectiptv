@@ -174,7 +174,6 @@ function Forme({pack}) {
                                 <option value="">Payment Method</option>
                                 <option value="Paypal">Paypal</option>
                                 <option value="Bitcoin">Bitcoin</option>
-                                <option value="PAYEER">PAYEER</option>
                                 <option value="IBAN">IBAN</option>  
                               </select>
                               
@@ -189,20 +188,23 @@ function Forme({pack}) {
                             
                           </div>
 
-                          <button type="submit" className={`btn w-100 btn-lg mt-3 ${styles.btnSub} `}>{spin && <span className='fs-5 fw-blod'>Submit</span>}
+                          <button type="submit" className={`btn w-100 btn-lg mt-3 ${styles.btnSub} `} >
+                            
+                              {spin && <span className='fs-5 fw-blod'>Submit</span>}
                           
                               {!spin && <div className={`spinner-border  ${styles.spiner}`} role="status">
                                 <span className="visually-hidden"></span>
                               </div> }
                           </button>
-                              
+                          
+                          {send ? window.location.replace(`https://infinitytechi.mysellix.io/fr/product/${pack}`) : null}
 
                           {  send && <span className={`align-items-center ${styles.messageSend}`}>
                             &nbsp;&nbsp;&nbsp;<FontAwesomeIcon className={styles.iconSend} icon={faCheck} />
                             &nbsp; <span className='align-middle'>Your details has been successfully submitted. thanks!</span>
                             </span> }
 
-
+                          
                             {  notSend && <span className={`align-items-center ${styles.messageSendError}`}>
                             &nbsp;&nbsp;&nbsp;<FontAwesomeIcon className={styles.iconSendError} icon={faXmark} />
                             &nbsp; <span className='align-middle'>Internal Server Error. please try again!</span>

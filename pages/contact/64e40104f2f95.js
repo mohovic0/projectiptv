@@ -47,7 +47,7 @@ function Pack6() {
             <div className="container pt-5">
                 <div className="row pt-5">
                       <div className={`col-12 col-lg-6`}>
-                          <Forme pack ={routerCurrent} />
+                          <Forme pack = "64e40104f2f95" />
                       </div>
                       <div className="col-12 col-lg-6 mt5">
                           <Chatwhatsap/>       
