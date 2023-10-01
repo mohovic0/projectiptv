@@ -5,7 +5,7 @@ import 'react-phone-input-2/lib/style.css'
 import Head from 'next/head'
 import Sportmovie from '@/components/sportmovie'
 import Chatwhatsap from '@/components/chatwhatsap'
-import Forme from '@/components/forme'
+import ContactForm from '@/components/contactForm'
 import styles from '@/pages/contact/Contact.module.css'
 
 function Contact() {
@@ -49,7 +49,7 @@ function Contact() {
           <div className="container pt-5 mt-0">
               <div className="row py-5">
                     <div className={`col-12 col-lg-6`}>
-                        <Forme pack ={routerCurrent} />
+                        <ContactForm pack ={routerCurrent} />
                     </div>
                     <div className="col-12 col-lg-6 mt-5">
                         <Chatwhatsap/>       
