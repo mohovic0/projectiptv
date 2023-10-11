@@ -7,13 +7,16 @@
 
 .btn1{
     font-size: 20px;
-    background-color: #e6d600;
+    background-color: #FF5F1F;
     border-radius: 30px;
+    border: none;
 }
 .btn1:hover{
     transform: translateY(0) scale(1.05);
     transition: all 0.5s;
+    background-color: #FF5F1F;
 }
+
 .btnlink{
     text-decoration: none;
     color: white;
@@ -24,5 +27,5 @@
 }
 .icon{
     width: 20px;
-    color: #FFED00;
+    color: #FF5F1F;
 }

@@ -1,8 +1,8 @@
 .container{
-    width: 330px;
-    background-color: rgb(255, 255, 255);
+    width: 300px;
+    background-color: #e2b2a6;
     border-radius: 20px;
-    padding: 15px;
+    padding: 8px;
 
     /*border: solid rgba(121, 121, 121, 0.5);*/
 }
@@ -25,17 +25,17 @@
     
     text-align: center;
 }
-.price h2{
+.price h4{
     margin: 5px;
     text-align: center;
-    background-color: #FFED00;
+    background-color: #FF5F1F;
     padding: 5px;
     border-radius:10px;
     font-weight: bolder;
     font-size: 35px;
 }
 .live{
-    font-size: 20px;
+    font-size: 14px;
     margin: 5px;
     text-align: center;
     background-color: black;
@@ -46,12 +46,12 @@
 
 .icon{
     width: 20px;
-    color: #FFED00;
+    color: #FF5F1F;
 }
 .info{
     display: block;
     align-items: center;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 600;
     text-align: center;
 }
@@ -62,13 +62,14 @@
 
 .btn{
     font-size: 20px;
-    background-color: #e6d600;
+    background-color: #FF5F1F;
     text-align: center;
 }
 .btn:hover{
-    transform: translateY(0) scale(1.1);
+    transform: translateY(0) scale(1.01);
     transition: all 0.5s;
-    border: solid 1px #e6d600;
+    border: solid 1px #FF5F1F;
+    background-color: #FF5F1F;
 }
 .btnlink{
     text-decoration: none;
@@ -77,6 +78,6 @@
 }
 
 .iconeCrow{
-    width: 100px;
-    color: #e6d600;
+    width: 70px;
+    color: #FF5F1F;
 }

@@ -7,11 +7,11 @@ import styles from './Sportmovie.module.css'
 
 function Sportmovie() {
   return (
-    <div className='container'>
+    <div className='container text-white'>
 
         <div className='row'>
                 <div className='col-12 col-lg-6'>
-                    <h3 className="fs-2 fw-bold mt-3 text-center"> SPORTS – MOVIES – SERIES </h3>
+                    <h3 className="fs-2 fw-bold pt-3 text-center"> SPORTS – MOVIES – SERIES </h3>
                     <h5 className="fs-5 mt-3 text-center">With INFINITY IPTV you can watch what you want, whenever you want, the biggest events in sports, the best movies and TV series.</h5>
                     <Lottie className={`mx-auto  `} loop={true} animationData={sportMovie} />
                 </div>

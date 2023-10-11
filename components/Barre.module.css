@@ -2,3 +2,12 @@
     width: 100px;
     height: 100px;
 }
+
+.boitone{
+    background-color: transparent;
+    border-radius: 35px 50px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px; 
+    border: none;
+}

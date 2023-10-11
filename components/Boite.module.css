@@ -1,0 +1,11 @@
+
+
+
+.boitone{
+    background-image: linear-gradient(to right,#2c599d, #5b84c4 );
+    border-radius: 20px 50px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+}

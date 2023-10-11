@@ -6,7 +6,8 @@ import Card from '@/components/card'
 import Sportmovie from '@/components/sportmovie'
 import Forme from '@/components/forme'
 import Chatwhatsap from '@/components/chatwhatsap'
-import Carousel  from '@/components/carousel'
+import Carouselone  from '@/components/carouselone'
+import Carouseltwo from '@/components/carouseltwo'
 import CarouselReview from '@/components/carouselReview'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -19,6 +20,9 @@ import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import aboutLottie from '@/public/aboutLottie'
 import styled from '@/pages/about/About.module.css'
+import Carouselthre from '@/components/carouselthre'
+import CarouselFour from '@/components/carouselfour'
+import Boite from '@/components/boite'
 
 export default function Home() {
 
@@ -62,7 +66,8 @@ export default function Home() {
     </Head>
 
       <section className={`pt-5 ${styles.section1}`}>
-                <Image
+                
+                 <Image
                     
                     src={img}
                     alt="The Best IPTV Subscription in UK-Canada-France"
@@ -72,26 +77,28 @@ export default function Home() {
                     quality={100}
                     priority
                     
-                />
+                /> 
 
-                <div className={`d-block pt-5 text-center mb-5 ${styles.contenu}`}>
-                            <h2 className={`pt-5 ${styles.title1}`}>
-                            FASTEST <span style={{ color: "#e6d600" }}>IPTV</span> SERVICE
+                <div className={`d-block pt-2 text-center  ${styles.contenu}`}>
+                            <Carouseltwo />
+                            <CarouselFour />
+                            <h2 className={`pt-2 ${styles.title1}`}>
+                            FASTEST <span style={{ color: "#FF5F1F" }}>IPTV</span> SERVICE
                             </h2>
 
-                            <h1 className={`pt-4 lh-sm px-2  ${styles.title2}`}>
+                            <h1 className={`pt-2 lh-sm px-2  ${styles.title2}`}>
                                 <strong>
-                                    The Best <span style={{ color: "#e6d600" }}>IPTV</span> <br />{" "}
+                                    The Best <span style={{ color: "#FF5F1F" }}>IPTV</span> <br />{" "}
                                     Subscription For Endless <br /> Entertainment
                                 </strong>
                             </h1>
 
-                            <h2 className={`pt-4 px-2 ${styles.title1}`}>
+                            <h2 className={`pt-2 px-2 ${styles.title1}`}>
                                   Watch Thousands Of TV Shows, Movies, And Sports Anytime, Anywhere.
                                   Level Up Your TV.
                             </h2>
 
-                            <div className="pt-5">
+                            <div className="pt-3">
                                   <button onClick={handleClick} type="button" className={`ms-0  ${styles.btn1}`} >
                                       <span className={`${styles.btnlink}`} >
                                       PRICES & PLANS
@@ -103,15 +110,16 @@ export default function Home() {
                                       </Link>
                                   </button> */}
                             </div>
+                            <Carouselone />
                 </div>
+                
       </section>
-
-      <section className={`${styles.section2}`}>
-        <Carousel />
-      </section>
-      <section className={`pt-4 ${styles.section8}`}>
-        <CarouselReview />
-      </section>
+                                    
+      <section className={`mt-0 pt-2 ${styles.section2}`}>
+        <CarouselFour />
+        <Carouselthre />
+      </section> 
+      
 
       <section className={`${styles.section3}`}>
         <Barre/>
@@ -119,7 +127,7 @@ export default function Home() {
 
      
 
-      <section className={`container-fluid pt-5 ${styles.section7}`}>
+      <section className={`container-fluid text-white ${styles.section7}`}>
         
         <div className='row pt-5'>
 
@@ -130,16 +138,16 @@ export default function Home() {
                   <h2 className='fw-blod fs-2 mb-5'>We Provide Best IPTV Server In The World Wide</h2>
                   <h6>Today, we are revolutionizing the way you access the television. With +13000 channels and unique apps, you’ll be watching IPTV in a radically new, intelligent, and intuitive way.</h6>
                   
-                  <div className='row mt-5'>
+                  <div className='ms-1 me-1 row mt-5 '>
                     <ul className='col list-group list-group-flush'>
-                      <li className='mb-4 list-group-item'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 150+ Countries Live Channles</li>
-                      <li className='list-group-item mb-4'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Expert technical team</li>
-                      <li className=' list-group-item mb-2'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Reasonable price packages</li>
+                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start  border-0 mb-4  list-group-item text-white'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 150+ Countries Live Channles</li>
+                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start  border-0 list-group-item mb-4 text-white '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Expert technical team</li>
+                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start  border-0 list-group-item mb-2 text-white  '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Reasonable price packages</li>
                     </ul>
                     <ul className='col list-group list-group-flush'>
-                      <li className='list-group-item mb-4'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Trusted & recommended  </li>
-                      <li className=' list-group-item mb-4'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 24/7 quick support</li>
-                      <li className=' list-group-item mb-2'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Best Network Server</li>
+                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-4 text-white'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Trusted & recommended  </li>
+                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-4 text-white'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 24/7 quick support</li>
+                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-2 text-white'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Best Network Server</li>
                     </ul>
                   </div>
                   
@@ -156,15 +164,17 @@ export default function Home() {
         </div>
       </section>
 
+      
+
       <section ref={ref} className={`${styles.section4}`}>
 
-          <h1 className='fs-2 fw-bold text-center pt-5 mt-0 mb-5 text-black'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
+          <h1 className='fs-2 fw-bold text-center pt-1 mt-0 mb-4 text-white'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
-              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3' price='19.99' id='64e4013f2de52' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '6' price='29.99' id='64e40104f2f95' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card  mois = '12' price='45.99' id='64e3e7d83a767'/></div>
-                        
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '3' price='19.99' id='64e4013f2de52' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '6' price='29.99' id='64e40104f2f95' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '12' price='45.99' id='64e3e7d83a767'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='45.99' id='64e3e7d83a767'/></div>
           </div>
         
       </section>
@@ -187,7 +197,10 @@ export default function Home() {
                 </div>
           </div>
       </section>
-
+      
+      <section className={`pt-4 ${styles.section8}`}>
+        <CarouselReview />
+      </section>
       
 
 
