@@ -15,7 +15,7 @@ function About() {
     <>
 
       <Head>
-        <title>About-UK-Canada-France...-#1 Best IPTV Subscription Service Provider</title>
+        <title>About-USA-UK-Canada-France...-#1 Best IPTV Subscription Service Provider</title>
         <meta name="description" content="Choose one of our IPTV plans and enjoy the best live TV, series, movies and sports from the world's best channels.Switch to INFINITY IPTV and reduce your cable bill!" />
         <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

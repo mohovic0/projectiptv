@@ -17,7 +17,7 @@ function Contact() {
   return (
     <>  
       <Head>
-        <title>Contact-UK-Canada-France...-#1 Best IPTV Subscription Service Provider</title>
+        <title>Contact-USA-UK-Canada-France...-#1 Best IPTV Subscription Service Provider</title>
         <meta property="description" content="ipTv Infinity the team of experts is standing by to help answer your questions, process your orders, and guide you through the installation of your subscription."/>
         <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -1218,7 +1218,7 @@ function Channels() {
     
     <>
         <Head>
-            <title>FAQ-UK-Canada-France...-#1 Best IPTV Subscription Service Provider</title>
+            <title>channels-USA-UK-Canada-France...-#1 Best IPTV Subscription Service Provider</title>
             <meta name="description" content="Infinity IPTV redefined with our top IPTV subscription. Non-stop sports, extensive channels, all under the Best IPTV UK service. Satisfaction guaranteed. Experience the difference today." />
             <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
