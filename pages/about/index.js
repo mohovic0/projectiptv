@@ -7,8 +7,8 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
-
-
+import Sportmovie from '@/components/sportmovie'
+import Barre from '@/components/barre'
 
 function About() {
   return (
@@ -78,6 +78,16 @@ function About() {
           </div>
 
         </div>
+
+      </section>
+
+
+      <section className={`${styles.section2}`}>
+        <Sportmovie/>
+      </section>
+
+      <section className={`${styles.section3}`}>
+        <Barre/>
       </section>
 
 
