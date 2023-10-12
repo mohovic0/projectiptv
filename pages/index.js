@@ -166,7 +166,7 @@ export default function Home() {
 
       
 
-      <section ref={ref} className={`${styles.section4}`}>
+      <section ref={ref} className={`pb-5 ${styles.section4}`}>
 
           <h1 className='fs-2 fw-bold text-center pt-1 mt-0 mb-4 text-white'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
@@ -183,7 +183,13 @@ export default function Home() {
         <Sportmovie/>
       </section>
 
-      <section className={`container ${styles.section6}`}>
+      
+      
+      <section className={`pt-4 ${styles.section8}`}>
+        <CarouselReview />
+      </section>
+      
+      {/* <section className={`container-fluid ${styles.section6}`}>
         <div className='row '>
                 <div className="col-12 col-lg-6 ">
                       <Chatwhatsap/>
@@ -191,18 +197,12 @@ export default function Home() {
                 </div>
                 <div className='col-12 col-lg-6 '>
                     
-                    <h1 className="fs-1 fw-bold mt-3 text-center mb-4"> Ready to get started? </h1>
+                    <h1 className="fs-1 fw-bold mt-3 text-center mb-4 "> Ready to get started? </h1>
                     <Forme />
                     
                 </div>
           </div>
-      </section>
-      
-      <section className={`pt-4 ${styles.section8}`}>
-        <CarouselReview />
-      </section>
-      
-
+      </section> */}
 
          
     </>

@@ -1,15 +1,54 @@
 import React from 'react';
 import styles from './Footer.module.css'
+import logo from '@/public/logo.png'
+import Image from 'next/image';
+import Link from 'next/link';
 
+const Footer = () => 
+<footer className="page-footer font-small blue pt-4 " style={{background : "linear-gradient(to right, #b04f34, #190a05)"}}>
+    <div className="container-fluid text-center text-md-left">
+        <div className="row">
+            
 
-function Footer() {
-  return (
-   
+            <hr className="clearfix w-100 d-md-none pb-0"/>
 
-<div className={`p-2 ${styles.footer}`}>
-        <div>© 2023 INFINITY IPTV. Powered by INFINITY IPTV.</div>
-</div>
-  )
-}
+            <div className="col-md-3 mb-md-0 mb-3">
+                
+                <ul className="list-unstyled ">
+                    <li><Link className='text-white text-decoration-none fw-bold' href="/about">About us</Link></li>
+                    <li><Link className='text-white text-decoration-none fw-bold' href="/faq">Refund Policy</Link></li>
+                    <li><Link  className='text-white text-decoration-none fw-bold' href="/faq">Privacy Policy</Link></li>
+                    <li><Link className='text-white text-decoration-none fw-bold' href="/faq">Terms of Use</Link></li>
+                </ul>
+            </div>
+
+            <div className="col-md-3 mb-md-0 mb-3">
+                
+                <ul className="list-unstyled text-white">
+                    <li className='fw-bold'> Contact us </li>
+                    <li className='fw-bold'>Whatsapp : +33 7 74 60 08 76</li>
+                    <li className='fw-bold'>Email : iptvinfinity2@gmail.com </li>
+                  
+                </ul>
+            </div>
+
+            <div className="col-md-6 mt-md-0 mt-3">
+                <Image
+                    src={logo}
+                    alt="logo"
+                    width={80}
+                    height={80}
+                />
+                <h5 className="text-uppercase text-white">IPTV INFINITY</h5>
+                <div className="footer-copyright text-center py-3 text-white">© 2022 Copyright:
+                  <a href="iptvinfinity.tech" className='text-decoration-none text-white'> iptvinfinity.tech</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</footer>
 
 export default Footer

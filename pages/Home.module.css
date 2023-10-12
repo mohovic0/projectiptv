@@ -91,7 +91,7 @@
     background-image: linear-gradient(to right, #b04f34, #190a05);
 }
 .section8{
-    background-color: transparent;
+    background-image: linear-gradient(to right, #b04f34, #190a05);
 
 }
 .section10{
@@ -100,6 +100,10 @@
 .section5{
     background-image: linear-gradient(to right, #b04f34, #190a05);
 }
+.section6{
+    background-image: linear-gradient(to right, #b04f34, #190a05);
+}
+
 
 
 /* @media screen and (max-width : 600px) {
