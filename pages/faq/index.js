@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Faq.module.css";
-import Forme from "@/components/forme";
 import Head from "next/head";
 import Chatwhatsap from "@/components/chatwhatsap";
+import ContactForm from "@/components/contactForm";
 
 
 function Faq() {
@@ -338,10 +338,10 @@ function Faq() {
 
 
         <section className={`container-fluid ${styles.section2}`}>
-              <h1 className="fs-1 fw-bolder fst-italic pt-5 mb-5 text-center">For More Details</h1>
+              <h1 className="fs-1 fw-bolder fst-italic pt-5 mb-5 text-center text-white">For More Details</h1>
 
               <div className="row">
-                  <div className="col-12 col-lg-6"><Forme /></div>
+                  <div className="col-12 col-lg-6"><ContactForm /></div>
                   <div className="col-12 col-lg-6"><Chatwhatsap/></div>
                   
               </div>
