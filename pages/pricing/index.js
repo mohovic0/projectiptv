@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '@/pages/pricing/Pricing.module.css'
 import Card from '@/components/card'
+import Sportmovie from '@/components/sportmovie'
+import Barre from '@/components/barre'
 
 function Pricing() {
   return (
@@ -49,6 +51,15 @@ function Pricing() {
                     <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '12' price='45.99' id='64e3e7d83a767'/></div>
                     <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='45.99' id='64e3e7d83a767'/></div>
                 </div>
+          </section>
+
+
+          <section className={`${styles.section2}`}>
+            <Sportmovie/>
+          </section>
+
+          <section className={`${styles.section3}`}>
+            <Barre/>
           </section>
         
           
