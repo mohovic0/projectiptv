@@ -43,7 +43,7 @@ function Pack6() {
 
 
         <div className={`${styles.menbackgound}`}></div> 
-        <section>
+        <section className={`${styles.section1}`}>
             <div className="container pt-5">
                 <div className="row pt-5">
                       <div className={`col-12 col-lg-6`}>
@@ -57,11 +57,11 @@ function Pack6() {
         </section>
             
         
-        <section>
+        <section className={`${styles.section2}`}>
           <Sportmovie/>
         </section>
   
-        <section>
+        <section className={`${styles.section3}`}>
           <Barre/>
         </section>
       </>

@@ -45,7 +45,8 @@ function Contact() {
 
 
       <div className={`${styles.menbackgound}`}></div> 
-      <section>
+
+      <section className={`${styles.section1}`}>
           <div className="container pt-5 mt-0">
               <div className="row py-5">
                     <div className={`col-12 col-lg-6`}>
@@ -59,11 +60,11 @@ function Contact() {
       </section>
           
       
-      <section>
+      <section className={`${styles.section2}`}>
         <Sportmovie/>
       </section>
 
-      <section>
+      <section className={`${styles.section3}`}>
         <Barre/>
       </section>
     </>

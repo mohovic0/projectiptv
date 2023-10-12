@@ -127,7 +127,7 @@ export default function Home() {
 
      
 
-      <section className={`container-fluid text-white ${styles.section7}`}>
+      <section className={`container-fluid text-white  ${styles.section7}`}>
         
         <div className='row pt-5'>
 

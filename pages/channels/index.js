@@ -822,6 +822,397 @@ function Channels() {
 
     ]
 
+    const caNews=[
+        'CA005:TMN-1',
+        'CA007:BNN',
+        'CA009:CBC-EAST',
+        'CA010:CBC-NEWS-NETWORK',
+        'CA013:CNN',
+        'CA016:CP24',
+        'CA019:CTV',
+        'CA020:CTV Atlantic',
+        'CA021:CTV-NEWS',
+        'CA028:E!',
+        'CA035:GSN',
+        'CA041:HLN',
+        'CA053:W-NETWORK',
+        'CA080:LCN FR',
+        'CA081:RDI FR',
+        'CA091:BBC CANADA',
+        'CA092:BBC WORLD NEWS',
+        'CA098:CBC MONTREAL',
+        'CA099:CBC NEWS',
+        'CA100:CBC OTTAWA',
+        'CA101:CBC TORONTO',
+        'CA102:CBC VANCOUVER',
+        'CA103:CBS EAST',
+        'CA104:CBS WEST',
+        'CA109:CNBC',
+        'CA110:CNN INTERNATIONAL',
+        'CA116:CTV 2 VANCOUVER',
+        'CA117:CTV OTTAWA',
+        'CA118:CTV TORONTO',
+        'CA119:CTV VANCOUVER',
+        'CA120:CTV2 OTTAWA',
+        'CA133:FOX NEWS',
+        'CA149:LCN',
+        'CA157:VIE',
+        'CA161:WGN',
+        'CA169:CRAVE 2 / TMN 2',
+        'CA170:CRAVE 3 / TMN 3',
+        'CA171:CRAVE 4 / TMN 4',
+        'CA172:TV5 QUEBEC',
+        'CA173:NTV',
+        'CA180:RDI',
+        'CA181:RDS',
+        'CA182:RDS 2',
+        'CA183:RDS INFO',
+        'CA204:CTV HALIFAX',
+        'CA207:CBC NOVA SCOTIA',
+        'CA212:MEDIASET ITALIA CANADA',
+        'CA214:CBC CALGARY',
+        'CA216:CTV CALGARY',
+
+    ]
+
+    const caKids = ['CA023:DISNEY',
+    'CA024:DISNEY-JR',
+    'CA025:DISNEY-XD',
+    'CA029:FAMILY',
+    'CA043:PBS',
+    'CA064:TREEHOUSE',
+    'CA070:TVO',
+    'CA072:YTV',
+    'CA096:CARTOON NETWORK',
+    'CA125:DISNEY FRENCH',
+    'CA130:FAMILY CHRGD',
+    'CA131:FAMILY JR',
+    'CA147:KNOWLEDGE KIDS',
+    'CA164:YOOPA',
+    'CA194:TELE LATINO',
+    'CA195:TELE QUEBEC',
+    'CA196:TELE TOON EAST',
+    'CA197:TELE TOON FRENCH',
+    'CA198:TELEMAGINO',
+    'CA209:NICK',
+    'CA211:FX FHD',
+    ]
+
+    const caDocum = ['CA004:ANIMAL-PLANET',
+    'CA022:DISCOVERY',
+    'CA040:HISTORY',
+    'CA042:ID',
+    'CA049:NAT-GEO',
+    'CA050:NAT-GEO-WILD',
+    'CA057:SMITHSONIAN',
+    'CA083:A&E',
+    'CA094:CANAL D',
+    'CA095:CANAL SAVOIR',
+    'CA115:CRIME INVEST',
+    'CA124:DISCOVERY SCIENCE CANADA',
+    'CA126:DOCUMENTARY',
+    'CA129:EVASION',
+    'CA140:H2 CANADA',
+    'CA143:HISTORIO',
+    'CA213:TRAVEL ESCAPE',
+    '24/7: UK Stand Up',
+    '24/7: Two Pints Of Lager And A Packet Of Crisps',
+    '24/7: Two And A Half Men',
+    '24/7: True Blood',
+    '24/7: Transformers',
+    '24/7: Trailer Park Boys',
+    '24/7: Top Cat',
+    '24/7: Tom And Jerry',
+    '24/7: The Young Ones',
+    '24/7: The Wonder Years',
+    '24/7: The Walking Dead',
+    '24/7: The Vicar of Dibley',
+    '24/7: The Vampire Diaries',
+    '24/7: The Transporter',
+    '24/7: The Spectacular Spider man',
+    '24/7: The Sopranos',
+    '24/7: The Simpsons',
+    '24/7: The Royle Family',
+    '24/7: The Regular Show',
+    '24/7: The Office US',
+    '24/7: The Office UK',
+    '24/7: The Munsters',
+    '24/7: The Likely Lads',
+    '24/7: The League Of Gentlemen',
+    '24/7: The King Of Queens',
+    '24/7: The IT Crowd',
+    '24/7: The Inbetweeners',
+    '24/7: The Hunger Games',
+    '24/7: The Good Place',
+    '24/7: The Good Life',
+    '24/7: The Golden Girls',
+    '24/7: The Goldbergs',
+    '24/7: The Flintstones',
+    '24/7: The Flash',
+    '24/7: The Fast And Furious',
+    '24/7: The Big Bang Theory',
+    '24/7: The Batman',
+    '24/7: The A Team',
+    '24/7: Superhero Movies',
+    '24/7: Stranger Things',
+    '24/7: Steven Universe',
+    '24/7: Steptoe and son',
+    '24/7: Star Wars The Clone Wars',
+    '24/7: Star Wars Rebels',
+    '24/7: Star Wars',
+    '24/7: Star Trek',
+    '24/7: Spongebob Square Pants',
+    '24/7: Spider Man',
+    '24/7: South Park',
+    '24/7: Some Mothers Do Ave Em',
+    '24/7: Simpsons:Treehouse of Horror',
+    '24/7: Sherlock',
+    '24/7: Sgt Bilko',
+    '24/7: Sex In The City',
+    '24/7: Seinfeld',
+    '24/7: Scrubs',
+    '24/7: Scream Queens',
+    '24/7:SANTA CLARITA DIET',
+    '24/7: Scifi Movies',
+    '24/7: Rugrats',
+    '24/7: Roseanne',
+    '24/7: Rocky',
+    '24/7: Rising Damp',
+    '24/7: Ricky Gervais Stand Up',
+    '24/7: Rick And Morty',
+    '24/7: Red Dwarf',
+    '24/7: Prison Break',
+    '24/7: Popeye',
+    '24/7: Poldark',
+    '24/7: Pokemon',
+    '24/7: Pirates of the Caribbean',
+    '24/7: Peter Kay’s Phoenix Nights',
+    '24/7: Peter Kay stand up',
+    '24/7: Peppa Pig',
+    '24/7: Peep Show',
+    '24/7: Peaky Blinders',
+    '24/7: Paw Patrol',
+    '24/7: Ozark',
+    '24/7: Orange Is the New Black',
+    '24/7: Only Fools And Horses',
+    '24/7: My Family',
+    '24/7: Mrs Browns Boys',
+    '24/7: Mr Bean Animated',
+    '24/7: Mr Bean',
+    '24/7: Monkey Magic',
+    '24/7: Mission Impossible',
+    '24/7: Mindhunter',
+    '24/7: Minder',
+    '24/7: Micky Flanagan stand up',
+    '24/7: Mickey Mouse Clubhouse',
+    '24/7: Michael Moore',
+    '24/7: Michael McIntyre stand up',
+    '24/7: Miami Vice',
+    '24/7: Men Behaving Badly',
+    '24/7: Matrix',
+    '24/7: Master of None',
+    '24/7: Married with Children',
+    '24/7: Malcolm in the Middle',
+    '24/7: Lucifer',
+    '24/7: Lord of the Rings',
+    '24/7: Looney Tunes',
+    '24/7: Little Britain',
+    '24/7: Life on mars',
+    '24/7: Lethal Weapon',
+    '24/7: Lego Star wars',
+    '24/7: Knight Rider',
+    '24/7: King of the hill',
+    '24/7:Kevin Hart Stand Up',
+    '24/7: Just Good Friends',
+    '24/7: Johny Test',
+    '24/7: Jimmy Carr Stand up',
+    '24/7: Jason Bourne',
+    '24/7: James Bond',
+    '24/7: Jackass',
+    '24/7: Indiana Jones',
+    '24/7: In the Night Garden',
+    '24/7: How I Met Your Mother',
+    '24/7: House of Cards',
+    '24/7: Harry Potter',
+    '24/7: Happy Days',
+    '24/7: Halloween',
+    '24/7: Gotham',
+    '24/7: Goodnight Sweetheart',
+    '24/7: Glow',
+    '24/7: Gavin and Stacey',
+    '24/7: Game of Thrones',
+    '24/7: Futurama',
+    '24/7: Friends',
+    '24/7: Friday The 13TH',
+    '24/7: Fresh Prince of Bel Air',
+    '24/7: Frasier',
+    '24/7: Fireman Sam',
+    '24/7:Film Noir movies',
+    '24/7:Fawlty Towers',
+    '24/7:Father Ted',
+    '24/7:Fargo',
+    '24/7:Family Guy',
+    '24/7:Everybody Loves Raymond',
+    '24/7:Ever Decreasing Circles',
+    '24/7:Entourage',
+    '24/7:Dreamworks animation',
+    '24/7:Dragon Ball Z',
+    '24/7:Dr Who',
+    '24/7:Dr Seuss',
+    '24/7:Downton abbey',
+    '24/7:Dora the Explorer',
+    '24/7:Disney Movies 2',
+    '24/7:Disney Movies',
+    '24/7:Disney',
+    '24/7:Dexter',
+    '24/7:Desperate Housewives',
+    '24/7:Deadwood',
+    '24/7:Daredevil',
+    '24/7:Dallas',
+    '24/7:Dads Army',
+    '24/7:Curb Your Enthusiasm',
+    '24/7:Crime Movies',
+    '24/7:Chris Rock stand up',
+    '24/7:Cheers',
+    '24/7:Buffy the Vampire Slayer',
+    '24/7:Bruce Lee',
+    '24/7:Breaking Bad',
+    '24/7:Bottom',
+    '24/7:Bobs Burgers',
+    '24/7:Boardwalk Empire',
+    '24/7:Blackadder',
+    '24/7:Billy Connolly Stand up',
+    '24/7:Benidorm',
+    '24/7:Batman the Animated Series',
+    '24/7:BATMAN Brave and the Bold',
+    '24/7:Batman 1966',
+    '24/7:Avatar',
+    '24/7:Asterix',
+    '24/7:Arrow',
+    '24/7:Arrested Development',
+    '24/7:American Dad',
+    '24/7:Alan Partridge',
+    '24/7:Adventure Time',
+    '24/7:24',
+    '24/7:13 Reasons why',
+    '24/7:Underworld Movies',
+    '24/7:Ted Movies',
+    '24/7:Pirates of The Caribbean Movies',
+    '24/7:Hot Tub Time Machine Movies',
+    '24/7:Blade Movies',
+    '24/7:Batwoman Show',
+    '24/7:Sports Moviess',
+    '24/7:Romance Movies',
+    '24/7:First Dates Show',
+    '24/7:My Lottery Dream Home Show',
+    '24/7:Ripley’s Believe It or Not! Show',
+    '24/7:The Vet Life Show',
+    '24/7:What We Do in The Shadows Show',
+    '24/7:Winner Cake All Show',
+    '24/7:Gangland Show',
+    '24/7:Fraggle Rock Show',
+    '24/7:24 Hours in Police Custody Show',
+    '24/7:Nature’s Strangest Mysteries- Solved Show',
+    '24/7:Word Party Show',
+    '24/7:NOS4A2 Show',
+    '24/7:Doom Patrol Show',
+    '24/7:Gangland Undercover Show',
+    '24/7:The Society Show',
+    '24/7:Ramy Show',
+    '24/7:On My Block Show',
+    '24/7:Bar Rescue Show',
+    '24/7:Man With a Plan Show',
+    '24/7:Tin Star Show',
+    '24/7:Peppa Pig Show',
+    '24/7:Drug Wars Show',
+    '24/7:Truck Night in America Show',
+    '24/7:Building Off The Grid Show',
+    '24/7:Meet The Parents Movies',
+    '24/7:Crickey! It’s the Irwins Show',
+    '24/7:Deadly Class Show',
+    '24/7:For the Love of Cars Show',
+    '24/7:Storage Hunters Show',
+    '24/7:Titanic',
+    '24/7:Black Hawk Down',
+    ',24/7:Little Giants',
+    '24/7:Spaceballs',
+    '24/7:The Umbrella Academy Show',
+    '24/7:Mrs Brown’s Boys Show',
+    '24/7:Mysteries of the Abandoned Show',
+    '24/7:Insane Pools: Off The Deep End Show',
+    '24/7:Step Up – High Water Show',
+    '24/7:Night Night Show',
+    '24/7:Chilling Adventures of Sabrina Show',
+    '24/7:Flip Flop Vegas Show',
+    '24/7:Early Doors Show',
+    '24/7:Dr. Pimple Popper Show',
+    '24/7:Auf Wiedersehen, Pet Show',
+    '24/7:Van Damme Movies',
+    '24/7:Vampire Movies',
+    '24/7:Transformers Movies',
+    '24/7:The Mummy Movies',
+    '24/7:The Hangover Movies',
+    '24/7:The Blue Planet Show',
+    '24/7:Star Wars Movies',
+    '24/7:Scooby-Doo Movies',
+    '24/7:Rick and Morty Show',
+    '24/7:Puppy Dog Pals Show',
+    '24/7:Predator/Alien Movies',
+    '24/7:Naked and Afraid Show',
+    '24/7:Major League Movies',
+    '24/7:Lucifer Show',
+    '24/7:Lethal Weapon Movies',
+    '24/7:Kevin Can Wait Show',
+    '24/7:Jurassic Park Movies',
+    '24/7:Jersey Shore Family Vacation Show',
+    '24/7:Harry Potter Movies',
+    '24/7:Fast and Furious Movies',
+    '24/7:Cobra Kai Show',
+    '24/7:Boxing Movies',
+    '24/7:Black Mirror Show',
+    '24/7:Back to The Future Movies',
+    '24/7:Ash vs Evil Dead Show',
+    ]
+
+    const plDocum = ['PL004:ANIMAL PLANET HD',
+    'PL011:BBC Earth HD',
+    'PL030:Discovery Channel FHD',
+    'PL031:Discovery HISTORIA',
+    'PL032:Discovery Life FHD',
+    'PL033:Discovery Science FHD',
+    'PL034:Discovery Turbo Xtra HD',
+    'PL035:Disney Channel FHD',
+    'PL056:FOKUS TV',
+    'PL061:H2 HD',
+    'PL066:HISTORY CHANNEL HD',
+    'PL078:MUZYKA POLSKA',
+    'PL079:NAT GEO FHD',
+    'PL080:NAT GEO PEOPLE HD',
+    'PL081:NAT GEO Wild HD',
+    'PL086:Paramount Channel FHD',
+    'PL105:POLSAT Viasat Explore FHD',
+    'PL106:Polsat Viasat History FHD',
+    'PL107:Polsat Viasat Nature HD',
+    'PL109:PULS 2',
+    'PL117:TLC FHD',
+    'PL131:TVN Turbo FHD',
+    'PL136:TVP Historiy HD',
+    'PL147:BBC',
+    'PL148:ZOOM TV',
+    'PL153:ADVENTURE HD',
+    'PL158:Canal Seriale HD',
+    'PL167:Discovery Channel',
+    'PL168:Discovery Life HD',
+    'PL171:DTX',
+    'PL178:FOKUS TV',
+    'PL181:H2 HD',
+    'PL191:Nat Geo People HD',
+    'PL200:Polsat Viasat Explore HD',
+    'PL201:Polsat Viasat History HD',
+    'PL202:Polsat Viasat Nature',
+    ]
+
+
 
   return (
     
@@ -1280,6 +1671,138 @@ function Channels() {
                           <ul className="mt-1">
                             {
                             caSport.map((x)=>(
+                            <li key={x} className="mt-2">
+                              {x}
+                            </li> 
+                            ))}
+                          
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={`accordion-item ${styles.accordionBtn}`}>
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse14"
+                      aria-expanded="false"
+                      aria-controls="flush-collapse14"
+                    >
+                      <strong>CA:—–|NEWS|—————————————-</strong>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapse14"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      
+                          <ul className="mt-1">
+                            {
+                            caNews.map((x)=>(
+                            <li key={x} className="mt-2">
+                              {x}
+                            </li> 
+                            ))}
+                          
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={`accordion-item ${styles.accordionBtn}`}>
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse15"
+                      aria-expanded="false"
+                      aria-controls="flush-collapse15"
+                    >
+                      <strong>CA:—–|KIDS|—————————————-</strong>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapse15"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      
+                          <ul className="mt-1">
+                            {
+                            caKids.map((x)=>(
+                            <li key={x} className="mt-2">
+                              {x}
+                            </li> 
+                            ))}
+                          
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={`accordion-item ${styles.accordionBtn}`}>
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse16"
+                      aria-expanded="false"
+                      aria-controls="flush-collapse16"
+                    >
+                      <strong>CA:—–|DOCUMENTARY|———————————</strong>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapse16"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      
+                          <ul className="mt-1">
+                            {
+                            caDocum.map((x)=>(
+                            <li key={x} className="mt-2">
+                              {x}
+                            </li> 
+                            ))}
+                          
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className={`accordion-item ${styles.accordionBtn}`}>
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse17"
+                      aria-expanded="false"
+                      aria-controls="flush-collapse17"
+                    >
+                      <strong>PL:——|DOCUMENTARY|——————————–</strong>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapse17"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      
+                          <ul className="mt-1">
+                            {
+                            plDocum.map((x)=>(
                             <li key={x} className="mt-2">
                               {x}
                             </li> 

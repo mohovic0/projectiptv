@@ -80,7 +80,7 @@ function Forme({pack}) {
 
   return (
     <>
-        <div className="container">
+        <div className="container " style={{color :'#190a05'}}>
             
             <div className="row align-items-center">
                 <div className={`p-4 ${styles.formStyling}`}>

@@ -1,28 +1,28 @@
 .formStyling{
-    background-color: rgba(128,128,128,0.15);
+    background-color: #fb9b50;
     border-radius: 10px;
 }
 
 .btnSub{
     font-size: 20px;
-    background-color:  #e6d600;
+    background-color:  #FF5F1F;
 }
 .btnSub:hover{
-    background-color: #9df09b;
+    background-color: #FF5F1F;
 }
 
 .iconSend{
     width: 15px;
-    color: #08e600;
+    color: #fb9b50;
 }
 .messageSend{
-    color: #08e600;
+    color: #fb9b50;
     font-weight: 500;
 }
 .spiner{
     width: 1.5rem;
     height: 1.5rem;
-    color: #08e600;
+    color: #af0000;
 }
 
 .messageSendError{

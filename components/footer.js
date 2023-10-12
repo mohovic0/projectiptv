@@ -14,7 +14,7 @@ const Footer = () =>
         <div className="row">
             
 
-            <hr  className="clearfix w-100 d-md-none pb-0 text-white"/>
+            <hr  className="clearfix w-100 pb-0 text-white"/>
 
             <div className="col-md-3 mb-md-0 mb-3">
                 
