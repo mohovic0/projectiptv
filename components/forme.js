@@ -138,7 +138,7 @@ function Forme({pack}) {
                             
                           </div>
 
-                          <div className='mt-3'>
+                          {/* <div className='mt-3'>
                             <label htmlFor="inputState" className="form-label">VOD LANGUAGE *</label>
                               <select required id="inputState" className="form-select" defaultValue={'DEFAULT'}
                               onChange={(e)=>(setVodLangue(e.target.value))}>
@@ -165,19 +165,9 @@ function Forme({pack}) {
                                 <option value="ALBANIA">ALBANIA</option>
                               </select>
                               
-                          </div>
+                          </div> */}
 
-                          <div className='mt-3'>
-                            <label htmlFor="inputState" className="form-label">Payment Method *</label>
-                              <select required id="inputState" className="form-select" defaultValue={'DEFAULT'}
-                              onChange={(e)=>(setPayment(e.target.value))}>
-                                <option value="">Payment Method</option>
-                                <option value="Paypal">Paypal</option>
-                                <option value="Bitcoin">Bitcoin</option>
-                                <option value="Transfer bank">Transfer bank</option>  
-                              </select>
-                              
-                          </div>
+                          {/* c */}
 
                           <div className="mt-3">
                             <label htmlFor="exampleFormControlTextarea1" className="form-label">Comment</label>

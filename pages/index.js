@@ -93,10 +93,10 @@ export default function Home() {
                                 </strong>
                             </h1>
 
-                            <h2 className={`pt-2 px-2 ${styles.title1}`}>
+                            {/* <h2 className={`pt-2 px-2 ${styles.title1}`}>
                                   Watch Thousands Of TV Shows, Movies, And Sports Anytime, Anywhere.
                                   Level Up Your TV.
-                            </h2>
+                            </h2> */}
 
                             <div className="pt-3">
                                   <button onClick={handleClick} type="button" className={`ms-0  ${styles.btn1}`} >
@@ -120,6 +120,27 @@ export default function Home() {
         <Carouselthre />
       </section> 
       
+
+      
+      
+      <section className={`${styles.section5}`}>
+        <Sportmovie/>
+      </section>
+
+
+
+      <section ref={ref} className={`pb-5 pt-5 ${styles.section4}`}>
+
+          <h1 className='fs-1 fw-bold text-center pt-1 mt-0 mb-4 text-white'>Choose Your Plan</h1>
+          <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
+
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '3' price='19.99' id='64e4013f2de52' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '6' price='29.99' id='64e40104f2f95' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '12' price='45.99' id='64e3e7d83a767'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='99.99' id='652878f95473a'/></div>
+          </div>
+        
+      </section>
 
       <section className={`${styles.section3}`}>
         <Barre/>
@@ -164,26 +185,6 @@ export default function Home() {
         </div>
       </section>
 
-      
-
-      <section ref={ref} className={`pb-5 ${styles.section4}`}>
-
-          <h1 className='fs-2 fw-bold text-center pt-1 mt-0 mb-4 text-white'>Choose Your Plan</h1>
-          <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
-
-              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '3' price='19.99' id='64e4013f2de52' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '6' price='29.99' id='64e40104f2f95' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '12' price='45.99' id='64e3e7d83a767'/></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='45.99' id='64e3e7d83a767'/></div>
-          </div>
-        
-      </section>
-
-      <section className={`${styles.section5}`}>
-        <Sportmovie/>
-      </section>
-
-      
       
       <section className={`pt-4 ${styles.section8}`}>
         <CarouselReview />

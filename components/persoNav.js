@@ -34,20 +34,25 @@ const PersoNav = () =>  {
                     <li>
                         <Link href="/" className={ routerCurrent === "/"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Home</Link>
                     </li>
+                    
                     <li>
                         <Link  href="/pricing" className={ routerCurrent === "/pricing"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Pricing</Link>
                     </li>
+                    
                     <li>
                         <Link  href="/channels" className={ routerCurrent === "/channels"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Channels</Link>
                     </li>
+
                     <li>
                         <Link  href="/faq" className={ routerCurrent === "/faq"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >FAQ</Link>
                     </li>
+
                     <li>
                         <Link href="/about" className={ routerCurrent === "/about"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >About</Link>
                     </li>
+                    
                     <li>
-                        <Link href="/contact" className={ routerCurrent === "/contact" || routerCurrent === "/contact/64e3e7d83a767" || routerCurrent === "/contact/64e4013f2de52" || routerCurrent === "/contact/64e40104f2f95" ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Contact</Link>
+                        <Link href="/contact" className={ routerCurrent === "/contact" || routerCurrent === "/contact/64e3e7d83a767" || routerCurrent === "/contact/64e4013f2de52" || routerCurrent === "/contact/64e40104f2f95" || routerCurrent === "/contact/652878f95473a" ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Contact</Link>
                     </li>
 
                 </ul>
