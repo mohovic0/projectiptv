@@ -1,0 +1,9 @@
+.menbackgound{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position:absolute;
+}
+.section1{
+    background-image: linear-gradient(to right, #b04f34, #190a05);
+}

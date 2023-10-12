@@ -168,7 +168,7 @@ export default function Home() {
 
       <section ref={ref} className={`pb-5 ${styles.section4}`}>
 
-          <h1 className='fs-2 fw-bold text-center pt-1 mt-0 mb-4 text-white'>THANK YOU FOR CHOOSING INFINITY IPTV</h1>
+          <h1 className='fs-2 fw-bold text-center pt-1 mt-0 mb-4 text-white'>Choose Your Plan</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
               <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '3' price='19.99' id='64e4013f2de52' /></div>

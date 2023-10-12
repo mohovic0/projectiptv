@@ -6,11 +6,15 @@ import Link from 'next/link';
 
 const Footer = () => 
 <footer className="page-footer font-small blue pt-4 " style={{background : "linear-gradient(to right, #b04f34, #190a05)"}}>
+    
     <div className="container-fluid text-center text-md-left">
+
+    
+
         <div className="row">
             
 
-            <hr className="clearfix w-100 d-md-none pb-0"/>
+            <hr  className="clearfix w-100 d-md-none pb-0 text-white"/>
 
             <div className="col-md-3 mb-md-0 mb-3">
                 

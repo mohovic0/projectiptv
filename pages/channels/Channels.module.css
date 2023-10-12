@@ -9,10 +9,7 @@
 .section1{
     background-image: linear-gradient(to right, #b04f34, #190a05);
 }
-.section2{
-    background-color: rgba(255, 255, 255, 0.15);
-    
-}
+
 .accordionBtn button{
     background-image: linear-gradient(to right, #b04f34, #190a05);
     border-color: none;

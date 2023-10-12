@@ -35,6 +35,12 @@ const PersoNav = () =>  {
                         <Link href="/" className={ routerCurrent === "/"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Home</Link>
                     </li>
                     <li>
+                        <Link  href="/pricing" className={ routerCurrent === "/pricing"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Pricing</Link>
+                    </li>
+                    <li>
+                        <Link  href="/channels" className={ routerCurrent === "/channels"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >Channels</Link>
+                    </li>
+                    <li>
                         <Link  href="/faq" className={ routerCurrent === "/faq"  ? styles.active  : '' } onClick={()=>{setClicked(!clicked)}} >FAQ</Link>
                     </li>
                     <li>
