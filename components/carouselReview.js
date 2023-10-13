@@ -2,12 +2,12 @@ import React from 'react'
 import styles from './CarouselReview.module.css'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import r1 from '@/public/imagesCarousel/r1.png'
-import r2 from '@/public/imagesCarousel/r2.png'
-import r3 from '@/public/imagesCarousel/r3.png'
-import r4 from '@/public/imagesCarousel/r4.png'
-import r5 from '@/public/imagesCarousel/r5.png'
-import r6 from '@/public/imagesCarousel/r6.png'
+import r1 from '@/public/imagesCarousel/r1.webp'
+import r2 from '@/public/imagesCarousel/r2.webp'
+import r3 from '@/public/imagesCarousel/r3.webp'
+import r4 from '@/public/imagesCarousel/r4.webp'
+import r5 from '@/public/imagesCarousel/r5.webp'
+import r6 from '@/public/imagesCarousel/r6.webp'
 
 
 

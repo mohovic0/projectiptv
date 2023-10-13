@@ -1,4 +1,4 @@
-import img from '@/public/imagebackk.png'
+import img from '@/public/imagebackk.webp'
 import Head from 'next/head'
 import styles from './Home.module.css'
 import Barre from '@/components/barre'
@@ -110,14 +110,15 @@ export default function Home() {
                                       </Link>
                                   </button> */}
                             </div>
-                            <Carouselone />
+                            <Carouselthre />
+                            
                 </div>
                 
       </section>
                                     
       <section className={`mt-0 pt-2 ${styles.section2}`}>
         <CarouselFour />
-        <Carouselthre />
+        <Carouselone />
       </section> 
       
 

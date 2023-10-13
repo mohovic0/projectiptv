@@ -4,17 +4,17 @@ import AliceCarousel from 'react-alice-carousel';
 import Image from 'next/image';
 
 
-import c1 from '@/public/imagesCarousel/c1.png'
-import c2 from '@/public/imagesCarousel/c2.png'
-import c3 from '@/public/imagesCarousel/c3.png'
-import c4 from '@/public/imagesCarousel/c4.png'
-import c5 from '@/public/imagesCarousel/c5.png'
-import c6 from '@/public/imagesCarousel/c6.png'
-import c7 from '@/public/imagesCarousel/c7.png'
-import c8 from '@/public/imagesCarousel/c8.png'
-import c9 from '@/public/imagesCarousel/c9.jpg'
-import c10 from '@/public/imagesCarousel/c10.png'
-import c11 from '@/public/imagesCarousel/c11.png'
+import c1 from '@/public/imagesCarousel/c1.webp'
+import c2 from '@/public/imagesCarousel/c2.webp'
+import c3 from '@/public/imagesCarousel/c3.webp'
+import c4 from '@/public/imagesCarousel/c4.webp'
+import c5 from '@/public/imagesCarousel/c5.webp'
+import c6 from '@/public/imagesCarousel/c6.webp'
+import c7 from '@/public/imagesCarousel/c7.webp'
+import c8 from '@/public/imagesCarousel/c8.webp'
+import c9 from '@/public/imagesCarousel/c9.webp'
+import c10 from '@/public/imagesCarousel/c10.webp'
+import c11 from '@/public/imagesCarousel/c11.webp'
 
 
 function Carouseltwo() {

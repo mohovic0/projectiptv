@@ -64,7 +64,7 @@ const Carouselthre = () => {
 
    
 
-    <div className={`text-center pb-2 ${styles.firstCaro}`}>
+    <div className={`text-center pb-2 pt-4 ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items} 
