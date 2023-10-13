@@ -83,7 +83,7 @@ const Carousel = () => {
 
    
 
-    <div className={`text-center pb-1 pt-3 ${styles.firstCaro}`}>
+    <div className={`text-center pb-4 pt-3 ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking
       items={items} 
@@ -94,7 +94,7 @@ const Carousel = () => {
       autoWidth
       autoPlayInterval={1500}
       />
-      <h1 className='text-center fw-blod pt-3' style={{color : "#FAF5E9"}}>New Movies & Series </h1>
+     
     </div>
     
     </>

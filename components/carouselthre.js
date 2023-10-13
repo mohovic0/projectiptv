@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 import 'react-alice-carousel/lib/alice-carousel.css';
 import d1 from '@/public/imagesCarousel/d1.webp'
-import d2 from '@/public/imagesCarousel/d2.webp'
+/*import d2 from '@/public/imagesCarousel/d2.webp'*/
 import d3 from '@/public/imagesCarousel/d3.webp'
 import d4 from '@/public/imagesCarousel/d4.webp'
 import d5 from '@/public/imagesCarousel/d5.webp'
@@ -43,7 +43,7 @@ const Carouselthre = () => {
 
     const items =[
       <Image priority key={1} onDragStart={handleDragStart} className={` ${styles.imagesCarousel}`} src={d1} alt='iptv subscription UK-Canada-France'/>,
-      <Image priority key={2} onDragStart={handleDragStart} className={`${styles.imagesCarousel}`} src={d2} alt='iptv subscription UK-Canada-France'/>,
+      /*<Image priority key={2} onDragStart={handleDragStart} className={`${styles.imagesCarousel}`} src={d2} alt='iptv subscription UK-Canada-France'/>,*/
       <Image priority key={3} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d3} alt='iptv subscription UK-Canada-France'/>,
       <Image priority key={4} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d4} alt='iptv subscription UK-Canada-France'/>,
       <Image priority key={5} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d5} alt='iptv subscription UK-Canada-France'/>,
