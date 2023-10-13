@@ -49,7 +49,7 @@ function Pricing() {
                     <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '3' price='20' id='64e4013f2de52' /></div>
                     <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '6' price='35' id='64e40104f2f95' /></div>
                     <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '12' price='59' id='64e3e7d83a767'/></div>
-                    <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='100' id='64e3e7d83a767'/></div>
+                    <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='79' id='64e3e7d83a767'/></div>
                 </div>
           </section>
 
