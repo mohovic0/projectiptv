@@ -33,17 +33,17 @@ function Carouseltwo() {
     // }
 
     const items1 =[
-        <Image key={1} onDragStart={handleDragStart} className={`${styles.imagesCarousel1}`} src={c1} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={2} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c2} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={3} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c3} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={4} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c4} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={5} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c5} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={6} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c6} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={7} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c7} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={8} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c8} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={9} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c9} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={10} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c10} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={11} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c11} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={1} onDragStart={handleDragStart} className={`${styles.imagesCarousel1}`} src={c1} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={2} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c2} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={3} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c3} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={4} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c4} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={5} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c5} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={6} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c6} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={7} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c7} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={8} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c8} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={9} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c9} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={10} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c10} alt='iptv subscription UK-Canada-France'/>,
+        <Image priority key={11} onDragStart={handleDragStart} className={styles.imagesCarousel1} src={c11} alt='iptv subscription UK-Canada-France'/>,
       ];
 
 
