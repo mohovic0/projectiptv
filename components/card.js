@@ -16,7 +16,7 @@ function Card({mois, price, childToParent , id, sub}) {
         <div className={styles.container}>
             <div className='text-center'><FontAwesomeIcon className={`${styles.iconeCrow}`} icon={faCrown} /></div>
             <div className={styles.title}>
-                <h5>{mois} Month {sub} </h5>
+                <h5>{mois} Months {sub} </h5>
                 100% Service Guaranteed
             </div>
             
