@@ -16,22 +16,22 @@ const Footer = () =>
 
             <hr  className="clearfix w-100 pb-0 text-white"/>
 
-            <div className="col-md-3 mb-md-0 mb-3">
+            <div className="col-md-3 mb-md-0 mb-3 ">
                 
-                <ul className="list-unstyled ">
-                    <li><Link className='text-white text-decoration-none fw-bold' href="/about">About us</Link></li>
-                    <li><Link className='text-white text-decoration-none fw-bold' href="/faq">Refund Policy</Link></li>
-                    <li><Link  className='text-white text-decoration-none fw-bold' href="/faq">Privacy Policy</Link></li>
-                    <li><Link className='text-white text-decoration-none fw-bold' href="/faq">Terms of Use</Link></li>
+                <ul className={`list-unstyled`}>
+                    <li className={`mt-1`}><Link className={`text-white text-decoration-none fw-bold`} href="/about">About us</Link></li>
+                    <li className='mt-2'><Link className='text-white text-decoration-none fw-bold mt-3' href="/faq">Refund Policy</Link></li>
+                    <li className='mt-2'><Link  className='text-white text-decoration-none fw-bold' href="/faq">Privacy Policy</Link></li>
+                    <li className='mt-2'><Link className='text-white text-decoration-none fw-bold' href="/faq">Terms of Use</Link></li>
                 </ul>
             </div>
 
             <div className="col-md-3 mb-md-0 mb-3">
                 
                 <ul className="list-unstyled text-white">
-                    <li className='fw-bold'> Contact us </li>
-                    <li className='fw-bold'>Whatsapp : +33 7 74 60 08 76</li>
-                    <li className='fw-bold'>Email : iptvinfinity2@gmail.com </li>
+                    <li className='mt-1 fw-bold '> Contact us </li>
+                    <li className='mt-2 fw-bold'>Whatsapp : +33 7 74 60 08 76</li>
+                    <li className='mt-2 fw-bold'>Email : iptvinfinity2@gmail.com </li>
                   
                 </ul>
             </div>
