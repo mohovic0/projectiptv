@@ -1,28 +1,23 @@
 import img from '@/public/imagebackk.webp'
-import Head from 'next/head'
 import styles from './Home.module.css'
+import Head from 'next/head'
+import Image from 'next/image'
+import Carouseltwo from '@/components/carouseltwo'
+import Carouselthre from '@/components/carouselthre'
+import CarouselFour from '@/components/carouselfour'
+import Carouselone  from '@/components/carouselone'
 import Barre from '@/components/barre'
+import { useRef } from 'react'
 import Card from '@/components/card'
 import Sportmovie from '@/components/sportmovie'
-import Forme from '@/components/forme'
-import Chatwhatsap from '@/components/chatwhatsap'
-import Carouselone  from '@/components/carouselone'
-import Carouseltwo from '@/components/carouseltwo'
-import CarouselReview from '@/components/carouselReview'
-import Link from 'next/link'
-import Image from 'next/image'
-import { useRef } from 'react'
-
-
 import Lottie from 'lottie-react'
+import CarouselReview from '@/components/carouselReview'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import aboutLottie from '@/public/aboutLottie'
 import styled from '@/pages/about/About.module.css'
-import Carouselthre from '@/components/carouselthre'
-import CarouselFour from '@/components/carouselfour'
-import Boite from '@/components/boite'
+
 
 export default function Home() {
 
