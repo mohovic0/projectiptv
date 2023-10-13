@@ -134,10 +134,10 @@ export default function Home() {
           <h1 className='fs-1 fw-bold text-center pt-1 mt-0 mb-4 text-white'>Choose Your Plan</h1>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
-              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '3' price='19.99' id='64e4013f2de52' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '6' price='29.99' id='64e40104f2f95' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '12' price='45.99' id='64e3e7d83a767'/></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='99.99' id='652878f95473a'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '3' price='20' id='64e4013f2de52' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '6' price='35' id='64e40104f2f95' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '12' price='59' id='64e3e7d83a767'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='100' id='652878f95473a'/></div>
           </div>
         
       </section>
