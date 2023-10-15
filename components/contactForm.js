@@ -131,7 +131,7 @@ return (
                         </div>
 
                         <div className="mt-3">
-                          <label htmlFor="formGroupExampleInput" className="form-label">Device MAC/ID</label>
+                          <label htmlFor="formGroupExampleInput" className="form-label">Device MAC/ID - (optional)</label>
                           <input type="text" value={deviceMac} onChange={(e)=>setDeviceMac(e.target.value)} className="form-control" id="formGroupExampleInput" placeholder=""/>
                           <div className="form-text">REQUIRED FOR FORMULATE BOX, MAG BOX,SMART STB, TVIP BOX</div>
                           

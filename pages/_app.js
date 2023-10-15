@@ -26,9 +26,12 @@ export default function App({ Component, pageProps }) {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
       
-        gtag('config', 'G-M6X8D17K5R');
+        gtag('config', 'G-M6X8D17K5R');  
+        gtag('config', 'AW-837057681');
         `}
       </Script>
+
+      
 
 
       
