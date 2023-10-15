@@ -1,8 +1,8 @@
 .container{
-    width: 300px;
+    width: 280px;
     background-color: #e2b2a6;
     border-radius: 20px;
-    padding: 8px;
+    padding: 5px;
 
     /*border: solid rgba(121, 121, 121, 0.5);*/
 }
@@ -32,7 +32,7 @@
     padding: 5px;
     border-radius:10px;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
 }
 .live{
     font-size: 14px;
@@ -64,6 +64,7 @@
     font-size: 20px;
     background-color: #FF5F1F;
     text-align: center;
+    margin-bottom: 5px;
 }
 .btn:hover{
     transform: translateY(0) scale(1.01);
