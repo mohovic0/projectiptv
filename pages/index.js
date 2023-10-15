@@ -74,9 +74,8 @@ export default function Home() {
                     
                 /> 
 
-                <div className={`d-block pt-2 text-center  ${styles.contenu}`}>
-                            <Carouseltwo />
-                            <CarouselFour />
+                <div className={`d-block pt-5 text-center  ${styles.contenu}`}>
+                            
                             <h2 className={`pt-2 ${styles.title1}`}>
                             FASTEST <span style={{ color: "#FF5F1F" }}>IPTV</span> SERVICE
                             </h2>
@@ -105,15 +104,18 @@ export default function Home() {
                                       </Link>
                                   </button> */}
                             </div>
+                            <Carouseltwo />
                             <Carouselthre />
+                            <CarouselFour />
+                            <Carouselone />
                             
                 </div>
                 
       </section>
                                     
       <section className={`mt-0 pt-2 ${styles.section2}`}>
-        <CarouselFour />
-        <Carouselone />
+      
+        
       </section> 
       
 

@@ -27,7 +27,7 @@
 .title2{
     color: #FAF5E9;
     font-weight: 900;
-    font-size: calc(37px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-size: calc(30px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
     font-family:'Roboto',sans-serif    
 }
 /* .typic{
@@ -47,7 +47,7 @@
     .btn1{
         margin-left: 5px;
         padding: 8px 12px 8px 12px;
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
@@ -55,7 +55,7 @@
 .btnlink{
     text-decoration: none;
     color: #01168d;
-    font-weight: 650;  
+    font-weight: 600;  
 }
 .btn1:hover{
     transform: translateY(0) scale(0.92);
