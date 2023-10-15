@@ -10,15 +10,16 @@
     
     .container{
         margin: auto;
-        
+
         }
     }
 
 
 .container:hover{
     border-color: rgba(121, 121, 121, 0.5);
-    box-shadow: 0 0 50px rgba(121, 121, 121, 0.5);
-    transform: scale(1.001);
+    box-shadow: 0 0 20px rgba(255, 94, 0, 0.5);
+    transform: scale(1.0001);
+    
 }
 
 .title{
@@ -45,13 +46,13 @@
 }
 
 .icon{
-    width: 20px;
+    width: 15px;
     color: #FF5F1F;
 }
 .info{
     display: block;
     align-items: center;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
     text-align: center;
 }
@@ -61,10 +62,11 @@
 }
 
 .btn{
-    font-size: 20px;
+    font-size: 18px;
     background-color: #FF5F1F;
     text-align: center;
     margin-bottom: 5px;
+    border-radius: 50px;
 }
 .btn:hover{
     transform: translateY(0) scale(1.01);
