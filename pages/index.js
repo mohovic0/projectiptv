@@ -113,11 +113,10 @@ export default function Home() {
                 
       </section>
                                     
-      <section className={`mt-0 pt-2 ${styles.section2}`}>
+      {/* <section className={`mt-0 pt-2 ${styles.section2}`}>
       
-        
       </section> 
-      
+       */}
 
       
       

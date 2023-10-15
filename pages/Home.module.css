@@ -54,8 +54,10 @@
 
 .btnlink{
     text-decoration: none;
-    color: #01168d;
-    font-weight: 600;  
+    /*color: #01168d;*/
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 1px;  
 }
 .btn1:hover{
     transform: translateY(0) scale(0.92);
