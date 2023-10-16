@@ -291,7 +291,7 @@ function Faq() {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                        You can Pay securely via Credit Card without exposing your details to any one. When paying online, your details are protected by SSL Encryption.
+                        You can Pay securely via PAYPAL
                     </div>
                   </div>
                 </div>

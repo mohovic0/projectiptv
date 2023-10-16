@@ -104,10 +104,11 @@ export default function Home() {
                                       </Link>
                                   </button> */}
                             </div>
+                            <Carouselone />
                             <Carouseltwo />
                             <Carouselthre />
                             <CarouselFour />
-                            <Carouselone />
+                            
                             
                 </div>
                 
