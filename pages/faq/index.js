@@ -338,6 +338,7 @@ function Faq() {
 
 
         <section className={`container-fluid ${styles.section2}`}>
+          <div className="container">
               <h1 className="fs-1 fw-bolder fst-italic pt-5 mb-5 text-center text-white">For More Details</h1>
 
               <div className="row">
@@ -345,6 +346,7 @@ function Faq() {
                   <div className="col-12 col-lg-6"><Chatwhatsap/></div>
                   
               </div>
+          </div>
         </section>
           
 
