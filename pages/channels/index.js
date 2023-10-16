@@ -1253,7 +1253,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse1"
@@ -1287,7 +1287,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse2"
@@ -1320,7 +1320,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse3"
@@ -1353,7 +1353,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse4"
@@ -1387,7 +1387,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse5"
@@ -1420,7 +1420,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse6"
@@ -1453,7 +1453,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse7"
@@ -1486,7 +1486,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse8"
@@ -1519,7 +1519,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse9"
@@ -1552,7 +1552,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse10"
@@ -1585,7 +1585,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse11"
@@ -1618,7 +1618,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse12"
@@ -1651,7 +1651,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse13"
@@ -1684,7 +1684,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse14"
@@ -1717,7 +1717,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse15"
@@ -1750,7 +1750,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse16"
@@ -1783,7 +1783,7 @@ function Channels() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapse17"

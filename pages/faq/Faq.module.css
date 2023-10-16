@@ -5,6 +5,10 @@
     position:absolute;
 }
 
+.accordionbtn::after {
+    background-color: rgb(236, 231, 231);
+    
+}
 
 .section1{
     background-image: linear-gradient(to right, #b04f34, #190a05);

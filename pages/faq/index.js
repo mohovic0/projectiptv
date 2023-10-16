@@ -46,7 +46,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
@@ -92,7 +92,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo"
@@ -118,7 +118,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree"
@@ -144,7 +144,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour"
@@ -170,7 +170,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFive"
@@ -197,7 +197,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseSix"
@@ -222,7 +222,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseSeven"
@@ -247,7 +247,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseEight"
@@ -275,7 +275,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseNine"
@@ -301,7 +301,7 @@ function Faq() {
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
-                      className="accordion-button collapsed"
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTen"
