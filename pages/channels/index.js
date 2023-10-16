@@ -1266,6 +1266,397 @@ function Channels() {
     'PL137:TVP Info FHD',
     ]
 
+    const plKids =['PL014:Boomerang HD',
+    'PL021:CARTOON NETWORK HD',
+    'PL028:Da Vinci Learning',
+    'PL036:Da Vinci',
+    'PL037:Disney XD',
+    'PL038:DOMO FHD',
+    'PL059:Polsat Cafe',
+    'PL072:MiniMini HD',
+    'PL093:Polsat Jim Jam',
+    'PL116:Teletoon HD',
+    'PL135:TVP abc HD',
+    'PL146:BBC CBeebies',
+    'PL159:Cartoon Network HD',
+    'PL165:Da Vinci Learning',
+    'PL169:Disney Junior',
+    'PL170:Disney XD',
+    'PL188:MiniMini HD',
+    'PL204:Puls 2',
+    ]
+
+    const plSport = ['PL010:Canal+ Sport FHD',
+    'PL019:CANAL SPORT 2 FHD',
+    'PL020:CANAL SPORT FHD',
+    'PL041:ELEVEN SPORTS 2 HD',
+    'PL042:Eleven Sports 3',
+    'PL043:ELEVEN SPORTS 4 FHD',
+    'PL044:Polsat Sport Premium 2 HD',
+    'PL045:Polsat Sport Premium 1 HD',
+    'PL047:EUROSPORT 1HD',
+    'PL048:EUROSPORT 2HD',
+    'PL060:KSW PPV HD',
+    'PL076:Canal + Sport 2 FHD',
+    'PL085:NSport Plus HD',
+    'PL099:Polsat Sport Extra FHD',
+    'PL100:POLSAT Sport Fight FHD',
+    'PL101:Polsat Sport HD',
+    'PL111:Sport klub HD',
+    'PL112:Sport Klub Polska FHD',
+    'PL142:TVP Sport FHD',
+    'PL172:Eleven Sports 1 HD',
+    'PL173:Eleven Sports 2 FHD',
+    'PL174:Eleven Sports 3 FHD',
+    'PL175:Eleven Sports 4 HD',
+    'PL180:Golf Channel HD',
+    'PL199:Polsat Sport Fight HD',
+    ]
+
+    const plEnter = ['PL003:4Fun TV',
+    'PL005:ATM ROZRYWKA TV',
+    'PL012:BBC FIRST',
+    'PL013:Chillizet',
+    'PL023:CBS EUROPA HD',
+    'PL024:CBS REALITY HD',
+    'PL027:Comedy Central FHD',
+    'PL029:DISCO POLO MUSIC',
+    'PL039:E! FHD',
+    'PL046:ID',
+    'PL049:NC+ PR',
+    'PL065:HGTV FHD',
+    'PL067:Romance TV',
+    'PL068:KINO TV FHD',
+    'PL069:Kuchnia HD',
+    'PL070:Lifetime HD',
+    'PL071:METRO',
+    'PL073:MOTOR WIZJA',
+    'PL074:STARS TV',
+    'PL075:Red Carpet TV',
+    'PL077:TVS',
+    'PL082:VOX MUSIC TV',
+    'PL084:NOWA TV HD',
+    'PL087:Planete FHD',
+    'PL088:Polo TV HD',
+    'PL089:POLSAT 2 FHD',
+    'PL090:POLSAT CAFE',
+    'PL091:Polsat Doku HD',
+    'PL092:Polsat FHD',
+    'PL094:Polsat Music HD',
+    'PL095:Superstacja',
+    'PL097:Polsat Play FHD',
+    'PL098:POLSAT ROMANS',
+    'PL103:TVN Siedem',
+    'PL104:Canal+ HD',
+    'PL108:POWER TV',
+    'PL110:Sci-Fi HD',
+    'PL115:SUPER POLSAT',
+    'PL120:Polsat Rodzina',
+    'PL121:TTV FHD',
+    'PL122:E! Entertainment',
+    'PL123:TV6',
+    'PL126:TVN 7 FHD',
+    'PL128:TVN Fabula FHD',
+    'PL129:TVN FHD',
+    'PL130:TVN Style FHD',
+    'PL133:TVP 2 FHD',
+    'PL138:TVP KULTURA HD',
+    'PL139:TVP Polonia HD',
+    'PL140:TVP ROZRYWKA',
+    'PL141:TVP SERIALE',
+    'PL144:VH1',
+    'PL145:BBC BRIT',
+    'PL150:4Fun Dance',
+    'PL151:4Fun Gold Hits',
+    'PL152:BBC LifeStyle',
+    'PL161:CBS Europa HD',
+    'PL162:CBS Reality',
+    'PL164:Comedy Central Family',
+    'PL166:Disco Polo Music',
+    'PL176:ESKA TV Extra',
+    'PL182:HIP HOP TV',
+    'PL183:KINO POLSKA',
+    'PL184:Kino Polska Muzyka',
+    'PL185:Kino Tv',
+    'PL186:Lifetime HD',
+    'PL187:Metro',
+    'PL189:MTV Dance HD',
+    'PL190:MTV Polska HD',
+    'PL192:NOWA TV',
+    'PL194:Planete HD',
+    'PL195:Polo TV',
+    'PL196:Polsat Doku FHD',
+    'PL197:Polsat Music FHD',
+    'PL198:POLSAT ROMANS HD',
+    'PL203:Power TV',
+    ]
+
+    const alEnter = ['AL017:RTV 21 Popullore',
+    'AL018:RTV 21 Mix HD',
+    'AL019:RTV 21 Maqedonia',
+    'AL020:RTV 21 Junior',
+    'AL022:Rrokum TV',
+    'AL023:RTK 2 HD AL',
+    'AL024:PLUS HD(Digitalb)',
+    'AL025:Plus HD',
+    'AL026:RTK 3 HD AL',
+    'AL028:RTK 4 HD AL',
+    'AL031:Klan Kosova Toksor',
+    'AL034:RTV 21 HD',
+    'AL038:RTV 21 MIX HD',
+    'AL039:RTV 21 PLUS HD',
+    'AL042:RTV 21 POPULLORE',
+    'AL045:JUG TV',
+    'AL046:First TV',
+    'AL048:RTV 21 MK HD',
+    'AL049:KTV HD',
+    'AL056:ALB UK HD',
+    'AL057:ALB UK',
+    'AL067:Tring Shqip',
+    'AL083:RTV 21',
+    'AL084:RTK',
+    'AL087:RTSH 1 HD',
+    'AL088:KTV HD',
+    'AL090:RTSH 2',
+    'AL091:Humor 1',
+    'AL098:RTSH 3 HD',
+    'AL103:X Humor HD',
+    'AL105:24 KITCHEN HD',
+    'AL106:A-Mol TV',
+    'AL112:RTSH MUZIKE HD',
+    'AL113:Alb Folk1 HD',
+    'AL115:ALB Hits HD',
+    'AL116:Alb Horror HD',
+    'AL117:Alb Thriller',
+    'AL118:RTSH Shqip HD',
+    'AL119:Alb Islam',
+    'AL121:ALB MUSIC HD',
+    'AL122:Alb Swiss HD',
+    'AL123:ALB WESTERN HD',
+    'AL125:ALBUK HD',
+    'AL126:Alsat M',
+    'AL129:Apollon TV',
+    'AL140:BBF MUSIC TV',
+    'AL141:Besa TV',
+    'AL147:Channel One FHD',
+    'AL152:Family HD',
+    'AL154:DTV HD',
+    'AL156:Elrodi TV HD',
+    'AL157:English Club TV',
+    'AL158:Era TV HD',
+    'AL159:Euro AL',
+    'AL165:FAST BOX & FUN',
+    'AL168:TDC',
+    'AL177:X Cifteli HD',
+    'AL182:FIRST Burimi TV',
+    'AL183:First Channel HD',
+    'AL184:FOLK HD',
+    'AL185:Folk lorit',
+    'AL190:X Premium 4 HD',
+    'AL196:IN TV',
+    'AL198:Jolly FHD',
+    'AL199:Junior TV',
+    'AL223:Tring Histori HD',
+    'AL230:RTV 21 HD Popullore',
+    'AL234:TV Chicago',
+    'AL235:Djing Hits',
+    'AL236:Turbo Channel HD',
+    'AL237:WesterN',
+    'AL238:Folklorit',
+    'AL239:VH1 Classic',
+    'AL240:ShqipTV MIMI',
+    'AL242:RTV 21 NewsBIZ HD',
+    'AL244:Shota TV 4K UHD',
+    'AL245:MRT 2',
+    'AL246:MFM Music',
+    'AL247:Music TV',
+    'AL248:My Music',
+    'AL252:Lugina Popullore',
+    'AL253:Novela',
+    'AL254:ON TV',
+    'AL256:X Popullore HD',
+    'AL259:X Romance HD',
+    'AL260:X Gold HD',
+    'AL262:Report TV',
+    'AL263:RROKUM TV HD',
+    'AL264:RTK 1 HD',
+    'AL265:RTK 2 HD',
+    'AL266:Rtk 3 HD',
+    'AL267:Rtk 4 HD',
+    'AL269:RTSH 1 HD',
+    'AL270:RTSH 2 HD',
+    'AL271:RTSH 3 HD',
+    'AL280:RTV 21',
+    'AL281:RTV 21 Junior',
+    'AL282:RTV 21 Mix HD',
+    'AL284:RTV Plus HD',
+    'AL285:RTV 21 Popullore FHD',
+    'AL286:RTV Bujanovc HD',
+    'AL287:RTV Islam',
+    'AL288:RTV Pendimi HD TV',
+    'AL289:RTV Presheva HD',
+    'AL290:Rtv Zeri Danimarke',
+    'AL292:RTSH GJIROKASTRA',
+    'AL293:ShaqipTV WESTERN HD',
+    'AL294:ShqipTV Hindi HD',
+    'AL295:TV Tetova HD',
+    'AL296:ShqipTV Cinema HD',
+    'AL297:ShqipTV Humor HD',
+    'AL298:ShqipTV Stupcat HD',
+    'AL299:ShqipTV Comedy HD',
+    'AL313:Sole TV',
+    'AL314:Spin TV',
+    'AL315:TV Shenja HD',
+    'AL319:Stinet HD',
+    'AL329:Syri Blue HD',
+    'AL330:Syri Vision',
+    'AL336:TNT',
+    'AL341:Tribuna Channel',
+    'AL343:Tring Jolly FHD',
+    'AL344:Tring Life HD',
+    'AL346:TV Opoja',
+    'AL359:TV 2',
+    'AL362:TV Diaspora',
+    'AL363:TV Dielli HD',
+    'AL364:TV Dukagjini HD',
+    'AL365:TV Koha HD',
+    'AL366:TV Liria',
+    ]
+
+    const alSport = ['AL001:Super Sport 4 HD',
+    'AL002:Super Sport 3 HD',
+    'AL003:Super Sport 2 HD',
+    'AL004:Super Sport 1 HD',
+    'AL012:Tring Sport 2 HD',
+    'AL021:RTSH Sport HD',
+    'AL065:TRING SPORT 4 HD',
+    'AL066:TRING SPORT 1 HD',
+    'AL078:SuperSport 5',
+    'AL079:SuperSport 4',
+    'AL080:SuperSport 3',
+    'AL082:Super Sport Kosovo 1 HD',
+    'AL101:ALB Hindi',
+    'AL114:ALB HINDI HD',
+    'AL120:RTSH Sports HD',
+    'AL131:RROKUM TV HD',
+    'AL160:EUROSPORT 1 HD',
+    'AL161:EUROSPORT 2 HD',
+    'AL200:K Sport 1 HD',
+    'AL201:K Sport 2 HD',
+    'AL203:K Sport 4 HD',
+    'AL219:Tring Sport 1 HD',
+    'AL220:Tring Sport 2 HD',
+    'AL221:Tring Sport 3 HD',
+    'AL222:TRING SPORT 4 HD',
+    'AL279:RTSH Sport HD',
+    'AL321:Super Sport 2 HD',
+    'AL322:Super Sport 3 HD',
+    'AL323:Super Sport 4 FHD',
+    'AL324:Super Sport 5 FHD',
+    'AL325:Super Sport 6 FHD',
+    'AL327:Super Sport Kosova 2 FHD',
+    'AL351:Tring Sport 2 FHD',
+    'AL353:Tring Sport 4 HD',
+    'AL369:Tring Sport 3',
+    ]
+
+    const alCinema = ['AL005:Sky Komedi',
+    'AL006:Sky Histori',
+    'AL007:Sky AL Max',
+    'AL008:Zjarr TV',
+    'AL009:Vizion Plus Toksor',
+    'AL010:Vizion Plus HD',
+    'AL014:Sky Shkence',
+    'AL015:Sky Comedy',
+    'AL016:Sky Aksion',
+    'AL030:KLAN Plus',
+    'AL036:Kino ROMANCE HD',
+    'AL037:Kino Premiere 3 HD',
+    'AL040:Kino Family HD',
+    'AL041:Kino Dark HD',
+    'AL043:Kino Action',
+    'AL044:Junior TV',
+    'AL047:Film Nje HD',
+    'AL059:A1 SHQIPTARE',
+    'AL061:WesterN',
+    'AL064:TRING SUPER',
+    'AL069:Tring Max',
+    'AL070:Tring Life',
+    'AL071:TRING KOMEDI',
+    'AL073:TRING FANTASY',
+    'AL074:Tring Comedy',
+    'AL076:Thriller',
+    'AL081:KLAN PLUS HD',
+    'AL089:JOLLY HD',
+    'AL094:FILM DY',
+    'AL095:FILM DRAME',
+    'AL097:DIGI GOLD',
+    'AL100:BB11 Muzik',
+    'AL102:Action',
+    'AL108:RTSH KORCA HD',
+    'AL109:Aksion HD',
+    'AL111:Alb Action HD',
+    'AL124:RTSH FILM HD',
+    'AL128:VISION PLUS HD',
+    'AL133:Film Një HD',
+    'AL134:Zjarr TV',
+    'AL135:Film Dy HD',
+    'AL136:VISION PLUS HD',
+    'AL139:BB11 Muzik',
+    'AL142:Film Hits HD',
+    'AL143:Film Autor HD',
+    'AL144:Film Drame HD',
+    'AL145:Film Thriller HD',
+    'AL146:Film Comedi HD',
+    'AL148:Film Aksion HD',
+    'AL149:X Western HD',
+    'AL166:FILM AKSION HD',
+    'AL167:Film Autor',
+    'AL169:Film Drame',
+    'AL170:Film Dy HD',
+    'AL171:Film Family HD',
+    'AL172:Film Gold 1 HD',
+    'AL173:FILM Gold 3 HD',
+    'AL174:Film Gold 4 HD',
+    'AL175:Film Hits HD',
+    'AL176:Film Komedi',
+    'AL178:Film Nje HD',
+    'AL179:FILM Stinet HD',
+    'AL180:Film Thriller HD',
+    'AL181:Filmi Umeri',
+    'AL186:FOX CRIME HD',
+    'AL187:FOX HD',
+    'AL188:FOX LIFE',
+    'AL191:HBO 2',
+    'AL192:HBO 3',
+    'AL214:Klan Plus HD',
+    'AL215:X Premium 2 HD',
+    'AL216:KS COMEDY',
+    'AL217:KS EPIC HD',
+    'AL218:KS FESTA HD',
+    'AL224:X Thriller HD',
+    'AL229:Rtsh Muzike',
+    'AL231:Shqip Fantazi',
+    'AL232:Shqip Qifteli',
+    'AL233:Histori HD',
+    'AL258:TRING KOMEDI',
+    'AL273:RTSH FILM HD',
+    'AL274:RTSH Femije TV',
+    'AL277:Rtsh Muzike HD',
+    'AL278:RTSH Shqip HD',
+    'AL305:SKy AKSION HD',
+    'AL308:Sky Max',
+    'AL309:Sky Shkence',
+    'AL311:SKY PLANET',
+    'AL334:Tema TV',
+    'AL335:Tip TV',
+    'AL342:Tring 3 HD',
+    'AL347:Tring Planet HD',
+    'AL348:TRING SHQIP HD',
+    'AL349:Tring Smile',
+    'AL355:Tring Super FHD',    
+    ]
+
 
 
   return (
@@ -1933,6 +2324,207 @@ function Channels() {
                             </div>
                           </div>
                         </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse20"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse20"
+                            >
+                              <strong>PL:——|KIDS|—————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse20"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    plKids.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse21"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse21"
+                            >
+                              <strong>PL:——|SPORT|————————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse21"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    plSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse22"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse22"
+                            >
+                              <strong>PL:——|ENTERTAINMENT|——————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse22"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    plEnter.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse23"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse23"
+                            >
+                              <strong>AL:——|ENTERTAINMENT|——————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse23"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    alEnter.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse24"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse24"
+                            >
+                              <strong>AL:——|SPORT|————————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse24"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    alSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse25"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse25"
+                            >
+                              <strong>AL:——|CINEMA|————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse25"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    alCinema.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                      
 
 
                     
