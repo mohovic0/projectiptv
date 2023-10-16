@@ -24,8 +24,8 @@ const PersoNav = () =>  {
                     priority
                     src={logo}
                     alt="logo"
-                    width={48}
-                    height={48}
+                    width={45}
+                    height={45}
                 />
             </Link>
 

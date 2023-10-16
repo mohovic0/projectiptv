@@ -37,7 +37,7 @@ function Pricing() {
           <div className={`${styles.menbackgound}`}></div>
 
           <section className={`container-fluid pt-5 pb-2 ${styles.section1}`}>
-                <h1 className="fs-1 fw-bolder text-black pt-5 text-white mt-3 text-center mb-4">Pricing</h1>
+                <h1 className="fs-1 fw-bolder text-black pt-5 text-white mt-3 text-center mb-4">Pricing Plans</h1>
 
                 <h3 className='container' style={{color : "#FAF5E9"}}>Irresistible Prices</h3>
                 <p className='container' style={{color : "#FAF5E9"}} >
@@ -49,7 +49,7 @@ function Pricing() {
                     <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '3' price='19.99' id='64e4013f2de52' /></div>
                     <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '6' price='29.99' id='64e40104f2f95' /></div>
                     <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '12' price='49.99' id='64e3e7d83a767'/></div>
-                    <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='79.99' id='64e3e7d83a767'/></div>
+                    <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '24' price='79.99' id='64e3e7d83a767'/></div>
                 </div>
           </section>
 

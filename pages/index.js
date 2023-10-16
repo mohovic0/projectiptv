@@ -134,7 +134,7 @@ export default function Home() {
               <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '3' price='19.99' id='64e4013f2de52' /></div>
               <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '6' price='29.99' id='64e40104f2f95' /></div>
               <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '12' price='49.99' id='64e3e7d83a767'/></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card sub='Premium'  mois = '12' price='79.99' id='652878f95473a'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card sub='Subscription'  mois = '24' price='79.99' id='652878f95473a'/></div>
           </div>
         
       </section>

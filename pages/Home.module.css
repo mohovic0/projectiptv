@@ -39,7 +39,7 @@
     border-radius: 20px;
     border: none;
     transition: all 0.2s;
-    padding : 7px 24px 7px 24px ;
+    padding : 5px 20px 5px 20px ;
     margin-left: 30px;
     
 }
@@ -60,7 +60,7 @@
     letter-spacing: 1px;  
 }
 .btn1:hover{
-    transform: translateY(0) scale(0.92);
+    transform: translateY(0) scale(0.99);
     background-color: #fb9b50;
     border: none;
 }
