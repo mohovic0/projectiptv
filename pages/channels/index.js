@@ -1212,6 +1212,60 @@ function Channels() {
     'PL202:Polsat Viasat Nature',
     ]
 
+    const plCinema =[
+    'PL001:13 Ulica FHD',
+    'PL002:Ale Kino FHD',
+    'PL006:AXN Black HD',
+    'PL007:AXN HD',
+    'PL008:AXN SPIN HD',
+    'PL009:AXN White HD',
+    'PL015:CANAL FAMILY FHD',
+    'PL016:CANAL FHD',
+    'PL017:CANAL FILM FHD',
+    'PL018:Canal Seriale FHD',
+    'PL022:CBS ACTION',
+    'PL025:CINEMAX 2 HD',
+    'PL026:CINEMAX HD',
+    'PL040:Epic Drama',
+    'PL050:Fightbox FHD',
+    'PL051:FILMBOX ACTION HD',
+    'PL052:Filmbox Arthouse',
+    'PL053:Filmbox Extra FHD',
+    'PL054:FILMBOX FAMILY FHD',
+    'PL055:FILMBOX PREMIUM HD',
+    'PL057:FOX Comedy FHD',
+    'PL058:FOX FHD',
+    'PL062:HBO 2 FHD',
+    'PL063:HBO 3 FHD',
+    'PL064:HBO HD',
+    'PL113:Stop klatka TV',
+    'PL118:TNT FHD',
+    'PL124:TV Puls FHD',
+    'PL132:TVP 1 FHD',
+    'PL134:TVP 3 HD',
+    'PL143:Canal 1',
+    'PL149:13 Ulica HD',
+    'PL154:Ale Kino HD',
+    'PL155:AMC',
+    'PL156:ATM Rozrywka',
+    'PL157:AXN SPIN HD',
+    'PL160:CBS Action',
+    'PL163:Cinemax 2 HD',
+    'PL177:Filmbox Arthouse',
+    'PL179:FOX HD',
+    'PL193:Paramount Channel HD',
+    ]
+
+    const plNews=['PL083:wPolsce.pl',
+    'PL096:Polsat News HD',
+    'PL102:Polsat Sport News HD',
+    'PL114:TVN 24 Bis',
+    'PL119:Polsat News 2',
+    'PL125:TV Republika HD',
+    'PL127:TVN 24 FHD',
+    'PL137:TVP Info FHD',
+    ]
+
 
 
   return (
@@ -1243,577 +1297,652 @@ function Channels() {
         </Head>
 
         <div>
-          <div className={`${styles.menbackgound}`}></div>
+            <div className={`${styles.menbackgound}`}></div>
 
           <section className={`container-fluid pt-5 pb-2 ${styles.section1}`}>
               <h1 className="fs-1 fw-bolder text-black pt-5 text-white mt-3 text-center mb-4">Channels List</h1>
               
               <div className="accordion accordion-flush" id="accordionFlushExample">
 
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse1"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse1"
-                    >
-                      <strong>USA:—–|GENERAL|——————————–</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            useGenaral.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
+                
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse1"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse1"
+                            >
+                              <strong>USA:—–|GENERAL|——————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse1"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    useGenaral.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
 
 
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse2"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse2"
-                    >
-                      <strong>USA:—–|MOVIES|———————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse2"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            usaMovies.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse2"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse2"
+                            >
+                              <strong>USA:—–|MOVIES|———————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse2"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    usaMovies.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
 
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse3"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse3"
-                    >
-                      <strong>USA:—–|SPORTS|———————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse3"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            usaSport.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse3"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse3"
+                            >
+                              <strong>USA:—–|SPORTS|———————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse3"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    usaSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
 
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse4"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse4"
-                    >
-                      <strong>USA:—–|ABC|————————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse4"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            usaAbc.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse4"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse4"
+                            >
+                              <strong>USA:—–|ABC|————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse4"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    usaAbc.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+                        
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse5"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse5"
+                            >
+                              <strong>USA:—–|NHL|————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse5"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    usaNhl.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse6"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse6"
+                            >
+                              <strong>USA:—–|MLB|————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse6"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    usaMbl.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse7"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse7"
+                            >
+                              <strong>USA:—–|NFL|————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse7"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    usaNfl.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse8"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse8"
+                            >
+                              <strong>USA:—–|NBC|————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse8"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    usaNbc.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse9"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse9"
+                            >
+                              <strong>USA:—–|CBS|————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse9"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    usaCbs.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse10"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse10"
+                            >
+                              <strong>USA:—–|FOX|————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse10"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    usaFox.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse11"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse11"
+                            >
+                              <strong>CA:—–|GENERAL|————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse11"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    caGeneral.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse12"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse12"
+                            >
+                              <strong>CA:—–|MOVIES|————————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse12"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    caMovies.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse13"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse13"
+                            >
+                              <strong>CA:—–|SPORTS|————————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse13"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    caSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse14"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse14"
+                            >
+                              <strong>CA:—–|NEWS|—————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse14"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    caNews.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse15"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse15"
+                            >
+                              <strong>CA:—–|KIDS|—————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse15"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    caKids.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse16"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse16"
+                            >
+                              <strong>CA:—–|DOCUMENTARY|———————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse16"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    caDocum.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse17"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse17"
+                            >
+                              <strong>PL:——|DOCUMENTARY|——————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse17"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    plDocum.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse18"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse18"
+                            >
+                              <strong>PL:——|CINEMA|————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse18"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    plCinema.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse19"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse19"
+                            >
+                              <strong>PL:——|NEWS|—————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse19"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    plNews.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    
+                
+                
                 
 
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse5"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse5"
-                    >
-                      <strong>USA:—–|NHL|————————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse5"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            usaNhl.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse6"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse6"
-                    >
-                      <strong>USA:—–|MLB|————————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse6"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            usaMbl.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse7"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse7"
-                    >
-                      <strong>USA:—–|NFL|————————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse7"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            usaNfl.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse8"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse8"
-                    >
-                      <strong>USA:—–|NBC|————————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse8"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            usaNbc.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse9"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse9"
-                    >
-                      <strong>USA:—–|CBS|————————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse9"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            usaCbs.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse10"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse10"
-                    >
-                      <strong>USA:—–|FOX|————————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse10"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            usaFox.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse11"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse11"
-                    >
-                      <strong>CA:—–|GENERAL|————————————-</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse11"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            caGeneral.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse12"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse12"
-                    >
-                      <strong>CA:—–|MOVIES|————————————–</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse12"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            caMovies.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse13"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse13"
-                    >
-                      <strong>CA:—–|SPORTS|————————————–</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse13"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            caSport.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse14"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse14"
-                    >
-                      <strong>CA:—–|NEWS|—————————————-</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse14"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            caNews.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse15"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse15"
-                    >
-                      <strong>CA:—–|KIDS|—————————————-</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse15"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            caKids.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse16"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse16"
-                    >
-                      <strong>CA:—–|DOCUMENTARY|———————————</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse16"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            caDocum.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={`accordion-item ${styles.accordionBtn}`}>
-                  <h2 className="accordion-header">
-                    <button
-                      className={`accordion-button collapsed ${styles.accordionbtn}`}
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapse17"
-                      aria-expanded="false"
-                      aria-controls="flush-collapse17"
-                    >
-                      <strong>PL:——|DOCUMENTARY|——————————–</strong>
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapse17"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      
-                          <ul className="mt-1">
-                            {
-                            plDocum.map((x)=>(
-                            <li key={x} className="mt-2">
-                              {x}
-                            </li> 
-                            ))}
-                          
-                          </ul>
-                    </div>
-                  </div>
-                </div>
 
 
+                
               </div>
 
               
