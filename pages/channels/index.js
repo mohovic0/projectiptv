@@ -2535,6 +2535,505 @@ function Channels() {
     'IT297:SKY CINEMA UNO HD',
     ]
 
+    const itIntra = ['IT017:Fox Comedy IT',
+    'IT018:Fox Crime',
+    'IT019:Fox IT',
+    'IT020:Fox Life',
+    'IT021:Fox Animation',
+    'IT027:Mediaset Extra',
+    'IT028:Mediaset Iris',
+    'IT035:RAI UNINETTUNO',
+    'IT052:Rai Scuola',
+    'IT055:Rai News 24',
+    'IT057:Rai 1',
+    'IT058:Rai 2',
+    'IT059:Rai 3',
+    'IT060:Rai 4',
+    'IT061:Rai 5',
+    'IT062:Real Time',
+    'IT082:Sky Uno',
+    'IT085:Sky Atlantic',
+    'IT088:Top Crime',
+    'IT098:SKY ATLANTIC +1',
+    'IT099:SKY UNO 1',
+    'IT100:FOX+ 1',
+    'IT101:FOX CRIME+1',
+    'IT102:Real Time+ 1',
+    'IT111:SKY FOX LIFE + 1',
+    'IT189:MEDIASET ITALIA DUE HD',
+    'IT194:Giallo HD',
+    'IT205:LA 5 HD',
+    'IT210:Mediaset Extra',
+    'IT211:Mediaset 20 HD',
+    'IT213:MEDIASET 20 HD',
+    'IT214:MEDIASET ITALIA 2',
+    'IT252:TV 2000',
+    'IT258:SKY UNO +',
+    'IT264:Rai Scuola HD',
+    ]
+
+    const itSport = ['IT015:Euro Sport 1 IT',
+    'IT016:Euro Sport 2 IT',
+    'IT022:Inter Channel',
+    'IT029:Dazn1 Sat',
+    'IT066:Crime Investigation',
+    'IT074:Sky Moto GP',
+    'IT076:Sky Sport 24',
+    'IT077:Sky Sport F1',
+    'IT078:Sky Sport 1',
+    'IT079:Sky Sport 2',
+    'IT080:Sky Sport 3',
+    'IT083:Sport Italia',
+    'IT084:Super Tennis',
+    'IT089:Dazn1 Sat | UHD',
+    'IT090:Dazn1 Sat | HD',
+    'IT091:Dazn1 Sat | SD',
+    'IT092:Sky Sport Serie A | UHD',
+    'IT093:Sky Sport Serie A | HD',
+    'IT094:Sky Sport Serie A | SD',
+    'IT095:Sky Sport MotoGP | UHD',
+    'IT096:Sky Sport MotoGP | HD',
+    'IT097:Sky Sport MotoGP | SD',
+    'IT105:FOX Sport HD',
+    'IT106:SKY SPORT MOTO GP',
+    'IT107:SKY F1 HD',
+    'IT110:SKY SPORT COLLECTION',
+    'IT114:SUPERTENNIS',
+    'IT115:Sky Sport 251',
+    'IT116:Sky Sport 252',
+    'IT117:Sky Sport 253',
+    'IT118:Sky Sport 254',
+    'IT119:Sky Sport 255',
+    'IT147:DAZN 1 HD',
+    'IT148:DAZN 2 HD',
+    'IT149:DAZN 3 HD',
+    'IT150:DAZN 4 HD',
+    'IT151:DAZN 5 HD',
+    'IT152:DAZN 6 HD',
+    'IT153:DAZN 7 HD',
+    'IT154:DAZN 8 HD',
+    'IT155:DAZN 9 HD',
+    'IT175:Hunting (Caccia)',
+    'IT206:LAZIO CHANNEL HD',
+    'IT207:Super J',
+    'IT215:MotoGP HD',
+    'IT227:SKY SUPER TENNIS HD',
+    'IT228:SKY SUPER CALCIO HD',
+    'IT230:Sky Sport Uno HD',
+    'IT238:Sky Sport Serie A HD',
+    'IT253:Sky Sport NBA HD',
+    'IT254:Sky Sport Golf HD',
+    'IT255:Sky Sport Football HD',
+    'IT256:Sky Sport Arena HD',
+    'IT265:RAI SPORT HD',
+    'IT269:ROMA CHANNEL HD',
+    'IT277:Supercalcio HD',
+    'IT278:Sky Calcio 6 HD',
+    'IT280:Sky Calcio 1 HD',
+    'IT281:Sky Calcio 2 HD',
+    'IT282:Sky Calcio 3 HD',
+    'IT283:Sky Calcio 4 HD',
+    'IT284:Sky Calcio 5 HD',
+    'IT285:Sky Serie A',
+    'IT286:Super!',
+    'IT289:Super J HD (Abruzzo)',
+    'IT290:Milan Channel',
+    'IT298:Sky F1 FHD',
+    ]
+
+    const itCulture = ['IT001:Alice',
+    'IT008:Discovery IT',
+    'IT009:Discovery Science IT',
+    'IT010:CANALE 10',
+    'IT014:Dmax IT',
+    'IT025:Discovery focus',
+    'IT030:Nat Geo People IT',
+    'IT031:Nat Geo Wild IT',
+    'IT054:Rai Storia',
+    'IT122:Fishing Tv',
+    'IT193:Gambero Rosso HD',
+    'IT216:Motor Trend HD',
+    'IT220:NAT GEO PEOPLE FHD',
+    'IT266:Rai Storia FHD',
+    'IT279:Sky Arte HD',
+    ]
+
+    const itKids = ['IT004:Boing',
+    'IT005:Cartoonito',
+    'IT011:Disney IT',
+    'IT012:Disney JR IT',
+    'IT013:Disney XD IT',
+    'IT051:Rai Gulp',
+    'IT056:Rai Yoyo',
+    'IT081:Manga',
+    'IT104:Boing HD',
+    'IT192:Frisbee TV',
+    'IT199:Cartoonito',
+    'IT203:K2',
+    ]
+
+    const itPrem = ['IT034:Premium Action',
+    'IT036:Premium Cinema 2 24',
+    'IT037:Premium Crime 24',
+    'IT038:Premium Cinema 24',
+    'IT039:Premium Action 24',
+    'IT040:Premium Cinema',
+    'IT041:Premium Energy',
+    'IT042:Premium Comedy',
+    'IT043:Premium Crime',
+    'IT044:Premium Disney Junior',
+    'IT045:Premium Emotion',
+    'IT046:Sky Cinema uno full',
+    'IT047:Premium Sport 2',
+    'IT048:Premium Sport 1',
+    'IT049:Premium Stories',
+    'IT050:Premium Studio Universal',
+    'IT053:Rai Premium',
+    'IT112:Premium Cinema 2',
+    'IT233:Premium Energy',
+    'IT235:Premium Cinema 2',
+    'IT236:Premium Cinema HD',
+    'IT239:PREMIUM STORIES 24',
+    ]
+
+    const ukSport = ['UK014:BT Sport 1',
+    'UK015:BT Sport 2',
+    'UK016:BT Sport 3',
+    'UK017:BT Sport ESPN',
+    'UK040:Euro Sport 1',
+    'UK041:Euro Sport 2',
+    'UK055:Sky Sports Arena',
+    'UK075:Sky Sports Mix',
+    'UK076:Sky Sports MainEvent',
+    'UK077:Sky Sports Action',
+    'UK078:Sky Sports Cricket',
+    'UK079:Sky Sports Golf',
+    'UK080:Sky Sports PremierLeague',
+    'UK081:Sky Sports F1',
+    'UK086:Racing UK',
+    'UK087:Sky Sports Football',
+    'UK089:Eir Sport 1',
+    'UK101:SKY SPORTS ACTION',
+    'UK105:Setanta Sports 1',
+    'UK106:PREMIERE SPORT HD',
+    'UK111:Horror Channel 1',
+    'UK112:Eurosport 2',
+    'UK113:Eurosport 1',
+    'UK114:Eir Sports2',
+    'UK117:Sky Sports Premier League SD',
+    'UK119:BT Sport Mosaic 2',
+    'UK120:BT Sport Extra 4',
+    'UK121:BT Sport Extra 2',
+    'UK122:BT Sport Extra 1',
+    'UK123:At The Races',
+    'UK125:Premier Sports HD',
+    'UK140:Sky Sport Main Events HD',
+    'UK141:Sky Sports 2 HD 1080p',
+    'UK142:Sky Sports 4 HD 1080p',
+    'UK143:Sky Sports 5 HD 1080p',
+    'UK144:Premier Sports FHD 1080',
+    'UK155:Sky Sport 1 SD',
+    'UK159:Mototrs TV',
+    'UK178:BT Sport Europe HD',
+    'UK179:Boxnation',
+    'UK203:BOX NATION FHD',
+    'UK215:BT Sport Extra 1',
+    'UK216:BT Sport Extra 2',
+    'UK217:BT Sport Extra 3',
+    'UK218:BT Sport Extra 4',
+    'UK235:EIR SPORTS 2 HD',
+    'UK236:ELEVEN SPORTS 1 FHD',
+    'UK237:ELEVEN SPORTS 2 FHD',
+    'UK238:ESPN',
+    'UK240:EUROSPORT 1 FHD',
+    'UK241:EUROSPORT 2 FHD',
+    'UK242:Fightbox HD',
+    'UK247:Free Sports TV',
+    'UK249:GOLD FHD',
+    'UK255:HORROR CHANNEL',
+    'UK288:RedBull',
+    'UK294:Setanta Sports',
+    'UK318:Sky Sports Racing FHD',
+    'UK319:Sky Sports ACTION HD',
+    ]
+
+    const ukCine = ['UK007:BBC 1',
+    'UK008:BBC 2',
+    'UK009:Universal',
+    'UK010:BBC 4',
+    'UK022:CBS Action',
+    'UK023:CBS Drama',
+    'UK024:CBS Reality',
+    'UK027:Movies 24',
+    'UK037:Sky Drama',
+    'UK042:Film 4',
+    'UK044:FOX UK',
+    'UK046:HBO UK',
+    'UK047:HBO 1 UK',
+    'UK050:ID UK',
+    'UK056:RTE One',
+    'UK057:Life Time',
+    'UK058:Sky Living',
+    'UK066:Sky Action',
+    'UK067:Sky Comedy',
+    'UK068:Sky Disney',
+    'UK069:Sky Family',
+    'UK070:Sky Arts',
+    'UK072:Sky Premiere',
+    'UK073:Sky ScFi Horror',
+    'UK074:Sky Showcase',
+    'UK083:Sky Thriller',
+    'UK090:Sky One',
+    'UK091:True Movies 1',
+    'UK093:Sky Movies Modern',
+    'UK094:HBO 2',
+    'UK096:True Movies 2',
+    'UK099:Sony Chnl 1',
+    'UK100:Sky Two',
+    'UK102:Sky Movies Select HD',
+    'UK103:Sky Cinema Premiere 1',
+    'UK104:Sky Atlantic 1',
+    'UK116:Comedy Central Extra 1',
+    'UK126:AMC FROM BT',
+    'UK127:BBC ALBA',
+    'UK128:BBC Parliament',
+    'UK133:Movies 4 Men',
+    'UK136:Sony Movie',
+    'UK137:Sony Channel',
+    'UK145:Sky Cinema Crime & Thriller HD',
+    'UK146:Sky Cinema Drama & Romance HD',
+    'UK147:Sky Cinema Sci-Fi & Horror HD',
+    'UK148:Sky Cinema Select HD',
+    'UK156:Sky Movies Drama',
+    'UK157:SKY Atlantic HD',
+    'UK163:ZEE CINEMA',
+    'UK166:Sky Movies Greats',
+    'UK167:Sky Movie Sci-Fi',
+    'UK174:Drama',
+    'UK185:Sky Witness HD',
+    'UK193:AMC HD',
+    'UK194:BBC 3 HD',
+    'UK195:BBC Alba HD',
+    'UK196:BBC Earth',
+    'UK197:BBC Entertainment HD',
+    'UK198:BBC Parliament',
+    'UK199:BBC TV',
+    'UK204:BOX OFFICE 1 HD',
+    'UK205:BOX OFFICE 2 HD',
+    'UK206:BOX OFFICE 3 HD',
+    'UK207:BOX OFFICE 4 HD',
+    'UK208:BOX OFFICE 5 HD',
+    'UK209:BOX OFFICE 6 HD',
+    'UK210:BOX OFFICE 7 HD',
+    'UK211:BOX OFFICE 8 HD',
+    'UK212:BOX OFFICE 9 HD',
+    'UK221:CBS justice',
+    'UK222:5SELECT',
+    'UK234:Drama',
+    'UK251:HBO 2 HD',
+    'UK252:HBO Comedy HD',
+    'UK270:MOVIES 4 MEN',
+    'UK295:Sky 2 HD',
+    'UK296:Sky Atlantic HD',
+    'UK297:Sky Box Office',
+    'UK298:SKY CIENMA ACTION HD',
+    'UK299:SKY CIENMA COMEDY HD',
+    'UK300:SKY CIENMA Family HD',
+    'UK301:SKY CIENMA Greats HD',
+    'UK302:Sky Cinema Hits',
+    'UK303:SKY CIENMA PREMIER HD',
+    'UK304:SKY CIENMA SELECT HD',
+    'UK305:VIVA HD',
+    'UK308:Sky Cinema Crime & Thriller FHD',
+    'UK310:Sky Cinema Drama & Romance FHD',
+    'UK313:Sky Cinema Premier FHD',
+    'UK314:Sky Cinema Sci-Fi&Horror FHD',
+    'UK315:Sky Cinema Select FHD',
+    'UK316:Sky Cinema Showcase HD',
+    'UK320:Sony Sab',
+    'UK321:Sony Movies',
+    'UK324:STAR BHARAT',
+    'UK325:STAR GOLD',
+    'UK326:STAR PLUS',
+    'UK322:TCM FHD',
+    ]
+
+    const ukNews = ['UK011:BBC News',
+    'UK018:CNN',
+    'UK021:CBBC',
+    'UK071:Sky News',
+    'UK082:Sky Sports News',
+    'UK095:BBC World News',
+    'UK129:CNBC Europe',
+    'UK130:FOX News',
+    'UK182:At The Races',
+    'UK188:92 NEWS',
+    'UK189:ABC News HD',
+    'UK192:ALJAZEERA HD',
+    'UK228:CNBC',
+    'UK229:CNN News',
+    'UK239:EURONEWS HD',
+    'UK245:Fox News HD',
+    'UK246:FRANCE 24',
+    'UK292:RTE NEWS',
+    ]
+
+    const ukKids = ['UK006:Baby TV',
+    'UK013:Boomerang',
+    'UK019:Cartoon network',
+    'UK020:Cartoonito',
+    'UK034:Disney UK',
+    'UK035:Disney Junior UK',
+    'UK036:Disney XD UK',
+    'UK088:RTE Two',
+    'UK097:Tiny Pop 1',
+    'UK107:Nickelodeon',
+    'UK108:Nick Jr Too',
+    'UK149:Cbeebies',
+    'UK164:Tiny POP',
+    'UK168:Nicktoons',
+    'UK169:Nick Jr',
+    'UK170:London Live',
+    'UK171:Nick be',
+    'UK219:C ITV HD',
+    'UK220:CBeebies HD',
+    'UK268:London Live',
+    'UK277:Nick Junior',
+    'UK278:Nick Junior TOO',
+    'UK279:Nick Toons HD',
+    'UK291:RTE Junior',
+    'UK306:Cartoonito',
+    'UK312:Tiny POP',
+    ]
+
+    const ukDocum = ['UK005:Animal Planet',
+    'UK030:Crime Investigiation',
+    'UK032:Discovery',
+    'UK033:Discovery Science',
+    'UK049:History UK',
+    'UK064:NAT GEO',
+    'UK109:Nat Geo Wild',
+    'UK115:Discovery History 1',
+    'UK134:QUEST',
+    'UK135:Real Lives',
+    'UK152:H2',
+    'UK158:Nat Geo Graphic',
+    'UK176:Discovery Turbo',
+    'UK175:DMax',
+    'UK177:Discovery Shed',
+    'UK184:Eden',
+    'UK200:Blaze HD',
+    'UK230:Discovery H&H',
+    'UK231:Discovery Shed HD',
+    'UK232:Discovery TURBO HD',
+    'UK233:DMAX HD',
+    'UK250:H2 FHD',
+    'UK276:NAT GEO WILD FHD',
+    'UK286:REAL LIVES',
+    ]
+
+    const ukEnter = ['UK001:3E',
+    'UK002:4Seven',
+    'UK003:5Star',
+    'UK004:5USA',
+    'UK012:BET',
+    'UK025:Channel 4',
+    'UK026:Channel 5',
+    'UK028:W Watch',
+    'UK029:Comedy Central',
+    'UK031:Dave',
+    'UK038:E! UK',
+    'UK039:E4',
+    'UK043:Good Food',
+    'UK045:MTV UK',
+    'UK048:Food Network',
+    'UK051:ITV 1',
+    'UK052:ITV 2',
+    'UK053:ITV 3',
+    'UK054:ITV 4',
+    'UK059:More 4',
+    'UK060:MTV Base',
+    'UK061:MTV Class',
+    'UK062:MUTV',
+    'UK063:VH1 UK',
+    'UK065:UTV',
+    'UK084:TLC',
+    'UK085:Travel Channel',
+    'UK092:TLC – IRELAND',
+    'UK098:Syfy 1',
+    'UK110:LFC TV',
+    'UK118:Challenge 1',
+    'UK124:Alibi',
+    'UK131:KERRANG',
+    'UK132:KISS UK',
+    'UK138:VICELAND',
+    'UK139:MTV LIVE HD',
+    'UK150:Magic',
+    'UK151:TCM',
+    'UK153:VIVA',
+    'UK154:Yesterday',
+    'UK160:Manchester United TV',
+    'UK161:Living UK',
+    'UK162:Eden',
+    'UK165:Syfy',
+    'UK172:Home & Health',
+    'UK173:gold',
+    'UK180:Pick(1)',
+    'UK181:BBC Three HD',
+    'UK183:BE3 Ireland',
+    'UK186:VH 1 CLASSIC',
+    'UK187:4 MUSIC HD',
+    'UK190:ABN TV',
+    'UK191:Alibi FHD',
+    'UK201:Bloomberg HD',
+    'UK202:BOX HITS HD',
+    'UK213:Bravo HD',
+    'UK214:SyFy FHD',
+    'UK223:Challenge HD',
+    'UK224:Channel 5 Star',
+    'UK225:CHELSEA TV HD',
+    'UK226:Club MTV',
+    'UK227:Clubland TV',
+    'UK243:Fine Living Network',
+    'UK244:Fame TV',
+    'UK248: CELTIC TV (LIVE MATCHES ONLY)',
+    'UK253:Hunting Channel',
+    'UK254:Home',
+    'UK256:Horse Country',
+    'UK257:HUM Europe',
+    'UK258:ITVBE',
+    'UK259:Liverpool FC TV',
+    'UK260:Celtic FC TV',
+    'UK261:IR TG4',
+    'UK262:ISLAM CHANNEL',
+    'UK263:Kerrang',
+    'UK264:KISS',
+    'UK265:LFC TV',
+    'UK266:Ladbrokes',
+    'UK267:Living',
+    'UK269:Magic TV',
+    'UK271:MTV Dance HD',
+    'UK272:MTV Music HD',
+    'UK273:MTV OMG',
+    'UK274:MTV Rocks HD',
+    'UK275:MTV Classic',
+    'UK280:PBS America',
+    'UK281:Pick TV',
+    'UK282:POP',
+    'UK283:Pop Max',
+    'UK284:QVC Beauty HD',
+    'UK285:QVC Style',
+    'UK287:Really',
+    'UK289:RISHTEY EUROPE',
+    'UK290:ROK TV',
+    'UK293:SAB TV',
+    'UK307:Viceland HD',
+    'UK309:VENUS TV',
+    'UK311:RANGERS TV (LIVE MATCHES ONLY)',
+    'UK317:The Box',
+    'UK323:SPIKE',
+    ]
+
 
   return (
     
@@ -4124,7 +4623,371 @@ function Channels() {
                                   </ul>
                             </div>
                           </div>
-                        </div>           
+                        </div> 
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse47"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse47"
+                            >
+                              <strong>IT:—–|INTRATENIMENTO|——————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse47"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    itIntra.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse48"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse48"
+                            >
+                              <strong>IT:—–|SPORT|—————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse48"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    itSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse49"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse49"
+                            >
+                              <strong>IT:—–|CULTURA|————————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse49"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    itCulture.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>   
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse50"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse50"
+                            >
+                              <strong>IT:—–|KID|——————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse50"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    itKids.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse51"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse51"
+                            >
+                              <strong>IT:—–|PREMIUM|————————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse51"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    itPrem.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>   
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse52"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse52"
+                            >
+                              <strong>UK:——|SPORT|—————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse52"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ukSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>  
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse53"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse53"
+                            >
+                              <strong>UK:——|CINEMA|————————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse53"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ukCine.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>    
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse54"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse54"
+                            >
+                              <strong>UK:——|NEWS|—————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse54"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ukNews.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse55"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse55"
+                            >
+                              <strong>UK:——|KIDS|—————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse55"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ukKids.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>   
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse56"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse56"
+                            >
+                              <strong>UK:——|DOCUMENTARY|———————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse56"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ukDocum.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>  
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse57"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse57"
+                            >
+                              <strong>UK:——|ENTERTAINMENT|——————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse57"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ukEnter.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>        
+                           
                     
                                       
 
