@@ -7,7 +7,7 @@ import Carouselthre from '@/components/carouselthre'
 import CarouselFour from '@/components/carouselfour'
 import Carouselone  from '@/components/carouselone'
 import Barre from '@/components/barre'
-import { useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Card from '@/components/card'
 import Sportmovie from '@/components/sportmovie'
 import Lottie from 'lottie-react'
@@ -17,6 +17,7 @@ import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import aboutLottie from '@/public/aboutLottie'
 import styled from '@/pages/about/About.module.css'
+
 
 
 export default function Home() {
@@ -70,7 +71,7 @@ export default function Home() {
                     objectFit="cover"
                     objectPosition="center"
                     quality={100}
-                    priority
+                    priority={true}
                     
                 /> 
 
@@ -80,7 +81,7 @@ export default function Home() {
                             FASTEST <span style={{ color: "#FF5F1F" }}>IPTV</span> SERVICE
                             </h2>
 
-                            <h1 className={`pt-2 lh-sm px-2  ${styles.title2}`}>
+                            <h1 className={`pt-2 px-2  ${styles.title2}`}>
                                 <strong>
                                     The Best <span style={{ color: "#FF5F1F" }}>IPTV</span> <br />{" "}
                                     Subscription For Endless <br /> Entertainment
@@ -104,24 +105,35 @@ export default function Home() {
                                       </Link>
                                   </button> */}
                             </div>
-                            <Carouselone />
-                            <Carouseltwo />
-                            <Carouselthre />
-                            <CarouselFour />
+                            
+
+                            <div className={`${styles.car1}`}>
+                                  <Carouselone />
+                            </div>
+
+                                <Carouseltwo />
+
+                            <div className={`${styles.car2}`}>
+                                <Carouselthre />
+                            </div>
+                            
+                                <CarouselFour />
+                            
                             
                             
                 </div>
                 
       </section>
                                     
-      {/* <section className={`mt-0 pt-2 ${styles.section2}`}>
-      
+      <section className={`mt-0 pt-2 ${styles.section2}`}>
+        
       </section> 
-       */}
+       
 
       
       
-      <section className={`${styles.section5}`}>
+      <section className={`pt-5 ${styles.section5}`}>
+
         <Sportmovie/>
       </section>
 

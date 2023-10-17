@@ -73,7 +73,7 @@ const Carouselthre = () => {
       infinite
       autoPlay
       autoWidth
-      autoPlayInterval={1500}
+      autoPlayInterval={3000}
       />
       
     </div>

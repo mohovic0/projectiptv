@@ -2,6 +2,7 @@
     background-color: #190a05;
     /*background-image: linear-gradient(to right, #b04f34, #190a05);*/
     position: relative;
+    
 }
 
 .imageback{
@@ -19,16 +20,67 @@
     z-index: 1;
 }
 
+@keyframes kar1 {
+    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+    0% {
+      transform: translateX(800px);
+    }
+    100% {
+      /* adjust the value to control how much the text moves */
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes kar2 {
+    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+    0% {
+      transform: translateX(-800px);
+    }
+    100% {
+      /* adjust the value to control how much the text moves */
+      transform: translateX(0px);
+    }
+  }
+
 .title1{
     color: #FAF5E9;
     font-weight: 500;
     font-size: calc(14px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
+    
 }
+@keyframes annim-title1 {
+    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+    0% {
+      transform: translateX(-500px);
+    }
+    100% {
+      /* adjust the value to control how much the text moves */
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes annim-title2  {
+    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+    0% {
+      transform: translateX(500px);
+    }
+    100% {
+      /* adjust the value to control how much the text moves */
+      transform: translateX(0px);
+    }
+  }
+
+
+
+
+
 .title2{
     color: #FAF5E9;
-    font-weight: 900;
+    font-weight: bolder;
     font-size: calc(30px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
-    font-family:'Roboto',sans-serif    
+    letter-spacing: 1px;
+    line-height : 150%;
+    
 }
 /* .typic{
     color: #e6d600;
@@ -42,13 +94,29 @@
     padding : 5px 20px 5px 20px ;
     margin-left: 30px;
     
+    
 }
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 900px) {
     .btn1{
         margin-left: 5px;
         padding: 8px 12px 8px 12px;
         font-size: 15px;
+        animation: annim-title1 5s ease forwards;
     }
+    .title1{
+        animation: annim-title2 4s ease forwards;
+    }
+    .title2{
+        animation: annim-title1 6s ease forwards;
+    }
+
+    .car1{
+        animation: kar1 10s ease forwards;
+    }
+    .car2{
+        animation: kar2 10s ease forwards;
+    }
+
 }
 
 

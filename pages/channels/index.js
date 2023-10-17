@@ -5961,8 +5961,6 @@ function Channels() {
     'MBC012:Variety',
     ]
 
-    
-
     const jp = ['JP001:NHK-総合',
     'JP002:NHK-Eテレ',
     'JP003:日テレ',
