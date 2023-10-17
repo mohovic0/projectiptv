@@ -1931,6 +1931,217 @@ function Channels() {
     'DE295:ZDF NEO HD',
     ]
 
+    const deDocum = ['DE004:Animal Planet',
+    'DE013:Discovery DE',
+    'DE021:History DE',
+    'DE030:NAT GEO People',
+    'DE031:NAT GEO Wild DE',
+    'DE032:NAT GEO DE',
+    'DE036:Phoenix',
+    'DE037:ProSieben',
+    'DE038:ProSieben MAXX',
+    'DE107:National Geographic HD Germany',
+    'DE110:VIVA',
+    'DE148:Baden TV',
+    'DE206:PLANET HD',
+    'DE288:SWR BW HD',
+    ]
+
+    const deCinema = ['DE001:13TH Street',
+    'DE002:3 SAT HD',
+    'DE003:A&E DE',
+    'DE008:AXN DE',
+    'DE015:Disney cine magic',
+    'DE020:Fox DE',
+    'DE022:Kabel 1 Classic',
+    'DE034:ORF 1',
+    'DE035:ORF 2',
+    'DE041:RTL Crime',
+    'DE043:RTL Nitro',
+    'DE045:SAT 1 Gold',
+    'DE046:SAT 1',
+    'DE047:Servus TV',
+    'DE050:Sky Atlantic',
+    'DE052:Sky Cinema',
+    'DE053:Sky Cinema 1',
+    'DE054:Sky Cinema 24',
+    'DE055:Sky Cinema Action',
+    'DE056:Sky Cinema Comedy',
+    'DE059:Sky Cinema Emotion',
+    'DE060:Sky Cinema Family',
+    'DE061:Sky Cinema Hits',
+    'DE057:Sky Disney',
+    'DE058:Sky DMAX',
+    'DE063:Sky Krimi',
+    'DE062:Sky Cinema Nostalgie',
+    'DE068:Universal DE',
+    'DE072:Syfy DE',
+    'DE073:TNT Comedy',
+    'DE074:TNT Film',
+    'DE075:TNT Series',
+    'DE088:Sky Select 8',
+    'DE089:Sky Select 7',
+    'DE090:SKY SELECT 6',
+    'DE091:SKY SELECT 5',
+    'DE092:SKY SELECT 4',
+    'DE093:SKY SELECT 3',
+    'DE094:SKY SELECT 2',
+    'DE095:SKY SELECT 1',
+    'DE106:Pro7',
+    'DE108:Disney Cinemagic HD',
+    'DE123:SAT GOLD 1',
+    'DE133:Sky Cinema Family',
+    'DE153:CineDome 1 HD',
+    'DE154:CineDome 2 HD',
+    'DE155:CineDome 3 HD',
+    'DE156:CineDome 4 HD',
+    'DE157:CineDome 5 HD',
+    'DE173:FILM CLUB 1 HD',
+    'DE174:FILM CLUB 2 HD',
+    'DE175:FILM CLUB 3 HD',
+    'DE176:FILM CLUB 4 HD',
+    'DE177:FILM CLUB 5 HD',
+    'DE180:ORF 3 HD',
+    'DE181:HEIMATKANAL HD',
+    'DE189:KINO WELT TV HD',
+    'DE207:POPCORN SELECT 1 FHD',
+    'DE208:POPCORN SELECT 2 FHD',
+    'DE209:POPCORN SELECT 3 FHD',
+    'DE210:POPCORN SELECT 4 FHD',
+    'DE211:POPCORN SELECT 5 HD',
+    'DE212:POPCORN SELECT 6 HD',
+    'DE213:POPCORN SELECT 7 HD',
+    'DE229:Sky 1 HD',
+    'DE232:Sky Cinema WESTERN',
+    'DE235:Kinowelt TV F',
+    'DE240:Sky Popcorn Select 1 HD',
+    'DE241:Sky Popcorn Select 2 HD',
+    'DE242:Sky Popcorn Select 5 HD',
+    'DE243:SKY SELECT 1 HD',
+    'DE244:SKY SELECT 2 HD',
+    'DE245:SKY SELECT 3 HD',
+    'DE246:SKY SELECT 4 HD',
+    'DE247:SKY SELECT 5 HD',
+    'DE248:SKY SELECT 6 HD',
+    'DE249:SKY SELECT 7 HD',
+    'DE250:SKY SELECT 8 HD',
+    'DE251:SKY SELECT 9 HD',
+    'DE252:Sky Select 10 HD',
+    'DE253:Sky Select 11 HD',
+    'DE254:Sky Select 12 HD',
+    'DE255:SKY SELECT 13 HD',
+    'DE256:SKY SELECT 14 HD',
+    'DE257:SKY SELECT 15 HD',
+    'DE258:SKY SELECT 16 HD',
+    'DE259:SKY SELECT 17 HD',
+    'DE260:SKY SELECT HD',
+    'DE280:SKY STORE 1 POPCORN',
+    'DE281:Sky STORE 2 POPCORN',
+    'DE282:Sky STORE 3 POPCORN',
+    'DE283:SKY STORE 5 POPCORN',
+    'DE285:Sony Tv HD',
+    ]
+
+    const deKids = ['DE009:Boomerang DE',
+    'DE010:Cartoon Network DE',
+    'DE014:Disney DE',
+    'DE016:Disney JR DE',
+    'DE017:Disney XD DE',
+    'DE025:Kika',
+    'DE033:Nickelodeon DE',
+    'DE071:Super RTL',
+    'DE147:Baby TV',
+    'DE164:VIVA/COMEDY CENTRAL',
+    'DE185:Junior HD',
+    'DE196:Nick HD',
+    'DE227:Toggo Plus',
+    ]
+
+    const deSport = ['DE018:Euro Sport 1 DE',
+    'DE019:Euro Sport 2 DE',
+    'DE051:Sky Bundesliga 1',
+    'DE064:Sky Sport 1',
+    'DE065:Sky Sport 2',
+    'DE066:Sky Sport Austria',
+    'DE069:Sport 1',
+    'DE070:Sport Digital',
+    'DE079:Sky Sport 9 HD ( During Games only )',
+    'DE080:Sky Sport 8 HD ( During Games only )',
+    'DE081:Sky Sport 7 HD ( During Games only )',
+    'DE082:Sky Sport 6 HD ( During Games only )',
+    'DE083:Sky Sport 5 HD ( During Games only )',
+    'DE084:Sky Sport 4 HD ( During Games only )',
+    'DE085:Sky Sport 3 HD ( During Games only )',
+    'DE086:Sky Sport 11 HD ( During Games only )',
+    'DE087:Sky Sport 10 HD ( During Games only )',
+    'DE096:Sky BUNDESLIGA 9 HD ( During Games only )',
+    'DE097:Sky BUNDESLIGA 8 HD ( During Games only )',
+    'DE098:Sky BUNDESLIGA 7 HD ( During Games only )',
+    'DE099:Sky BUNDESLIGA 6 HD ( During Games only )',
+    'DE100:Sky BUNDESLIGA 5 HD ( During Games only )',
+    'DE101:Sky BUNDESLIGA 4 HD ( During Games only )',
+    'DE102:Sky BUNDESLIGA 3 HD ( During Games only )',
+    'DE103:SKY BUNDESLIGA 2 HD ( During Games only )',
+    'DE104:Sky BUNDESLIGA 10 HD ( During Games only )',
+    'DE112:Sport 1 HD',
+    'DE126:SPORT1 HD ( 1080P )',
+    'DE127:SR Fernsehen HD ( 1080P )',
+    'DE132:Motorvision TV',
+    'DE135:Eurosport 1 HD',
+    'DE136:Sky Germany Sport 3 HD',
+    'DE137:Sky Germany Sport 9 HD',
+    'DE138:Sky Germany Sport 8 HD',
+    'DE139:Sky Germany Sport 7 HD',
+    'DE140:Sky Germany Sport 6 HD',
+    'DE141:Sky Germany Sport 5 HD',
+    'DE142:Sky Germany Sport 4 HD',
+    'DE143:Sky Germany Sport 11 HD',
+    'DE144:Sky Germany Sport 10 HD',
+    'DE146:Auto Motor Sport HD',
+    'DE149:BAYERN FC TV',
+    'DE161:DAZN BAR 1 HD',
+    'DE162:DAZN BAR 2 HD',
+    'DE169:EUROSPORT 1 HD',
+    'DE170:EUROSPORT 2 HD',
+    'DE171:Eurosport 2 Xtra',
+    'DE172:TV Oberpfalz',
+    'DE182:HR Fernsehen HD',
+    'DE183:Telekom Sport 2',
+    'DE191:Motorvision HD',
+    'DE204:OLYMPIC CHANNEL SPORT 2 HD',
+    'DE218:RAN 1 HD',
+    'DE228:Telekom Fussball 1 HD',
+    'DE230:DAZN 2 Bar',
+    'DE231:Telekom Fussball 2 HD',
+    'DE234:Sky EUROSPORT 1 HD',
+    'DE236:Telekom Fussball 3 HD',
+    'DE237:Telekom Fussball 4 HD',
+    'DE239:Telekom Fussball 5 HD',
+    'DE261:Sky Sport 3 HD',
+    'DE262:Sky Sport 4 HD',
+    'DE263:Sky Sport 5 HD',
+    'DE264:Sky Sport 6 HD',
+    'DE265:Sky Sport 7 HD',
+    'DE266:Sky Sport 8 HD',
+    'DE267:Sky Sport 9 HD',
+    'DE268:Sky Sport 10 HD',
+    'DE269:Sky Sport Bundesliga 1 HD',
+    'DE270:Sky Sport Bundesliga 2 HD',
+    'DE271:Sky Sport Bundesliga 3 HD',
+    'DE272:Sky Sport Bundesliga 4 HD',
+    'DE273:Sky Sport Bundesliga 5 HD',
+    'DE274:Sky Sport Bundesliga 6 HD',
+    'DE275:Sky Sport Bundesliga 7 HD',
+    'DE276:Sky Sport Bundesliga 8 HD',
+    'DE277:Sky Sport Bundesliga 9 HD',
+    'DE278:Sky Sport Bundesliga 10 HD',
+    'DE279:Sky Sport HD (AU)',
+    'DE290:DAZN 1',
+    'DE291:BBL Sport 1 (ONLY ON MATCHDAY)',
+    'DE292:BBL Sport 2 (ONLY ON MATCHDAY)',
+    'DE293:BBL Sport 3 (ONLY ON MATCHDAY)',
+    'DE294:BBL Sport 4 (ONLY ON MATCHDAY)',
+    ]
 
 
 
@@ -3096,7 +3307,140 @@ function Channels() {
                           </div>
                         </div>
 
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse35"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse35"
+                            >
+                              <strong>DE:—–|DOCUMENTARY|—————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse35"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    deDocum.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
 
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse36"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse36"
+                            >
+                              <strong>DE:—–|CINEMA|——————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse36"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    deCinema.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse37"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse37"
+                            >
+                              <strong>DE:—–|KIDS|———————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse37"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    deKids.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse38"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse38"
+                            >
+                              <strong>DE:—–|SPORT|———————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse38"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    deSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                                      
+                    
 
 
                       
