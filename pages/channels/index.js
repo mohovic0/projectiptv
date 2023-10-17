@@ -3034,7 +3034,3001 @@ function Channels() {
     'UK323:SPIKE',
     ]
 
+    const esSport = ['ES009:Barca TV',
+    'ES010:Bein Sport',
+    'ES014:M Deportes 2',
+    'ES015:M Deportes 1',
+    'ES017:M Futbol',
+    'ES018:M Golf',
+    'ES020:Toros',
+    'ES026:M Formula 1',
+    'ES027:M MotoGP',
+    'ES040:Euro Sport 1',
+    'ES041:Euro Sport 2',
+    'ES045:GOL TV',
+    'ES051:LaLiga TV',
+    'ES069:Teledeport',
+    'ES079:Vamos',
+    'ES084:Canal LIGA HD',
+    'ES085:Canal FUTBOL HD',
+    'ES086:Canal DEPORTES HD',
+    'ES087:Canal DEPORTES 2 HD',
+    'ES089:La Liga BAR HD',
+    'ES092:Bein Liga HD',
+    'ES095:BeiN La Liga',
+    'ES096:BeiN Laliga FHD',
+    'ES121:beIN Sports LaLiga HD',
+    'ES122:beIN Sports LaLiga FHD',
+    'ES123:DEPORTES 2 HD',
+    'ES132:Vamos FHD',
+    'ES125:LaLiga 123 FHD',
+    'ES131:Real Madrid TV',
+    'ES151:Real Madrid TV',
+    'ES153:BARCA TV',
+    'ES156:LaLiga 123 HD',
+    'ES133:M. DEPORTES 1',
+    'ES134:M. DEPORTES 2',
+    'ES135:M. DEPORTES 3',
+    'ES136:M. DEPORTES 4',
+    'ES164:SKY NET SPORTS 2',
+    'ES165:SKYNET SPORTS 1',
+    'ES172:M. LIGA DE CAMPEONES',
+    'ES173:Movistar Liga de Campeones 4 HD',
+    'ES174:M. LIGA DE CAMPEONES 6',
+    'ES182:BARCA TV',
+    'ES183:GOL TV HD',
+    'ES184:LA LIGA TV HD',
+    'ES185:LA LIGA 1|2|3 TV HD',
+    'ES186:beIN SPORTS ? HD',
+    'ES187:Movistar Liga de Campeones',
+    'ES188:Movistar Liga de Campeones 2',
+    'ES189:M DEPORTES 1 HD',
+    'ES190:M GOLF HD',
+    'ES191:M FORMULA 1 HD',
+    'ES193:M FUTBOL HD',
+    'ES231:Toros Tv',
+    'ES236:NRJ TV',
+    'ES239:Movistar MotoGP',
+    'ES241:Movistar Partidazo HD (event only)',
+    'ES242:Movistar F1',
+    'ES243:RealMadrid TV',
+    'ES250:EUROSPORT',
+    'ES251:Canal Deportes',
+    'ES257:BeinSport HD',
+    'ES258:BeinSport LaLiga HD',
+    'ES263:CANAL GOLF',
+    'ES264:CANAL MotoGP',
+    'ES266:CANAL Toros TV',
+    'ES274:EUROSPORT 1',
+    'ES275:EUROSPORT 2',
+    ]
 
+    const esCinema = ['ES001:#0 HD',
+    'ES003:A&E ES',
+    'ES004:AMC ES',
+    'ES006:AXN ES',
+    'ES007:AXN White',
+    'ES012:Calle 13',
+    'ES013:M Action',
+    'ES016:M Estrenos',
+    'ES019:M Series Xtra',
+    'ES021:M Xtra',
+    'ES023:M Dcine',
+    'ES025:M SERIES HD',
+    'ES043:Fox ES',
+    'ES044:Fox Life ES',
+    'ES047:Hollywood',
+    'ES053:M Comedia',
+    'ES066:Syfy ES',
+    'ES067:TCM ES',
+    'ES070:TNT ES',
+    'ES077:MoviStar Cine ?',
+    'ES078:Movistar CineDoc&Roll',
+    'ES081:SOMOS',
+    'ES082:CANAL COCINA',
+    'ES088:Canal DCINE HD',
+    'ES090:Canal SERIES HD',
+    'ES091:CANAL COCINA',
+    'ES094:#0',
+    'ES098:TAQUILLA 1',
+    'ES099:TAQUILLA 10',
+    'ES100:TAQUILLA 2',
+    'ES101:TAQUILLA 3',
+    'ES102:TAQUILLA 4',
+    'ES103:TAQUILLA 5',
+    'ES104:TAQUILLA 6',
+    'ES105:TAQUILLA 7',
+    'ES106:TAQUILLA 8',
+    'ES107:TAQUILLA 9',
+    'ES110:Alquiler 1 HD',
+    'ES112:Alquiler 3 HD',
+    'ES113:Alquiler 4 HD',
+    'ES114:Alquiler 5 HD',
+    'ES115:Alquiler 6 HD',
+    'ES116:Alquiler 7 HD',
+    'ES117:Alquiler 9 HD',
+    'ES124:Syfy HD',
+    'ES126:TAQUILLA 1 HD',
+    'ES127:TAQUILLA 4 HD',
+    'ES128:TAQUILLA 6 HD',
+    'ES137:BOX OFFICE 5',
+    'ES138:BOX OFFICE 10',
+    'ES139:CANAL COCINA',
+    'ES140:Canal DCINE HD',
+    'ES158:MoviStar CINE',
+    'ES166:SOMOS',
+    'ES167:SUNDANCE FHD',
+    'ES168:TAQUILLA 2 HD',
+    'ES169:TAQUILLA 3 HD',
+    'ES170:TAQUILLA 5 HD',
+    'ES171:TAQUILLA 7 HD',
+    'ES175:TELEMADRID FHD',
+    'ES181:TVE Internacional',
+    'ES198:Moviestar Portada',
+    'ES208:SYFY',
+    'ES209:FOX Life HD',
+    'ES210:FOX HD',
+    'ES211:AXN White HD',
+    'ES212:AXN',
+    'ES213:Calle 13 HD',
+    'ES214:Movistar Accion',
+    'ES215:Movistar Comedia HD',
+    'ES216:Movistar DCine',
+    'ES217:Movistar Xtra',
+    'ES218:Movistar Series Xtra',
+    'ES219:Movistar Estrenos',
+    'ES220:TNT',
+    'ES222:Paramount Channel',
+    'ES223:Hollywood HD',
+    'ES224:Moviestar Series',
+    'ES225:Televisa HD',
+    'ES244:Movistar Alquiler Presentation',
+    'ES245:Movistar Alquiler 10 FHD',
+    'ES246:Movistar Alquiler 11 FHD',
+    'ES247:Movistar Alquiler 12 FHD',
+    'ES248:Movistar Alquiler Multivision 1 FHD',
+    'ES249:Movistar Alquiler Multivision 2 FHD',
+    'ES252:#0 HD',
+    'ES254:A&E',
+    'ES255:AMC',
+    'ES256:ODESSEIA',
+    'ES259:CANAL ACCION HD',
+    'ES260:CANAL Comedia',
+    'ES261:CANAL Estrenos',
+    'ES262:CANAL Formula One',
+    'ES265:CANAL Series Xtra',
+    'ES267:CANAL Xtra',
+    ]
+
+    const esDocum = ['ES028:Caza Y Pesca',
+    'ES024:DeCasa',
+    'ES032:Crimen Investigation',
+    'ES034:Discovery ES',
+    'ES046:Historia',
+    'ES063:Odisea',
+    'ES056:NAT GEO WILD ES',
+    'ES057:NAT GEO ES',
+    'ES071:Viajar',
+    'ES073:DKISS',
+    'ES080:BLAZE',
+    'ES083:VIAJAR HD',
+    'ES097:DMAX',
+    'ES145:VIAJAR FHD',
+    'ES149:CRIMEN & INVESTIGACION',
+    'ES150:DKISS',
+    'ES228:National Geographic',
+    'ES229:Nat Geo Wild',
+    'ES230:Historia',
+    'ES232:Odisea Tv',
+    'ES238:Canal DeCasa',
+    'ES268:CAZA-Y-PESCA',
+    'ES270:Decasa',
+    'ES271:DISCOVERY',
+    ]
+
+    const esCarto = ['ES008:Baby TV',
+    'ES011:Boing',
+    'ES035:Disney ES',
+    'ES036:Disney JR ES',
+    'ES037:Disney XD ES',
+    'ES059:NICK JR ES',
+    'ES060:Nickelodeon ES',
+    'ES064:Panda',
+    'ES143:CANAL PANDA',
+    'ES200:Baby TV',
+    'ES201:BOING',
+    'ES202:Disney XD',
+    'ES203:Disney Junior',
+    'ES204:Nickelodeon',
+    'ES205:Disney Channel',
+    'ES240:Panda',
+    ]
+
+    const esEspana = ['ES002:24 Horas',
+    'ES005:Antena 3',
+    'ES022:Cocina',
+    'ES029:Clan Tve',
+    'ES030:Comedy Central',
+    'ES031:Cosmo',
+    'ES033:Cuatro',
+    'ES038:Divinity',
+    'ES039:Energy',
+    'ES042:FDF',
+    'ES048:Iberalia',
+    'ES049:LA 1',
+    'ES050:LA 2',
+    'ES052:La Sexta',
+    'ES054:Mega',
+    'ES055:MTV ES',
+    'ES058:NEOX',
+    'ES061:Canal DE Case',
+    'ES062:NOVA',
+    'ES065:Paramount',
+    'ES068:Telecinco',
+    'ES072:ARAGON TV',
+    'ES074:Extremadura HD',
+    'ES075:EXTREMADURA TV',
+    'ES076:MEZZO LIVE HD',
+    'ES093:40 TV',
+    'ES108:13 TV',
+    'ES109:CANAL SUR A',
+    'ES111:VH1',
+    'ES118:Andalucia TV',
+    'ES119:ARAGON TV',
+    'ES120:Nova',
+    'ES129:Extremadura TV',
+    'ES130:CLAN TVE',
+    'ES141:Canal de las Estrellas',
+    'ES142:Extremadura TV',
+    'ES146:CLAN TVE',
+    'ES144:Willow Cricket',
+    'ES147:Classica',
+    'ES148:TVE LA 2 HD',
+    'ES152:Esperanza TV',
+    'ES154:GALICIA TV',
+    'ES155:Azteca Honduras',
+    'ES157:MEZZO LIVE FHD',
+    'ES159:N Cuatro HD',
+    'ES160:Telecinco',
+    'ES161:Mega',
+    'ES162:Telecinco',
+    'ES163:Teledeporte',
+    'ES176:TELESUR HD',
+    'ES177:Antena 3 HD',
+    'ES178:TV Galicia',
+    'ES179:TV3 Cat',
+    'ES180:TVE 24H',
+    'ES192:Antena 3 HD',
+    'ES194:Cuatro',
+    'ES195:N Cuatro HD',
+    'ES196:Telecinco HD',
+    'ES197:la sexta HD',
+    'ES199:RTVA',
+    'ES206:Canal Sur HD',
+    'ES207:Canal Sur LaBanda HD',
+    'ES235:MTV espana',
+    'ES277:LA1 °',
+    'ES279:NON STOP PEOPLE',
+    'ES273:DW HD 2*',
+    'ES227:Neox Tv',
+    'ES234:Mega',
+    'ES276:FDF SPAIN',
+    'ES226:Energy',
+    'ES272:Divinity °',
+    'ES237:Cosmo FHD',
+    'ES221:Comedy Central',
+    'ES233:Nova',
+    'ES253:24-Horas °',
+    'ES269:CLAN TVE',
+    ]
+
+    const frSport = ['FR003:AB Moteur',
+    'FR009:Bein Sport 4 Max',
+    'FR011:Bein Sport 5 Max',
+    'FR012:Bein Sport 6 Max',
+    'FR013:Bein Sport 7 Max',
+    'FR014:Bein Sport 8 Max',
+    'FR015:Bein Sport 9 Max',
+    'FR010:Bein Sport 10 Max',
+    'FR017:Bein Sport 1',
+    'FR018:Bein Sport 2',
+    'FR016:Bein Sport 3',
+    'FR027:Canal Sport',
+    'FR050:Euro Sport 1 FR',
+    'FR051:Euro Sport 2 FR',
+    'FR062:Info Sport',
+    'FR081:SFR Sport 1',
+    'FR082:SFR Sport 2',
+    'FR083:SFR Sport 3',
+    'FR080:SFR Sport 4',
+    'FR136:Persiana 1',
+    'FR112:Eurosport 1',
+    'FR111:Eurosport 2',
+    'FR266:EUROSPORT 1 FHD',
+    'FR267:EUROSPORT 2 FHD',
+    'FR268:EXTREME SPORTS HD',
+    'FR177:BFM SPORT',
+    'FR113:INFOSPORT',
+    'FR329:Foot +',
+    'FR349:RMC SPORT 1 HD',
+    'FR350:RMC SPORT 2 HD',
+    'FR351:RMC SPORT 3 HD',
+    'FR352:RMC SPORT 4 HD',
+    'FR337:RMC ACCESS 1',
+    'FR338:RMC ACCESS 2',
+    ]
+
+    const frEnter = ['FR041:CStar',
+    'FR002:6Ter',
+    'FR004:AB1',
+    'FR005:AB3',
+    'FR007:Animaux',
+    'FR008:Arte',
+    'FR042:Discovery',
+    'FR043:Discovery Science',
+    'FR067:NAT GEO',
+    'FR068:NAT GEO WILD',
+    'FR070:NRJ Hits',
+    'FR075:Planete',
+    'FR076:Planete A&E',
+    'FR077:Planete CI',
+    'FR079:Seasons',
+    'FR096:NRJ12 HD',
+    'FR126:SCIENCE ET VIE HD',
+    'FR146:Trace Mziki',
+    'FR149:Trace Toca',
+    'FR156:Trace Tropical',
+    'FR157:Trace Urban',
+    'FR170:E! Entertainment',
+    'FR172:Discovery Investigation HD',
+    'FR166:MCM',
+    'FR167:MCM TOP',
+    'FR236:DJAZZ TV',
+    'FR258:Discovery FAMILY FHD',
+    'FR259:Discovery INVESTIGATION FHD',
+    'FR355:RMC STORY HD',
+    'FR022:C8',
+    'FR028:Canal',
+    'FR031:Chasse et Pache',
+    'FR032:Cherie 25',
+    'FR040:Comedie Plus',
+    'FR048:Equidiae Live',
+    'FR052:France 2',
+    'FR054:France 3',
+    'FR055:France 4',
+    'FR056:France 5',
+    'FR057:France O',
+    'FR058:Game One',
+    'FR060:HD1',
+    'FR061:i Tele',
+    'FR063:L’EQUIPE 21',
+    'FR065:M6',
+    'FR071:TFX',
+    'FR073:Pairs Permiere',
+    'FR078:RTL9',
+    'FR084:Syfy FR',
+    'FR085:Teva',
+    'FR087:TF1',
+    'FR088:Toute Lhistoire',
+    'FR089:Trace Urban',
+    'FR090:TV Breizh',
+    'FR091:TV5 Monde',
+    'FR092:Voyage',
+    'FR093:W9',
+    'FR101:D8',
+    'FR109:COMEDIE HD',
+    'FR110:CANAL HD',
+    'FR114:La Deux',
+    'FR115:La une BE',
+    'FR116:NUMERO 23 HD',
+    'FR121:ZOUZOU HD',
+    'FR122:PARIS PREMIERE HD',
+    'FR123:rmc decouverte',
+    'FR124:RTS Deux',
+    'FR125:RTS Un',
+    'FR127:SCIENCES & VIE',
+    'FR129:MB Live TV',
+    'FR130:Zouzou TV LOCAL',
+    'FR137:WEO HD',
+    'FR139:NT1',
+    'FR141:TEVA/TMC',
+    'FR142:TREK HD',
+    'FR144:Radio Contact',
+    'FR145:Sundance TV',
+    'FR159:TV3V',
+    'FR161:BET',
+    'FR162:J One',
+    'FR164:FOOT 24',
+    'FR165:TV5 Style',
+    'FR168:Science & Vie HD',
+    'FR169:CRIME DISTRICT HD',
+    'FR171:BFM business',
+    'FR173:BE CURIOUS TV HD (1080P)',
+    'FR175:EQUIDIA LIFE',
+    'FR176:GOLF HD',
+    'FR178:Syfy HD',
+    'FR179:Teva',
+    'FR192:TV5Monde Maghreb-Orient',
+    'FR194:BFM LYON',
+    'FR195:VOSGES TV',
+    'FR196:ALTICE STUDIO FHD',
+    'FR197:Antenne Reunion',
+    'FR198:VICELAND HD',
+    'FR199:USHUAIA HD',
+    'FR200:BET FHD',
+    'FR201:BFM Business HD',
+    'FR202:BFM HD',
+    'FR203:BFM PARIS HD',
+    'FR204:Black Classic',
+    'FR207:ILTV',
+    'FR209:VIRGIN',
+    'FR210:13EME RUE',
+    'FR211:Bblack! Africa',
+    'FR212:Bblack! Caribbean',
+    'FR213:CPAC',
+    'FR214:FASHION MIDNITE',
+    'FR216:Serie Club',
+    'FR217:M6 Boutique HD',
+    'FR218:M6 Music Hits',
+    'FR219:HD 1',
+    'FR220:RTS LA DEUX HD',
+    'FR221:Alsace TV',
+    'FR222:SyFy Universal HD',
+    'FR223:BRAVA HD',
+    'FR235:TL7',
+    'FR237:MTV BASE',
+    'FR238:MTV DANCE',
+    'FR239:MTV HITS',
+    'FR240:TVM 3 HD',
+    'FR241:TV5 MONDE',
+    'FR242:CANAL DECALE HD',
+    'FR243:CANAL Emotion HD',
+    'FR244:CANAL FAMILY HD',
+    'FR245:CANAL HD',
+    'FR247:TV Vendee',
+    'FR248:CANAL SERIE HD',
+    'FR249:TV7 Bordeaux',
+    'FR250:CANAL SPORT FHD',
+    'FR251:CINE CLUB HD',
+    'FR252:CINE FRISSON HD',
+    'FR253:CINE Star HD',
+    'FR254:TV8 MontBlanc 2',
+    'FR255:TV5 Europe HD',
+    'FR256:TVR TV Rennes 35',
+    'FR257:VIA LMTV SARTHE',
+    'FR260:E! FHD',
+    'FR263:RTS LA UN',
+    'FR264:ELLE GIRL HD',
+    'FR269:VIA MIRABELLE TV',
+    'FR270:FOOT 24 HD',
+    'FR271:TREK FHD',
+    'FR272:FRANCEO HD',
+    'FR273:via Occitanie TV',
+    'FR274:Via Vosges TV',
+    'FR275:GONG MAX HD',
+    'FR276:Gong TV',
+    'FR277:RTS Deux FHD',
+    'FR279:J ONE FHD',
+    'FR280:KOMBAT SPORTS HD',
+    'FR281:KTO HD',
+    'FR282:LA CHAINE NORMANDIE HD',
+    'FR284:viàVosges',
+    'FR285:TVR',
+    'FR286:TVPI',
+    'FR287:W9 Music',
+    'FR288:PLUG RTL',
+    'FR289:MCM HD',
+    'FR290:MCM TOP',
+    'FR291:MEZZO LIVE HD',
+    'FR292:TRACE AYITI',
+    'FR293:TRACE AFRICA HD',
+    'FR294:MTV FRANCE',
+    'FR295:MTV Music',
+    'FR296:ZouZous',
+    'FR297:MY CUISINE FHD',
+    'FR299:La Chaine Normande',
+    'FR300:AB MOTEURS',
+    'FR303:CGTN',
+    'FR304:RTL FHD',
+    'FR312:OLTV HD',
+    'FR313:TRACE GOSPEL',
+    'FR320:Planete+ HD',
+    'FR323:SyFy Universal',
+    'FR324:Equida_FR',
+    'FR330:ALSACE 20',
+    'FR331:A+',
+    'FR333:CINEMA ACTION 2',
+    'FR334:NOLYWOOD',
+    'FR335:PICKLE TV',
+    'FR342:PARIS PREMIERE FHD',
+    'FR344:RT France',
+    'FR346:EMCI TV',
+    'FR347:Fashion L’Original',
+    'FR348:RMC Decouverte HD',
+    'FR353:BipTV',
+    'FR356:Bblack Classik',
+    ]
+
+    const frCinema = ['FR001:13 Eme Rue',
+    'FR006:Action',
+    'FR023:Canal Cinema',
+    'FR024:Canal Decale',
+    'FR025:Canal Family',
+    'FR026:Canal Series',
+    'FR033:Cine Class',
+    'FR034:Cine Emotion',
+    'FR035:Cine Famiz',
+    'FR036:Cine Frisson',
+    'FR037:Cine FX',
+    'FR038:Cine Polar',
+    'FR039:Cine Permier',
+    'FR045:Disney Cinema',
+    'FR072:Paramount',
+    'FR086:Series Club',
+    'FR102:CANAL PLAY 1',
+    'FR103:CANAL PLAY 2',
+    'FR104:CANAL PLAY 3',
+    'FR105:CANAL PLAY 4',
+    'FR106:CANAL PLAY 5',
+    'FR107:CANAL PLAY 6',
+    'FR108:CANAL PLAY 7',
+    'FR133:A.LA.CARTE.1',
+    'FR134:A.LA.CARTE.3',
+    'FR135:A.LA.CARTE.4',
+    'FR131:A LA CARTE 5',
+    'FR132:A la Carte 6',
+    'FR098:A LA CARTE 7',
+    'FR099:A LA CARTE 8',
+    'FR100:A LA CARTE 9',
+    'FR097:A LA CARTE 10',
+    'FR117:OCS CHOC HD',
+    'FR118:OCS CITY',
+    'FR119:OCS GEANT',
+    'FR120:OCS MAX',
+    'FR138:TMC HD ( 1080P )',
+    'FR140:TCM CINEMA',
+    'FR160:ALTICE STUDIO HD',
+    'FR143:OCS Go Cinema 1 HD',
+    'FR148:Orange Cinema 1 HD',
+    'FR150:Orange Cinema 3 HD',
+    'FR151:Orange Cinema 4 HD',
+    'FR152:Orange Cinema 5 HD',
+    'FR153:Orange Cinema Action HD',
+    'FR154:Orange Cinema Aventure HD',
+    'FR155:Orange Cinema HD',
+    'FR158:Orange Documentaire HD',
+    'FR147:OCS Go Cinema 5 HD',
+    'FR308:OCS Go Cine 3 HD',
+    'FR309:OCS GO CINE 4 HD',
+    'FR310:OCS Go Cine 5 HD',
+    'FR193:OCS GEANTS',
+    'FR234:Cine+ Classic',
+    'FR182:A LA CARTE 1',
+    'FR183:A LA CARTE 2',
+    'FR184:A LA CARTE 3',
+    'FR185:A LA CARTE 4',
+    'FR186:A LA CARTE 5',
+    'FR188:A LA CARTE 7',
+    'FR189:A LA CARTE 8',
+    'FR190:A LA CARTE 9',
+    'FR191:A LA CARTE 10',
+    'FR208:COMEDY CENTRAL HD',
+    'FR233:Cine Action',
+    'FR225:Canal Play 1',
+    'FR226:Canal Play 2',
+    'FR227:Canal Play 3',
+    'FR228:Canal Play 4',
+    'FR231:Canal Play 7',
+    'FR229:Canal Play 5',
+    'FR230:Canal Play 6',
+    'FR232:Canal Play 8',
+    'FR298:Orange Comment C’Est Fait',
+    'FR305:OCS CHOC FHD',
+    'FR306:OCS City HD',
+    'FR307:OCS GEANT FHD',
+    'FR311:OCS MAX FHD',
+    'FR314:Orange Cinema 1 HD',
+    'FR316:Orange Cinema 3 HD',
+    'FR317:Orange Cinema 4 HD',
+    'FR318:Orange Cinema 5 HD',
+    'FR321:ORANGE Cinema ACTION HD',
+    'FR322:Orange Cinema Aventure HD',
+    'FR325:Orange Cinema DOCUMENTAIRE HD',
+    'FR326:Orange Cinema ENQUETE EXCLUSIVE HD',
+    'FR327:Orange Cinema Horreur HD',
+    'FR328:ORANGE DISNEY 1',
+    'FR339:Orange Premium 6',
+    'FR340:Orange Premium 7',
+    'FR341:Orange Premium 8',
+    'FR332:Warner tv',
+    'FR187:TCM CINEMA FHD',
+    'FR345:TF1 SERIES FILMS HD',
+    'FR174:Cine Premier HD (1080P)',
+    ]
+
+    const frKids = ['FR020:Boing',
+    'FR021:Boomerang',
+    'FR029:Canal J',
+    'FR030:Cartoon Network',
+    'FR044:Disney FR',
+    'FR046:Disney Jr Fr',
+    'FR047:Disney XD FR',
+    'FR059:GULLI',
+    'FR066:Mangas',
+    'FR069:NICKELODEON',
+    'FR074:PIWI',
+    'FR095:TELETOON',
+    'FR180:TF1 HD',
+    'FR128:Tiji',
+    'FR246:CANAL J HD',
+    'FR261:NICKELODEON 4TEEN',
+    'FR301:NICKELODEON JUNIOR',
+    'FR302:TOONAMI FHD',
+    'FR315:TELETOON HD',
+    'FR319:TELETOON PLUS',
+    'FR343:TIJI HD',
+    'FR354:TELETOON HD',
+    ]
+
+    const frNews = ['FR020:Boing',
+    'FR021:Boomerang',
+    'FR029:Canal J',
+    'FR030:Cartoon Network',
+    'FR044:Disney FR',
+    'FR046:Disney Jr Fr',
+    'FR047:Disney XD FR',
+    'FR059:GULLI',
+    'FR066:Mangas',
+    'FR069:NICKELODEON',
+    'FR074:PIWI',
+    'FR095:TELETOON',
+    'FR180:TF1 HD',
+    'FR128:Tiji',
+    'FR246:CANAL J HD',
+    'FR261:NICKELODEON 4TEEN',
+    'FR301:NICKELODEON JUNIOR',
+    'FR302:TOONAMI FHD',
+    'FR315:TELETOON HD',
+    'FR319:TELETOON PLUS',
+    'FR343:TIJI HD',
+    'FR354:TELETOON HD',
+    ] 
+
+    const be = ['BE001:2BE Belgium',
+    'BE002:Acht Belgium',
+    'BE003:NOTELE TOURNAI',
+    'BE004:Zes HD',
+    'BE005:Een Belgium',
+    'BE006:La Deux Belgium',
+    'BE007:Plug RTL Belgium',
+    'BE008:RTL TVI Belgium',
+    'BE009:La Une Belgium',
+    'BE010:VIJF Belgium',
+    'BE011:La Trois Belgium',
+    'BE012:Canvas Belgium',
+    'BE013:Vitaya Belgium',
+    'BE014:Vier Belgium',
+    'BE015:VTM Belgium',
+    'BE016:Club RTL Belgium',
+    'BE017:Q2 FHD',
+    'BE018:ELEVEN SPORTS 1 HD',
+    'BE019:AB1 HD',
+    'BE020:AB3 HD',
+    'BE021:TELEVESDRE VERVIERS',
+    'BE022:BX1 HD',
+    'BE023:KETNET',
+    'BE024:CANVAS FHD',
+    'BE025:VOO SPORT 1',
+    'BE026:VITAYA',
+    'BE027:VIJF',
+    'BE028:VIER FHD',
+    'BE029:Cinema Kids',
+    'BE030:Cinema Plus',
+    'BE031:CLUB RTL HD',
+    'BE032:CURIOUS HD',
+    'BE033:EEN FHD',
+    'BE034:ELEVEN SPORTS 2 HD',
+    'BE035:ELEVEN SPORTS 3 HD',
+    'BE036:Play Sports 1',
+    'BE037:F Plus',
+    'BE038:FEN TV',
+    'BE039:Play Sports 2',
+    'BE040:KETNET HD',
+    'BE041:LA DEUX FHD',
+    'BE042:LA TROIS',
+    'BE043:LA UNE HD',
+    'BE044:Kadet',
+    'BE045:NAT GEO FHD',
+    'BE046:Nova Sport',
+    'BE047:VTM FHD',
+    'BE048:VOO SPORT World 2 HD',
+    'BE049:PLUG RTL HD',
+    'BE050:RADIO CONTACT LIVE',
+    'BE051:RTL Lux',
+    'BE052:RTL LOUNGE HD',
+    'BE053:RTL HD',
+    'BE054:RTL LOUNGE HD',
+    'BE055:RTS Deux HD',
+    'BE056:RTS Un HD',
+    'BE057:Tele Zurich',
+    'BE058:TVO HD',
+    'BE059:VEDIA',
+    'BE060:Vier FHD',
+    'BE061:VIJF HD',
+    'BE062:VITAYA HD',
+    ]
+
+    const bg = ['BG001:BNT 1 HD',
+    'BG002:BNT 2 HD',
+    'BG003:CineMax 1 HD',
+    'BG004:CineMax 2 HD',
+    'BG005:Diema HD',
+    'BG006:Diema Spor 1',
+    'BG007:Diema Spor 2',
+    'BG008:EuroSport',
+    'BG009:EuroSport 2',
+    'BG010:Fox Crime HD',
+    'BG011:BNT HD',
+    'BG012:Fox Tv HD 1080',
+    'BG013:bTV Action HD 1080',
+    'BG014:bTV HD',
+    'BG015:Tiankov Folk',
+    'BG016:Planeta HD',
+    'BG017:HBO 2 HD 1080',
+    'BG018:HBO 3 HD 1080',
+    'BG019:Music Channel',
+    'BG020:Nat Geo Wild HD',
+    'BG021:National Geographic',
+    'BG022:NICK JR',
+    'BG023:Skat TV',
+    'BG024:Nova TV',
+    'BG025:Planeta',
+    'BG026:Travel TV',
+    'BG027:Folklor TV',
+    'BG028:F Plus',
+    'BG029:24 Kitchen HD',
+    'BG030:ACTION PLUS',
+    'BG031:Bulgaria 24',
+    'BG032:AMC',
+    'BG033:Auto Motor Sport HD',
+    'BG034:Balkanika Music HD',
+    'BG035:BG Music HD',
+    'BG036:BIT HD',
+    'BG037:Bloomberg TV HD',
+    'BG038:BNT 1 HD',
+    'BG039:BNT 2 HD',
+    'BG040:BNT 4',
+    'BG041:BTV Comedy',
+    'BG042:CBS REAILTY',
+    'BG043:iConcerts HD',
+    'BG044:bTV Action HD',
+    'BG045:bTV Cinema',
+    'BG046:bTV HD',
+    'BG047:bTV Lady',
+    'BG048:Bulgaria ON Air',
+    'BG049:Cartoon Network',
+    'BG050:Cherno More',
+    'BG051:Cinema Plus',
+    'BG052:CINEMAX',
+    'BG053:Harmonia',
+    'BG054:Cinemax 2 HD',
+    'BG055:CITY MUSIC',
+    'BG056:AXN HD',
+    'BG057:Comedy Plus',
+    'BG058:ANIMAL PLANET HD',
+    'BG059:Diema Family HD',
+    'BG060:Diema Sport 2 HD',
+    'BG061:VTK',
+    'BG062:Diema TV',
+    'BG063:Discovery Channel FHD',
+    'BG064:Disney Channel',
+    'BG065:Dnes HD',
+    'BG066:E-KIDS',
+    'BG067:MAX SPORT 3 HD',
+    'BG068:EUROSPORT 1 HD',
+    'BG069:EUROSPORT 2 HD',
+    'BG070:Evrokom',
+    'BG071:COMEDY CENTRAL',
+    'BG072:Djazz',
+    'BG073:FEN Folk TV',
+    'BG074:FEN TV HD',
+    'BG075:Fight Box HD',
+    'BG076:FILMBOX Extra HD',
+    'BG077:VIASAT NATURE & HISTORY HD',
+    'BG078:TV Roma',
+    'BG079:Fine Living',
+    'BG080:Folklor TV',
+    'BG081:FOX HD',
+    'BG082:FOX Life HD',
+    'BG083:HBO 1 FHD',
+    'BG084:HBO 2 FHD',
+    'BG085:HBO 3 FHD',
+    'BG086:Hobby TV HD',
+    'BG087:ID Xtra HD',
+    'BG088:JIM JAM',
+    'BG089:Kanal 3 HD',
+    'BG090:Kino Nova',
+    'BG091:Magic TV',
+    'BG092:MAX Sport 2 HD',
+    'BG093:Movie Strar',
+    'BG094:Music Channel HD',
+    'BG095:NAT GEO HD',
+    'BG096:NAT GEO Wild HD',
+    'BG097:Nickelodeon',
+    'BG098:NOVA KINO',
+    'BG099:NOVA SPORT HD',
+    'BG100:NOVA TV HD',
+    'BG101:Planeta Folk',
+    'BG102:PLANETA HD',
+    'BG103:RING BG HD',
+    'BG104:ROMA TV',
+    'BG105:TV Plus',
+    'BG106:Sportal HD',
+    'BG107:The Voice',
+    'BG108:TRACE Sport Stars HD',
+    'BG109:Travel Channel',
+    'BG110:TV 1000',
+    ]
+
+    const ch = ['CHE001:Tele1AG',
+    'CHE002:RTS UN',
+    'CHE003:Swiss Sport TV',
+    'CHE004:Radio Argovia star',
+    'CHE005:Radio Pilatus',
+    'CHE006:Puls 8 HD',
+    'CHE007:TV 24',
+    'CHE008:TV 25',
+    'CHE009:Radio3i HD',
+    'CHE010:Musig24',
+    'CHE011:RTS 1 HD',
+    'CHE012:Kanal 9',
+    'CHE013:LFM TV',
+    'CHE014:Teleclub Sport 1',
+    'CHE015:RSI LA 1 HD',
+    'CHE022:RSI LA 2 HD',
+    'CHE023:SRF 1 HD',
+    'CHE028:SRF 2 HD',
+    'CHE030:Folx TV',
+    'CHE031:RTS Deux HD',
+    'CHE034:La Télé',
+    'CHE035:SRF 1 HD',
+    'CHE036:SRF Info HD',
+    'CHE037:Swiss +5',
+    'CHE038:Teleclub Zoom',
+    'CHE039:Teleclub Cinema',
+    'CHE043:TELE ZURICH',
+    'CHE046:Die Neue Zeit TV',
+    'CHE049:TeleBarn HD',
+    'CHE050:Tele M1',
+    'CHE051:Teleclub Action FHD',
+    ]
+
+    const cz = ['CZ001:Elektrika TV',
+    'CZ002:FILM+',
+    'CZ005:Sport 2 HD',
+    'CZ012:Nickelodeon',
+    'CZ018:Minimax',
+    'CZ021:iConcerts',
+    'CZ033:Duck TV',
+    'CZ037:Brava HD',
+    'CZ039:FashionTV Czech&Slovak',
+    'CZ041:CS FILM',
+    'CZ042:CT2 HD',
+    'CZ044:DAJTO',
+    'CZ045:JOJ',
+    'CZ046:PRIMA',
+    'CZ047:PRIMA COMEDY CENTRAL',
+    'CZ048:PRIMA LOVE',
+    'CZ049:Prima Plus',
+    'CZ050:PRIMA ZO OM',
+    'CZ051:Ocko Expres HD',
+    'CZ053:Ocko Gold HD',
+    'CZ054:AXN',
+    'CZ055:Ocko HD',
+    'CZ056:Televize Natura',
+    'CZ058:Nova 2',
+    'CZ060:CS Film',
+    'CZ061:Wau HD',
+    'CZ063:VYCHODESKA',
+    'CZ064:POLAR FHD',
+    'CZ065:PRAHA TV FHD',
+    'CZ067:Discovery CHANNEL',
+    'CZ068:Prima Cool',
+    'CZ069:Disney Channel',
+    'CZ074:Retro Music TV',
+    'CZ075:Nickelodeon',
+    'CZ076:MNAM TV',
+    'CZ077:BOOMERANG',
+    'CZ080:Filmbox Extra HD',
+    'CZ082:Kino SVET',
+    'CZ086:HBO 2 HD',
+    'CZ088:HBO HD',
+    'CZ089:Óčko',
+    'CZ090:iConcerts',
+    'CZ091:Óčko Expres',
+    'CZ093:Óčko Gold',
+    'CZ096:MTV EUROPE',
+    'CZ097:NAT GEO HD',
+    'CZ098:NAT GEO WILD HD',
+    'CZ101:Šlágr',
+    'CZ104:Nova Action HD',
+    'CZ107:Šlágr 2',
+    'CZ108:Nova Sport 1 HD',
+    'CZ110:Prima Comedy Central',
+    'CZ111:Prima HD',
+    'CZ112:Prima Love HD',
+    'CZ113:Prima MAX HD',
+    'CZ117:REBEL',
+    'CZ120:Spektrum HD',
+    'CZ122:Sport 2 HD',
+    ]
+
+    const dk = ['DK001:C MORE SERIES',
+    'DK002:C More Emotion',
+    'DK003:C More Live',
+    'DK004:CARTOON NETWORK',
+    'DK005:6 Eren',
+    'DK006:COMEDY CENTRAL',
+    'DK007: Nat Geo',
+    'DK008:CANAL 9 DK',
+    'DK009:DISNEY CHANNEL',
+    'DK010:C More First',
+    'DK011:ANIMAL PLANET HD',
+    'DK012:Disney Channel (D)',
+    'DK013:DR 2',
+    'DK014:DR K',
+    'DK015:DR RAMASJANG',
+    'DK016:National Geographic',
+    'DK017:DR ULTRA',
+    'DK018:KANAL 5',
+    'DK019:DR 1',
+    'DK020:NRK 1',
+    'DK021:TV 2 CHARLIE',
+    'DK022:Investigation Discovery',
+    'DK023:TV 2 FRI',
+    'DK024:DK 4',
+    'DK025:TV3 SPORT 2',
+    'DK026:TV 2 ZULU',
+    'DK027:TV 3',
+    'DK028:TV 3 SPORT 1',
+    'DK029:TV 3 SPORT 2',
+    'DK030:TV 2 ZEBRA',
+    'DK031:TV 6',
+    'DK032:TV NORGE',
+    'DK033:TV2 NEWS',
+    'DK034:TV3 Denmark',
+    'DK035:TV3 SPORT 1',
+    'DK036:TV 2 SPORT',
+    'DK037:TV 2 NORGE',
+    'DK038:VIASAT HOCKEY',
+    'DK039:Viasat History HD',
+    'DK040:VIASAT FILM ACTION',
+    'DK041:VIASAT FILM COMEDY',
+    'DK042:VIASAT FILM FAMILY',
+    'DK043:Viasat Series HD',
+    'DK044:VIASAT FILM PREMIERE',
+    'DK045:VIASAT FOTBOLL',
+    'DK046:VIASAT GOLF',
+    'DK047:VIASAT HISTORY',
+    'DK048:VFILM ACTION',
+    'DK049:Disney XD',
+    'DK050:TV3 Puls',
+    'DK051:TV2 Zulu',
+    'DK052:VIASAT NATURE',
+    'DK053:VIASAT SERIES',
+    'DK054:VIASAT SPORT',
+    'DK055:3 Plus',
+    'DK056:DR1',
+    'DK057:DK4',
+    'DK058:Kanal TV5',
+    'DK059:TV2 Fri',
+    'DK060:TV2 News',
+    'DK061:VIASAT MOTOR',
+    'DK062:Kanal 4',
+    'DK063:TV3',
+    'DK064:TV 2 LORRY',
+    'DK065:SVT 2',
+    'DK066:Viasat Nature HD',
+    'DK067:C More Hits FHD',
+    'DK068:C More Live',
+    'DK069:TV3 Max',
+    'DK070:DR 1 FHD',
+    'DK071:DR 2 HD',
+    'DK072:DR K FHD',
+    'DK073:DR Ramasjang HD',
+    'DK074:DR ULTRA HD',
+    'DK075:EUROSPORT 1 FHD',
+    'DK076:Kanal 4 Danmark',
+    'DK077:Kanal 4 FHD',
+    'DK078:Kanal 5 FHD',
+    'DK079:KANAL 9 HD',
+    'DK080:MTV HD',
+    'DK081:EUROSPORT 2 FHD',
+    'DK082:NAT GEO FHD',
+    'DK083:NAT GEO Wild HD',
+    'DK084:Nickelodeon HD',
+    'DK085:NRK 1',
+    'DK086:C More Hits FHD',
+    'DK087:TLC FHD',
+    'DK088:TV 2 ZEBRA',
+    'DK089:TV 6',
+    'DK090:TV2 Bornholm',
+    'DK091:TV2 CHARLI',
+    'DK092:TV2 Fyn HD',
+    'DK093:TV2 Lorry HD',
+    'DK094:TV2 News',
+    'DK095:TV2 SPORT HD',
+    'DK096:TV2 ZULU HD',
+    'DK097:TV3 Danmark',
+    'DK098:Viasat Hockey',
+    'DK099:VIASAT EXPLORE',
+    'DK100:Viasat Film Action',
+    'DK101:Viasat Film Family',
+    'DK102:Viasat Film Hits HD',
+    'DK103:VIASAT FILM PREMIERE HD',
+    'DK104:Viasat Football HD',
+    'DK105:VIASAT GOLF',
+    ]
+
+    const gr = ['GR001:Ote_Sport_Highlights',
+    'GR002:Vouli TV',
+    'GR003:VOULI',
+    'GR004:Alert',
+    'GR005:Village_Cinema',
+    'GR006:ERT Sport FHD',
+    'GR007:OTE Sports 8',
+    'GR008:EEK OLD MOVIES 2',
+    'GR009:EEK OLD MOVIES 1',
+    'GR010:EEK CINEMA 80s 1',
+    'GR011:Village_Cinema',
+    'GR012:ANT1',
+    'GR013:Action 24 (Backup)',
+    'GR014:Disney Junior',
+    'GR015:Alert',
+    'GR016:Alpha',
+    'GR017:Alpha (Backup)',
+    'GR018:ANT 1 (Backup)',
+    'GR019:Attica',
+    'GR020:Disney Channel HD',
+    'GR021:BBC_Earth',
+    'GR022:Blue Sky',
+    'GR023:BEST Movies 1 HD',
+    'GR024:Ch9',
+    'GR025:History',
+    'GR026:Crime_Investigation',
+    'GR027:EuroSport 1',
+    'GR028:Disney_Junior',
+    'GR029:Animal Planet',
+    'GR030:E',
+    'GR031:Action 24',
+    'GR032:ERT 1 (Backup)',
+    'GR033:ERT 2 (Backup)',
+    'GR034:ERT 3 (Backup)',
+    'GR035:ERT_1',
+    'GR036:Skai',
+    'GR037:ERT_3',
+    'GR038:Extra',
+    'GR039:MEGA TV',
+    'GR040:AB Channel',
+    'GR041:Fox',
+    'GR042:Kontra',
+    'GR043:Eurosport 2',
+    'GR044:CHANNEL 9',
+    'GR045:Mad',
+    'GR046:Makedonia (Backup)',
+    'GR047:TV 1000',
+    'GR048:Nat_Geo_Wild',
+    'GR049:Alpha',
+    'GR050:Nautical_Channel',
+    'GR051:Nickelodeon',
+    'GR052:Nickelodeon (Backup)',
+    'GR053:TRT',
+    'GR054:Open_Beyond',
+    'GR055:Rise',
+    'GR056:Skai (Backup)',
+    'GR057:Smile (Backup)',
+    'GR058:Start TV',
+    'GR059:Star',
+    'GR060:Star (Backup)',
+    'GR061:TCM',
+    'GR062:Sigma',
+    'GR063:Rik',
+    'GR064:Viasat_History',
+    'GR065:OMEGA',
+    'GR066:Vouli',
+    'GR067:Nea Tv',
+    'GR068:Star HD',
+    'GR069:SMILE',
+    'GR070:EURONEWS',
+    'GR071:Makeleio Web Tv',
+    'GR072:RELOAD RADIO TV',
+    'GR073:HIGH TV',
+    'GR074:Hpeiros TV1',
+    'GR075:DIKTYO',
+    'GR076:Axeloos TV',
+    'GR077:Nova sport 1 SD',
+    'GR078:Astra',
+    'GR079:Mad FHD',
+    'GR080:Rik Sat CY',
+    'GR081:Montreal Greek TV',
+    'GR082:NAT GEO Wild HD',
+    'GR083:Nickelodeon HD',
+    'GR084:Nova Premiere 6 FHD',
+    'GR085:Nova Throne Season 1 HD',
+    'GR086:Nova Throne Season 2 HD',
+    'GR087:Nova Throne Season 3 HD',
+    'GR088:Nova Throne Season 4 HD',
+    'GR089:Nova Throne Season 5 HD',
+    'GR090:Nova Throne Season 6 HD',
+    'GR091:Nova Throne Season 7 HD',
+    'GR092:Nova Throne Season 8 HD',
+    'GR093:Nova Sport 2',
+    'GR094:ERT 2 HD',
+    'GR095:ERT 3 HD',
+    'GR096:4E Star',
+    'GR097:NOVA CINEMA 4 HD',
+    'GR098:ERT PLAY HD',
+    'GR099:ERT SPORTS WORLDWIDE',
+    'GR100:ERT SPORTS HD',
+    'GR101:RIK Sat',
+    'GR102:Wixlar TV',
+    'GR103:TV Kosmos',
+    'GR104:GROOVY CY',
+    'GR105:PAOK TV',
+    'GR106:EPSILON TV',
+    'GR107:FOX TV',
+    'GR108:Explore Channel',
+    'GR109:ERT PLAY 3 HD',
+    'GR110:Mega Cosmos',
+    'GR111:Rodopi TV',
+    'GR112:BRT 1 (cyprus)',
+    'GR113:BRT 2 (cyprus)',
+    'GR114:Star Kentrikis Ellada',
+    'GR115:Filopoli TV',
+    'GR116:Irida TV',
+    'GR117:BEST TV',
+    'GR118:Hellas TV',
+    'GR119:MPAXALO TV',
+    'GR120:Aigaio TV',
+    'GR121:ENA CHANNEL KAVALAS',
+    'GR122:TRT Greek',
+    'GR123:TV100',
+    'GR124:PLP',
+    'GR125:Euronews Greek',
+    'GR126:CineFil',
+    'GR127:CANNALI',
+    'GR128:Nova Premiere 1 FHD',
+    'GR129:Nova Premiere 2 FHD',
+    'GR130:Nova Premiere 3 FHD',
+    'GR131:Nova Premiere 4 FHD',
+    'GR132:Kids1',
+    'GR133:Tile Mousiki 2',
+    'GR134:EOE Tv',
+    'GR135:Discovery Channel',
+    'GR136:CRETA TV',
+    'GR137:KPHTI TV',
+    'GR138:TV1 Siros',
+    'GR139:NOVA CINEMA 3 HD',
+    'GR140:XALASTRA TV',
+    'GR141:NEO TV (EPSILON)',
+    'GR142:Play Tv',
+    'GR143:IONIAN TV',
+    'GR144:NOVA CINEMA 2 HD',
+    'GR145:FarosOnAir',
+    'GR146:ZOUGLA TV',
+    'GR147:Melody Channel HD',
+    'GR148:Delta TV',
+    'GR149:NRG TV',
+    'GR150:GREEK VOICE',
+    'GR151:Tile Musiki',
+    'GR152:Thraki Net Tv',
+    'GR153:TileSport',
+    'GR154:Plus TV CY',
+    'GR155:LYCHNOS',
+    'GR156:Agio Nicolaos',
+    'GR157:Open Beyond HD',
+    'GR158:Attica Tv',
+    'GR159:Axelwos TV °',
+    'GR160:Discovery ID',
+    'GR161:Discovery ShowCase',
+    'GR162:4E TV',
+    'GR163:EXTRA',
+    'GR164:KPHTH TV (Krhth) °',
+    'GR165:NOVA CINEMA 1 HD',
+    'GR166:M.tv (Makedonia TV)',
+    'GR167:MESSINIA TV',
+    'GR168:NETV TORONTO °',
+    'GR169:Nova Sport 3 ( live only at match)',
+    'GR170:Nova Sport 4 ( live only at match)',
+    'GR171:Nova Sport 5 (Live only on match)',
+    'GR172:OTE SPORT 1',
+    'GR173:OTE SPORT 2',
+    'GR174:OTE SPORT 3',
+    'GR175:OTE SPORT 4',
+    'GR176:OTE SPORT 5',
+    'GR177:OTE SPORT 6',
+    'GR178:OTE SPORT 7',
+    'GR179:OTE CINEMA 1',
+    'GR180:OTE CINEMA 2',
+    'GR181:OTE CINEMA 3',
+    'GR182:OTE Cinema 4',
+    'GR185:Netflix Premiere 1',
+    'GR186:Netflix Premiere 2',
+    'GR187:Netflix Premiere 3',
+    'GR189:Netflix Premiere 4',
+    'GR190:NetFlix Premiere 5',
+    'GR196:NetFlix Premiere 11',
+    'GR191:NetFlix Premiere 6',
+    'GR195:NetFlix Premiere 10',
+    'GR192:NetFlix Premiere 7',
+    'GR193:NetFlix Premiere 9',
+    'GR194:NetFlix Premiere 8',
+    ]
+
+    const hu = ['HU001:Sport 2 CZE/HU',
+    'HU002:Balaton',
+    'HU003:Sport 1 CZE/HU',
+    'HU004:Sport 1',
+    'HU005:DIGI SPORT 3',
+    'HU006:DIGI SPORT 2',
+    'HU007:DIGI SPORT 1',
+    'HU008:1 Music',
+    'HU009:2 Channel',
+    'HU010:AMC',
+    'HU011:ANIMAL PLANET',
+    'HU012:ATV',
+    'HU013:Auto Motor Sport',
+    'HU014:AXN',
+    'HU015:AXN Black',
+    'HU016:AXN CZ/HU',
+    'HU017:Viasat 6',
+    'HU018:B92',
+    'HU019:Boomerang',
+    'HU020:Cartoon Network',
+    'HU021:CBS Reality',
+    'HU022:Cinemax',
+    'HU023:Cinemax 2',
+    'HU024:Bonum TV',
+    'HU025:Cool TV',
+    'HU026:Budapest Európa Televízió',
+    'HU027:Dunaújváros Televízió',
+    'HU028:Digi Animal World HD',
+    'HU029:DIGI Film',
+    'HU030:Erdely',
+    'HU031:Digi Sport 3 HD',
+    'HU032:Fehérvár TV',
+    'HU033:H!T Music Channel',
+    'HU034:Disney Channel',
+    'HU035:DTX',
+    'HU036:Duck TV',
+    'HU037:DUNA FHD',
+    'HU038:Duna World HD',
+    'HU039:Kiwi TV',
+    'HU040:EUROSPORT 1',
+    'HU041:EUROSPORT 2',
+    'HU042:Extreme Sports',
+    'HU043:Kapos TV',
+    'HU044:FEM 3',
+    'HU045:Film 1',
+    'HU046:Film Cafe',
+    'HU047:Lóverseny közvetítés',
+    'HU048:TV2 HD',
+    'HU049:Pannon RTV',
+    'HU050:StreamSport',
+    'HU051:FILMBOX PREMIUM',
+    'HU052:Fix HD',
+    'HU053:Tatai TV',
+    'HU054:Galaxy 4',
+    'HU055:Happy Channel',
+    'HU056:HBO 1',
+    'HU057:HBO 2 HD',
+    'HU058:HBO 3',
+    'HU059:Viasat 3',
+    'HU060:Hir TV',
+    'HU061:HISTORY',
+    'HU062:Ózdi Városi TV',
+    'HU063:Humor',
+    'HU064:ID HD',
+    'HU065:Jednotka',
+    'HU066:JimJam TV',
+    'HU067:Budapest',
+    'HU068:Mozi',
+    'HU069:M1 HD',
+    'HU070:M2 HD',
+    'HU071:Viasat History',
+    'HU072:M4',
+    'HU073:M5',
+    'HU074:Megamax',
+    'HU075:Minimax',
+    'HU076:M4 Sport',
+    'HU077:MTV EU',
+    'HU078:Music Channel',
+    'HU079:Muzsika TV',
+    'HU080:NAT GEO HD',
+    'HU081:NAT GEO Wild HD',
+    'HU082:Nickelodeon',
+    'HU083:Mozi',
+    'HU084:AXN White',
+    'HU085:Nova Cinema',
+    'HU086:Paramount Channel',
+    'HU087:Prima Cool',
+    'HU088:Prima Love',
+    'HU089:Prima TV',
+    'HU090:Prime',
+    'HU091:RTL',
+    'HU092:Rtl klub',
+    'HU093:Chili TV',
+    'HU094:Sorozat',
+    'HU095:Spektrum HD',
+    'HU096:SPEKTRUM HOME',
+    'HU097:Spiler TV',
+    'HU098:Sport 1 FHD',
+    'HU099:Sport 2 FHD',
+    'HU100:Story 4',
+    'HU101:Super TV 2',
+    'HU102:TA3',
+    'HU103:TLC',
+    'HU104:Travel Channel',
+    'HU105:TV Barrandov',
+    'HU106:TV Doma',
+    'HU107:TV JOJ',
+    'HU108:TV Nova',
+    'HU109:TV Paprika',
+    ]
+
+    const no = ['NO001:C MORE FIRST HD',
+    'NO002:TV2 Livsstil',
+    'NO003:TV2 Norge',
+    'NO004:TV2 Zebra',
+    'NO005:NRK 2',
+    'NO006:Disney Channel HD',
+    'NO007:MAX NORWAY',
+    'NO008:BBC Earth HD',
+    'NO009:tv2 bornholm',
+    'NO010:TV6',
+    'NO011:Nickelodeon Junior',
+    'NO012:NRK 1 HD',
+    'NO013:FEM',
+    'NO014:NRK 3',
+    'NO015:TV10 Norge',
+    'NO016:TV2 Humor',
+    'NO017:Disney XD',
+    'NO018:Discovery Channel',
+    'NO019:TV2 Nyhetskanalen',
+    'NO020:VOX',
+    'NO021:Viasat Action',
+    'NO022:VIASAT FOTBOLL HD',
+    'NO023:VIASAT GOLF',
+    'NO024:Viasat Motor',
+    ]
+
+    const ro = ['RO001:VIASAT NATURE',
+    'RO002:VIASAT EXPLORER',
+    'RO003:U TV',
+    'RO004:TVR 2',
+    'RO005:TVR 1',
+    'RO006:TV 1000',
+    'RO007:Zu TV',
+    'RO008:KANAL D',
+    'RO009:TeleMoldovaPlus',
+    'RO010:Taraf Tv',
+    'RO011:Sport.ro',
+    'RO012:Romania Tv',
+    'RO013:Realtaea TV',
+    'RO014:Realitatea Tv',
+    'RO015:VIASAT EXPLORER',
+    'RO016:Pro Cinema',
+    'RO017:prima cool',
+    'RO018:Prima',
+    'RO019:Paramount Channel',
+    'RO020:TV1000',
+    'RO021:NATIONAL Geo wild',
+    'RO022:TVR International',
+    'RO023:Music Channe hu',
+    'RO024:Minimax',
+    'RO025:Look Plus',
+    'RO026:Kiss',
+    'RO027:Kanal D',
+    'RO028:HISTORI CHANNEL',
+    'RO029:HBO Romania',
+    'RO030:HBO 3',
+    'RO031:HBO 2',
+    'RO032:Happy',
+    'RO033:FISHING & HUNTING',
+    'RO034:EUROSPORT 2',
+    'RO035:EUROSPORT 1',
+    'RO036:Etno Tv',
+    'RO037:DISNEY JUNIOR',
+    'RO038:Digi24',
+    'RO039:DIGI WORLD',
+    'RO040:Digi Sport 4',
+    'RO041:Digi Sport 3',
+    'RO042:Digi Sport 2',
+    'RO043:Digi Sport 1',
+    'RO044:Digi Life',
+    'RO045:DIGI FILM',
+    'RO046:DIGI ANIMAL WORLD',
+    'RO047:DIGI 24 CRAIOVA',
+    'RO048:DIGI 24',
+    'RO049:CINEMAX 2',
+    'RO050:B1 TV',
+    'RO051:B1',
+    'RO052:AXN WHITE',
+    'RO053:AXN BLACK',
+    'RO054:AXN',
+    'RO055:ANTENA STARS',
+    'RO056:AGRO TV',
+    'RO057:ACASA TV',
+    'RO058:MegaMax-HD',
+    'RO059:DOKU TV ADRIA',
+    'RO060:PRO TV',
+    'RO061:Alfa Omega',
+    'RO062:Antena 1 HD',
+    'RO063:Antena 3 HD',
+    'RO064:Agro TV',
+    'RO065:AMC',
+    'RO066:ANIMAL PLANET HD',
+    'RO067:Antena 1 HD',
+    'RO068:Antena Stars HD',
+    'RO069:PRO CINEMA',
+    'RO070:AXN BLACK',
+    'RO071:AXN White HD',
+    'RO072:B1 HD',
+    'RO073:Kiss TV',
+    'RO074:Boomerang',
+    'RO075:Happy Channel',
+    'RO076:Cinemax 2 HD',
+    'RO077:Cinemax HD',
+    'RO078:Digi 24 HD',
+    'RO079:Digi ANIMAL WORLD HD',
+    'RO080:Digi Film NOW HD',
+    'RO081:Digi Life',
+    'RO082:Digi Sport 1 FHD',
+    'RO083:Digi Sport 3 HD',
+    'RO084:Viasat Nature',
+    'RO085:Digi WORLD HD',
+    'RO086:Discovery Channel',
+    'RO087:Discovery Science HD',
+    'RO088:Disney Junior',
+    'RO089:TVR 2 HD',
+    'RO090:Etno HD',
+    'RO091:EUROSPORT 1 HD',
+    'RO092:EUROSPORT 2 FHD',
+    'RO093:ANTENA INTERNATIONAL',
+    'RO094:Film Cafe',
+    'RO095:Film Now',
+    'RO096:Look Sport',
+    'RO097:HAPPY CHANNEL HD',
+    'RO098:HBO 2 HD',
+    'RO099:HBO 3 HD',
+    'RO100:HBO HD',
+    'RO101:History Channel',
+    'RO102:Kanal D HD',
+    'RO103:KISS TV HD',
+    'RO104:Look Plus HD',
+    'RO105:MegaMax HD',
+    'RO106:Minimax',
+    'RO107:MTV Dance',
+    'RO108:Music 1 Channel',
+    'RO109:NAT GEO Wild HD',
+    'RO110:National TV',
+    'RO111:Neptun TV',
+    'RO112:Nickelodeon HD',
+    'RO113:Paramount Channel',
+    'RO114:Look Tv',
+    'RO115:Prima Tv',
+    'RO116:PRO 2 (ACASA TV)',
+    'RO117:Pro Cinema HD',
+    'RO118:PRO TV',
+    'RO119:PRO X HD',
+    'RO120:Romania TV',
+    'RO121:Taraf HD',
+    'RO122:TELEKOM SPORT 1 FHD',
+    'RO123:TELEKOM SPORT 3 FHD',
+    'RO124:TELEKOM SPORT 4 FHD',
+    'RO125:TLC',
+    'RO126:TNT',
+    'RO127:Travel Mix',
+    'RO128:TRINITAS TV',
+    'RO129:TV 1000 HD',
+    'RO130:TV5 Monde',
+    'RO131:TVR 1 HD',
+    ]
+
+    const hr = ['HR001:RTL KOCKICA (HR) °',
+    'HR002:Arena Sport 2 (HR) °',
+    'HR003:Arena Sport 3 (HR) °',
+    'HR004:Arena Sport 4 (HR) °',
+    'HR005:Arena Sport 5 (HR)',
+    'HR006:Arena Sport 6 (HR)',
+    'HR007:Sport Klub 1 (HR)',
+    'HR008:Sport Klub 2 (HR)',
+    'HR009:Sport Klub 3 (HR)',
+    'HR010:24 KITCHEN (HR)',
+    'HR011:ANIMAL PLANET (HR)',
+    'HR012:BANOVINA TV (HR))',
+    'HR013:CAPITAL (HR)',
+    'HR014:DOMA TV (HR)',
+    'HR015:HBO (HR)',
+    'HR016:HBO 2 (HR)',
+    'HR017:HR – Arena Sport 1 FHD',
+    'HR018:HRT 1 (HR))',
+    'HR019:HRT 2 (HR))',
+    'HR020:HRT 3 (HR))',
+    'HR021:HRT 4 (HR))',
+    'HR022:KLASIK (HR)',
+    'HR023:NATIONAL GEOGRAPHIC (HR)',
+    'HR024:Z1 (HR)',
+    'HR025:NOVA TV (HR))',
+    'HR026:RTL LIVING (HR)',
+    'HR027:RTL 1 (HR))',
+    'HR028:RTL 2 (HR))',
+    'HR029:RTL CRIME (HR)',
+    ]
+
+    const yu = ['YU001:CINEMAX 1',
+    'YU002:CINEMAX-2',
+    'YU003:DOMA-TV',
+    'YU004:HBO 3',
+    'YU005:HISTORY CHANNEL',
+    'YU006:HRT 2',
+    'YU007:RTL 2',
+    'YU008:Z1',
+    'YU009:Happy tv',
+    'YU010:HRT 4',
+    'YU011:HBO 2',
+    'YU012:BHT',
+    'YU013:ANIMAL PLANET',
+    'YU014:PINK 3(1)',
+    'YU015:HBO Adria',
+    'YU016:Cinestar Premier 2',
+    'YU017:Cinestar Premiere 1',
+    'YU018:BN SAT',
+    'YU019:BN',
+    'YU020:HRT 3',
+    'YU021:Eurosport 1',
+    'YU022:Eurosport 2',
+    'YU023:FOX',
+    'YU024:FACE TV',
+    'YU025:Discovery',
+    'YU026:RTL',
+    'YU027:FilmBox Extra',
+    'YU028:Fightbox',
+    'YU029:Fox Crime',
+    'YU030:Fox Life',
+    'YU031:Federalna TV',
+    'YU032:Al Jazeera Balkan',
+    'YU033:GRAND TV',
+    'YU034:HAYAT',
+    'YU035:HAYAT FOLK',
+    'YU036:HAYAT PLUS',
+    'YU037:Fox Movies',
+    'YU038:BHT H',
+    'YU039:KCN 1',
+    'YU040:KCN 2',
+    'YU041:KCN 3',
+    'YU042:HRT 1',
+    'YU043:BN Music',
+    'YU044:LOV I RIBOLOV',
+    'YU045:Viasat nature',
+    'YU046:KLASIK TV',
+    'YU047:Cinestar Action',
+    'YU048:AXN Adria',
+    'YU049:MRT 2',
+    'YU050:MRTV 3 MK',
+    'YU051:MRT 1 (local)',
+    'YU052:CMC',
+    'YU053:Mini TV HR',
+    'YU054:Mini TV',
+    'YU055:MTV Igman',
+    'YU056:DM Sat',
+    'YU057:Sportska TV',
+    'YU058:National Geographic',
+    'YU059:Nickelodeon',
+    'YU060:NOVA RS pub',
+    'YU061:NOVA TV HR',
+    'YU062:OBN',
+    'YU063:Pink & Roll',
+    'YU064:Pink 1',
+    'YU065:Pink 2',
+    'YU066:PINK 3',
+    'YU067:Pink Action',
+    'YU068:Pink BH',
+    'YU069:Pink Comedy',
+    'YU070:Pink Crime & Mistery',
+    'YU071:Pink Crime & Mystery',
+    'YU072:Pink Extra',
+    'YU073:Pink Film',
+    'YU074:Pink Folk',
+    'YU075:Pink Folk 2',
+    'YU076:Pink Hits 2',
+    'YU077:Pink Horror',
+    'YU078:Pink Kids',
+    'YU079:Pink Koncert',
+    'YU080:Pink Kuvar',
+    'YU081:Pink M',
+    'YU082:Pink Movies',
+    'YU083:Pink Music',
+    'YU084:Pink Music 2',
+    'YU085:Pink Pedia',
+    'YU086:Pink Plus',
+    'YU087:Pink Premium',
+    'YU088:Pink Reality',
+    'YU089:Pink Romance',
+    'YU090:Pink',
+    'YU091:Pink Sci-Fi&Fantasy',
+    'YU092:Pink Serije',
+    'YU093:Pink Show',
+    'YU094:Pink Soap',
+    'YU095:Pink Super Kids',
+    'YU096:Pink Thriller',
+    'YU097:Pink Western',
+    'YU098:Pink World',
+    'YU099:Pink Zabava',
+    'YU100:Prva',
+    'YU101:Prva Plus',
+    'YU102:RTS 1 (local)',
+    'YU103:RTS 2 (local)',
+    'YU104:RTS 3',
+    'YU105:RTS HD',
+    'YU106:RTV BANOVINA',
+    'YU107:RTV Zenica',
+    'YU108:Sport Klub 1',
+    'YU109:Sport Klub 2',
+    'YU110:Sport Klub 3',
+    'YU111:SPORTKLUB 4 SD',
+    'YU112:SPORTKLUB 5 SD',
+    'YU113:SPORTKLUB 6 SD',
+    'YU114:N1 Bosna',
+    'YU115:Nat Geo Wild',
+    'YU116:24 KITCHEN',
+    'YU117:Pink Media',
+    'YU118:Al Jazeera Balkans',
+    'YU119:POP OTO',
+    'YU120:RTCG SAT',
+    'YU121:Planet sport 1 HD',
+    'YU122:Pop Brio',
+    'YU123:ANIMAL PLANET HD',
+    'YU124:MINIMAX',
+    'YU125:JUGOTON TV',
+    'YU126:AXN HD',
+    'YU127:AXN SPIN',
+    'YU128:B 92',
+    'YU129:Belle Amie',
+    'YU130:Balkan Film',
+    'YU131:Planet sport 2 HD',
+    'YU132:VIASAT HISTORY',
+    'YU133:BHT 1',
+    'YU134:Banovina TV',
+    'YU135:BHT HD',
+    'YU136:BN',
+    'YU137:BN Music',
+    'YU138:BN SAT',
+    'YU139:Planet Sport 3 HD',
+    'YU140:CINESTAR TV',
+    'YU141:CineMax 1',
+    'YU142:CINEMAX 2 HD',
+    'YU143:Cinestar Action & Thriller',
+    'YU144:Cinestar Premier 1',
+    'YU145:Cinestar Premier 2',
+    'YU146:CINESTAR TV HD',
+    'YU147:CMC HD',
+    'YU148:TV HRAM',
+    'YU149:Crime & Investigation HD',
+    'YU150:Da Vinci Learning',
+    'YU151:Discovery Channel',
+    'YU152:Discovery Science',
+    'YU153:DOMA TV',
+    'YU154:DIVA',
+    'YU155:DM Sat',
+    'YU156:RTCG',
+    'YU157:Domatv HD',
+    'YU158:RTCG 1',
+    'YU159:E! HD',
+    'YU160:EPIC DRAMA',
+    'YU161:EUROSPORT 1 HD',
+    'YU162:EUROSPORT 2 HD',
+    'YU163:Face TV',
+    'YU164:Federalna TV',
+    'YU165:Fight box FHD',
+    'YU166:Fight Channel',
+    'YU167:FILM BOX Extra',
+    'YU168:Film box Plus',
+    'YU169:Fox Crime HD',
+    'YU170:Fox HD',
+    'YU171:Fox Life HD',
+    'YU172:Fox Movies HD',
+    'YU173:Glas Drine',
+    'YU174:GRAND 2 TV',
+    'YU175:Grand TV',
+    'YU176:Happy Parovi',
+    'YU177:Hema TV',
+    'YU178:Happy TV HD',
+    'YU179:HISTORY CHANNEL',
+    'YU180:B92',
+    'YU181:Hayat HD',
+    'YU182:HAYAT PLUS',
+    'YU183:Hayatovci',
+    'YU184:HBO 1 HD',
+    'YU185:HBO 2 HD',
+    'YU186:HBO 3 HD',
+    'YU187:HBO family',
+    'YU188:TVSA Sarajevo',
+    'YU189:ARENA SPORT 1 SRB',
+    'YU190:ARENA SPORT 2 SRB',
+    'YU191:ARENA SPORT 3 SRB',
+    'YU192:ARENA SPORT 4 SRB',
+    'YU193:ARENA SPORT 5 SRB',
+    'YU194:HRT 1 HD',
+    'YU195:HRT 2 HD',
+    'YU196:HRT 3 HD',
+    'YU197:Posavina TV',
+    'YU198:IDJ TV',
+    'YU199:Investigation Discovery',
+    'YU200:Istok TV',
+    'YU201:Izvorna TV',
+    'YU202:Jugoton TV',
+    'YU203:KCN 1',
+    'YU204:KCN 2',
+    'YU205:Tv5',
+    'YU206:Klasik TV',
+    'YU207:KREATOR TV',
+    'YU208:LOV I RIBOLOV HD',
+    'YU209:M1 Film',
+    'YU210:M1 Gold',
+    'YU211:Mini TV',
+    'YU212:ARENA SPORT 1 HR',
+    'YU213:ARENA SPORT 2 HR',
+    'YU214:ARENA SPORT 3 HR',
+    'YU215:ARENA SPORT 4 HR',
+    'YU216:ARENA SPORT 5 HR',
+    'YU217:MTV',
+    'YU218:MTV DANCE',
+    'YU219:mtv Igman',
+    'YU220:Music TOP',
+    'YU221:N1',
+    'YU222:NAT GEO HD',
+    'YU223:NAT GEO Wild HD',
+    'YU224:Nickelodon',
+    'YU225:PINK FOLK',
+    'YU226:PINK FOLK 2',
+    'YU227:O2 TV',
+    'YU228:OBN HD',
+    'YU229:OSM TV',
+    'YU230:OTV Valentino',
+    'YU231:PICKBOX 1',
+    'YU232:PICKBOX 2',
+    'YU233:PICKBOX 3',
+    'YU234:Pikaboo',
+    'YU235:Pink Crime & Mistery',
+    'YU236:Pink Kids',
+    'YU237:Pink Movies',
+    'YU238:Pink Pedia',
+    'YU239:Prva Max',
+    'YU240:Prva Plus',
+    'YU241:Prva World',
+    'YU242:PRVA.RS',
+    'YU243:PTC 1 HD',
+    'YU244:PTC 2 HD',
+    'YU245:VAVOOM KIDS',
+    'YU246:PTPC',
+    'YU247:PTPC Plus',
+    'YU248:PTV',
+    'YU249:Repiza 2',
+    'YU250:Roma TV',
+    'YU251:RT Vojvodina 1',
+    'YU252:RTL 2',
+    'YU253:RTL Cocica',
+    'YU254:RTL CRIME',
+    'YU255:RTL Living',
+    'YU256:RTL PASSION',
+    'YU257:Arena Sport 1 HD (SR)',
+    'YU258:RTS 1',
+    'YU259:RTS 2 FHD',
+    'YU260:RTS 3',
+    'YU261:RTV Novi Pazar',
+    'YU262:Arena Sport 2 (SR)',
+    'YU263:Arena Sport 3 HD (SR)',
+    'YU264:Sandzak TV',
+    'YU265:Pink Sci-Fi & Fantasy',
+    'YU266:Sevdah',
+    'YU267:Shutel TV',
+    'YU268:Sitel 2',
+    'YU269:Sitel 3 HD',
+    'YU270:Sitel HD',
+    'YU271:SLAVONSKA TV',
+    'YU272:Slovenia TV 1 HD',
+    'YU273:Sport Klub 8',
+    'YU274:Sport Klub 2',
+    'YU275:Sport Klub 3',
+    'YU276:Sport Klub 4',
+    'YU277:Sport Klub 5 HD',
+    'YU278:Sport Klub HD',
+    'YU279:SPORT KLUB 6',
+    'YU280:Studio B',
+    'YU281:super kids',
+    'YU282:Sport Klub 7',
+    'YU283:Telma',
+    'YU284:TLC',
+    'YU285:TOP Sound',
+    'YU286:Travel Channel',
+    'YU287:TK TUZLA',
+    'YU288:TV 1',
+    'YU289:TV 5',
+    'YU290:TV 6',
+    'YU291:TV 1000',
+    'YU292:TV Banovina',
+    'YU293:TV Glas Drine',
+    'YU294:Arena Sport 4 HD (SR)',
+    'YU295:TV Sehara',
+    'YU296:TV Slon',
+    'YU297:TV Sonce',
+    'YU298:Arena Sport 5 (SR)',
+    'YU299:USK HD',
+    ]
+
+    const mk = ['MK001:HBO 2 HD',
+    'MK002:HBO HD',
+    'MK003:HBO 3 HD',
+    'MK004:Hugo 2',
+    'MK005:Leskovac TV',
+    'MK006:MEGA TV Bitola',
+    'MK007:Telma',
+    'MK008:NASA TV',
+    'MK009:Sitel 3',
+    'MK010:Televizija 5 HD °',
+    'MK011:TBXYRO 2',
+    'MK012:Sandzak TV',
+    'MK013:SUTEL TV',
+    'MK014:Sky Folk',
+    'MK015:TV M3 Music',
+    'MK016:Sitel HD',
+    'MK017:24 Vesti',
+    'MK018:ALFA HD',
+    'MK019:Alsat M',
+    'MK020:Planeta TV',
+    'MK021:Mlava TV',
+    'MK022:TV NOVA',
+    'MK023:Shenja Tv',
+    'MK024:MTV Igman',
+    'MK025:Kanal 5 HD',
+    'MK026:KANAL 5 Plus',
+    'MK027:Kumanovo TV',
+    'MK028:MAGIC TV',
+    'MK029:MRT 1',
+    'MK030:MRT 2',
+    'MK031:MRT 3',
+    'MK032:MRT Sobraniski',
+    'MK033:NASHA TV',
+    'MK034:Klan',
+    'MK035:RTV 21 HD',
+    'MK036:Shutel TV',
+    'MK037:SITEL 2',
+    ]
+
+    const se = ['SE001:Kanal 11',
+    'SE002:Kanal 9',
+    'SE003:Viasat Hockey HD',
+    'SE004:TV10',
+    'SE005:TV3 HD',
+    'SE006:TV4 HD',
+    'SE007:VH1 Europe/Nick Jr',
+    'SE008:Viasat Golf HD',
+    'SE009:TV4 Fakta XL',
+    'SE010:TV 6',
+    'SE011:TV 4 Komedi',
+    'SE012:TV 4 Guld',
+    'SE013:TV 4 Film',
+    'SE014:TV 4',
+    'SE015:TV 3',
+    'SE016:TV 12',
+    'SE017:TV 10',
+    'SE018:TV4 Fakta',
+    'SE019:C More Golf HD ( SE )',
+    'SE020:C More Emotion',
+    'SE021:C More First',
+    'SE022:C More Hits',
+    'SE023:C More Hockey',
+    'SE024:C More Series',
+    'SE025:Comedy Central',
+    'SE026:Discovery Channel',
+    'SE027:Disney Channel',
+    'SE028:Fox',
+    'SE029:Kanal 5',
+    'SE030:Kunskapskanalen',
+    'SE031:National Geographic',
+    'SE032:SVT1',
+    'SE033:SVT2',
+    'SE034:TCM',
+    'SE035:TLC',
+    'SE036:Travel Channel',
+    'SE037:TV12',
+    'SE038:TV4 Film',
+    'SE039:TV6',
+    'SE040:TV8',
+    'SE041:Viasat 4',
+    'SE042:Viasat Explore',
+    'SE043:Viasat Film Action',
+    'SE044:Viasat Film Family',
+    'SE045:Viasat Film Hits',
+    'SE046:Viasat Film Premiere',
+    'SE047:Viasat History',
+    'SE048:Viasat Motor',
+    'SE049:Viasat Nature/Crime/Playboy',
+    'SE050:Viasat Series',
+    'SE051:C MORE SERIE',
+    'SE052:C More Live 3 HD',
+    'SE053:C More Live 4 HD',
+    'SE054:C More Sport HD',
+    'SE055:C More Sport FHD',
+    'SE056:Disney Channel NOR',
+    'SE057:EUROSPORT 2 FHD',
+    'SE058:C More Hockey HD',
+    'SE059:C More Golf HD',
+    'SE060:Viasat Film Action',
+    'SE061:Horse & Country TV',
+    'SE062:Kanal 10 Norge',
+    'SE063:Viasat Golf',
+    'SE064:Teleclub Sport 1',
+    'SE065:Teleclub Sport 2',
+    'SE066:Sjuan 7',
+    'SE067:STV24/BARNAKANEL',
+    'SE068:kunskapskalen',
+    'SE069:TV Sjuan',
+    'SE070:SVT 1 HD',
+    'SE071:SVT 2 HD',
+    'SE072:TV7 Sjuan',
+    'SE073:VIASAT EXPLORE',
+    'SE074:Viasat Film Hits HD',
+    'SE075:NAT GEO Wild HD',
+    'SE076:Viasat Fotboll HD',
+    'SE077:Viasat History',
+    'SE078:Viasat Sport HD',
+    'SE079:Viasat sport premium FHD',
+    'SE080:SVT24/B',
+    'SE081:SVT Kunskapskanalen',
+    'SE082:TV3 Sport HD',
+    'SE083:TV4 Sport',
+    'SE084:EUROSPORT 1 FHD',
+    'SE085:Kanal 10',
+    'SE086:Cartoon Network',
+    'SE087:Boomerang',
+    'SE088:Disney XD',
+    'SE089:Disney Junior',
+    'SE090:Nick Jr',
+    'SE091:Nickelodeon',
+    'SE092:EuroSport 1 SE',
+    'SE093:Oppna Kanalen Stockholm',
+    'SE094:TLC HD',
+    'SE095:DISCOVERY HD',
+    'SE096:Discovery World',
+    'SE097:DISNEY XD',
+    'SE098:Disney Junior HD',
+    'SE099:History HD',
+    'SE100:MTV',
+    'SE101:Animal Planet HD',
+    'SE102:SF-Kanalen',
+    'SE103:Investigation Discovery SE',
+    'SE104:SF KANALEN',
+    'SE105:C More Fotboll',
+    'SE106:C More Stars',
+    'SE107:C More Live HD',
+    'SE108:C More Live 2 HD',
+    ] 
+
+    const ru = ['RUS001:Zoo Park',
+    'RUS002:Xtream Sports',
+    'RUS003:VIASAT SPORT EAST',
+    'RUS004:TV1000 PREMIUM HD',
+    'RUS005:TV1000 MEGAHIT HD',
+    'RUS006:TV1000 COMEDY HD',
+    'RUS007:tv1000',
+    'RUS008:Friday HD',
+    'RUS009:Sony Turbo',
+    'RUS010:RUSsia League HD',
+    'RUS011:RUSsia 1 HD',
+    'RUS012:Premiera',
+    'RUS013:National Geographic',
+    'RUS014:Nashe Kino',
+    'RUS015:Moya Planeta',
+    'RUS016:Match Sports',
+    'RUS017:Amedia 2',
+    'RUS018:Amedia 1',
+    'RUS019:Animal Family HD',
+    'RUS020:Auto Plus',
+    'RUS021:AZ Idman',
+    'RUS022:BOLLYWOOD TV HD',
+    'RUS023:DISCOVERY CHANNEL HD',
+    'RUS024:EUREKA HD',
+    'RUS025:HTB HD',
+    'RUS026:Match! Arena',
+    'RUS027:MTV',
+    'RUS028:MUSICBOX UA',
+    'RUS029:REN TV',
+    'RUS030:Match Sports',
+    'RUS031:SONY',
+    'RUS032:SONY SCI-FI',
+    'RUS033:MY PLANET',
+    'RUS034:VIASAT HISTORY',
+    'RUS035:АВТО 24',
+    'RUS036:Animal Planet HD',
+    'RUS037:Boks TV HD',
+    'RUS038:Illusion',
+    'RUS039:CTC',
+    'RUS040:DISCOVERY SHOWCASE HD',
+    'RUS041:Discovery ID HD',
+    'RUS042:Discovery Science HD',
+    'RUS043:Disney Channel HD',
+    'RUS044:Drive',
+    'RUS045:DTX',
+    'RUS046:Euro News HD',
+    'RUS047:Europa Plus TV',
+    'RUS048:Eurosport 2 HD',
+    'RUS049:Eurosport HD',
+    'RUS050:Extreme Sports',
+    'RUS051:FINE LIVING HD',
+    'RUS052:FOOD NETWORK HD',
+    'RUS053:FOX HD',
+    'RUS054:FOX LIFE HD',
+    'RUS055:FUTBOL 3 HD',
+    'RUS056:HD Media 3D',
+    'RUS057:History HD',
+    'RUS058:Gulli Girl FHD',
+    'RUS059:KHL TV HD',
+    'RUS060:Kino Dom',
+    'RUS061:Kino Hit HD',
+    'RUS062:Kino Cinema HD',
+    'RUS063:Kino Mix HD',
+    'RUS064:LIFE HD',
+    'RUS065:M Television',
+    'RUS066:Match! Apeha HD',
+    'RUS067:Match! HD',
+    'RUS068:Match! Planet',
+    'RUS069:Impact',
+    'RUS070:MIR HD',
+    'RUS071:Moscow 24',
+    'RUS072:BRIDGE TV DANCE',
+    'RUS073:MTV Live HD',
+    'RUS074:Multimania',
+    'RUS075:Music Box HD',
+    'RUS076:Nashe Kino',
+    'RUS077:Nash Futbol HD',
+    'RUS078:NAT GEO HD',
+    'RUS079:NAT GEO Wild HD',
+    'RUS080:TB3',
+    'RUS081:NICK Junior HD',
+    'RUS082:Nickelodeon HD',
+    'RUS083:NTV HD',
+    'RUS084:MIR 24',
+    'RUS085:Our sport',
+    'RUS086:Outdoor Channel HD',
+    'RUS087:PARAMOUNT CHANNEL HD',
+    'RUS088:PARAMOUNT COMEDY HD',
+    'RUS089:KINO Klub HD',
+    'RUS090:RTG HD',
+    'RUS091:Komediynyy FHD',
+    'RUS092:RTRS',
+    'RUS093:SONY TB HD',
+    'RUS094:SOYUZ',
+    'RUS095:Sport 1 UA',
+    'RUS096:TLC HD',
+    'RUS097:TNT HD',
+    'RUS098:Travel Adventure',
+    'RUS099:Travel Channel HD',
+    'RUS100:TV1000 ACTION HD',
+    'RUS101:TV1000 PREMIERE HD',
+    'RUS102:VH1 Europe',
+    'RUS103:VIASAT EXPLORE HD',
+    'RUS104:VIP Premium',
+    'RUS105:World HD',
+    'RUS106:Match Premier',
+    'RUS107:World Fashion HD',
+    'RUS108:Box TV',
+    'RUS109:112 UA',
+    'RUS110:1Music Channel Hungary',
+    'RUS111:ONE BY',
+    'RUS112:2×2 2',
+    'RUS113:43 HD',
+    'RUS114:Avto plius',
+    'RUS115:Akudji HD',
+    'RUS116:Brodilo HD',
+    'RUS117:CHP Info',
+    'RUS118:Dream TV',
+    'RUS119:Efir-24',
+    'RUS120:Euronews RUSsian HD',
+    'RUS121:Kino TV HD',
+    'RUS122:Gorizont TV UA',
+    'RUS123:Gromads’ke',
+    'RUS124:ID KINO CLUB',
+    'RUS125:Impact',
+    'RUS126:Inter',
+    'RUS127:K1',
+    'RUS128:Kaledoskop',
+    'RUS129:DOM KINO',
+    'RUS130:DOM KINO PREMIUM',
+    'RUS131:Mir 24',
+    'RUS132:Mir Belogor’ya',
+    'RUS133:MostVideo HD',
+    'RUS134:MuzSoyuz',
+    'RUS135:Nadiya',
+    'RUS136:Nano TV',
+    'RUS137:NTS (Sevastopol’)',
+    'RUS138:OneBY',
+    'RUS139:Rada',
+    'RUS140:RBK.',
+    'RUS141:CTC LOVE',
+    'RUS142:RTI HD',
+    'RUS143:RUSSIA 1 HD',
+    'RUS144:RUSsian Music Box',
+    'RUS145:Shanson.TV',
+    'RUS146:Shopping Live',
+    'RUS147:STV (Stavropol’)',
+    'RUS148:NTV Mir',
+    'RUS149:TochkaTV',
+    'RUS150:RTDocumentary HD',
+    'RUS151:Zee TV',
+    'RUS152:ULTRAHD CINEMA',
+    'RUS153:TV1000 Action RUS',
+    'RUS154:NTV VREMYA',
+    'RUS155:PERVIY METEO',
+    'RUS156:YUTV (Cheboksary)',
+    'RUS157:Zvezda',
+    ]
+
+    const fi = ['FI001:FEM',
+    'FI002:Jim',
+    'FI003:MTV 3 HD',
+    'FI004:Nelonen',
+    'FI005:Sub.',
+    'FI006:TV7 Plus!',
+    'FI007:Yle 1 FHD',
+    'FI008:Yle 2 FHD',
+    'FI009:YLE TV 1',
+    'FI010:YLE TV 2',
+    'FI011:C More MAX HD',
+    'FI012:C More Sport 1 FHD',
+    'FI013:Discovery World',
+    'FI014:Investigation Discovery',
+    'FI015:LIV',
+    'FI016:MTV 3 HD',
+    'FI017:C More Juniori',
+    'FI018:Nelonen',
+    'FI019:C More Sport 2',
+    'FI020:Disney XD',
+    'FI021:Viasat Series',
+    'FI022:SF-Kanalen',
+    'FI023:TV7',
+    'FI024:BBC Brit',
+    'FI025:Discovery Channel',
+    'FI026:Disney Channel',
+    'FI027:Disney Junior',
+    ]
+
+    const si = ['SI001:A KANAL HD',
+    'SI002:TV 3',
+    'SI003:SPORTKLUB GOLF',
+    'SI004:SPORTKLUB 5',
+    'SI005:SPORTKLUB 6',
+    'SI006:Discovery Channel',
+    'SI007:DIVA',
+    'SI008:FOX CRIME',
+    'SI009:FOX Movies',
+    'SI010:MINIMAX',
+    'SI011:PLANET 2 TV',
+    'SI012:HBO',
+    'SI013:HBO 2 HD',
+    'SI014:HBO 3',
+    'SI015:SLO 1 HD',
+    'SI016:SLO 2 HD',
+    'SI017:SLO 3',
+    'SI018:VOYO',
+    'SI019:NOVA 24 TV',
+    'SI020:PLANET TV FHD',
+    'SI021:POP BRIO HD',
+    'SI022:POP KINO FHD',
+    'SI023:POP OTO HD',
+    'SI024:POP TV',
+    'SI025:SI 1 HD',
+    'SI026:SI 2 FHD',
+    'SI027:SI 3 HD',
+    'SI028:SPORT 2 HD',
+    'SI029:SPORT KLUB 1 HD',
+    'SI030:SPORT KLUB 3 HD',
+    'SI031:SPORT KLUB 4 HD',
+    'SI032:SPORT TV 1 HD',
+    'SI033:SPORT TV 2 HD',
+    'SI034:SPORT TV 3 HD',
+    'SI035:NATIONAL GEO WILD',
+    'SI036:NATIONAL GEOGRAPHIC',
+    'SI037:TV Koper',
+    'SI038:TRAVEL CHANNEL',
+    'SI039:NICKELODEON',
+    'SI040:VIASAT EXPLORE',
+    'SI041:VOYO SIVENIJA',
+    ]
+
+    const br = ['BR001:A&E BR',
+    'BR002:AMC BR',
+    'BR003:Animal Planet BR',
+    'BR004:Arte 1',
+    'BR005:AXN BR',
+    'BR006:Band BR',
+    'BR007:Band News BR',
+    'BR008:Band Sports',
+    'BR009:VH1 BR',
+    'BR010:BIS BR',
+    'BR011:Boomerang BR',
+    'BR012:Canal Sony',
+    'BR013:Cartoon Network BR',
+    'BR014:Cinemax BR',
+    'BR015:Combate',
+    'BR016:Comedy Central BR',
+    'BR017:Baby TV',
+    'BR018:Discovery BR',
+    'BR019:Discovery Civilization',
+    'BR020:Discovery Home Health',
+    'BR021:Discovery Kids',
+    'BR022:Discovery Science BR',
+    'BR023:Discovery Theater',
+    'BR024:Discovery Turbo',
+    'BR025:Discovery WORLD',
+    'BR026:Disney BR',
+    'BR027:DISNEY JR BR',
+    'BR028:Disney XD BR',
+    'BR029:E! BR',
+    'BR030:ESPN Extra',
+    'BR031:ESPN BRASIL',
+    'BR032:WOOHOO',
+    'BR033:ESPN',
+    'BR034:PFC',
+    'BR035:VIVA BR',
+    'BR036:TV Record',
+    'BR037:Food Network BR',
+    'BR038:Fox BR',
+    'BR039:Fox Life',
+    'BR040:Fox Permium 1',
+    'BR041:Fox Premium 2',
+    'BR042:Fox Sports 2 BR',
+    'BR043:Fox Sports 1',
+    'BR044:FX BR',
+    'BR045:Globo News BR',
+    'BR046:GLOBO RBS TV PORTO ALEGRE',
+    'BR047:Globo RJ',
+    'BR048:Globo BR',
+    'BR049:Gloobinho',
+    'BR050:GNT BR',
+    'BR051:H2 BR',
+    'BR052:HBO 2 BR',
+    'BR053:HBO Family BR',
+    'BR054:HBO BR',
+    'BR055:HBO Plus BR',
+    'BR056:HBO Signature BR',
+    'BR057:History BR',
+    'BR058:ID BR',
+    'BR059:Lifetime BR',
+    'BR060:Mais Globosat',
+    'BR061:Max',
+    'BR062:Max Prime',
+    'BR063:Max Up',
+    'BR064:MegaPix',
+    'BR065:MTV BR',
+    'BR066:Multishow',
+    'BR067:Music Box',
+    'BR068:NAT GEO BR',
+    'BR069:NAT GEO Kids BR',
+    'BR070:NAT GEO Wild BR',
+    'BR071:NICK JR BR',
+    'BR072:Nickelodeon BR',
+    'BR073:OFF',
+    'BR074:Paramount BR',
+    'BR075:Premiere 2',
+    'BR076:Premiere 3',
+    'BR077:Premiere 4',
+    'BR078:Premiere 5',
+    'BR079:Premiere 6',
+    'BR080:Premiere 7',
+    'BR081:Premiere Clubes',
+    'BR082:Warner Channel',
+    'BR083:Record',
+    'BR084:Rede TV',
+    'BR085:SBT',
+    'BR086:Space BR',
+    'BR087:Sport TV 2',
+    'BR088:Sport TV 3',
+    'BR089:Sport TV 1',
+    'BR090:Studio Universal',
+    'BR091:SYFY BR',
+    'BR092:TBS BR',
+    'BR093:Telecine Action',
+    'BR094:Telecine Cult',
+    'BR095:Telecine Fun',
+    'BR096:Telecine Pipoca',
+    'BR097:Telecine Premium',
+    'BR098:Telecine Touch',
+    'BR099:TLC BR',
+    'BR100:TNT BR',
+    'BR101:TNT Series BR',
+    'BR102:TV Ra Tim Bum',
+    'BR103:Universal BR',
+    ]
+
+    const la = ['LA001:A&E LA',
+    'LA002:AMC LA',
+    'LA003:Animal Planet LA',
+    'LA004:AXN LA',
+    'LA005:UFC Network',
+    'LA006:Az Click',
+    'LA007:Azteca 13',
+    'LA008:Azteca 7',
+    'LA009:Azteca Cinema',
+    'LA010:Azteca Mundo',
+    'LA011:Azteca Noticias',
+    'LA012:Bandamax',
+    'LA013:Boomerang',
+    'LA014:Canal 11',
+    'LA015:Canal 5',
+    'LA016:Canal De Las Estrellas',
+    'LA017:Caracol',
+    'LA018:Carton Network',
+    'LA019:CDF Premuim',
+    'LA020:Cine Canal',
+    'LA021:Cine Latino',
+    'LA022:Cine Max',
+    'LA023:Claro Sports',
+    'LA024:CNN en Espagnol',
+    'LA025:Comedy Central',
+    'LA026:De Pelicula',
+    'LA027:Discovery Home Health LA',
+    'LA028:Discovery LA',
+    'LA029:Discovery Civilization',
+    'LA030:Discovery ID LA',
+    'LA031:Discovery Kids',
+    'LA032:Discovery Science LA',
+    'LA033:Discovery Teather',
+    'LA034:Discovery TLC',
+    'LA035:Discovery Turbo',
+    'LA036:Universal',
+    'LA037:Disney LA',
+    'LA038:Disney Junior LA',
+    'LA039:Disney XD LA',
+    'LA040:Distrito Comedia',
+    'LA041:DXTV',
+    'LA042:E! LA',
+    'LA043:Bloomberg LA',
+    'LA044:EL Gourmet',
+    'LA045:ESPN LA',
+    'LA046:ESPN 2',
+    'LA047:ESPN 3',
+    'LA048:Film And Arts',
+    'LA049:Film Zone',
+    'LA050:Univision',
+    'LA051:Fox Series',
+    'LA052:Fox Action',
+    'LA053:Fox Cinema',
+    'LA054:Fox Classic',
+    'LA055:Fox LA',
+    'LA056:Fox Life',
+    'LA057:Fox Movies',
+    'LA058:Fox Sports 1',
+    'LA059:Fox Sports 2',
+    'LA060:Fox Sports 3',
+    'LA061:FX',
+    'LA062:Warner',
+    'LA063:Glitz',
+    'LA064:Golden Edge',
+    'LA065:Golden',
+    'LA066:H2 LA',
+    'LA067:HBO LA',
+    'LA068:HBO 2 LA',
+    'LA069:HBO Family LA',
+    'LA070:HBO Signature LA',
+    'LA071:History LA',
+    'LA072:HOLA TV',
+    'LA073:I-SAT',
+    'LA074:ID LA',
+    'LA075:Lifetime LA',
+    'LA076:MI Musica',
+    'LA077:Win Sports',
+    'LA078:MTV LA',
+    'LA079:MTV Hits LA',
+    'LA080:FXM',
+    'LA081:NAT GEO Wild LA',
+    'LA082:NAT GEO LA',
+    'LA083:Nick JR LA',
+    'LA084:Nicktoons LA',
+    'LA085:Nick LA',
+    'LA086:SONY',
+    'LA087:Space LA',
+    'LA088:Studio Universal',
+    'LA089:SYFY LA',
+    'LA090:TBS',
+    'LA091:TCM',
+    'LA092:Unicable',
+    'LA093:Tele Hit',
+    'LA094:Telemundo',
+    'LA095:Telemundo Int',
+    'LA096:Canal Disney',
+    'LA097:Tele Visa',
+    'LA098:Paramount',
+    'LA099:TLC LA',
+    'LA100:TLnovelas',
+    'LA101:TNT',
+    'LA102:TNT Series',
+    'LA103:Tooncast',
+    'LA104:UNIMAS',
+    'LA105:Tru TV',
+    'LA106:Marti',
+    'LA107:TVE',
+    'LA109:La voz de maria',
+    'LA113:ACTION MAX',
+    'LA118:El Salvador',
+    'LA126:DW America',
+    'LA135:AZ MAS',
+    'LA165:CANAL ONCE',
+    'LA168:CANAL DE LAS ESTRELLAS HD',
+    'LA180:Cinemoi',
+    'LA199:Cinema 30 PPV',
+    'LA234:CINEMA PLUS',
+    'LA235:Cinemax Action HD',
+    'LA245:CNN',
+    'LA247:CNN ESPANOL',
+    'LA260:Cubavision (Cuba)',
+    'LA265:DHE',
+    'LA267:Directv Sports',
+    'LA269:Directv Sports 2',
+    'LA280:Nick 2 FHD',
+    'LA299:EL TRECE HD',
+    'LA304:ESPN PLUS HD',
+    'LA305:ETC TV',
+    'LA310:HCH SD HON',
+    'LA318:PFC',
+    'LA323:FOX NEWS',
+    'LA324:Fox Premium Action HD',
+    'LA354:HBO Plus FHD',
+    'LA355:HBO Plus West HD',
+    'LA356:HBO East HD',
+    'LA376:TELE MUSICA',
+    'LA390:TV Globo Internacional',
+    'LA404:MAX UP',
+    'LA410:Milenio TV HD',
+    'LA416:MoviePlex FHD',
+    'LA423:Multimedios HD',
+    'LA424:Music Top HD',
+    'LA426:TELEUNIVERSO',
+    'LA431:TV Quisqueya',
+    'LA468:Bolivia TV',
+    'LA473:Todo Noticias',
+    'LA489:RCN Novelas HD',
+    'LA503:RetroPlex FHD',
+    'LA521:Showtime East FHD',
+    'LA522:SHOWTIME FHD',
+    'LA531:Starz Cinema FHD',
+    'LA532:Starz Comedy FHD',
+    'LA534:Starz Encore Action FHD',
+    'LA535:Starz Encore Black FHD',
+    'LA536:Starz Encore Classic FHD',
+    'LA537:Starz Encore Family FHD',
+    'LA538:Starz Encore FHD',
+    'LA539:Starz Encore Suspense FHD',
+    'LA540:Starz Encore Western FHD',
+    'LA541:Starz Family HD',
+    'LA542:Starz FHD',
+    'LA543:Starz Kids & Family FHD',
+    'LA544:Starz West FHD',
+    'LA560:TELEFE HD',
+    'LA566:Telemundo 51',
+    'LA600:Galavision',
+    'LA606:TV MAS',
+    'LA611:Telemundo Boston HD',
+    'LA633:UniMas West',
+    'LA651:TIGO SPORT',
+    'LA652:ULTRA Film',
+    'LA659:Telemundo Chicago HD',
+    'LA662:Univision New York HD',
+    ]
+
+    const arg = ['ARG001:TN HD',
+    'ARG002:24/7 Noticias',
+    'ARG003:AMERICA 24 HD',
+    'ARG004:ARGENTINISIMA',
+    'ARG005:ATB TV',
+    'ARG006:C5N HD',
+    'ARG007:CADENA SUDESTE',
+    'ARG008:TeleSur',
+    'ARG009:CANAL 3',
+    'ARG010:TelePin (T-HD)',
+    'ARG011:CANAL 4 HD',
+    'ARG012:CANAL 9 HD',
+    'ARG013:Canal 9 Salta',
+    'ARG014:TeleMax (TLX)',
+    'ARG015:CINEAR',
+    'ARG016:CANALDELAMUSICA',
+    'ARG017:Canal 13',
+    'ARG018:CANAL 21 HD',
+    'ARG019:CANAL 26 HD',
+    'ARG020:Canal 26 Noticias HD',
+    'ARG021:CANAL DE LA CIUDAD',
+    'ARG022:AL SHAHED TV',
+    'ARG023:I-SAT',
+    'ARG024:CINE AR HD',
+    'ARG025:CINE ARGENTINA',
+    'ARG026:ZOOMOO',
+    'ARG027:CN 24/7',
+    'ARG028:CN23 HD',
+    'ARG029:WARNER',
+    'ARG030:CRONICA HD',
+    'ARG031:Cronica Television HD',
+    'ARG032:DeporTV FHD',
+    'ARG033:El Trece',
+    'ARG034:Canal 26 HD °',
+    'ARG035:VOLVER',
+    'ARG036:VH1 MEGAHITS HD',
+    'ARG037:VH1',
+    'ARG038:TeleFe',
+    'ARG039:El Garaje TV',
+    'ARG040:UNIVERSAL',
+    'ARG041:El Rural HD',
+    'ARG042:El Trece Internacional',
+    'ARG043:TRUTV HD',
+    'ARG044:Encuentro HD',
+    'ARG045:ESPN 2 HD',
+    'ARG046:ESPN 3 HD',
+    'ARG047:ESPN HD',
+    'ARG048:ESPN',
+    'ARG049:FOX SPORTS HD',
+    'ARG050:FOX SPORTS Premium HD',
+    'ARG051:Garage TV',
+    'ARG052:GOL TV HD',
+    'ARG053:LitusTV',
+    'ARG054:Espn arg',
+    'ARG055:TOONCAST HD',
+    'ARG056:LN',
+    'ARG057:Multivision',
+    'ARG058:MUSIC TOP',
+    'ARG059:Net TV FHD',
+    'ARG060:Pakapaka HD',
+    'ARG061:Provincial TV',
+    'ARG062:FOX Sports 1 HD',
+    'ARG063:Telemax HD',
+    'ARG064:TNT SERIES HD',
+    'ARG065:TNT HD',
+    'ARG066:Orbe 21',
+    'ARG067:TNT Sports HD',
+    'ARG068:TIERRAMIA TV HD',
+    'ARG069:QUIERO MUSICA HD',
+    'ARG070:PARAMOUNT',
+    'ARG071:TV CIUDAD',
+    'ARG072:Tv Publica HD',
+    'ARG073:FOX Sports 3 HD',
+    'ARG074:TyC Sports FHD',
+    'ARG075:VIVO 4',
+    'ARG076:America TV',
+    'ARG077:FOX Sports 2 HD',
+    ]
+
+    const co = ['CO001:Mundo Mas TV',
+    'CO002:TeleEnvigado',
+    'CO003:CARACOL',
+    'CO004:AMC HD',
+    'CO005:Canal Tro',
+    'CO006:Canal Trece',
+    'CO007:WAO',
+    'CO008:Uniautonoma Television',
+    'CO009:Top Latino',
+    'CO010:Cable Noticias',
+    'CO011:DirectTV Sports Plus',
+    'CO012:Win Sports HD',
+    'CO013:Teleislas TV',
+    'CO014:Cablenoticias 24 HD',
+    'CO015:Cali TV',
+    'CO016:Canal Capital HD',
+    'CO017:CANAL DE LAS ESTRELLAS',
+    'CO018:Caracol Institucional HD',
+    'CO019:Canal Doce',
+    'CO020:Canal Wow TV',
+    'CO021:Canal Acuario',
+    'CO022:RCN HD2',
+    'CO023:Caracol International HD',
+    'CO024:Teleantioquia HD',
+    'CO025:CNC Pasto TV',
+    'CO026:Miami TV',
+    'CO027:Nacion TV NTV',
+    'CO028:DirectTV Sports 1',
+    'CO029:City Tv HD',
+    'CO030:TeleCafe',
+    'CO031:Tele Vid HD',
+    'CO032:Tele Musica',
+    'CO033:Tele Amiga',
+    'CO034:Nacion TV NTV',
+    'CO035:Miami Tv Colombia FHD',
+    'CO036:CNC Pasto TV',
+    'CO037:Canal CNC Medellin',
+    'CO038:Cantinazo',
+    'CO039:Cosmovision',
+    'CO040:Canal Acuario',
+    'CO041:Telemax HD',
+    'CO042:Canal Institucional',
+    'CO043:Caracol',
+    'CO044:Tvgro',
+    'CO045:Canal Uno HD',
+    'CO046:TelePacificoTelePacifico TV',
+    'CO047:Televid',
+    'CO048:Teleislas',
+    'CO049:Teleantiquioa',
+    'CO050:Teleamiga',
+    'CO051:Canal RCN International',
+    'CO052:Carolina TV HD',
+    'CO053:Suram',
+    'CO054:Oasis',
+    'CO055:El Tiempo HD',
+    'CO056:Amordiscos',
+    'CO057:Religious',
+    'CO058:Avivamiento',
+    'CO059:CTV Barranquilla',
+    'CO060:Ntv Canal',
+    'CO061:UAO Play +',
+    'CO062:Telemedellin HD',
+    'CO063:Melody TV HD',
+    'CO064:Telecaribe FHD',
+    'CO065:Telecaribe Deportes FHD',
+    'CO066:Tele Antioquia HD',
+    'CO067:Tele Cafe',
+    'CO068:TELE ISLA',
+    'CO069:Tele Max HD',
+    ]
+
+    const pe = ['PE001:Bethel TV Plus',
+    'PE002:AMERICA TELEVISION',
+    'PE003:AMERICA TV',
+    'PE004:ANT TV',
+    'PE005:Antares TV',
+    'PE006:ATV HD',
+    'PE007:ATV Plus',
+    'PE008:ATV',
+    'PE009:Cultura 24',
+    'PE010:America TV HD',
+    'PE011:Ctc Cusco',
+    'PE012:Hipodromo Monterrico HD',
+    'PE013:Canal IPE',
+    'PE014:FRECUENCIA LATINA',
+    'PE015:GOL PERU HD',
+    'PE016:GOL TV',
+    'PE017:Bethel tv',
+    'PE018:La Tele',
+    'PE019:LATINA',
+    'PE020:Monterrico TV',
+    'PE021:MoviStar Deportes HD',
+    'PE022:MoviStar Plus TV',
+    'PE023:Nex TV',
+    'PE024:NEXT TV',
+    'PE025:OVACION',
+    'PE026:PANAMERICANA',
+    'PE027:PERU MAGICO',
+    'PE028:TV PERU NOTICIAS',
+    'PE029:TV Noticias 7.3',
+    'PE030:TV PERU HD',
+    ]
+
+    const mx = ['MX001:ADN 40',
+    'MX002:NU9VE TV',
+    'MX003:AYM Sports',
+    'MX004:Az Corazon HD',
+    'MX005:Azteca 7 HD',
+    'MX006:Azteca Cinema FHD',
+    'MX007:TP AFORE AZTECA',
+    'MX008:Azteca Corazon',
+    'MX009:Azteca HD',
+    'MX010:PX Sports',
+    'MX011:TP SENDERO',
+    'MX012:Azteca undo',
+    'MX013:CANAL1944',
+    'MX014:Azteca Uno FHD',
+    'MX015:Baby Tv',
+    'MX016:Bandamax',
+    'MX017:CANAL2089',
+    'MX018:Canal 5 FHD',
+    'MX019:CANAL2331',
+    'MX020:CANAL2355',
+    'MX021:CANAL401',
+    'MX022:CANAL470',
+    'MX023:VTV',
+    'MX024:ANIMAL PLANET',
+    'MX025:Canal Judicial FHD',
+    'MX026:Canal Once HD',
+    'MX027:CNN',
+    'MX028:COMEDY CENTRAL HD',
+    'MX029:DE PELICULA HD',
+    'MX030:Discovery CHANNEL HD',
+    'MX031:Discovery CIVILIZATION HD',
+    'MX032:Discovery H&H HD',
+    'MX033:Discovery TURBO HD',
+    'MX034:Excelsior TV',
+    'MX035:El Canal De Las Estrellas',
+    'MX036:EL GOURMET HD',
+    'MX037:ESPN 1',
+    'MX038:ESPN 2 HD',
+    'MX039:ESPN 3 HD',
+    'MX040:A&E',
+    'MX041:ESPN HD',
+    'MX042:ESPN Plus',
+    'MX043:ESPN U HD',
+    'MX044:AL JAZZERA',
+    'MX045:FILM & ART HD',
+    'MX046:Foro TV FHD',
+    'MX047:FOX HD',
+    'MX048:Fox Life',
+    'MX049:Fox Premium Action',
+    'MX050:Fox Premium Cinema',
+    'MX051:ANTENA3',
+    'MX052:Fox Premium Family',
+    'MX053:Fox Premium Movies',
+    'MX054:Fox Premium Series',
+    'MX055:FOX SERIES HD',
+    'MX056:FOX SPORTS 1 HD',
+    'MX057:FOX SPORTS 2 HD',
+    'MX058:FOX SPORTS 3',
+    'MX059:FXM HD',
+    'MX060:AXN',
+    'MX061:AZTECA 1',
+    'MX062:GOLDEN EDGE HD',
+    'MX063:GOLDEN HD',
+    'MX064:HISTORY HD',
+    'MX065:HOLA TV HD',
+    'MX066:I CLASSIC HD',
+    'MX067:Imagen TV FHD',
+    'MX068:Ingenio Tv',
+    'MX069:LAS ESTRELLAS HD',
+    'MX070:Lifetime',
+    'MX071:Mexiquense TV FHD',
+    'MX072:Milenio Tv',
+    'MX073:MULTIMEDIOS HD',
+    'MX074:AZTECA CLICK',
+    'MX075:Azteca Deportes',
+    'MX076:NICK 2 HD',
+    'MX077:NICK HD',
+    'MX078:NICKTOONS',
+    'MX079:Once Mexico',
+    'MX080:BABY FIRST',
+    'MX081:BBC WORLD NEWS',
+    'MX082:PARAMOUNT HD',
+    'MX083:BLOMMBERG',
+    'MX084:BLOOMBERG',
+    'MX085:BOOMERANG',
+    'MX086:SONY HD',
+    'MX087:SYFY HD',
+    'MX088:CADEND TV',
+    'MX089:CANAL 26',
+    'MX090:Telehit Plus',
+    'MX091:CANAL 4',
+    'MX092:Televisa',
+    'MX093:CANAL 7',
+    'MX094:CANAL 8',
+    'MX095:CANAL107',
+    'MX096:Televisa Pruebla',
+    'MX097:CANAL109',
+    'MX098:CANAL1749',
+    'MX099:TNT HD',
+    'MX100:CANAL1899',
+    'MX101:CANAL1932',
+    'MX102:CANAL2062',
+    'MX103:CANAL2278',
+    'MX104:CANAL2319',
+    'MX105:CANAL317',
+    'MX106:Unicable FHD',
+    ]
+
+    const car = ['CAR001:TTEN- Trinidad | HD',
+    'CAR002:Flow Sports 1',
+    'CAR003:RUSH Sports 1',
+    'CAR004:RUSH Sports 2',
+    'CAR005:RUSH Sports 3',
+    'CAR006:BEBLACK CARIBBEAN',
+    'CAR007:RUSH Sports 5',
+    'CAR008:RUSH Sports 6',
+    'CAR009:RUSH Sports EPL',
+    'CAR010:TVJ Sports Network',
+    'CAR011:ESPN',
+    'CAR012:CaribVision | SD',
+    'CAR013:ESPN 2',
+    'CAR014:Fame Radio Live – Jamaica | SD',
+    'CAR015:GBN (Grenada) | SD',
+    'CAR016:GRENADA FAMILY NETWORK',
+    'CAR017:CVTV',
+    'CAR018:HOPE CHANNEL (PUERTO RICO) | HD',
+    'CAR019:ISLAND LUCK TV (Bahamas) | HD',
+    'CAR020:ISLAND TV (Haiti)',
+    'CAR021:JNN – JAMAICA',
+    'CAR022:MTM – Jamaica | HD',
+    'CAR023:Mellow Tv (Jamaica) | SD',
+    'CAR024:Nago TV',
+    'CAR025:RTVC',
+    'CAR026:RETV',
+    'CAR027:PBC JAMAICA',
+    'CAR028:WSVI TV',
+    'CAR029:RETV – Jamaica | UHD',
+    'CAR030:Opa tv (Haiti)',
+    'CAR031:RTG18 (Haiti)',
+    'CAR032:RTNH (Haiti)',
+    'CAR033:RTVC CARAIBES (HAITI) | SD',
+    'CAR034:SPORTSMAX 2 | HD',
+    'CAR035:SPORTSMAX CRICKET',
+    'CAR036:Sportsmax Plus | HD',
+    'CAR037:Sportsmax | HD',
+    'CAR038:TVJ',
+    'CAR039:SUPER TV 55',
+    'CAR040:TNT DSTV | SD',
+    'CAR041:JNN',
+    'CAR042:TNT Scream Fest | HD',
+    'CAR043:NOS TV',
+    'CAR044:3ABN',
+    'CAR045:BASHMENT',
+    'CAR046:HOT 7 TV',
+    'CAR047:TRIDENT 10 (Barbados)',
+    'CAR048:TRINITY TV (Trinidad)',
+    'CAR049:TVJ – Jamaica | HD',
+    'CAR050:TVJ Sports – Jamaica | HD',
+    'CAR051:BET Carabian',
+    'CAR052:WEATHER HEADLINES',
+    'CAR053:Business AccessTV',
+    'CAR054:WSVI 8 (St. Croix) | HD',
+    'CAR055:WSVI-TV 8 Weather (St. Croix) | SD',
+    'CAR056:TVG28 GUYANA',
+    'CAR057:ZNSTV 13 – BAHAMAS | SD',
+    'CAR058:BET Gospel',
+    ]
+
+    const ns = ['NS001:AL Arabiya',
+    'NS002:AL Hadath News',
+    'NS003:AL Jazeera Arabic',
+    'NS004:AL Jazeera Mubasher',
+    'NS005:AL Ghad TV',
+    'NS006:BBC Arabic',
+    'NS007:CNBC Arabiya',
+    'NS008:DW Arabic',
+    'NS009:Sky News Arabic',
+    'NS010:France24',
+    'NS011:Palestine News',
+    'NS012:RT Arabic',
+    'NS013:Saudi EL Ekhbaria',
+    'NS014:Saudi EL Eqtisadiah',
+    'NS015:Sky News Arabic',
+    'NS016:Echorouk News',
+    'NS017:Dzair News',
+    'NS018:NUmidia TV News',
+    'NS019:AL Sharqiya News',
+    'NS020:Orient News',
+    'NS021:Syria Ikhbariya News',
+    'NS022:Libya News',
+    'NS023:Nile News',
+    ]
+
+    const ks = ['KS001:Ajyal TV',
+    'KS002:Cartoon Network',
+    'KS003:Karameesh',
+    'KS004:Koky TV',
+    'KS005:Majid Kids',
+    'KS006:Mickey Channel',
+    'KS007:Mody Kids',
+    'KS008:Nour Kids',
+    'KS009:SAT7 Kids',
+    'KS010:SemSem',
+    'KS011:Space Toon',
+    'KS012:Taha',
+    'KS013:Toyor AL Janna',
+    'KS014:Toyor Baby',
+    ]
+
+    const bn = ['BN001:BeIN Sport News',
+    'BN002:BeIN Sport 01',
+    'BN003:BeIN Sport 02',
+    'BN004:BeIN Sport 03',
+    'BN005:BeIN Sport 04',
+    'BN006:BeIN Sport 05',
+    'BN007:BeIN Sport 06',
+    'BN008:BeIN Sport 07',
+    'BN009:BeIN Sport 08',
+    'BN010:BeIN Sport 09',
+    'BN011:BeIN Sport 10',
+    'BN012:BeIN Sport 11',
+    'BN013:BeIN Sport 12',
+    'BN014:BeIN Movies 1',
+    'BN015:BeIN Movies 2',
+    'BN016:BeIN Movies 3',
+    'BN017:BeIN Movies 4',
+    'BN018:bein 4k',
+    'BN019:Bein Sport 14',
+    'BN020:BeIN BARAEM',
+    'BN021:BeIN My Cinema',
+    'BN022:Bein Sport 15',
+    'BN023:Bein Sport',
+    'BN024:BeIN Junior',
+    'BN025:BeIN Groummet',
+    'BN026:BeIN Series',
+    'BN027:BeIN FOX Movie',
+    ]
+
+    const mbc = ['MBC001:MBC 1',
+    'MBC002:MBC 2',
+    'MBC003:MBC 3',
+    'MBC004:MBC 4',
+    'MBC005:ACTION',
+    'MBC006:Bollywood',
+    'MBC007:Drama',
+    'MBC008:Drama Plus',
+    'MBC009:MASR 1',
+    'MBC010:MASR 2',
+    'MBC011:MAX',
+    'MBC012:Variety',
+    ]
+
+    
+
+    const jp = ['JP001:NHK-総合',
+    'JP002:NHK-Eテレ',
+    'JP003:日テレ',
+    'JP004:テレビ朝日',
+    'JP005:TBS',
+    'JP006:テレビ東京',
+    'JP007:フジテレビ',
+    'JP008:TOKYOMX',
+    'JP009:NHK総合大阪',
+    'JP010:NHKEテレ大阪',
+    'JP011:MBS毎日放送',
+    'JP012:ABCテレビ.',
+    'JP013:テレビ大阪',
+    'JP014:関西テレビ',
+    'JP015:読売テレビ',
+    'JP016:NHKBS1',
+    'JP017:NHKBSプレミア',
+    'JP018:BS日テレ',
+    'JP019:BS朝日1',
+    'JP020:BS-TBS',
+    'JP021:BSジャパン',
+    'JP022:BSフジ.181',
+    'JP023:WOWOWプライム.',
+    'JP024:WOWOWライブ',
+    'JP025:WOWOWシネマ',
+    'JP026:スターチャンネル 1',
+    'JP027:グリーンチャン',
+    'JP028:日本映画専門',
+    'JP029:ディズニーチャ',
+    'JP030:東映チャンネル',
+    'JP031:衛星劇場',
+    'JP032:時代劇専門',
+    'JP033:ファミリー劇場',
+    'JP034:sky.Aスポーツ',
+    'JP035:Jsports4',
+    'JP036:日テレG',
+    'JP037:ゴルフネットHD',
+    'JP038:Jsports2',
+    'JP039:Jsports3',
+    'JP040:キッズステーシ',
+    ]
+
+    const cor = ['KOR001:KBS 1',
+    'KOR002:KBS 2',
+    'KOR003:MBC',
+    'KOR004:SBS',
+    'KOR005:TV조선',
+    'KOR006:MBC Sports',
+    'KOR007:TVN',
+    'KOR008:Supper Action',
+    'KOR009:CTS',
+    'KOR010:Ariran Korea',
+    'KOR011:JTBC',
+    'KOR012:Tomato TV',
+    'KOR013:OCN영화',
+    'KOR014:CGV영화',
+    'KOR015:MBN',
+    'KOR016:Catch On 1',
+    'KOR017:Disney어린이 XXX',
+    'KOR018:CBS',
+    'KOR019:EBS 1',
+    'KOR020:EBS 2',
+    'KOR021:Golf골프 XXX',
+    'KOR022:EBS Kids',
+    'KOR023:MNet',
+    ]
   return (
     
     <>
@@ -4986,9 +7980,1297 @@ function Channels() {
                                   </ul>
                             </div>
                           </div>
-                        </div>        
+                        </div>      
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse58"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse58"
+                            >
+                              <strong>ES:—–|SPORTS|——————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse58"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    esSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>  
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse59"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse59"
+                            >
+                              <strong>ES:—–|CINEMA|——————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse59"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    esCinema.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>    
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse60"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse60"
+                            >
+                              <strong>ES:—–|Documentary|—————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse60"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    esDocum.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse61"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse61"
+                            >
+                              <strong>ES:—–|CARTOO|——————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse61"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    esCarto.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse62"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse62"
+                            >
+                              <strong>ES:—–|Espana|——————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse62"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    esEspana.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div> 
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse63"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse63"
+                            >
+                              <strong>FR:—–|SPORT|——————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse63"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    frSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
                            
-                    
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse64"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse64"
+                            >
+                              <strong>FR:—–|ENTERTAINMENT|———————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse64"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    frEnter.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse65"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse65"
+                            >
+                              <strong>FR:—–|CINEMA|—————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse65"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    frCinema.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse66"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse66"
+                            >
+                              <strong>FR:—–|KIDS|——————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse66"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    frKids.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse67"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse67"
+                            >
+                              <strong>FR:—–|NEWS|——————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse67"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    frNews.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse68"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse68"
+                            >
+                              <strong>BE:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse68"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    be.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse69"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse69"
+                            >
+                              <strong>BG:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse69"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    bg.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse70"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse70"
+                            >
+                              <strong>CH:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse70"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ch.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse71"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse71"
+                            >
+                              <strong>CZ:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse71"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    cz.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse72"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse72"
+                            >
+                              <strong>DK:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse72"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    dk.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse73"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse73"
+                            >
+                              <strong>GR:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse73"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    gr.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse74"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse74"
+                            >
+                              <strong>HU:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse74"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    hu.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse75"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse75"
+                            >
+                              <strong>NO:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse75"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    no.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse76"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse76"
+                            >
+                              <strong>RO:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse76"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ro.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse77"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse77"
+                            >
+                              <strong>HR:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse77"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    hr.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse78"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse78"
+                            >
+                              <strong>YU:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse78"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    yu.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse79"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse79"
+                            >
+                              <strong>MK:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse79"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    mk.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse80"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse80"
+                            >
+                              <strong>SE:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse80"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    se.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse81"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse81"
+                            >
+                              <strong>RU:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse81"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ru.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse82"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse82"
+                            >
+                              <strong>FI:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse82"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    fi.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse83"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse83"
+                            >
+                              <strong>SI:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse83"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    si.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse84"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse84"
+                            >
+                              <strong>BR:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse84"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    br.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse85"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse85"
+                            >
+                              <strong>LA:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse85"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    la.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse86"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse86"
+                            >
+                              <strong>ARG:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse86"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    arg.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse87"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse87"
+                            >
+                              <strong>CO:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse87"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    co.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse88"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse88"
+                            >
+                              <strong>PE:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse88"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    pe.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse89"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse89"
+                            >
+                              <strong>MX:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse89"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    mx.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse90"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse90"
+                            >
+                              <strong>CAR:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse90"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    car.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse91"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse91"
+                            >
+                              <strong>NS:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse91"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ns.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse92"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse92"
+                            >
+                              <strong>KS:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse92"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    ks.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse93"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse93"
+                            >
+                              <strong>BN:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse93"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    bn.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse94"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse94"
+                            >
+                              <strong>MBC:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse94"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    mbc.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse95"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse95"
+                            >
+                              <strong>JP:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse95"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    jp.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse96"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse96"
+                            >
+                              <strong>COR:——————————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse96"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    cor.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+
                                       
 
                       
