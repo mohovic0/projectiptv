@@ -1657,6 +1657,282 @@ function Channels() {
     'AL355:Tring Super FHD',    
     ]
 
+    const alDocum = ['AL011:X Shkenca HD',
+    'AL029:Living HD',
+    'AL035:Kino Scifi HD',
+    'AL052:Explorer Shkenc',
+    'AL053:Explorer Natyra',
+    'AL054:Explorer Histori',
+    'AL062:Tring World',
+    'AL068:Tring Planet',
+    'AL072:TRING HISTORI',
+    'AL096:EXP HISTORI',
+    'AL127:ANIMAL PLANET HD',
+    'AL162:Explorer History',
+    'AL163:Explorer Natyra',
+    'AL164:Explorer Shkence HD',
+    'AL193:History Channel',
+    'AL243:Living HD',
+    'AL249:NAT GEO HD',
+    'AL250:NAT GEO WILD HD',
+    'AL352:X Natyra HD',
+    'AL357:Tring World HD',
+    ]
+
+    const alNews = ['AL013:RTK 1 HD AL',
+    'AL027:News 24',
+    'AL032:KLAN Kosova HD',
+    'AL033:KLAN HD',
+    'AL058:ABC News',
+    'AL060:Top News',
+    'AL075:Top Channel HD',
+    'AL077:KLAN KOSOVA HD',
+    'AL085:Ora News(1)',
+    'AL086:News 24(1)',
+    'AL099:RTSH 24 HD',
+    'AL104:RTSH Plus HD',
+    'AL107:ABC News HD',
+    'AL110:Al Report',
+    'AL130:ERA TV HD',
+    'AL132:T7 HD',
+    'AL137:Arta News HD',
+    'AL155:Dukagjini HD',
+    'AL189:FOX News',
+    'AL194:Medina TV',
+    'AL195:Igman Tv Islam',
+    'AL211:Klan HD',
+    'AL212:KLAN KOSOVA HD',
+    'AL225:Alb Islam',
+    'AL241:Uskana TV',
+    'AL251:News 24 HD',
+    'AL255:ORA News HD',
+    'AL257:Peace TV',
+    'AL261:Quran TV',
+    'AL272:RTSH 24 HD',
+    'AL291:A2 CNN',
+    'AL318:Kanali 7 News',
+    'AL338:Top Channel HD',
+    'AL368:TV Mitrovica',
+    ]
+
+    const alKids = ['AL055:Cufo',
+    'AL063:TRING TRING',
+    'AL138:Bang Bang HD',
+    'AL150:Club TV',
+    'AL151:Cufo HD',
+    'AL153:Disney Channel HD',
+    'AL197:Jim Jam',
+    'AL226:Tring Kids',
+    'AL227:KS KIDS',
+    'AL228:KS BABY FIRST',
+    'AL356:Tring Tring HD',
+    ]
+
+    const nlGeneral = ['NL043:NPO 1',
+    'NL007:NPO 1 HD',
+    'NL042:NPO 2',
+    'NL006:NPO 2 FHD 1080',
+    'NL041:NPO 3',
+    'NL005:NPO 3 FHD 1080',
+    'NL035:SBS 6',
+    'NL161:SBS 6 FHD',
+    'NL040:RTL 4',
+    'NL149:RTL 4 HD',
+    'NL039:RTL 5',
+    'NL150:RTL 5 HD',
+    'NL038:RTL 7',
+    'NL151:RTL 7 HD',
+    'NL037:RTL 8',
+    'NL004:SBS 9',
+    'NL162:SBS 9 HD',
+    'NL021:Net 5 FHD 1080',
+    'NL054:FOX Channel',
+    'NL033:TLC',
+    'NL034:SYFY',
+    'NL044:Slam',
+    'NL047:NET 5',
+    'NL060:RTV 7',
+    'NL062:Comedy Central',
+    'NL065:13th',
+    'NL066:100%NL',
+    'NL067:13th Street',
+    'NL068:192 TV',
+    'NL069:24 Kitchen HD',
+    'NL070:RTV 538',
+    'NL072:AT5',
+    'NL074:TVOost',
+    'NL075:BBC Entertainment',
+    'NL078:Comedy Central Extra',
+    'NL079:Comedy Central HD',
+    'NL080:Crime & Investigation HD',
+    'NL087:Djazz TV',
+    'NL088:TVNoord',
+    'NL092:Penthouse',
+    'NL093:Net 5',
+    'NL094:Ziggo TV',
+    'NL097:Omroep Flevoland',
+    'NL098:Food Network FHD',
+    'NL099:Fox Channel HD',
+    'NL112:GO-RTV',
+    'NL113:ZFM',
+    'NL114:DEN HAAG TV',
+    'NL117:MTV',
+    'NL120:Omroep Ede',
+    'NL123:L1mburg',
+    'NL124:Mezzo',
+    'NL128:MTV Brand New',
+    'NL129:Mtv Music',
+    'NL130:MTV Music 24',
+    'NL133:NET 5 HD',
+    'NL135:Nick Music HD',
+    'NL138:NPO 1 HD',
+    'NL139:NPO 2 HD',
+    'NL140:Npo Nieuws',
+    'NL141:NPO Politiek',
+    'NL142:NPO Zapp Xtra',
+    'NL143:OMROEP BRABANT HD',
+    'NL144:OMROEP Frysl鈔',
+    'NL145:OMROEP West',
+    'NL146:OMROEP ZeeLand HD',
+    'NL147:ONS',
+    'NL156:RTV Drenthe HD',
+    'NL157:RTV Noord',
+    'NL158:RTV OOST',
+    'NL159:RTV Rijnmond',
+    'NL160:RTV Utrecht',
+    'NL163:Shorts TV FHD',
+    'NL164:Spike HD',
+    'NL166:TLC HD',
+    'NL168:TV Oranje',
+    'NL169:VH1 CLASSIC',
+    'NL171:XITE HD',
+    'NL172:ZDF HD',
+    'NL173:Ziggo Extra 2',
+    'NL174:Ziggo Select',
+    ]
+
+    const nlSport = ['NL001:Ziggo Sport Select FHD 1080',
+    'NL003:Sport 1 Voetbal',
+    'NL008:Fox Sports 6',
+    'NL009:Fox Sports 5',
+    'NL010:Fox Sports 4',
+    'NL011:Fox Sports 3',
+    'NL012:Fox Sports 2',
+    'NL013:Fox Sports 1',
+    'NL014:Eurosport 1 FHD 1080',
+    'NL015:Eurosport 2 HD',
+    'NL017:FOX Sports 1 FHD 1080',
+    'NL018:FOX Sports 2 HD',
+    'NL023:Fox Sports 4 HD ( 1080P )',
+    'NL024:Fox Sports 5 HD ( 1080P )',
+    'NL025:FOX Sports 3 HD ( 1080P )',
+    'NL026:Ziggo Sport.Voetbal',
+    'NL027:Ziggo Sport Select HD',
+    'NL028:Ziggo Sport Racing',
+    'NL029:Ziggo Sport Golf',
+    'NL030:Ziggo Sport Extra2',
+    'NL031:Ziggo Sport Extra1',
+    'NL089:EUROSPORT 1 FHD',
+    'NL090:EUROSPORT 2 HD',
+    'NL091:Extreme Sports Channel',
+    'NL100:FOX SPORTS 1 EREDIVISIE HD',
+    'NL101:FOX SPORTS 1 HD',
+    'NL102:FOX SPORTS 2 HD',
+    'NL103:FOX SPORTS 2 INTERNATIONAL',
+    'NL104:FOX SPORTS 3 EREDIVISIE',
+    'NL105:FOX SPORTS 3 HD',
+    'NL106:FOX SPORTS 4 HD',
+    'NL107:FOX SPORTS 4 INTERNATIONAL',
+    'NL108:FOX SPORTS 5 EREDIVISIE HD',
+    'NL109:FOX SPORTS 5 HD',
+    'NL110:FOX SPORTS 6 HD',
+    'NL111:FOX SPORTS 6 INTERNATIONAL',
+    'NL115:Golf HD',
+    'NL125:Motors TV',
+    'NL126:Ziggo Sport Voetbal HD',
+    'NL127:Ziggo Sport DOCU HD',
+    'NL152:Ziggo Sport Racing HD',
+    'NL165:Ziggo Sport GOLF HD',
+    ]
+
+    const nlMovie = ['NL016:Film1 Premiere FHD 1080',
+    'NL036:RTL lounge',
+    'NL051:HBO2',
+    'NL052:HBO 3',
+    'NL053:HBO',
+    'NL055:Film1 SUNDANCE',
+    'NL056:Film1 Spotlight',
+    'NL057:Film1 Premiere',
+    'NL058:Film1 Comedy & Kids',
+    'NL059:Film1 Action',
+    'NL095:Film 1 Sundance',
+    'NL096:Film Action HD',
+    'NL116:HBO 2 HD',
+    'NL118:HBO HD',
+    'NL153:RTL Crime HD',
+    'NL154:RTL Lounge HD',
+    'NL155:RTL Z HD',
+    ]
+
+    const nlKids = ['NL002:Veronica / Disney XD FHD 1080',
+    'NL019:Ketnet HD',
+    'NL022:Nicktoons',
+    'NL032:Veronica Disney XD',
+    'NL045:Nick Jr',
+    'NL048:JimJam',
+    'NL049:Nick Hits',
+    'NL063:RTL Telekids',
+    'NL073:BABY TV HD',
+    'NL076:Boomerang HD',
+    'NL077:Cartoon Network HD',
+    'NL085:Disney Channel',
+    'NL086:Disney XD HD',
+    'NL121:JimJam',
+    'NL122:Ketnet Junior',
+    'NL134:Nick Junior',
+    'NL136:Nick toons HD',
+    'NL137:Nickelodeon HD',
+    'NL148:Pebble TV HD',
+    ]
+
+    const nlDocum = ['NL020:National Geographic FHD 1080',
+    'NL046:National Geographic',
+    'NL050:History',
+    'NL061:Discovery Channel',
+    'NL064:Animal Planet',
+    'NL071:ANIMAL PLANET HD',
+    'NL081:Discovery Channel FHD',
+    'NL082:Discovery Science FHD',
+    'NL083:Discovery SHOWCASE FHD',
+    'NL084:Discovery World HD',
+    'NL119:History Chanel HD',
+    'NL131:NAT GEO HD',
+    'NL132:NAT GEO WILD HD',
+    'NL167:TRAVEL CHANNEL HD',
+    'NL170:Viceland FHD',
+    ]
+
+    const deNews = ['DE005:Anixe',
+    'DE028:N24',
+    'DE029:N TV',
+    'DE067:Sky Sport News',
+    'DE078:ZDF',
+    'DE122:ARD',
+    'DE124:Augsburg TV',
+    'DE128:tagesschau24 HD ( 1080P )',
+    'DE168:EURONEWS HD',
+    'DE192:N24 News HD',
+    'DE195:N-TV HD',
+    'DE197:NTV HD',
+    'DE198:OK DESSAU HD',
+    'DE222:RNF HD',
+    'DE287:SR TV mein HD d3',
+    'DE289:ARD Tagesschau 24 HD',
+    'DE295:ZDF NEO HD',
+    ]
+
+
+
 
 
   return (
@@ -2522,6 +2798,305 @@ function Channels() {
                             </div>
                           </div>
                         </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse26"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse26"
+                            >
+                              <strong>AL:——|DOCUMENTARY|——————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse26"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    alDocum.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse27"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse27"
+                            >
+                              <strong>AL:——|NEWS|—————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse27"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    alNews.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse28"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse28"
+                            >
+                              <strong>AL:——|KIDS|—————————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse28"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    alKids.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse29"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse29"
+                            >
+                              <strong>NL:—–|GENERAL|————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse29"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    nlGeneral.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse30"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse30"
+                            >
+                              <strong>NL:—–|SPORTS|————————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse30"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    nlSport.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse31"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse31"
+                            >
+                              <strong>NL:—–|MOVIES|————————————–</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse31"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    nlMovie.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse32"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse32"
+                            >
+                              <strong>NL:—–|KIDS|—————————————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse32"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    nlKids.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse33"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse33"
+                            >
+                              <strong>NL:—–|DOCUMENTARY|———————————</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse33"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    nlDocum.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className={`accordion-item ${styles.accordionBtn}`}>
+                          <h2 className="accordion-header">
+                            <button
+                              className={`accordion-button collapsed ${styles.accordionbtn}`}
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapse34"
+                              aria-expanded="false"
+                              aria-controls="flush-collapse34"
+                            >
+                              <strong>DE:—–|NEWS|———————-</strong>
+                            </button>
+                          </h2>
+                          <div
+                            id="flush-collapse34"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample"
+                          >
+                            <div className="accordion-body">
+                              
+                                  <ul className="mt-1">
+                                    {
+                                    deNews.map((x)=>(
+                                    <li key={x} className="mt-2">
+                                      {x}
+                                    </li> 
+                                    ))}
+                                  
+                                  </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
 
 
                       
