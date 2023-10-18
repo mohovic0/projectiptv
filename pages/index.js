@@ -17,6 +17,7 @@ import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import aboutLottie from '@/public/aboutLottie'
 import styled from '@/pages/about/About.module.css'
+import Script from 'next/script'
 
 
 
@@ -31,6 +32,16 @@ export default function Home() {
   return (
     <>  
       <Head>
+
+          {<Script id='googleTagManager'>{
+            `
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-N7Q5MVMM');
+            `
+            }</Script>}
         
         <title>The Best IPTV Subscription Service Provider-USA-UK-Canada-France ...</title>
         <meta name="description" content="UK-Canada-France...-Infinity IPTV is the best on the planet, 
