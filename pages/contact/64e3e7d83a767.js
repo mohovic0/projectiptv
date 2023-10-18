@@ -25,9 +25,10 @@ function Pack12() {
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-N7Q5MVMM');
+            gtag('config', 'AW-837057681');
             `
             }</script>}
-            
+
         <title>Contact - Infinity IPTV -#1 Best IPTV Subscription Service Provider</title>
         <meta property="description" content="ipTv Infinity the team of experts is standing by to help answer your questions, process your orders, and guide you through the installation of your subscription."/>
         <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
