@@ -3,6 +3,7 @@ import styles from "./Faq.module.css";
 import Head from "next/head";
 import Chatwhatsap from "@/components/chatwhatsap";
 import ContactForm from "@/components/contactForm";
+import Link from "next/link";
 
 
 function Faq() {
@@ -43,6 +44,40 @@ function Faq() {
               <h1 className="fs-1 fw-bolder text-black pt-5 text-white mt-3 text-center mb-4">FAQ</h1>
               <div className="accordion accordion-flush" id="accordionFlushExample">
 
+              <div className={`accordion-item ${styles.accordionBtn}`}>
+                  <h2 className="accordion-header">
+                    <button
+                      className={`accordion-button collapsed ${styles.accordionbtn}`}
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseZero"
+                      aria-expanded="false"
+                      aria-controls="flush-collapsezero"
+                    >
+                      <strong>RERUND POLICY?</strong>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseZero"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div className="accordion-body">
+                      
+                          <ul className="mt-4 ">
+                            <li className="mt-2">
+                              Our service is provisioned instantly after payment and our refund policy is simple and straight forward.
+                            </li>
+                            <li className="mt-2">If not satisfied with the service and you would like a refund, we process full refunds applied/submitted within the first 7 days of purchase.</li>
+                            <li className="mt-2">
+                              Not satisfied with the service?, Just contact us on the Whatsapp, or submit a comment on this link <Link style={{color : "#FF5F1F" , fontWeight : "600"}} href={'https://www.iptvinfinity.tech/contact'}>Click Me</Link>
+                            </li>
+                            <li className="mt-2">Refunds at most times will be processed within 24hrs but please give a maximum time of 48hrs.</li>
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+                
                 <div className={`accordion-item ${styles.accordionBtn}`}>
                   <h2 className="accordion-header">
                     <button
