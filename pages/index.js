@@ -19,7 +19,7 @@ import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import aboutLottie from '@/public/aboutLottie'
 import styled from '@/pages/about/About.module.css'
 import Script from 'next/script'
-import whatsa from '@/public/w1'
+import whatsa from '@/public/whatsappp'
 
 
 
