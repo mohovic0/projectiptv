@@ -14,10 +14,12 @@ import Lottie from 'lottie-react'
 import CarouselReview from '@/components/carouselReview'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
+import whats from '@/public/whatsap.svg'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import aboutLottie from '@/public/aboutLottie'
 import styled from '@/pages/about/About.module.css'
 import Script from 'next/script'
+import whatsa from '@/public/whatsappp'
 
 
 
@@ -32,16 +34,6 @@ export default function Home() {
   return (
     <>  
       <Head>
-
-          {<script id='googleTagManager'>{
-            `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-PRKVJ6FJ');
-            `
-            }</script>}
         
         <title>The Best IPTV Subscription Service Provider-USA-UK-Canada-France ...</title>
         <meta name="description" content="UK-Canada-France...-Infinity IPTV is the best on the planet, 
@@ -72,6 +64,23 @@ export default function Home() {
         
     </Head>
 
+    <div className={`${styles.whatsapBtn}`}>
+
+            <a href={"https://wa.me/33774600876"}>
+
+                <Lottie className={`mx-auto ${styles.icone}`} loop={true} animationData={whatsa} />
+                {/* <Image
+                  priority
+                  src={whats}
+                  alt="whatsap"
+                  width={55}
+                  height={55}
+                /> */}
+            </a>
+      </div>
+      
+      
+      
       <section className={`pt-5 ${styles.section1}`}>
                 
                  <Image
@@ -210,6 +219,8 @@ export default function Home() {
       <section className={`pt-4 ${styles.section8}`}>
         <CarouselReview />
       </section>
+      
+      
       
       {/* <section className={`container-fluid ${styles.section6}`}>
         <div className='row '>

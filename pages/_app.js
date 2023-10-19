@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
 
         
       
-      {/* <Script strategy='lazyOnload' src="https://www.googletagmanager.com/gtag/js?id=G-M6X8D17K5R"></Script>
+      <Script strategy='lazyOnload' src="https://www.googletagmanager.com/gtag/js?id=G-M6X8D17K5R"></Script>
       <Script id='google-analysis' strategy='lazyOnload'>
         {`
         window.dataLayer = window.dataLayer || [];
@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }) {
         gtag('config', 'G-M6X8D17K5R');  
         
         `}
-      </Script> */}
+      </Script> 
 
       
 
