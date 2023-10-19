@@ -48,7 +48,11 @@ export default function Home() {
         <meta property="og:description" content="Infinity IPTV  is the best on the planet, 
               we always strive hard for perfection and your satisfaction. We give you
                the stability and reliability of the service. Get the next GEN+ IPTV."/>
-        <meta name="keywords" content="iptv providers, best iptv reddit, iptv sub, iptv subscribe, iptv subscription service, iptv deals, iptv service subscription, top iptv, iptv best provider, best iptv server, best iptv, iptv service, iptv subscription, iptv subscription legal, best iptv subscription, iptv subscription reddit, 
+        <meta name="keywords" content="
+              iptv streaming service, buy iptv, iptv premium 2023, best iptv on firestick, 
+              iptv service provider, iptv firestick 2023, iptv subscription in usa, iptv subscription android
+              best iptv for firestick 2023, iptv for sale, best iptv subscription for firestick, top iptv providers, best service iptv,
+              iptv providers, best iptv reddit, iptv sub, iptv subscribe, iptv subscription service, iptv deals, iptv service subscription, top iptv, iptv best provider, best iptv server, best iptv, iptv service, iptv subscription, iptv subscription legal, best iptv subscription, iptv subscription reddit, 
               Infinity IPTV subscription, iptv smarters pro subscription, iptv smarters subscription, iptv subscription ebay,
               ip tv subscription, iptv subscribe, iptv sub, iptv smarters subscription reddit, iptvsubscription tv, iptv subscription service,
               iptv 12 months, iptv lifetime subscription, iptv subscription provider, iptv subscription so player, best iptv subscription for firestick,

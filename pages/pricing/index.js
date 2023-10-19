@@ -18,7 +18,8 @@ function Pricing() {
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Infinity IPTV - Best IPTV Subscription Service Provider"/>
             <meta property="og:description" content="Infinity IPTV redefined with our top IPTV subscription. Non-stop sports, extensive channels, all under the Best IPTV UK service. Satisfaction guaranteed. Experience the difference today."/>
-            <meta name="keywords" content="iptv subscription, iptv subscription legal, best iptv subscription, iptv subscription reddit, 
+            <meta name="keywords" content="
+                iptv subscription, iptv subscription legal, best iptv subscription, iptv subscription reddit, 
                 ipTv Infinity subscription, iptv smarters pro subscription, iptv smarters subscription, iptv subscription ebay,
                 ip tv subscription, iptv subscribe, iptv sub, iptv smarters subscription reddit, iptvsubscription tv, iptv subscription service,
                 iptv 12 months, iptv lifetime subscription, iptv subscription provider, iptv subscription so player, best iptv subscription for firestick,
