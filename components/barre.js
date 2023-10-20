@@ -30,7 +30,7 @@ function Barre() {
                       <div className="col-sm-12 col-md-4 col-lg-4 pt-2">
                           <div className={`justify-content-center align-items-center  text-center  ${styles.boitone}`}>
                           <Link href={''}  > <Lottie className={`mx-auto  ${styles.icone}`} loop={true} animationData={tvan} /></Link>
-                              <h3 className="fs-2 fw-bold mt-3"> +16000 Channels </h3>
+                              <h3 className="fs-2 fw-bold mt-3"> +23000 Channels </h3>
                               <h5 className="fs-5 mt-3">Start browsing thousands of Live TV channels, Sports, movies & TV shows.</h5>
                           </div>
                       </div>

@@ -51,10 +51,11 @@
 }
 .info{
     display: block;
-    align-items: center;
+    align-items: start;
     font-size: 12px;
-    font-weight: 600;
-    text-align: center;
+    font-weight: 500;
+    padding-left: 8%;
+    
 }
 
 .butn{
