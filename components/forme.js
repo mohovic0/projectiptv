@@ -87,7 +87,7 @@ function Forme({pack}) {
                       <h1 className='fs-2 fw-bold'>Billing details</h1>
                       <form onSubmit={handlSubmitFrom}>
                           <div className="mb-3">
-                            <label htmlFor="formGroupExampleInput" className="form-label">Full Name *</label>
+                            <label htmlFor="formGroupExampleInput" className="form-label">Full Name OR Nickname *</label>
                             <input required value={fullName} onChange={(e)=>setFullName(e.target.value)} type="text" className="form-control" id="formGroupExampleInput" placeholder=""/>
                             
                           </div>
