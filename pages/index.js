@@ -1,4 +1,4 @@
-import img from '@/public/bak.png'
+import img from '@/public/bak.webp'
 import styles from './Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
