@@ -107,10 +107,10 @@
 .btn1{
     font-size: calc(12px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
     background-color: #FF5F1F;
-    border-radius: 20px;
+    border-radius: 15px;
     border: none;
-    transition: all 0.2s;
-    padding : 5px 20px 5px 20px ;
+    /* transition: all 0.2s; */
+    padding : 10px 20px 10px 20px ;
     margin-left: 30px;
     
     
@@ -151,13 +151,13 @@
 .btnlink{
     text-decoration: none;
     /*color: #01168d;*/
-    color: #000000;
-    font-weight: 600;
+    color: #0b3a11;
+    font-weight: 900;
     letter-spacing: 1px;  
 }
 .btn1:hover{
-    transform: translateY(0) scale(0.99);
-    background-color: #fb9b50;
+    /* transform: translateY(0) scale(0.99); */
+    background-color: #f7b10b;
     border: none;
 }
 

@@ -118,18 +118,10 @@ export default function Home() {
                                 <p >All Devices Are Supported Money Back Guarantee</p>
                             </div>
 
-                            
-                            
-
-
                             {/* <h2 className={`pt-2 px-2 ${styles.title1}`}>
                                   Watch Thousands Of TV Shows, Movies, And Sports Anytime, Anywhere.
                                   Level Up Your TV.
                             </h2> */}
-
-                            
-                            
-
 
                             <div className="pt-3">
                                   <button onClick={handleClick} type="button" className={`ms-0  ${styles.btn1}`} >
@@ -206,7 +198,7 @@ export default function Home() {
 
 
 
-      <section ref={ref} className={`pb-5 pt-5 ${styles.section4}`}>
+      <section ref={ref} className={`pb-1 pt-5 ${styles.section4}`}>
 
           <div className={`text-center pt-1 mt-0 mb-4 ${styles.chooseplan}`}>Choose Your Plan</div>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>

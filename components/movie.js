@@ -107,7 +107,7 @@ const Movie = () => {
       infinite
       autoPlay
       autoWidth
-      autoPlayInterval={3000}
+      autoPlayInterval={1000}
       />
      
     </div>
