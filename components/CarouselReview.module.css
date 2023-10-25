@@ -1,9 +1,12 @@
 .imagesCarousel{
-    width: 260px;
-    height: 350px;
-    border: 10px solid transparent ;
+    width: 200px;
+    height: 330px;
+    border: 1px solid transparent ;
     border-bottom: none;
     border-top: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 15px
 }
 
 .imagesCarousel1{
