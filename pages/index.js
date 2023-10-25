@@ -231,14 +231,14 @@ export default function Home() {
                   
                   <div className='ms-1 me-1 row mt-5 '>
                     <ul className='col list-group list-group-flush'>
-                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start  border-0 mb-4  list-group-item text-white'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 150+ Countries Live Channles</li>
-                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start  border-0 list-group-item mb-4 text-white '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Expert technical team</li>
-                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start  border-0 list-group-item mb-2 text-white  '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Reasonable price packages</li>
+                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start  border-0 mb-4  list-group-item text-black '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 150+ Countries Live Channles</li>
+                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start  border-0 list-group-item mb-4 text-black '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Expert technical team</li>
+                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start  border-0 list-group-item mb-2 text-black  '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Reasonable price packages</li>
                     </ul>
                     <ul className='col list-group list-group-flush'>
-                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-4 text-white'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Trusted & recommended  </li>
-                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-4 text-white'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 24/7 quick support</li>
-                      <li style={{ background: "#c27b69" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-2 text-white'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Best Network Server</li>
+                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-4 text-black'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Trusted & recommended  </li>
+                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-4 text-black'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 24/7 quick support</li>
+                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-2 text-black'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Best Network Server</li>
                     </ul>
                   </div>
                   
