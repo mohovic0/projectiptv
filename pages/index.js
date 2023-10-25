@@ -3,8 +3,6 @@ import styles from './Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
 import Carouseltwo from '@/components/carouseltwo'
-import Carouselthre from '@/components/carouselthre'
-import CarouselFour from '@/components/carouselfour'
 import Carouselone  from '@/components/carouselone'
 import Barre from '@/components/barre'
 import { useEffect, useRef, useState } from 'react'
@@ -18,8 +16,11 @@ import whats from '@/public/whatsap.svg'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import aboutLottie from '@/public/aboutLottie'
 import styled from '@/pages/about/About.module.css'
-import Script from 'next/script'
+import Chooseus from '@/components/chooseus'
 import whatsa from '@/public/whatsappp'
+import Foot from '@/components/foot'
+import Movie from '@/components/movie'
+import CountUp from 'react-countup';
 
 
 
@@ -101,21 +102,34 @@ export default function Home() {
 
                 <div className={`d-block pt-5 text-center  ${styles.contenu}`}>
                             
-                            <h2 className={`pt-2 ${styles.title1}`}>
-                            FASTEST <span style={{ color: "#FF5F1F" }}>IPTV</span> SERVICE
-                            </h2>
+                            <div className={`pt-2 ${styles.title1}`}>
+                                <p>FASTEST <span style={{ color: "#FF5F1F" }}>IPTV</span> SERVICE </p>
+                            </div>
 
-                            <h1 className={`pt-2 px-2  ${styles.title2}`}>
-                                <strong>
-                                    The Best <span style={{ color: "#FF5F1F" }}>IPTV</span> <br />{" "}
-                                    Subscription For Endless <br /> Entertainment
-                                </strong>
-                            </h1>
+                            <div className={`pt-2 px-2  ${styles.title2}`} >
+                                <p>
+                                    
+                                      High Quality <span style={{ color: "#FF5F1F" }}>IPTV</span> Subscription 
+                                    
+                                </p>
+                            </div>
+
+                            <div className={`pt-2 ${styles.title3}`}>
+                                <p >All Devices Are Supported Money Back Guarantee</p>
+                            </div>
+
+                            
+                            
+
 
                             {/* <h2 className={`pt-2 px-2 ${styles.title1}`}>
                                   Watch Thousands Of TV Shows, Movies, And Sports Anytime, Anywhere.
                                   Level Up Your TV.
                             </h2> */}
+
+                            
+                            
+
 
                             <div className="pt-3">
                                   <button onClick={handleClick} type="button" className={`ms-0  ${styles.btn1}`} >
@@ -129,19 +143,42 @@ export default function Home() {
                                       </Link>
                                   </button> */}
                             </div>
+
                             
 
                             <div className={`${styles.car1}`}>
                                   <Carouselone />
                             </div>
 
-                                <Carouseltwo />
+                                
 
                             <div className={`${styles.car2}`}>
-                                <Carouselthre />
+                                <Carouseltwo />
+                                {/* <Carouselthre /> */}
                             </div>
                             
-                                <CarouselFour />
+                                {/* <CarouselFour /> */}
+                              
+                              <div className={`pt-4 ${styles.title4}`}>
+                                <p>WE COVER WORLDWIDE CHANNELS</p>
+                              </div>
+                              <div className={`pt-3 pb-3 container-fluid text-center  d-block d-md-flex  justify-content-lg-evenly ${styles.divcount}`}>
+                                  <div>
+                                  
+                                      <span className={`${styles.count}`}><CountUp end={20} duration={5} enableScrollSpy prefix="+" suffix="K"/></span>
+                                      <p className={`${styles.parag}`} >HD Channels Available</p>
+
+                                  </div>
+                                  <div>
+                                      <span className={`${styles.count}`}><CountUp end={10} duration={5} enableScrollSpy prefix="+" suffix="K"/></span>
+                                      <p className={`${styles.parag}`}>Vods & TV Shows</p>
+                                    
+                                  </div>
+                                  <div>
+                                      <span className={`${styles.count}`}><CountUp end={5} duration={5} enableScrollSpy prefix="+" suffix="K"/></span>
+                                      <p className={`${styles.parag}`}>Active Subscriptions</p>
+                                  </div>
+                            </div>
                             
                             
                             
@@ -149,15 +186,21 @@ export default function Home() {
                 
       </section>
                                     
-      <section className={`mt-0 pt-2 ${styles.section2}`}>
-        
-      </section> 
-       
+      <section className={`pt-5 ${styles.section2}`}>
+          <Chooseus />
+      </section>
 
       
-      
+      <section className={`pt-5 ${styles.section9}`}>
+          <Foot />
+      </section>
+
+      <section className={`pt-5 ${styles.section9}`}>
+          <Movie />
+      </section>
+                          
+
       <section className={`pt-5 ${styles.section5}`}>
-
         <Sportmovie/>
       </section>
 
@@ -165,7 +208,7 @@ export default function Home() {
 
       <section ref={ref} className={`pb-5 pt-5 ${styles.section4}`}>
 
-          <h1 className='fs-1 fw-bold text-center pt-1 mt-0 mb-4 text-white'>Choose Your Plan</h1>
+          <div className={`text-center pt-1 mt-0 mb-4 ${styles.chooseplan}`}>Choose Your Plan</div>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
               <div className={` mb-5 ${styles.divcard}`}><Card  mois = '1 Month Subscription' price='11.99' id='652878f95473a'/></div>
@@ -191,7 +234,7 @@ export default function Home() {
                   <Lottie className={`mx-auto `} loop={true} animationData={aboutLottie} />
           </div>
           <div className='col-12 col-lg-6'>
-                  <h2 className='fw-blod fs-2 mb-5'>We Provide Best IPTV Server In The World Wide</h2>
+                  <div className={`mb-5 ${styles.title}`}>We Provide Best IPTV Server In The World Wide</div>
                   <h6>Today, we are revolutionizing the way you access the television. With +13000 channels and unique apps, you’ll be watching IPTV in a radically new, intelligent, and intuitive way.</h6>
                   
                   <div className='ms-1 me-1 row mt-5 '>

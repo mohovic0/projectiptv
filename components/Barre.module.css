@@ -11,3 +11,17 @@
     margin-left: 10px; 
     border: none;
 }
+
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #FF6020;
+
+}
+.soustitle{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}

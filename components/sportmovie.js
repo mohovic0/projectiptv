@@ -12,21 +12,21 @@ function Sportmovie() {
 
         <div className='row'>
                 <div className='col-12 col-lg-6'>
-                    <h3 className="fs-2 fw-bold pt-3 text-center"> SPORTS – MOVIES – SERIES </h3>
-                    <h5 className="fs-5 mt-3 text-center">With INFINITY IPTV you can watch what you want, whenever you want, the biggest events in sports, the best movies and TV series.</h5>
+                    <div className={`pt-3 text-center ${styles.title}`}> Sports – Movies – Series </div>
+                    <p className={`mt-3 text-center ${styles.soustitle}`}>With INFINITY IPTV you can watch what you want, whenever you want, the biggest events in sports, the best movies and TV series.</p>
                     <Lottie className={`mx-auto  `} loop={true} animationData={sportMovie} />
                 </div>
                 <div className='col-12 col-lg-6'>
                     <Lottie className={`mx-auto  `} loop={true} animationData={familyKids} />
-                    <h3 className="fs-2 fw-bold mt-3 text-center"> FAMILY AND KIDS </h3>
-                    <h5 className="fs-5 mt-3 text-center">With INFINITY IPTV there’s something for everyone in your home. you can enjoy watching kid-friendly shows and family movies with your Kids.</h5>
+                    <div className={`mt-3 text-center ${styles.title}`}> Family And Kids </div>
+                    <p className={`mt-3 text-center ${styles.soustitle}`}>With INFINITY IPTV there’s something for everyone in your home. you can enjoy watching kid-friendly shows and family movies with your Kids.</p>
                 </div>
         </div>
 
         <div className='row'>
                     <Lottie className={`mx-auto  ${styles.icone}`} loop={true} animationData={leader} />
-                    <h3 className="fs-2 fw-bold mt-3 text-center"> LEADER FOR IPTV SERVICE FOR OVER 7 YEARS</h3>
-                    <h5 className="fs-5 py-3 text-center">We’ve helped thousands of clients to get the best TV experience with our IPTV service, you can watch live TV & VOD at home or on-the-go — wherever you are, anytime, on your favorite devices.</h5>
+                    <div className={`mt-3 text-center ${styles.title}`}> Leader For IPTV Service For Over 7 Years</div>
+                    <p className={`py-3 text-center ${styles.soustitle}`}>We’ve helped thousands of clients to get the best TV experience with our IPTV service, you can watch live TV & VOD at home or on-the-go — wherever you are, anytime, on your favorite devices.</p>
 
         </div>
       

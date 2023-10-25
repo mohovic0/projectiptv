@@ -20,34 +20,38 @@
     z-index: 1;
 }
 
-@keyframes kar1 {
-    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
-    0% {
-      transform: translateX(800px);
-    }
-    100% {
-      /* adjust the value to control how much the text moves */
-      transform: translateX(0px);
-    }
-  }
 
-  @keyframes kar2 {
-    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
-    0% {
-      transform: translateX(-800px);
-    }
-    100% {
-      /* adjust the value to control how much the text moves */
-      transform: translateX(0px);
-    }
-  }
 
 .title1{
     color: #FAF5E9;
-    font-weight: 500;
-    font-size: calc(14px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: bolder;
+    font-size: 14px;
     
 }
+
+.title2{
+    color: #FAF5E9;
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: 1px;
+    
+    
+}
+.title3{
+    color: #FAF5E9;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+.title4{
+    padding: 3px;
+    color: #f5f5f5;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px; 
+}
+
 @keyframes annim-title1 {
     /* use % to specify the animation at different stages (in this case, 0% and 100%) */
     0% {
@@ -70,18 +74,33 @@
     }
   }
 
+  @keyframes kar1 {
+    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+    0% {
+      transform: translateX(800px);
+    }
+    100% {
+      /* adjust the value to control how much the text moves */
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes kar2 {
+    /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+    0% {
+      transform: translateX(-800px);
+    }
+    100% {
+      /* adjust the value to control how much the text moves */
+      transform: translateX(0px);
+    }
+  }
 
 
 
 
-.title2{
-    color: #FAF5E9;
-    font-weight: bolder;
-    font-size: calc(30px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
-    letter-spacing: 1px;
-    line-height : 150%;
-    
-}
+
+
 /* .typic{
     color: #e6d600;
 } */
@@ -108,6 +127,15 @@
     }
     .title2{
         animation: annim-title1 6s ease forwards;
+    }
+    .title3{
+        animation: annim-title2 4s ease forwards;
+    }
+    .title4{
+        animation: annim-title2 4s ease forwards;
+    }
+    .divcount{
+        animation: annim-title2 4s ease forwards;
     }
 
     .car1{
@@ -147,34 +175,44 @@
     
 } */
 .section2{
- margin-top: 0px;
- background-image: linear-gradient(to right, #b04f34, #190a05);
+ 
+  background-image: linear-gradient(to right, #b45721, #000000); 
  
 }
 .section3{
-    background-image: linear-gradient(to right, #b04f34, #190a05);
+    background-image: linear-gradient(to right, #b45721, #000000); 
 
 }
 .section4{
-    background-image: linear-gradient(to right, #b04f34, #190a05);
+    background-image: linear-gradient(to right, #b45721, #000000);  
 }
 .section7{
-    background-image: linear-gradient(to right, #b04f34, #190a05);
+    background-image: linear-gradient(to right, #b45721, #000000);  
 }
 .section8{
-    background-image: linear-gradient(to right, #b04f34, #190a05);
+    background-image: linear-gradient(to right, #b45721, #000000); 
+
+}
+.section9{
+    background-image: linear-gradient(to right, #b45721, #000000); 
 
 }
 .section10{
-    background-image: linear-gradient(to right, #b04f34, #190a05);
+    background-image: linear-gradient(to right, #b45721, #000000); 
 }
 .section5{
-    background-image: linear-gradient(to right, #b04f34, #190a05);
+    background-image: linear-gradient(to right, #b45721, #000000); 
 }
 .section6{
-    background-image: linear-gradient(to right, #b04f34, #190a05);
+    background-image: linear-gradient(to right, #b45721, #000000); 
 }
+.chooseplan{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #FF6020;
 
+}
 
 
 /* @media screen and (max-width : 600px) {
@@ -201,4 +239,24 @@
     padding: 18px;
     z-index: 3;
 }
+
+.parag{
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.count{
+    color: #FF5F1F;
+    font-weight: bold;
+    font-size: 35px;
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #FF6020;
+}
+
+
 

@@ -21,3 +21,10 @@
     background-color: transparent;
     margin-top: 0;
 }
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #FF6020;
+
+}

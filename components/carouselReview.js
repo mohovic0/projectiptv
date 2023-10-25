@@ -53,7 +53,7 @@ const CarouselReview = () => {
 
   return (
     <>
-     <h1 className='text-center fw-blod text-white pt-3'>Reviews & Support</h1>
+     <div className={`pt-3 ${styles.title}`}>Reviews & Support </div>
     <div className={`text-center pb-3 pt-2 ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking

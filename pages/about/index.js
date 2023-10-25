@@ -10,9 +10,11 @@ import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import Sportmovie from '@/components/sportmovie'
 import Barre from '@/components/barre'
 
+
 function About() {
   return (
-    <>
+    <> 
+    
 
       <Head>
         <title>About-USA-UK-Canada-France...-#1 Best IPTV Subscription Service Provider</title>
@@ -81,15 +83,17 @@ function About() {
 
       </section>
 
+  
+      
 
       <section className={`${styles.section2}`}>
+        
         <Sportmovie/>
       </section>
 
       <section className={`${styles.section3}`}>
         <Barre/>
       </section>
-
 
       
     </>
