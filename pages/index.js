@@ -82,6 +82,7 @@ export default function Home() {
                   height={55}
                 /> */}
             </a>
+            <span style={{color : "#25D366"}}>Trial</span>
       </div>
       
       
