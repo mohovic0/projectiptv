@@ -6,7 +6,7 @@ import {faCrown} from '@fortawesome/free-solid-svg-icons'
 
 import Link from 'next/link'
 
-function Card({mois, price, childToParent , id}) {
+function Card({mois, price, childToParent , id , oldprice}) {
 
     const data = {mois} ;
    
@@ -21,7 +21,8 @@ function Card({mois, price, childToParent , id}) {
             </div>
             
             <div className={styles.price}>
-                 <h4><span style={{fontSize : "19px"}}>$ </span>{price}</h4>
+                  ${price}
+                  <span className='text-decoration-line-through' style={{fontSize : "18px" }} >${oldprice}</span>
             </div>
 
             <div className={styles.live}>

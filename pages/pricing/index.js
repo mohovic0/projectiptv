@@ -38,7 +38,7 @@ function Pricing() {
           <div className={`${styles.menbackgound}`}></div>
 
           <section className={`container-fluid pt-5 pb-2 ${styles.section1}`}>
-                <h1 className="fs-1 fw-bolder text-black pt-5 text-white mt-3 text-center mb-4">Pricing Plans</h1>
+                <div className={`pt-5 mt-3 text-center mb-4 ${styles.title}`}>Pricing Plans</div>
 
                 <h3 className='container' style={{color : "#FAF5E9"}}>Irresistible Prices</h3>
                 <p className='container' style={{color : "#FAF5E9"}} >
@@ -47,10 +47,10 @@ function Pricing() {
                 <h1 className='fs-2 fw-bold text-center pt-4 mt-0 mb-4 text-white'>Choose Your Plan</h1>
                 <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
-                    <div className={` mb-5 ${styles.divcard}`}><Card  mois = '1 Month Subscription' price='11.99' id='652878f95473a'/></div>
-                    <div className={` mb-5 ${styles.divcard}`}><Card  mois = '3 Months Subscription' price='29.99' id='64e4013f2de52' /></div>
-                    <div className={` mb-5 ${styles.divcard}`}><Card  mois = '6 Months Subscription' price='39.99' id='64e40104f2f95' /></div>
-                    <div className={` mb-5 ${styles.divcard}`}><Card  mois = '12 Months Subscription' price='59.99' id='64e3e7d83a767'/></div>
+                <div className={` mb-5 ${styles.divcard}`}><Card oldprice='29.99' mois = '1 Month Subscription' price='11.99' id='652878f95473a'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card oldprice='39.99'   mois = '3 Months Subscription' price='29.99' id='64e4013f2de52' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card oldprice='49.99'  mois = '6 Months Subscription' price='39.99' id='64e40104f2f95' /></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card oldprice='79,99'  mois = '12 Months Subscription' price='59.99' id='64e3e7d83a767'/></div>
                    
                 </div>
           </section>

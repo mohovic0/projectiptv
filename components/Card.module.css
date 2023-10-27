@@ -27,7 +27,8 @@
     
     text-align: center;
 }
-.price h4{
+.price {
+    
     margin: 5px;
     text-align: center;
     background-color: #FF5F1F;
@@ -35,6 +36,9 @@
     border-radius:10px;
     font-weight: bolder;
     font-size: 30px;
+}
+.price span{
+    color: #a10404;
 }
 .live{
     font-size: 14px;

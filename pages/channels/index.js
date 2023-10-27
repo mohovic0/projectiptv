@@ -6059,7 +6059,7 @@ function Channels() {
             <div className={`${styles.menbackgound}`}></div>
 
           <section className={`container-fluid pt-5 pb-2 ${styles.section1}`}>
-              <h1 className="fs-1 fw-bolder text-black pt-5 text-white mt-3 text-center mb-4">Channels List</h1>
+              <h1 className="pt-5  mt-3 text-center mb-4">Channels List</h1>
               
               <div className="accordion accordion-flush" id="accordionFlushExample">
 

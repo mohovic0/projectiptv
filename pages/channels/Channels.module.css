@@ -10,11 +10,17 @@
 }
 
 .section1{
-    background-image: linear-gradient(to right, #b04f34, #190a05);
+    background-image: linear-gradient(to right, #b45721, #000000); 
+}
+.section1 h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #f7b10b;
 }
 
 .accordionBtn button{
-    background-image: linear-gradient(to right, #b04f34, #190a05);
+    background-image: linear-gradient(to right, #b45721, #000000); 
     border-color: none;
     box-shadow: none;
     outline-color: rgb(56, 56, 49);
@@ -28,7 +34,7 @@
 }
 
 .accordionBtn div{
-        background-image: linear-gradient(to right, #b04f34, #190a05);
+        background-image: linear-gradient(to right, #b45721, #000000); 
         color: white;
 }
 
