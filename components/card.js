@@ -54,6 +54,7 @@ function Card({mois, price, childToParent , id , oldprice}) {
                     <FontAwesomeIcon className={styles.icon} icon={faCheck} />
                     SD!HD!4K!UlTRA HD
                 </div>
+
                 
                 {/* <div className={`mt-1`}>
                     <FontAwesomeIcon className={styles.icon} icon={faCheck} />
@@ -78,6 +79,11 @@ function Card({mois, price, childToParent , id , oldprice}) {
                 <div className={`mt-2`}>
                     <FontAwesomeIcon className={styles.icon} icon={faCheck} />
                     All Devices are supported
+                </div>
+
+                <div className={`mt-2`}>
+                    <FontAwesomeIcon className={styles.icon} icon={faCheck} />
+                    adult channel (optional)
                 </div>
                 
 
