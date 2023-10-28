@@ -83,7 +83,7 @@ function Card({mois, price, childToParent , id , oldprice}) {
 
                 <div className={`mt-2`}>
                     <FontAwesomeIcon className={styles.icon} icon={faCheck} />
-                    adult channel (optional)
+                    Adult channel (optional)
                 </div>
                 
 
