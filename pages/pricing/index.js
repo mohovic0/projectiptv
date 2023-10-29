@@ -47,10 +47,10 @@ function Pricing() {
                 <h1 className='fs-2 fw-bold text-center pt-4 mt-0 mb-4 text-white'>Choose Your Plan</h1>
                 <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
 
-                <div className={` mb-5 ${styles.divcard}`}><Card oldprice='19.99' mois = '1 Month Subscription' price='09.99' id='652878f95473a'/></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card oldprice='29.99'   mois = '3 Months Subscription' price='19.99' id='64e4013f2de52' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card oldprice='39.99'  mois = '6 Months Subscription' price='29.99' id='64e40104f2f95' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card oldprice='59,99'  mois = '12 Months Subscription' price='49.99' id='64e3e7d83a767'/></div>
+                  <div className={` mb-5 ${styles.divcard}`}><Card oldprice='59,99'  mois = '12 Months Subscription' price='49.99' id='64e3e7d83a767'/></div>
+                  <div className={` mb-5 ${styles.divcard}`}><Card oldprice='39.99'  mois = '6 Months Subscription' price='29.99' id='64e40104f2f95' /></div>
+                  <div className={` mb-5 ${styles.divcard}`}><Card oldprice='29.99'   mois = '3 Months Subscription' price='19.99' id='64e4013f2de52' /></div>
+                  <div className={` mb-5 ${styles.divcard}`}><Card oldprice='19.99' mois = '1 Month Subscription' price='09.99' id='652878f95473a'/></div>
                    
                 </div>
           </section>

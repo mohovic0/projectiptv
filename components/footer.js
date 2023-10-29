@@ -30,7 +30,7 @@ const Footer = () =>
                 
                 <ul className="list-unstyled text-white">
                     <li className='mt-1 fw-bold '> Contact us </li>
-                    <li className='mt-2 fw-bold'>Whatsapp : +33 7 74 60 08 76</li>
+                    <li className='mt-2 fw-bold'>Whatsapp : +44 74 66 72 97 26</li>
                     <li className='mt-2 fw-bold'>Email : iptvinfinity2@gmail.com </li>
                   
                 </ul>
