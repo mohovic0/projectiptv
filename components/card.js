@@ -21,8 +21,8 @@ function Card({mois, price, childToParent , id , oldprice}) {
             </div>
             
             <div className={styles.price}>
-                    £{price}
-                  <span className='text-decoration-line-through' style={{fontSize : "18px" }} >£{oldprice}</span>
+                    ${price}
+                  <span className='text-decoration-line-through' style={{fontSize : "18px" }} >${oldprice}</span>
             </div>
 
             <div className={styles.live}>
