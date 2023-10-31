@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://www.iptvinfinity.tech/
-
-# Sitemaps
-Sitemap: https://www.iptvinfinity.tech/sitemap.xml
