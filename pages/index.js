@@ -3,8 +3,6 @@ import styles from './Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
 import styled from '@/pages/about/About.module.css'
-import Carouseltwo from '@/components/carouseltwo'
-import Carouselone  from '@/components/carouselone'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import CountUp from 'react-countup';
@@ -15,6 +13,9 @@ import Barre from '@/components/barre'
 import { useEffect, useRef, useState } from 'react'
 import dynamic from 'next/dynamic'
 import Lottie from 'lottie-react'
+
+const Carouseltwo = dynamic(()=>import('@/components/carouseltwo'))
+const Carouselone = dynamic(()=>import('@/components/carouselone'))
 const Card = dynamic(()=>import('@/components/card'))
 const Sportmovie = dynamic(()=>import('@/components/sportmovie'))
 const CarouselReview = dynamic(()=>import('@/components/carouselReview'))
