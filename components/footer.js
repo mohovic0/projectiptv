@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Footer = () => 
+
 <footer className="page-footer font-small blue pt-4 " style={{background : "linear-gradient(to right, #b45721, #000000)"}}>
     
     <div className="container-fluid text-center text-md-left">

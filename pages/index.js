@@ -2,25 +2,26 @@ import img from '@/public/bak.webp'
 import styles from './Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
+import styled from '@/pages/about/About.module.css'
 import Carouseltwo from '@/components/carouseltwo'
 import Carouselone  from '@/components/carouselone'
-import Barre from '@/components/barre'
-import { useEffect, useRef, useState } from 'react'
-import Card from '@/components/card'
-import Sportmovie from '@/components/sportmovie'
-import Lottie from 'lottie-react'
-import CarouselReview from '@/components/carouselReview'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
-import whats from '@/public/whatsap.svg'
+import CountUp from 'react-countup';
+import whatsa from '@/public/whatsappp'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import aboutLottie from '@/public/aboutLottie'
-import styled from '@/pages/about/About.module.css'
-import Chooseus from '@/components/chooseus'
-import whatsa from '@/public/whatsappp'
-import Foot from '@/components/foot'
-import Movie from '@/components/movie'
-import CountUp from 'react-countup';
+import Barre from '@/components/barre'
+import { useEffect, useRef, useState } from 'react'
+import dynamic from 'next/dynamic'
+import Lottie from 'lottie-react'
+const Card = dynamic(()=>import('@/components/card'))
+const Sportmovie = dynamic(()=>import('@/components/sportmovie'))
+const CarouselReview = dynamic(()=>import('@/components/carouselReview'))
+const Chooseus = dynamic(()=>import('@/components/chooseus'))
+const Foot = dynamic(()=>import('@/components/foot'))
+const Movie = dynamic(()=>import('@/components/movie'))
+
 
 
 
@@ -58,7 +59,7 @@ export default function Home() {
               iptv for firestick, iptv service, iptv with vod, movies on iptv, reliable iptv service, 
               iptv channel list, iptv for amazon fire tv, iptv packages, best iptv service, firestick iptv,
               iptv price in usa, top iptv providers
-              " />
+              "/>
         <meta property="og:url" content="https://www.iptv-streaming.me/"/>
         <meta property="og:site_name" content="IPTV-Streaming"/>
         <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/oguk.png"/>
@@ -86,7 +87,6 @@ export default function Home() {
       <section className={`pt-5 ${styles.section1}`}>
                 
                  <Image
-                    
                     src={img}
                     alt="IPTV Streaming in USA"
                     layout='fill'
@@ -94,7 +94,6 @@ export default function Home() {
                     objectPosition="center"
                     quality={100}
                     priority={true}
-                    
                 /> 
 
                 <div className={`d-block pt-5 text-center  ${styles.contenu}`}>

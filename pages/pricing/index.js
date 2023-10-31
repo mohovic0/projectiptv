@@ -5,10 +5,14 @@ import Card from '@/components/card'
 import Sportmovie from '@/components/sportmovie'
 import Barre from '@/components/barre'
 
+
 function Pricing() {
+
+ 
   return (
     <>
         <Head>
+  
             <title>Pricing-USA-UK-Canada-France...-#1 Best IPTV Subscription Service Provider</title>
             <meta name="description" content="Infinity IPTV redefined with our top IPTV subscription. Non-stop sports, extensive channels, all under the Best IPTV UK service. Satisfaction guaranteed. Experience the difference today." />
             <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
@@ -62,9 +66,7 @@ function Pricing() {
 
           <section className={`${styles.section3}`}>
             <Barre/>
-          </section>
-        
-          
+          </section>          
 
         </div>
 
