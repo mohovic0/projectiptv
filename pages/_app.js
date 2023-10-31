@@ -21,14 +21,14 @@ export default function App({ Component, pageProps }) {
 
         
       
-      <Script strategy='lazyOnload' src="https://www.googletagmanager.com/gtag/js?id=G-M6X8D17K5R"></Script>
+      <Script strategy='lazyOnload' src="https://www.googletagmanager.com/gtag/js?id=G-KDZ3EXLNV4"></Script>
       <Script id='google-analysis' strategy='lazyOnload'>
         {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-M6X8D17K5R');  
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-KDZ3EXLNV4');
         
         `}
       </Script> 
