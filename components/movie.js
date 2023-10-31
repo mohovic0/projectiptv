@@ -97,7 +97,7 @@ const Movie = () => {
    
     <div className={`${styles.title}`}>We offer you the best movies and series</div>
     
-    <p className={`p-2 ${styles.soustitle}`}>With Infinity IPTV you can watch what you want, whenever you want, the best movies and TV series</p>
+    <p className={`p-2 ${styles.soustitle}`}>With iptv-streaming you can watch what you want, whenever you want, the best movies and TV series</p>
     <div className={`text-center pb-1 pt-4 ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking

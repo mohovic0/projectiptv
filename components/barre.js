@@ -45,7 +45,7 @@ function Barre() {
                           <div className={`justify-content-center align-items-center  text-center  ${styles.boitone}`}>
                           <Link href={''}  > <Lottie className={`mx-auto  ${styles.icone}`} loop={true} animationData={setup} /></Link>
                               <div className={`mt-3 ${styles.title}`}> Easy Setup </div>
-                              <p className={`mt-3${styles.soustitle}`}>Compatible with PC, Android, IOS, Smart TV, Enigma2, Mag Box, VLC and more.</p>
+                              <p className={`mt-3 ${styles.soustitle}`}>Compatible with PC, Android, IOS, Smart TV, Enigma2, Mag Box, VLC and more.</p>
                           </div>
                       </div>
                 </div>

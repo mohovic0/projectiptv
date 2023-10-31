@@ -13,13 +13,13 @@ function Sportmovie() {
         <div className='row'>
                 <div className='col-12 col-lg-6'>
                     <div className={`pt-3 text-center ${styles.title}`}> Sports – Movies – Series </div>
-                    <p className={`mt-3 text-center ${styles.soustitle}`}>With INFINITY IPTV you can watch what you want, whenever you want, the biggest events in sports, the best movies and TV series.</p>
+                    <p className={`mt-3 text-center ${styles.soustitle}`}>With iptv-streaming you can watch what you want, whenever you want, the biggest events in sports, the best movies and TV series.</p>
                     <Lottie className={`mx-auto  `} loop={true} animationData={sportMovie} />
                 </div>
                 <div className='col-12 col-lg-6'>
                     <Lottie className={`mx-auto  `} loop={true} animationData={familyKids} />
                     <div className={`mt-3 text-center ${styles.title}`}> Family And Kids </div>
-                    <p className={`mt-3 text-center ${styles.soustitle}`}>With INFINITY IPTV there’s something for everyone in your home. you can enjoy watching kid-friendly shows and family movies with your Kids.</p>
+                    <p className={`mt-3 text-center ${styles.soustitle}`}>With iptv-streaming there’s something for everyone in your home. you can enjoy watching kid-friendly shows and family movies with your Kids.</p>
                 </div>
         </div>
 

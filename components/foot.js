@@ -61,7 +61,7 @@ const Foot = () => {
     <>
    
     <div className={`${styles.title}`}>Best FootBall Leagues And All Sports Events FHD And 4K Quality</div>
-    <p className={`p-2 ${styles.soustitle}`}>Watch football live streaming on Infinity High quality IPTV subscription Hd online Today without paying for a cable subscription. You can now watch The Best FootBall Leagues and All Sports Events with The Strong Infinity iptv Service High quality IPTV subscription</p>
+    <p className={`p-2 ${styles.soustitle}`}>Watch football live streaming on iptv-streaming High quality IPTV subscription Hd online Today without paying for a cable subscription. You can now watch The Best FootBall Leagues and All Sports Events with The Strong Infinity iptv Service High quality IPTV subscription</p>
     <div className={`text-center pb-1 pt-4 ${styles.firstCaro}`}>
       <AliceCarousel 
       mouseTracking

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css'
-import logo from '@/public/logo.png'
+import logo from '@/public/logostre.png'
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -31,7 +31,7 @@ const Footer = () =>
                 <ul className="list-unstyled text-white">
                     <li className='mt-1 fw-bold '> Contact us </li>
                     <li className='mt-2 fw-bold'>Whatsapp : +33 7 74 60 08 76 </li>
-                    <li className='mt-2 fw-bold'>Email : iptvinfinity2@gmail.com </li>
+                    <li className='mt-2 fw-bold'>Email : iptvstreaming10@gmail.com </li>
                   
                 </ul>
             </div>
@@ -40,12 +40,12 @@ const Footer = () =>
                 <Image
                     src={logo}
                     alt="logo"
-                    width={80}
-                    height={80}
+                    width={110}
+                    height={48}
                 />
-                <h5 className="text-uppercase text-white">IPTV INFINITY</h5>
+                <h5 className="text-uppercase text-white mt-2">iptv-streaming</h5>
                 <div className="footer-copyright text-center py-3 text-white">© 2022 Copyright:
-                  <a href="iptvinfinity.tech" className='text-decoration-none text-white'> iptvinfinity.tech</a>
+                  <a href="iptv-streaming.me" className='text-decoration-none text-white'> iptv-streaming.me</a>
                 </div>
             </div>
         </div>
