@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css'
-import logo from '@/public/logostre.png'
+import logo from '@/public/logo.png'
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -40,8 +40,8 @@ const Footer = () =>
                 <Image
                     src={logo}
                     alt="logo"
-                    width={110}
-                    height={48}
+                    width={70}
+                    height={60}
                 />
                 <h5 className="text-uppercase text-white mt-2">iptv-streaming</h5>
                 <div className="footer-copyright text-center py-3 text-white">© 2022 Copyright:

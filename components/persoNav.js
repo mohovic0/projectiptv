@@ -4,7 +4,7 @@ import styles from '@/components/PersoNav.module.css'
 import { useRouter } from 'next/router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons'
-import logo from '@/public/logostre.png'
+import logo from '@/public/logo.png'
 import Image from 'next/image'
 
 const PersoNav = () =>  {
@@ -24,9 +24,11 @@ const PersoNav = () =>  {
                     priority
                     src={logo}
                     alt="logo"
-                    width={90}
-                    height={48}
+                    width={56}
+                    height={56}
                 />
+            
+                
             </Link>
 
             <div>
