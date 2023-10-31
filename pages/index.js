@@ -67,7 +67,7 @@ export default function Home() {
 
     <div className={`${styles.whatsapBtn}`}>
 
-            <a href={"https://wa.me/33774600876"}>
+            <a href={"https://wa.me/447466729726"}>
 
                 <Lottie className={`mx-auto ${styles.icone}`} loop={true} animationData={whatsa} />
                 {/* <Image
