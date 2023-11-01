@@ -27,6 +27,10 @@ import e7 from '@/public/imagesCarousel/e7.webp'
 import e8 from '@/public/imagesCarousel/e8.webp'
 import e9 from '@/public/imagesCarousel/e9.webp'
 
+export const config = {
+  unstable_runtimeJS: false
+};
+
 
 function Carouseltwo() {
 

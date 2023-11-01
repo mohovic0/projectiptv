@@ -4,6 +4,11 @@ import whatsa from '@/public/whatsappp'
 import Link from 'next/link'
 import styles from '@/components/Chatwhatsap.module.css'
 
+
+export const config = {
+  unstable_runtimeJS: false
+};
+
 function Chatwhatsap() {
   return (
     <>

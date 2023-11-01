@@ -1,5 +1,10 @@
 import React from 'react'
 import styles from '@/components/Boite.module.css'
+
+export const config = {
+    unstable_runtimeJS: false
+  };
+  
 function Boite() {
   return (
   

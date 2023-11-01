@@ -8,6 +8,10 @@ import Lottie from "lottie-react"
 import styles from './Barre.module.css'
 import Link from 'next/link'
 
+export const config = {
+    unstable_runtimeJS: false
+  };
+
 function Barre() {
   return (
     <>

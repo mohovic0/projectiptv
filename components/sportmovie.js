@@ -5,6 +5,10 @@ import familyKids from '@/public/familyKids'
 import leader from '@/public/leaderss'
 import styles from './Sportmovie.module.css'
 
+export const config = {
+  unstable_runtimeJS: false
+};
+
 
 function Sportmovie() {
   return (

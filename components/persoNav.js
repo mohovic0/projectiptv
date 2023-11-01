@@ -7,6 +7,10 @@ import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons'
 import logo from '@/public/logo.png'
 import Image from 'next/image'
 
+export const config = {
+    unstable_runtimeJS: false
+  };
+
 const PersoNav = () =>  {
 
     const router = useRouter()

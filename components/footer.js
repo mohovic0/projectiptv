@@ -4,6 +4,11 @@ import logo from '@/public/logo.png'
 import Image from 'next/image';
 import Link from 'next/link';
 
+export const config = {
+    unstable_runtimeJS: false
+  };
+  
+
 const Footer = () => 
 
 <footer className="page-footer font-small blue pt-4 " style={{background : "linear-gradient(to right, #b45721, #000000)"}}>
@@ -31,7 +36,7 @@ const Footer = () =>
                 
                 <ul className="list-unstyled text-white">
                     <li className='mt-1 fw-bold '> Contact us </li>
-                    <li className='mt-2 fw-bold'>Whatsapp : +44 74 66 72 97 26 </li>
+                    <li className='mt-2 fw-bold'>Whatsapp : +33 7 74 60 08 76 </li>
                     <li className='mt-2 fw-bold'>Email : iptvstreaming10@gmail.com </li>
                   
                 </ul>
