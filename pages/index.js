@@ -136,14 +136,14 @@ export default function Home() {
                             
 
                             <div className={`${styles.car1}`}>
-                                  <Carouselone />
+                                   <Carouselone /> 
                             </div>
 
                                 
 
                             <div className={`${styles.car2}`}>
-                                <Carouseltwo />
-                                {/* <Carouselthre /> */}
+                                  <Carouseltwo />
+                            
                             </div>
                             
                                 {/* <CarouselFour /> */}
@@ -190,7 +190,7 @@ export default function Home() {
                           
 
       <section className={`pt-5 ${styles.section5}`}>
-        <Sportmovie/>
+          <Sportmovie/>
       </section>
 
 
@@ -214,7 +214,7 @@ export default function Home() {
 
      
 
-      <section className={`container-fluid text-white  ${styles.section7}`}>
+      {/* <section className={`container-fluid text-white  ${styles.section7}`}>
         
         <div className='row pt-5'>
 
@@ -249,11 +249,11 @@ export default function Home() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
       
       <section className={`pt-4 ${styles.section8}`}>
-        <CarouselReview />
+        {/* <CarouselReview /> */}
       </section>
       
       

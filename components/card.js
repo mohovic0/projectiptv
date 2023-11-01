@@ -6,7 +6,9 @@ import {faCrown} from '@fortawesome/free-solid-svg-icons'
 
 import Link from 'next/link'
 
-
+export const config = {
+    unstable_runtimeJS: false
+  };
 
 function Card({mois, price, childToParent , id , oldprice}) {
 

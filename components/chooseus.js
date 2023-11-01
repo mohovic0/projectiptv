@@ -5,7 +5,9 @@ import channel from '@/public/channel.png'
 import support from '@/public/support.png'
 import style from '@/components/Chooseus.module.css'
 
-
+export const config = {
+  unstable_runtimeJS: false
+};
 
 function Chooseus() {
   return (

@@ -4,7 +4,11 @@ import logo from '@/public/logo.png'
 import Image from 'next/image';
 import Link from 'next/link';
 
+export const config = {
+    unstable_runtimeJS: false
+  };
 
+  
 const Footer = () => 
 
 <footer className="page-footer font-small blue pt-4 " style={{background : "linear-gradient(to right, #b45721, #000000)"}}>
