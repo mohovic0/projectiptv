@@ -10,7 +10,7 @@ import whatsa from '@/public/whatsappp'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import aboutLottie from '@/public/aboutLottie'
 import Barre from '@/components/barre'
-import { useEffect, useRef, useState } from 'react'
+import { useRef } from 'react'
 import dynamic from 'next/dynamic'
 import Lottie from 'lottie-react'
 
@@ -24,9 +24,6 @@ const Foot = dynamic(()=>import('@/components/foot'))
 const Movie = dynamic(()=>import('@/components/movie'))
 
 
-export const config = {
-  unstable_runtimeJS: false
-};
 
 
 export default function Home() {
