@@ -33,11 +33,6 @@ import d27 from '@/public/imagesCarousel/d27.jpg'
 import d28 from '@/public/imagesCarousel/d28.jpg'
 
 
-export const config = {
-  unstable_runtimeJS: false
-};
-
-
 
 const Movie = () => {
 

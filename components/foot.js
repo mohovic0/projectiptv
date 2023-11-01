@@ -15,15 +15,6 @@ import f9 from '@/public/imagesCarousel/f9.jpg'
 import f10 from '@/public/imagesCarousel/f10.jpg'
 
 
-export const config = {
-  unstable_runtimeJS: false
-};
-
-
-
-
-
-
 const Foot = () => {
 
   

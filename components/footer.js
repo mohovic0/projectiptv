@@ -4,10 +4,6 @@ import logo from '@/public/logo.png'
 import Image from 'next/image';
 import Link from 'next/link';
 
-export const config = {
-    unstable_runtimeJS: false
-  };
-  
 
 const Footer = () => 
 

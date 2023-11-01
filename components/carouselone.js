@@ -24,13 +24,6 @@ import ig18 from '@/public/imagesCarousel/ig18.webp'
 import ig19 from '@/public/imagesCarousel/ig19.webp'
 
 
-export const config = {
-  unstable_runtimeJS: false
-};
-
-
-
-
 
 
 const Carousel = () => {

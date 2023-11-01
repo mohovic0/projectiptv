@@ -11,14 +11,6 @@ import r6 from '@/public/imagesCarousel/r6.webp'
 
 
 
-export const config = {
-  unstable_runtimeJS: false
-};
-
-
-
-
-
 import Image from 'next/image';
 
 const CarouselReview = () => {
