@@ -38,8 +38,8 @@ export default function Home() {
     <>  
       <Head>
         
-        <title>Buy IPTV Service in USA ...</title>
-        <meta name="description" content="USA - IPTV Streaming is the best IPTV Subscription Service Provider, 
+        <title>Buy IPTV Service in USA-UK-CANADA-FRANCE-Germany ...</title>
+        <meta name="description" content="USA-UK-CANADA-FRANCE-Germany - IPTV Streaming is the best IPTV Subscription Service Provider, 
               we always strive hard for perfection and your satisfaction. We give you
                the stability and reliability of the service." />
         <link rel="icon" type="image/png" href="/logostre.png" sizes="32x32" />
@@ -59,7 +59,8 @@ export default function Home() {
               best iptv on firestick, iptv subscription 12 months, best iptv provider, iptv for android, 
               iptv for firestick, iptv service, iptv with vod, movies on iptv, reliable iptv service, 
               iptv channel list, iptv for amazon fire tv, iptv packages, best iptv service, firestick iptv,
-              iptv price in usa, top iptv providers
+              iptv price in usa, top iptv providers, iptv subscription uk, iptv subscription usa, iptv subscription in canada,
+              iptv subscription in Germany, iptv subscription in france, infinity iptv, iptv infinity, best iptv french
               "/>
         <meta property="og:url" content="https://www.iptv-streaming.me/"/>
         <meta property="og:site_name" content="IPTV-Streaming"/>
@@ -258,20 +259,7 @@ export default function Home() {
       
       
       
-      {/* <section className={`container-fluid ${styles.section6}`}>
-        <div className='row '>
-                <div className="col-12 col-lg-6 ">
-                      <Chatwhatsap/>
-                          
-                </div>
-                <div className='col-12 col-lg-6 '>
-                    
-                    <h1 className="fs-1 fw-bold mt-3 text-center mb-4 "> Ready to get started? </h1>
-                    <Forme />
-                    
-                </div>
-          </div>
-      </section> */}
+    
 
          
     </>
