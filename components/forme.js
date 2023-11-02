@@ -188,7 +188,7 @@ function Forme({pack}) {
                               </div> }
                           </button>
                           
-                          {send ? window.location.replace(`https://infinitytechi.mysellix.io/fr/product/${pack}`) : null}
+                          {send ? window.location.replace(`https://iptv-streaming.mysellix.io/product/${pack}`) : null}
 
                           {  send && <span className={`align-items-center ${styles.messageSend}`}>
                             &nbsp;&nbsp;&nbsp;<FontAwesomeIcon className={styles.iconSend} icon={faCheck} />
