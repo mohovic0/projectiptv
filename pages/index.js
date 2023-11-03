@@ -38,7 +38,7 @@ export default function Home() {
     <>  
       <Head>
         
-        <title>Buy IPTV Service in USA-UK-CANADA-FRANCE-Germany ...</title>
+        <title>Buy IPTV Service in USA-UK-CANADA-FRANCE-Germany ....</title>
         <meta name="description" content="USA-UK-CANADA-FRANCE-Germany - IPTV Streaming is the best IPTV Subscription Service Provider, 
               we always strive hard for perfection and your satisfaction. We give you
                the stability and reliability of the service." />
