@@ -2,8 +2,5 @@
 User-agent: *
 Allow: /
 
-# Host
-Host: https://www.iptv-streaming.me
-
 # Sitemaps
 Sitemap: https://www.iptv-streaming.me/sitemap.xml
