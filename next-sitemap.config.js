@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: "https://www.iptv-streaming.me",
+    siteUrl: "https://iptv-streaming-4k.com",
     generateRobotsTxt: true, // (optional)
     // ...other options
   } 
