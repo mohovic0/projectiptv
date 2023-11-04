@@ -51,7 +51,7 @@ export default function Home() {
         <meta property="og:description" content="IPTV streaming  is the best Subscription Service Provider, 
               we always strive hard for perfection and your satisfaction. We give you
                the stability and reliability of the service. Get the next GEN+ IPTV."/>
-        <meta name="keywords" content="IPTV Streaming, iptv streaming service,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
+        <meta name="keywords" content="IPTV Streaming, IPTV Streaming 4k, iptv streaming service,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
               IPTV Streaming in USA, iptv for firestick, 
               iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 
               iptv firestick 2024, iptv gold, iptv subscription legal, mag iptv, iptv subscription in usa, 
