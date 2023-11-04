@@ -60,9 +60,9 @@ export default function Home() {
               iptv for firestick, iptv service, iptv with vod, movies on iptv, reliable iptv service, 
               iptv channel list, iptv for amazon fire tv, iptv packages, best iptv service, firestick iptv,
               iptv price in usa, top iptv providers, iptv subscription uk, iptv subscription usa, iptv subscription in canada,
-              iptv subscription in Germany, iptv subscription in france, infinity iptv, iptv infinity, best iptv french
+              iptv subscription in Germany, iptv subscription in france, best iptv french
               "/>
-        <meta property="og:url" content="https://www.iptv-streaming.me/"/>
+        <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
         <meta property="og:site_name" content="IPTV-Streaming"/>
         <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/oguk.png"/>
         

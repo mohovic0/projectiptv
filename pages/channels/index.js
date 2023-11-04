@@ -6031,29 +6031,34 @@ function Channels() {
     
     <>
         <Head>
-            <title>channels-USA-UK-Canada-France...-#1 Best IPTV Subscription Service Provider</title>
-            <meta name="description" content="Infinity IPTV redefined with our top IPTV subscription. Non-stop sports, extensive channels, all under the Best IPTV UK service. Satisfaction guaranteed. Experience the difference today." />
-            <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
+            <title>channels-USA-UK-Canada-France...-#1 Best IPTV Streaming Service Provider</title>
+            <meta name="description" content="USA-UK-CANADA-FRANCE-Germany - IPTV Streaming is the best IPTV Subscription Service Provider, 
+              we always strive hard for perfection and your satisfaction. We give you
+               the stability and reliability of the service." />
+            <link rel="icon" type="image/png" href="/logostre.png" sizes="32x32" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="generator" content="Next.js" />
             <meta property="og:locale" content="en_US"/>
             <meta property="og:type" content="article"/>
-            <meta property="og:title" content="Infinity IPTV - Best IPTV Subscription Service Provider"/>
-            <meta property="og:description" content="Infinity IPTV redefined with our top IPTV subscription. Non-stop sports, extensive channels, all under the Best IPTV UK service. Satisfaction guaranteed. Experience the difference today."/>
-            <meta name="keywords" content="iptv subscription, iptv subscription legal, best iptv subscription, iptv subscription reddit, 
-                ipTv Infinity subscription, iptv smarters pro subscription, iptv smarters subscription, iptv subscription ebay,
-                ip tv subscription, iptv subscribe, iptv sub, iptv smarters subscription reddit, iptvsubscription tv, iptv subscription service,
-                iptv 12 months, iptv lifetime subscription, iptv subscription provider, iptv subscription so player, best iptv subscription for firestick,
-                buy iptv subscription, mag subscription, best iptv subscription 2023 reddit, best iptv subscription for firestick reddit,
-                iptv subscription dubai, iptv subscription canada reddit, iptv smarters subscription aliexpress, iptv subscription saudi arabia,
-                iptv subscription for apple tv 4k, iptv box and subscription, iptv box monthly, iptv box price, iptv subscription uk reddit,
-                iptv subscription uk ebay, reddit best iptv subscription, smart iptv subscription ebay,smart iptv subscription reddit,
-                mag 322 w1 iptv box subscription, best arabic iptv 2023 subscription services, 
-                " />
-            <meta property="og:url" content="https://www.iptvinfinity.tech"/>
-            <meta property="og:site_name" content="IPTV-Infinity"/>
-            <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogimage.PNG"/>
-        </Head>
+            <meta property="og:title" content="IPTV Streaming - The Best IPTV Subscription Service Provider"/>
+            <meta property="og:description" content="IPTV streaming  is the best Subscription Service Provider, 
+              we always strive hard for perfection and your satisfaction. We give you
+               the stability and reliability of the service. Get the next GEN+ IPTV."/>
+            <meta name="keywords" content="IPTV Streaming, IPTV Streaming 4k, iptv streaming service,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
+              IPTV Streaming in USA, iptv for firestick, 
+              iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 
+              iptv firestick 2024, iptv gold, iptv subscription legal, mag iptv, iptv subscription in usa, 
+              iptv subscription android, iptv subscription best, best iptv subscription for firestick, 
+              best iptv on firestick, iptv subscription 12 months, best iptv provider, iptv for android, 
+              iptv for firestick, iptv service, iptv with vod, movies on iptv, reliable iptv service, 
+              iptv channel list, iptv for amazon fire tv, iptv packages, best iptv service, firestick iptv,
+              iptv price in usa, top iptv providers, iptv subscription uk, iptv subscription usa, iptv subscription in canada,
+              iptv subscription in Germany, iptv subscription in france, best iptv french
+              "/>
+            <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
+            <meta property="og:site_name" content="IPTV-Streaming"/>
+            <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/oguk.png"/>
+            </Head>
 
         <div>
             <div className={`${styles.menbackgound}`}></div>
