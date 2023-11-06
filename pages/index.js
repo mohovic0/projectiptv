@@ -41,8 +41,7 @@ export default function Home() {
         
         <title>IPTV Streaming in USA-UK-CANADA-FRANCE-Germany</title>
         <meta name="description" content="IPTV Streaming is the best IPTV Subscription Service Provider, 
-              we always strive hard for perfection and your satisfaction. We give you
-               the stability and reliability of the service." />
+               We give you the stability and reliability of the service." />
         <link rel="icon" type="image/png" href="/public/logo.png.png" sizes="32x32" />
         <meta name=" robots" content=" index, follow,max-snippet: -1, max-image-preview:large" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
