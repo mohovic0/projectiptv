@@ -19,7 +19,7 @@ function Chooseus() {
             <div className={`text-center ${style.card}`}>
                 <div>  <Image
                         src={fourk}
-                        alt=""
+                        alt="IPTV Streaming in USA-CANADA"
                 /> 
                 </div>
                 <h3 className={`${style.tit1}`}>Best Quality Full HD</h3>

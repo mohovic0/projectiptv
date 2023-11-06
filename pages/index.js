@@ -99,6 +99,7 @@ export default function Home() {
                     objectPosition="center"
                     quality={100}
                     priority={true}
+                    
                 /> 
 
                 <div className={`d-block pt-5 text-center  ${styles.contenu}`}>
