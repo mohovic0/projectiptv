@@ -66,7 +66,7 @@ export default function Home() {
               "/>
         <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
         <meta property="og:site_name" content="IPTV-Streaming"/>
-        <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/oguk.png"/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG"/>
         
     </Head>
 
