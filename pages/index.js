@@ -22,6 +22,7 @@ const CarouselReview = dynamic(()=>import('@/components/carouselReview'))
 const Chooseus = dynamic(()=>import('@/components/chooseus'))
 const Foot = dynamic(()=>import('@/components/foot'))
 const Movie = dynamic(()=>import('@/components/movie'))
+const Sportmovies = dynamic(()=>import('@/components/sportmovies'))
 
 
 
@@ -38,11 +39,11 @@ export default function Home() {
     <>  
       <Head>
         
-        <title>IPTV Streaming in USA-UK-CANADA-FRANCE-Germany ....</title>
+        <title>IPTV Streaming in USA-UK-CANADA-FRANCE-Germany</title>
         <meta name="description" content="IPTV Streaming is the best IPTV Subscription Service Provider, 
               we always strive hard for perfection and your satisfaction. We give you
                the stability and reliability of the service." />
-        <link rel="icon" type="image/png" href="/logostre.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/public/logo.png.png" sizes="32x32" />
         <meta name=" robots" content=" index, follow,max-snippet: -1, max-image-preview:large" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content="Next.js" />
@@ -87,8 +88,9 @@ export default function Home() {
     </div>
       
       
-      
+    <h1 style={{display : "none"}}>Top IPTV Streaming Subscription Services for Ultimate Entertainment</h1>
       <section className={`pt-5 ${styles.section1}`}>
+          
                 
                  <Image
                     src={img}
@@ -221,8 +223,8 @@ export default function Home() {
         
         <div className='row pt-5'>
 
-          <div className='col-12 col-lg-6'>
-                  <Lottie className={`mx-auto `} loop={true} animationData={aboutLottie} />
+          <div className='col-12 col-lg-6 text-center'>
+              <Lottie className={`mx-auto `} loop={false} animationData={aboutLottie} />
           </div>
           <div className='col-12 col-lg-6'>
                   <div className={`mb-5 ${styles.title}`}>We Provide Best IPTV Server In The World Wide</div>
