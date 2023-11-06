@@ -39,12 +39,14 @@ export default function Home() {
       <Head>
         
         <title>IPTV Streaming in USA-UK-CANADA-FRANCE-Germany ....</title>
-        <meta name="description" content="USA-UK-CANADA-FRANCE-Germany - IPTV Streaming is the best IPTV Subscription Service Provider, 
+        <meta name="description" content="IPTV Streaming is the best IPTV Subscription Service Provider, 
               we always strive hard for perfection and your satisfaction. We give you
                the stability and reliability of the service." />
         <link rel="icon" type="image/png" href="/logostre.png" sizes="32x32" />
+        <meta name=" robots" content=" index, follow,max-snippet: -1, max-image-preview:large" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content="Next.js" />
+        <meta name=" author" content="IPTV Streaming"/>
         <meta property="og:locale" content="en_US"/>
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="IPTV Streaming - The Best IPTV Subscription Service Provider"/>

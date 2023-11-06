@@ -31,12 +31,12 @@ const CarouselReview = () => {
     // }
 
     const items =[
-      <Image key={1} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r1} alt='iptv subscription UK-Canada-France'/>,
-      <Image key={2} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r2} alt='iptv subscription UK-Canada-France'/>,
-      <Image key={3} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r3} alt='iptv subscription UK-Canada-France'/>,
-      <Image key={4} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r4} alt='iptv subscription UK-Canada-France'/>,
-      <Image key={5} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r5} alt='iptv subscription UK-Canada-France'/>,
-      <Image key={6} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r6} alt='iptv subscription UK-Canada-France'/>,
+      <Image key={1} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r1} alt='IPTV Streaming in USA-CANADA'/>,
+      <Image key={2} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r2} alt='IPTV Streaming in USA-CANADA'/>,
+      <Image key={3} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r3} alt='IPTV Streaming in USA-CANADA'/>,
+      <Image key={4} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r4} alt='IPTV Streaming in USA-CANADA'/>,
+      <Image key={5} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r5} alt='IPTV Streaming in USA-CANADA'/>,
+      <Image key={6} onDragStart={handleDragStart} className={styles.imagesCarousel} src={r6} alt='IPTV Streaming in USA-CANADA'/>,
     
 
     ];
