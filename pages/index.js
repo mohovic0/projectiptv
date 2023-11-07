@@ -42,7 +42,7 @@ export default function Home() {
         <title>IPTV Streaming in USA-UK-CANADA-FRANCE-Germany</title>
         <meta name="description" content="IPTV Streaming is the best IPTV Subscription Service Provider, 
                We give you the stability and reliability of the service." />
-        <link rel="icon" type="image/png" href="/public/logo.png.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo1.png" sizes="32x32" />
         <meta name=" robots" content=" index, follow,max-snippet: -1, max-image-preview:large" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content="Next.js" />

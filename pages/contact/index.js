@@ -21,7 +21,7 @@ function Contact() {
         <meta name="description" content="USA-UK-CANADA-FRANCE-Germany - IPTV Streaming is the best IPTV Subscription Service Provider, 
               we always strive hard for perfection and your satisfaction. We give you
                the stability and reliability of the service." />
-        <link rel="icon" type="image/png" href="/logostre.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo1.png" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content="Next.js" />
         <meta property="og:locale" content="en_US"/>

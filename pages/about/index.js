@@ -19,7 +19,7 @@ function About() {
       <Head>
         <title>About-USA-UK-Canada-France...-#1 Best IPTV Streaming Service Provider</title>
         <meta name="description" content="Choose one of our IPTV plans and enjoy the best live TV, series, movies and sports from the world's best channels. Switch to IPTV Streaming and reduce your cable bill!" />
-        <link rel="icon" type="image/png" href="/logo.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo1.png" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content="Next.js" />
         <meta property="og:locale" content="en_US"/>
