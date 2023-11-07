@@ -2,8 +2,7 @@
 User-agent: *
 Allow: /
 
-# Host
-Host: https://iptv-streaming-4k.com
+
 
 # Sitemaps
 Sitemap: https://iptv-streaming-4k.com/sitemap.xml
