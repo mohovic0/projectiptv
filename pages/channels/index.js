@@ -6031,19 +6031,17 @@ function Channels() {
     
     <>
         <Head>
-            <title>channels-USA-UK-Canada-France...-#1 Best IPTV Streaming Service Provider</title>
-            <meta name="description" content="USA-UK-CANADA-FRANCE-Germany - IPTV Streaming is the best IPTV Subscription Service Provider, 
-              we always strive hard for perfection and your satisfaction. We give you
-               the stability and reliability of the service." />
+            <title>IPTV Streaming: The Best Provider in USA - Premium Channels</title>
+            <meta name="description" content="Elevate your entertainment with IPTV Streaming, the leading provider in the USA. Gain access to an extensive array 
+              of premium channels for a rich and immersive viewing experience" />
             <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo1.png" sizes="32x32" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="generator" content="Next.js" />
             <meta property="og:locale" content="en_US"/>
             <meta property="og:type" content="article"/>
-            <meta property="og:title" content="IPTV Streaming - The Best IPTV Subscription Service Provider"/>
-            <meta property="og:description" content="IPTV streaming  is the best Subscription Service Provider, 
-              we always strive hard for perfection and your satisfaction. We give you
-               the stability and reliability of the service. Get the next GEN+ IPTV."/>
+            <meta property="og:title" content="IPTV Streaming: The Best Provider in USA - Premium Channels"/>
+            <meta property="og:description" content="Elevate your entertainment with IPTV Streaming, the leading provider in the USA. Gain access to an extensive array 
+              of premium channels for a rich and immersive viewing experience"/>
             <meta name="keywords" content="IPTV Streaming, IPTV Streaming 4k, iptv streaming service,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
               IPTV Streaming in USA, iptv for firestick, 
               iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 

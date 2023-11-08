@@ -17,15 +17,17 @@ function About() {
     
 
       <Head>
-        <title>About-USA-UK-Canada-France...-#1 Best IPTV Streaming Service Provider</title>
-        <meta name="description" content="Choose one of our IPTV plans and enjoy the best live TV, series, movies and sports from the world's best channels. Switch to IPTV Streaming and reduce your cable bill!" />
+        <title>IPTV Streaming - USA - About Us</title>
+        <meta name="description" content="Learn about IPTV Streaming in the USA. Our 'About Us' section provides insights into our services, mission, and commitment to 
+        delivering top-quality entertainment experiences for our customers" />
         <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo1.png" sizes="32x32" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content="Next.js" />
         <meta property="og:locale" content="en_US"/>
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="IPTV Streaming - Best IPTV Subscription Service Provider"/>
-        <meta property="og:description" content="Choose one of our IPTV plans and enjoy the best live TV, series, movies and sports from the world's best channels.Switch to IPTV Streaming and reduce your cable bill!"/>
+        <meta property="og:title" content="IPTV Streaming - USA - About Us"/>
+        <meta property="og:description" content="Learn about IPTV Streaming in the USA. Our 'About Us' section provides insights into our services, mission, and commitment to 
+        delivering top-quality entertainment experiences for our customers"/>
         <meta name="keywords" content="IPTV Streaming, IPTV Streaming 4k, iptv streaming service,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
               IPTV Streaming in USA, iptv for firestick, 
               iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 
