@@ -89,7 +89,6 @@ export default function Home() {
     </div>
       
       
-    <h1 style={{display : "none"}}>Top IPTV Streaming Subscription Services for Ultimate Entertainment</h1>
       <section className={`pt-5 ${styles.section1}`}>
           
                 
