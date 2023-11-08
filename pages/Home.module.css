@@ -200,6 +200,11 @@
 .section10{
     background-image: linear-gradient(to right, #b45721, #000000); 
 }
+.section11{
+    background-image: linear-gradient(to right, #b45721, #000000); 
+    color: whitesmoke;
+}
+
 .section5{
     background-image: linear-gradient(to right, #b45721, #000000); 
 }
