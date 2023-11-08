@@ -77,13 +77,7 @@ export default function Home() {
             <a href={"https://wa.me/33774600876"}>
 
                 <Lottie className={`mx-auto ${styles.icone}`} loop={true} animationData={whatsa} />
-                {/* <Image
-                  priority
-                  src={whats}
-                  alt="whatsap"
-                  width={55}
-                  height={55}
-                /> */}
+                
             </a>
             <span style={{color : "#4cd464"}}>Trial</span>
     </div>
@@ -195,9 +189,7 @@ export default function Home() {
       </section>
                           
 
-      {/* <section className={`pt-5 ${styles.section5}`}>
-          <Sportmovie/>
-      </section> */}
+      
 
 
 
@@ -220,42 +212,7 @@ export default function Home() {
 
      
 
-      {/* <section className={`container-fluid text-white  ${styles.section7}`}>
-        
-        <div className='row pt-5'>
-
-          <div className='col-12 col-lg-6 text-center'>
-              <Lottie className={`mx-auto `} loop={false} animationData={aboutLottie} />
-          </div>
-          <div className='col-12 col-lg-6'>
-                  <div className={`mb-5 ${styles.title}`}>We Provide Best IPTV Server In The World Wide</div>
-                  <h6>Today, we are revolutionizing the way you access the television. With +13000 channels and unique apps, you’ll be watching IPTV in a radically new, intelligent, and intuitive way.</h6>
-                  
-                  <div className='ms-1 me-1 row mt-5 '>
-                    <ul className='col list-group list-group-flush'>
-                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start  border-0 mb-4  list-group-item text-black '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 150+ Countries Live Channles</li>
-                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start  border-0 list-group-item mb-4 text-black '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Expert technical team</li>
-                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start  border-0 list-group-item mb-2 text-black  '><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Reasonable price packages</li>
-                    </ul>
-                    <ul className='col list-group list-group-flush'>
-                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-4 text-black'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Trusted & recommended  </li>
-                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-4 text-black'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> 24/7 quick support</li>
-                      <li style={{ background: "#ffd470" }} className='rounded-5 rounded-bottom rounded-start border-0 list-group-item mb-2 text-black'><FontAwesomeIcon className={styled.icon} icon={faCheck} /> Best Network Server</li>
-                    </ul>
-                  </div>
-                  
-                  <div className='mb-5'>
-                    <button onClick={handleClick} type="button" className={`btn btn-warning mt-3 ms-0 p-2 ${styled.btn1}`}>
-                      <span className={`${styled.btnlink}`} >
-                        Subscription Now <FontAwesomeIcon className={styled.fonticone} icon={faArrowRightLong} />
-                        </span>
-                    </button>
-                  </div>    
-                  
-          </div>
-
-        </div>
-      </section> */}
+      
 
       
       <section className={`pt-4 ${styles.section8}`}>
