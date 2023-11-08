@@ -41,8 +41,8 @@ export default function Home() {
         
         <title>Best Streaming Subscription - IPTV USA & Canada</title>
         <meta name="description" content="Explore a world of entertainment with IPTV Streaming in the 
-        USA, UK, Canada, France, and Germany. Access diverse content from multiple 
-        countries for a global viewing experience." />
+        USA, UK, Canada, and Germany. Access diverse content from multiple 
+        countries..." />
         <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo1.png" sizes="32x32" />
         <meta name=" robots" content=" index, follow,max-snippet: -1, max-image-preview:large" />
         <link rel="canonical" href="https://www.iptv-streaming-4k.com"></link>
@@ -53,8 +53,8 @@ export default function Home() {
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Best Streaming Subscription - IPTV USA & Canada"/>
         <meta property="og:description" content="Explore a world of entertainment with IPTV Streaming in the 
-        USA, UK, Canada, France, and Germany. Access diverse content from multiple 
-        countries for a global viewing experience."/>
+        USA, UK, Canada, and Germany. Access diverse content from multiple 
+        countries..."/>
         <meta name="keywords" content="IPTV Streaming, IPTV Streaming 4k, iptv streaming service,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
               IPTV Streaming in USA, iptv for firestick, 
               iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 
