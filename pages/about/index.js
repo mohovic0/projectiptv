@@ -53,7 +53,7 @@ function About() {
       <div className='row pt-5'>
 
         <div className='col-12 col-lg-6'>
-                <Lottie className={`mx-auto `} loop={true} animationData={aboutLottie} />
+                <Lottie className={`mx-auto `} loop={false} animationData={aboutLottie} />
         </div>
         <div className='col-12 col-lg-6'>
           <div className={`mb-5 ${styles.title}`}>
