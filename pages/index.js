@@ -195,9 +195,9 @@ export default function Home() {
       </section>
                           
 
-      <section className={`pt-5 ${styles.section5}`}>
+      {/* <section className={`pt-5 ${styles.section5}`}>
           <Sportmovie/>
-      </section>
+      </section> */}
 
 
 
@@ -220,7 +220,7 @@ export default function Home() {
 
      
 
-      <section className={`container-fluid text-white  ${styles.section7}`}>
+      {/* <section className={`container-fluid text-white  ${styles.section7}`}>
         
         <div className='row pt-5'>
 
@@ -255,7 +255,7 @@ export default function Home() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
       
       <section className={`pt-4 ${styles.section8}`}>
