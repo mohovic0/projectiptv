@@ -31,7 +31,7 @@ export default function Home() {
     <>  
       <Head>
         
-        <title>IPTV Streaming 4k- USA & CANADA </title>
+        <title>IPTV Streaming 4k- USA IPTV </title>
         <meta name="description" content="Explore a world of entertainment with IPTV Streaming in the 
         USA, UK, Canada, and Germany. Access diverse content from multiple 
         countries..." />
