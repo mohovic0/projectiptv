@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import aboutLottie from '@/public/aboutLottie'
-import Lottie from 'lottie-react'
+import aboutLottie from '@/public/aboutLottie.png'
 import styles from './About.module.css'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -9,7 +8,7 @@ import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import { faCheck} from '@fortawesome/free-solid-svg-icons'
 import Sportmovie from '@/components/sportmovie'
 import Barre from '@/components/barre'
-
+import Image from 'next/image'
 
 function About() {
   return (
@@ -52,11 +51,11 @@ function About() {
         
       <div className='row pt-5'>
 
-        <div className='col-12 col-lg-6'>
-                <Lottie className={`mx-auto `} loop={false} animationData={aboutLottie} />
+        <div className='col-12 col-lg-6 text-center'>
+              <Image src={aboutLottie} alt='IPTV Streaming in Canada' width={300} height={300}/>
         </div>
         <div className='col-12 col-lg-6'>
-          <div className={`mb-5 ${styles.title}`}>
+          <div className={`mb-5 pt-5 ${styles.title}`}>
             We Provide Best IPTV Server In The World Wide
             <h6 className='pt-3'>Today, we are revolutionizing the way you access the television. With +13000 channels and unique apps, you’ll be watching IPTV in a radically new, intelligent, and intuitive way.</h6>
           </div>

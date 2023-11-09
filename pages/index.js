@@ -2,27 +2,19 @@ import img from '@/public/bak.webp'
 import styles from './Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
-import styled from '@/pages/about/About.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import CountUp from 'react-countup';
-import whatsa from '@/public/whatsappp'
-import { faCheck} from '@fortawesome/free-solid-svg-icons'
-import aboutLottie from '@/public/aboutLottie'
-import Barre from '@/components/barre'
+import whatsa from '@/public/whatsa.png'
 import { useRef } from 'react'
 import dynamic from 'next/dynamic'
-import Lottie from 'lottie-react'
 
 const Carouseltwo = dynamic(()=>import('@/components/carouseltwo'))
 const Carouselone = dynamic(()=>import('@/components/carouselone'))
 const Card = dynamic(()=>import('@/components/card'))
-const Sportmovie = dynamic(()=>import('@/components/sportmovie'))
+const Barre = dynamic(()=>import('@/components/barre'))
 const CarouselReview = dynamic(()=>import('@/components/carouselReview'))
 const Chooseus = dynamic(()=>import('@/components/chooseus'))
 const Foot = dynamic(()=>import('@/components/foot'))
 const Movie = dynamic(()=>import('@/components/movie'))
-const Sportmovies = dynamic(()=>import('@/components/sportmovies'))
 
 
 
@@ -72,18 +64,19 @@ export default function Home() {
         
     </Head>
 
-    <div className={`${styles.whatsapBtn}`}>
+    <div className={`mx-auto ${styles.whatsapBtn}`}>
 
             <a href={"https://wa.me/33774600876"}>
 
-                <Lottie className={`mx-auto ${styles.icone}`} loop={true} animationData={whatsa} />
+                {/* <Lottie className={` ${styles.icone}`} loop={true} animationData={whatsa} /> */}
+                <Image src={whatsa} width={50} height={50} alt='IPTV Streaming in USA & CANADA'/>
                 
             </a>
             <span style={{color : "#4cd464"}}>Trial</span>
     </div>
       
       
-      <section className={`pt-5 ${styles.section1}`}>
+      <section className={`${styles.section1}`}>
           
                 
                  <Image
@@ -175,16 +168,16 @@ export default function Home() {
                 
       </section>
                                     
-      <section className={`pt-5 ${styles.section2}`}>
+      <section className={`${styles.section2}`}>
           <Chooseus />
       </section>
 
       
-      <section className={`pt-5 ${styles.section9}`}>
+      <section className={`${styles.section9}`}>
           <Foot />
       </section>
 
-      <section className={`pt-5 ${styles.section9}`}>
+      <section className={`${styles.section9}`}>
           <Movie />
       </section>
                           
@@ -193,7 +186,7 @@ export default function Home() {
 
 
 
-      <section ref={ref} className={`pb-1 pt-5 ${styles.section4}`}>
+      <section ref={ref} className={`${styles.section4}`}>
 
           <div className={`text-center pt-1 mt-0 mb-4 ${styles.chooseplan}`}>Choose Your Plan</div>
           <div className='container-fluid d-block  d-xs-block  d-md-block d-sm-block d-lg-flex justify-content-lg-evenly flex-lg-wrap'>
@@ -215,11 +208,11 @@ export default function Home() {
       
 
       
-      <section className={`pt-4 ${styles.section8}`}>
+      <section className={` ${styles.section8}`}>
          <CarouselReview />
       </section>
 
-      <section className={`p-4 ${styles.section11}`}>
+      <section className={`${styles.section11}`}>
         <div className={`${styles.soussection11}`}>
       <h1>Unlock the Ultimate Entertainment Experience with 4K IPTV Streaming and Subscriptions in the USA</h1>
 

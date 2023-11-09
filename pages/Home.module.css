@@ -1,6 +1,6 @@
 .section1{
+    padding-top: 50px ;
     background-color: #190a05;
-    /*background-image: linear-gradient(to right, #b04f34, #190a05);*/
     position: relative;
     
 }
@@ -97,13 +97,6 @@
   }
 
 
-
-
-
-
-/* .typic{
-    color: #e6d600;
-} */
 .btn1{
     font-size: calc(12px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
     background-color: #FF5F1F;
@@ -175,40 +168,50 @@
     
 } */
 .section2{
- 
+  padding-top: 10px;
   background-image: linear-gradient(to right, #b45721, #000000); 
  
 }
 .section3{
+    padding-top: 10px;
     background-image: linear-gradient(to right, #b45721, #000000); 
 
 }
 .section4{
+    padding-top: 50px;
     background-image: linear-gradient(to right, #b45721, #000000);  
+    padding-bottom: 2px;
 }
 .section7{
+    padding-top: 50px;
     background-image: linear-gradient(to right, #b45721, #000000);  
 }
 .section8{
+    padding-top: 50px;
     background-image: linear-gradient(to right, #b45721, #000000); 
 
 }
 .section9{
+    padding-top: 50px;
     background-image: linear-gradient(to right, #b45721, #000000); 
 
 }
 .section10{
+    padding-top: 50px;
     background-image: linear-gradient(to right, #b45721, #000000); 
 }
 .section11{
+    padding: 25px;
     background-image: linear-gradient(to right, #b45721, #000000); 
     color: whitesmoke;
 }
 
 .section5{
+    padding-top: 50px;
     background-image: linear-gradient(to right, #b45721, #000000); 
 }
 .section6{
+    padding-top: 50px;
     background-image: linear-gradient(to right, #b45721, #000000); 
 }
 .chooseplan{
@@ -218,21 +221,6 @@
     color: #FF6020;
 
 }
-
-
-/* @media screen and (max-width : 600px) {
-    .imageback{
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url('../public/testoptim600.png');
-        background-color: black;
-        background-position: center;
-        min-height: 100vh;
-        width: 100%;
-        margin: 0;
-        position: relative;
-    }
-} */
 
 
 

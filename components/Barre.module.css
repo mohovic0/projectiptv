@@ -10,6 +10,9 @@
     margin-right: 10px;
     margin-left: 10px; 
     border: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .title{
@@ -17,6 +20,7 @@
     font-weight: bold;
     text-align: center;
     color: #FF6020;
+    margin-top : 30px
 
 }
 .soustitle{
@@ -24,4 +28,5 @@
     font-weight: bold;
     text-align: center;
     color: #ffffff;
+    margin-top: 30px;
 }

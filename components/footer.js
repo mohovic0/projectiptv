@@ -51,7 +51,7 @@ const Footer = () =>
                 />
                 <h5 className="text-uppercase text-white mt-2">iptv-streaming</h5>
                 <div className="footer-copyright text-center py-3 text-white">© 2022 Copyright:
-                  <a href="https://www.iptv-streaming-4k.com/" className='text-decoration-none text-white'>https://www.iptv-streaming-4k.com/</a>
+                  <a href="https://www.iptv-streaming-4k.com/" className='text-decoration-none text-white'> iptv-streaming-4k.com</a>
                 </div>
             </div>
         </div>
