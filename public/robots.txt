@@ -1,8 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-
-
-# Sitemaps
-Sitemap: https://iptv-streaming-4k.com/sitemap.xml
