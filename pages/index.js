@@ -31,7 +31,7 @@ export default function Home() {
     <>  
       <Head>
         
-        <title>IPTV Streaming - USA & CANADA </title>
+        <title>IPTV Streaming 4k- USA & CANADA </title>
         <meta name="description" content="Explore a world of entertainment with IPTV Streaming in the 
         USA, UK, Canada, and Germany. Access diverse content from multiple 
         countries..." />
@@ -43,7 +43,7 @@ export default function Home() {
         <meta name=" author" content="IPTV Streaming"/>
         <meta property="og:locale" content="en_US"/>
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="IPTV Streaming - USA & CANADA"/>
+        <meta property="og:title" content="IPTV Streaming 4k- USA & CANADA"/>
         <meta property="og:description" content="Explore a world of entertainment with IPTV Streaming in the 
         USA, UK, Canada, and Germany. Access diverse content from multiple 
         countries..."/>
