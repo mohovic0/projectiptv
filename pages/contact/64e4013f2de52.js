@@ -24,6 +24,7 @@ function Pack3() {
             <link rel="icon" type="image/png" href="/logostre.png" sizes="32x32" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="generator" content="Next.js" />
+            <meta name=" robots" content=" noindex, nofollow" />
             <meta property="og:locale" content="en_US"/>
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="IPTV Streaming - The Best IPTV Subscription Service Provider"/>
