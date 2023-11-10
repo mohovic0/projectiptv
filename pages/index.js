@@ -31,10 +31,10 @@ export default function Home() {
     <>  
       <Head>
         
-        <title>IPTV Streaming 4k- USA IPTV </title>
-        <meta name="description" content="Explore a world of entertainment with IPTV Streaming in the 
-        USA, UK, Canada, and Germany. Access diverse content from multiple 
-        countries..." />
+        <title>IPTV Streaming - USA - Competitive Pricing </title>
+        <meta name="description" content="Explore high-quality IPTV streaming services 
+                available in the United States. Our competitive pricing ensures affordable access to a
+                 diverse channel selection for your entertainment needs" />
         <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo1.png" sizes="32x32" />
         <meta name=" robots" content=" index, follow,max-snippet: -1, max-image-preview:large" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -42,10 +42,10 @@ export default function Home() {
         <meta name=" author" content="IPTV Streaming"/>
         <meta property="og:locale" content="en_US"/>
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="IPTV Streaming 4k- USA & CANADA"/>
-        <meta property="og:description" content="Explore a world of entertainment with IPTV Streaming in the 
-        USA, UK, Canada, and Germany. Access diverse content from multiple 
-        countries..."/>
+        <meta property="og:title" content="IPTV Streaming - USA - Competitive Pricing "/>
+        <meta property="og:description" content="Explore high-quality IPTV streaming services 
+                available in the United States. Our competitive pricing ensures affordable access to a
+                 diverse channel selection for your entertainment needs"/>
         <meta name="keywords" content="IPTV Streaming, IPTV Streaming 4k, iptv streaming service,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
               IPTV Streaming in USA, iptv for firestick, 
               iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 
