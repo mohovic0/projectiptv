@@ -6034,7 +6034,7 @@ function Channels() {
             <title>IPTV Streaming - USA - Premium Channels</title>
             <meta name="description" content="Elevate your entertainment with IPTV Streaming, the leading provider in the USA. Gain access to an extensive array 
               of premium channels for a rich and immersive viewing experience" />
-            <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo1.png" sizes="32x32" />
+           <link rel="icon" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo.ico"  type="image/x-icon"/>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="generator" content="Next.js" />
             <meta property="og:locale" content="en_US"/>
