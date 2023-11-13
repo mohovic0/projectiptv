@@ -19,7 +19,7 @@ function Chooseus() {
             <div className={`text-center ${style.card}`}>
                 <div>  <Image
                         src={fourk}
-                        alt="IPTV Streaming in USA-CANADA"
+                        alt="IPTV Smart4k"
                 /> 
                 </div>
                 <h3 className={`${style.tit1}`}>Best Quality Full HD</h3>
@@ -31,7 +31,7 @@ function Chooseus() {
                 <div>  <Image
                         
                         src={channel}
-                        alt="IPTV Streaming in USA-CANADA"
+                        alt="IPTV Smart4k"
                 /> 
                 </div>
                 <h3 className={`${style.tit2}`}>Compatibility</h3>
@@ -43,7 +43,7 @@ function Chooseus() {
                 <div>  <Image
                         
                         src={support}
-                        alt="IPTV Streaming in USA-CANADA"
+                        alt="IPTV Smart4k"
                 /> 
                 </div>
                 <h3 className={`${style.tit3}`}>24/7 Live Support</h3>

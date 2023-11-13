@@ -40,20 +40,20 @@ const Movie = () => {
     // }
 
     const items =[
-        <Image key={1} onDragStart={handleDragStart} className={` ${styles.imagesCarousel}`} src={d1} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={2} onDragStart={handleDragStart} className={`${styles.imagesCarousel}`} src={d2} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={3} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d3} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={4} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d4} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={5} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d5} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={6} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d6} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={7} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d7} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={8} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d8} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d9} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={10} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d10} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={11} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d11} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={12} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d12} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={13} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d13} alt='iptv subscription UK-Canada-France'/>,
-        <Image key={14} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d14} alt='iptv subscription UK-Canada-France'/>,
+        <Image key={1} onDragStart={handleDragStart} className={` ${styles.imagesCarousel}`} src={d1} alt='iptv smart4k'/>,
+        <Image key={2} onDragStart={handleDragStart} className={`${styles.imagesCarousel}`} src={d2} alt='iptv smart4k'/>,
+        <Image key={3} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d3} alt='iptv smart4k'/>,
+        <Image key={4} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d4} alt='iptv smart4k'/>,
+        <Image key={5} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d5} alt='iptv smart4k'/>,
+        <Image key={6} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d6} alt='iptv smart4k'/>,
+        <Image key={7} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d7} alt='iptv smart4k'/>,
+        <Image key={8} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d8} alt='iptv smart4k'/>,
+        <Image key={9} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d9} alt='iptv smart4k'/>,
+        <Image key={10} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d10} alt='iptv smart4k'/>,
+        <Image key={11} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d11} alt='iptv smart4k'/>,
+        <Image key={12} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d12} alt='iptv smart4k'/>,
+        <Image key={13} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d13} alt='iptv smart4k'/>,
+        <Image key={14} onDragStart={handleDragStart} className={styles.imagesCarousel} src={d14} alt='iptv smart4k'/>,
         
       ];
 

@@ -26,7 +26,7 @@ function Pricing() {
             <meta property="og:description" content="Explore high-quality IPTV streaming services 
               available in the United States. Our competitive pricing ensures affordable access to a
               diverse channel selection for your entertainment needs."/>
-            <meta name="keywords" content="IPTV Streaming, Flash Streams, IPTV Streaming 4k, iptv streaming service,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
+            <meta name="keywords" content="IPTV Streaming, iptv smart4k, iptv smart 4k, Flash Streams, IPTV Streaming 4k, iptv streaming service,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
                   IPTV Streaming in USA, iptv for firestick, iptv smart4k,
                   iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 
                   iptv firestick 2024, iptv gold, iptv subscription legal, mag iptv, iptv subscription in usa, 
