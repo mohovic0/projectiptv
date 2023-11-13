@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import styles from '@/pages/channels/Channels.module.css'
+import Image from 'next/image'
 
 function Channels() {
     const useGenaral = [
@@ -6053,9 +6054,10 @@ function Channels() {
               iptv price in usa, top iptv providers, iptv subscription uk, iptv subscription usa, iptv subscription in canada,
               iptv subscription in Germany, iptv subscription in france, best iptv french
               "/>
+            <Image src="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG" alt="iptv smart4k"></Image>
             <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
             <meta property="og:site_name" content="IPTV-Streaming"/>
-            <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/oguk.png"/>
+            <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG"/>
             </Head>
 
         <div>

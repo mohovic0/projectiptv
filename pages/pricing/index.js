@@ -4,7 +4,7 @@ import styles from '@/pages/pricing/Pricing.module.css'
 import Card from '@/components/card'
 import Sportmovie from '@/components/sportmovie'
 import Barre from '@/components/barre'
-
+import Image from 'next/image'
 
 function Pricing() {
 
@@ -37,9 +37,10 @@ function Pricing() {
                   iptv price in usa, top iptv providers, iptv subscription uk, iptv subscription usa, iptv subscription in canada,
                   iptv subscription in Germany, iptv subscription in france, best iptv french
                   "/>
+            <Image src="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG" alt="iptv smart4k"></Image>
             <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
             <meta property="og:site_name" content="IPTV-Streaming"/>
-            <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/oguk.png"/>
+            <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG"/>
         </Head>
 
         <div>
