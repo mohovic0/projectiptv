@@ -37,7 +37,7 @@ function Pricing() {
                   iptv price in usa, top iptv providers, iptv subscription uk, iptv subscription usa, iptv subscription in canada,
                   iptv subscription in Germany, iptv subscription in france, best iptv french
                   "/>
-            <Image src="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG" alt="iptv smart4k" width={300} height={300}></Image>
+        
             <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
             <meta property="og:site_name" content="IPTV-Streaming"/>
             <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG"/>
