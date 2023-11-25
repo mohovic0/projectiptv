@@ -5,6 +5,7 @@ import Image from 'next/image'
 
 function Channels() {
     const useGenaral = [
+        'cozi channel',
         'US006:AMC-HD',
         'US001:A&E-HD',
         'US007:ANIMAL-PLANET',
@@ -6043,7 +6044,7 @@ function Channels() {
             <meta property="og:title" content="IPTV Streaming: The Best Provider in USA - Premium Channels"/>
             <meta property="og:description" content="Elevate your entertainment with IPTV Streaming, the leading provider in the USA. Gain access to an extensive array 
               of premium channels for a rich and immersive viewing experience"/>
-            <meta name="keywords" content="IPTV Streaming,iptv smart4k, iptv smart 4k, Flash Streams, IPTV Streaming 4k, iptv streaming service, iptv smart4k,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
+            <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming,iptv smart4k, iptv smart 4k, Flash Streams, IPTV Streaming 4k, iptv streaming service, iptv smart4k,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
               IPTV Streaming in USA, iptv for firestick, 
               iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 
               iptv firestick 2024, iptv gold, iptv subscription legal, mag iptv, iptv subscription in usa, 
@@ -6061,7 +6062,7 @@ function Channels() {
             </Head>
 
         <div>
-        <h1 style={{display : "none"}}>iptv Flash Streams</h1>
+        <h1 style={{display : "none"}}>cozi channel</h1>
             <div className={`${styles.menbackgound}`}></div>
 
           <section className={`container-fluid pt-5 pb-2 ${styles.section1}`}>

@@ -20,7 +20,7 @@ function Sportmovie() {
                 </div>
                 <div className='col-12 col-lg-6 text-center'>
                     {/* <Lottie className={`mx-auto  `} loop={false} animationData={familyKids} /> */}
-                    <Image src={familyKids} alt='IPTV Streaming in Canada' width={300} height={300}/>
+                    <Image src={familyKids} alt='4k iptv' width={300} height={300}/>
                     <div className={`mt-3 text-center ${styles.title}`}> Family And Kids </div>
                     <p className={`mt-3 text-center ${styles.soustitle}`}>With iptv-streaming there’s something for everyone in your home. you can enjoy watching kid-friendly shows and family movies with your Kids.</p>
                 </div>
@@ -34,7 +34,7 @@ function Sportmovie() {
                     <div className={`pt-3 text-center ${styles.title}`}> Leader For IPTV Service For Over 7 Years </div>
                     <p className={`mt-3 text-center ${styles.soustitle}`}>We’ve helped thousands of clients to get the best TV experience with our IPTV service, you can watch live TV & VOD at home or on-the-go — wherever you are, anytime, on your favorite devices.</p>
                     {/* <Lottie className={`mx-auto  `} loop={false} animationData={sportMovie} /> */}
-                    <Image src={leader} alt='IPTV Streaming in Canada' width={300} height={300}/>
+                    <Image src={leader} alt='4k iptv service' width={300} height={300}/>
                 </div>
                 
                    
