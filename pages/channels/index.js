@@ -6044,20 +6044,10 @@ function Channels() {
             <meta property="og:title" content="IPTV Streaming: The Best Provider in USA - Premium Channels"/>
             <meta property="og:description" content="Elevate your entertainment with IPTV Streaming, the leading provider in the USA. Gain access to an extensive array 
               of premium channels for a rich and immersive viewing experience"/>
-            <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming,iptv smart4k, iptv smart 4k, Flash Streams, IPTV Streaming 4k, iptv streaming service, iptv smart4k,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
-              IPTV Streaming in USA, iptv for firestick, 
-              iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 
-              iptv firestick 2024, iptv gold, iptv subscription legal, mag iptv, iptv subscription in usa, 
-              iptv subscription android, iptv subscription best, best iptv subscription for firestick, 
-              best iptv on firestick, iptv subscription 12 months, best iptv provider, iptv for android, 
-              iptv for firestick, iptv service, iptv with vod, movies on iptv, reliable iptv service, 
-              iptv channel list, iptv for amazon fire tv, iptv packages, best iptv service, firestick iptv,
-              iptv price in usa, top iptv providers, iptv subscription uk, iptv subscription usa, iptv subscription in canada,
-              iptv subscription in Germany, iptv subscription in france, best iptv french
-              "/>
+            <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming, IPTV Streaming 4k, cozi channel "/>
             
             <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
-            <meta property="og:site_name" content="IPTV-Streaming"/>
+            <meta property="og:site_name" content="IPTV Streaming 4k"/>
             <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG"/>
             </Head>
 

@@ -31,7 +31,7 @@ export default function Home() {
     <>  
       <Head>
         
-        <title>IPTV Streaming - USA - Competitive Pricing </title>
+        <title>IPTV Streaming - USA -  </title>
         <meta name="description" content="Explore high-quality IPTV streaming services 
                 available in the United States. Our competitive pricing ensures affordable access to a
                  diverse channel selection for your entertainment needs" />
@@ -46,19 +46,9 @@ export default function Home() {
         <meta property="og:description" content="Explore high-quality IPTV streaming services 
                 available in the United States. Our competitive pricing ensures affordable access to a
                  diverse channel selection for your entertainment needs"/>
-        <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming, iptv smart4k, iptv smart 4k, Flash Streams, IPTV Streaming 4k, iptv streaming service,iptv smart4k,  Buy IPTV, Buy IPTV in USA,iptv on smart tv,
-              IPTV Streaming in USA, iptv for firestick, 
-              iptv premium 2024, iptv service provider, best iptv for firestick 2024, iptv for sale, 
-              iptv firestick 2024, iptv gold, iptv subscription legal, mag iptv, iptv subscription in usa, 
-              iptv subscription android, iptv subscription best, best iptv subscription for firestick, 
-              best iptv on firestick, iptv subscription 12 months, best iptv provider, iptv for android, 
-              iptv for firestick, iptv service, iptv with vod, movies on iptv, reliable iptv service, 
-              iptv channel list, iptv for amazon fire tv, iptv packages, best iptv service, firestick iptv,
-              iptv price in usa, top iptv providers, iptv subscription uk, iptv subscription usa, iptv subscription in canada,
-              iptv subscription in Germany, iptv subscription in france, best iptv french
-              "/>
+        <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming, IPTV Streaming 4k, cozi channel "/>
         <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
-        <meta property="og:site_name" content="IPTV-Streaming"/>
+        <meta property="og:site_name" content="IPTV Streaming 4k"/>
         <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG"/>
         
     </Head>
