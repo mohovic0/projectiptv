@@ -6044,7 +6044,7 @@ function Channels() {
             <meta property="og:title" content="IPTV Streaming: The Best Provider in USA - Premium Channels"/>
             <meta property="og:description" content="Elevate your entertainment with IPTV Streaming, the leading provider in the USA. Gain access to an extensive array 
               of premium channels for a rich and immersive viewing experience"/>
-            <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming, IPTV Streaming 4k, cozi channel "/>
+           <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming, IPTV Streaming 4k, cozi channell, iptv smart4k cozi channell "/>
             
             <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
             <meta property="og:site_name" content="IPTV Streaming 4k"/>

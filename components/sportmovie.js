@@ -15,7 +15,7 @@ function Sportmovie() {
                     <div className={`pt-3 text-center ${styles.title}`}> Sports – Movies – Series </div>
                     <p className={`mt-3 text-center ${styles.soustitle}`}>With iptv-streaming you can watch what you want, whenever you want, the biggest events in sports, the best movies and TV series.</p>
                     {/* <Lottie className={`mx-auto  `} loop={false} animationData={sportMovie} /> */}
-                    <Image src={sportMovie} alt='IPTV Streaming in Canada' width={300} height={300}/>
+                    <Image src={sportMovie} alt='4k iptv' width={300} height={300}/>
 
                 </div>
                 <div className='col-12 col-lg-6 text-center'>

@@ -27,7 +27,7 @@ function About() {
         <meta property="og:title" content="IPTV Streaming - USA - About Us"/>
         <meta property="og:description" content="Learn about IPTV Streaming in the USA. Our 'About Us' section provides insights into our services, mission, and commitment to 
         delivering top-quality entertainment experiences for our customers"/>
-        <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming, IPTV Streaming 4k, cozi channel "/>
+        <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming, IPTV Streaming 4k, cozi channell, iptv smart4k cozi channell "/>
         <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
         <meta property="og:site_name" content="IPTV Streaming 4k"/>
         <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogimage.PNG"/>
