@@ -31,34 +31,31 @@ export default function Home() {
     <>  
       <Head>
         
-        <title>IPTV Streaming - USA -  </title>
-        <meta name="description" content="Explore high-quality IPTV streaming services 
-                available in the United States. Our competitive pricing ensures affordable access to a
-                 diverse channel selection for your entertainment needs" />
+        <title>4k iptv, the best streaming service in CANADA & USA </title>
+        <meta name="description" content="4k IPTV streaming services 
+                available in CANADA & United States" />
         <link rel="icon" href="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/logo.ico"  type="image/x-icon"/>
         <meta name=" robots" content=" index, follow,max-snippet: -1, max-image-preview:large" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content="Next.js" />
-        <meta name=" author" content="IPTV Streaming"/>
+        <meta name=" author" content="4k iptv"/>
         <meta property="og:locale" content="en_US"/>
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="IPTV Streaming - USA - Competitive Pricing "/>
-        <meta property="og:description" content="Explore high-quality IPTV streaming services 
-                available in the United States. Our competitive pricing ensures affordable access to a
-                 diverse channel selection for your entertainment needs"/>
-        <meta name="keywords" content="4k iptv, 4k iptv service, IPTV Streaming, IPTV Streaming 4k, cozi channell, iptv smart4k cozi channell "/>
-        <meta property="og:url" content="https://www.iptv-streaming-4k.com"/>
+        <meta property="og:title" content="4k iptv , iptv 4k"/>
+        <meta property="og:description" content="4k IPTV streaming services 
+                available in CANADA & United States"/>
+        <meta name="keywords" content="4k iptv, 4k iptv service"/>
+        <meta property="og:url" content="https://www.iptv-streaming.me/"/>
         <meta property="og:site_name" content="IPTV Streaming 4k"/>
         <meta property="og:image" content="https://raw.githubusercontent.com/auzomaki/imagesogiptvinfinity/main/ogusa.PNG"/>
         
     </Head>
-    <h1 style={{display : "none"}}>cozi channel</h1>
     <div className={`mx-auto ${styles.whatsapBtn}`}>
 
             <a href={"https://wa.me/33774600876"}>
 
                 {/* <Lottie className={` ${styles.icone}`} loop={true} animationData={whatsa} /> */}
-                <Image src={whatsa} width={50} height={50} alt='IPTV Streaming in USA & CANADA'/>
+                <Image src={whatsa} width={50} height={50} alt='4k IPTV Streaming in USA & CANADA'/>
                 
             </a>
             <span style={{color : "#4cd464"}}>Trial</span>
@@ -70,7 +67,7 @@ export default function Home() {
                 
                  <Image
                     src={img}
-                    alt="IPTV Streaming in USA"
+                    alt="4k IPTV Streaming in USA"
                     layout='fill'
                     objectFit="cover"
                     objectPosition="center"
@@ -82,13 +79,13 @@ export default function Home() {
                 <div className={`d-block pt-5 text-center  ${styles.contenu}`}>
                             
                             <div className={`pt-2 ${styles.title1}`}>
-                                <p>FASTEST <span style={{ color: "#FF5F1F" }}>IPTV</span> SERVICE </p>
+                                <p>FASTEST <span style={{ color: "#FF5F1F" }}>4K IPTV</span> SERVICE </p>
                             </div>
 
                             <div className={`pt-2 px-2  ${styles.title2}`} >
                                 <p>
                                     
-                                      High Quality <span style={{ color: "#FF5F1F" }}>IPTV</span> Subscription 
+                                      High Quality <span style={{ color: "#FF5F1F" }}>4K IPTV</span> Subscription 
                                     
                                 </p>
                             </div>
@@ -183,7 +180,7 @@ export default function Home() {
               <div className={` mb-5 ${styles.divcard}`}><Card oldprice='69,99'  mois = '12 Months Subscription' price='59.99' id='?add-to-cart=194'/></div>
               <div className={` mb-5 ${styles.divcard}`}><Card oldprice='39.99'  mois = '6 Months Subscription' price='34.99' id='?add-to-cart=187' /></div>
               <div className={` mb-5 ${styles.divcard}`}><Card oldprice='29.99'   mois = '3 Months Subscription' price='24.99' id='?add-to-cart=145' /></div>
-              <div className={` mb-5 ${styles.divcard}`}><Card oldprice='19.99' mois = '1 Month Subscription' price='11.99' id='?add-to-cart=144'/></div>
+              <div className={` mb-5 ${styles.divcard}`}><Card oldprice='19.99' mois = '1 Month Subscription' price='12.99' id='?add-to-cart=144'/></div>
           </div>
         
       </section>

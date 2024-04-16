@@ -37,6 +37,8 @@ function Pricing() {
           <h1 style={{display : "none"}}>cozi channell</h1>
           <div className={`${styles.menbackgound}`}></div>
 
+        
+
           <section className={`container-fluid pt-5 pb-2 ${styles.section1}`}>
                 <div className={`pt-5 mt-3 text-center mb-4 ${styles.title}`}>Pricing Plans</div>
 
@@ -54,6 +56,7 @@ function Pricing() {
                    
                 </div>
           </section>
+
 
 
           <section className={`${styles.section2}`}>

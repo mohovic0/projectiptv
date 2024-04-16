@@ -96,7 +96,7 @@ function Card({mois, price, childToParent , id , oldprice}) {
 
             <div className={`mt-2 ${styles.butn}`}>
                 <button type="button" className={`btn ${styles.btn}`}
-                ><Link className={`${styles.btnlink}`} href={`https://seo-smart4k.tech/checkout/${id}`}>Subscribe Now</Link>
+                ><Link className={`${styles.btnlink}`} href={"https://wa.me/33774600876"}>Subscribe Now</Link>
                 </button>
             </div>
             
